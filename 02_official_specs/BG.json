@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BG",
+  "name_en": "Bulgaria",
+  "name_ja": "ブルガリア",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "State Seal and National Flag Act",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009E60",
+      "rgb": "0, 158, 96",
+      "cmyk": "100, 0, 80, 0",
+      "pantone": "347 U"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 U"
+    }
+  ],
+  "notes": "ブルガリア国家の公式な法律により、織物用の Pantone Textile scale（Green: 17-5936 TS, Red: 18-1664 TS）が厳密に定められている。デジタル・印刷用の政府公式近似値である 347 U と 032 U に正確に修正。"
+}

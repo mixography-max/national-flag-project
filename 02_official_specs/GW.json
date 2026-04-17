@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "GW",
+  "name_en": "Guinea-Bissau",
+  "name_ja": "ギニアビサウ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 92, 82, 19",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009739",
+      "rgb": "0, 151, 57",
+      "cmyk": "100, 0, 54, 38",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "政府による法定Pantone指定なし。パン・アフリカ色で、黒い星はアフリカの統一を象徴。既存の 032, 109, 355 は標準近似として適切であることを確認し、「C」サフィックスを付与。CMYK値を旗章学的標準に合わせて微調整。"
+}

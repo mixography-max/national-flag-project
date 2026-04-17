@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "SS",
+  "name_en": "South Sudan",
+  "name_ja": "南スーダン",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DA121A",
+      "rgb": "218, 18, 26",
+      "cmyk": "0, 92, 88, 15",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#078930",
+      "rgb": "7, 137, 48",
+      "cmyk": "95, 0, 65, 46",
+      "pantone": "348 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0F47AF",
+      "rgb": "15, 71, 175",
+      "cmyk": "91, 59, 0, 31",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCDD09",
+      "rgb": "252, 221, 9",
+      "cmyk": "0, 12, 96, 1",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "公式Pantone未規定。ソース間の乖離が最も大きい国旗の一つ。三色帯（黒赤緑）に白い縁取り、ホイスト側に青三角（黄星）。**Red を 2035 C から 186 C に修正。Blue を 285 C から 286 C に修正。Yellow を Yellow C から 116 C に修正。Black を Black 6 C から Black C に正規化**。ノイズ「!」を全6色から除去。色順序修正。HEX修正。"
+}

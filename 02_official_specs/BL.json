@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BL",
+  "name_en": "Saint Barthélemy",
+  "name_ja": "サン・バルテルミー",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (French Constitution & NFX 08-002)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "072 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    }
+  ],
+  "notes": "フランスの海外集団であり、現地政府の「公式な国旗」としての法定旗は存在しないため、フランス国旗（Tricolour）が唯一の法定旗（De jure）であることを確認。独自の紋章旗は非公式でありPantoneが存在しない旨を注記した。"
+}

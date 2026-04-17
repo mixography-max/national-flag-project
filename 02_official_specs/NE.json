@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "NE",
+  "name_en": "Niger",
+  "name_ja": "ニジェール",
+  "status": "UN Member",
+  "ratio": "6:7",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Orange",
+      "hex": "#E05206",
+      "rgb": "224, 82, 6",
+      "cmyk": "0, 65, 100, 0",
+      "pantone": "166 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#0DB02B",
+      "rgb": "13, 176, 43",
+      "cmyk": "76, 0, 91, 0",
+      "pantone": "361 C"
+    }
+  ],
+  "notes": "政府発行のPantone仕様なし。三色帯（橙・白・緑）にオレンジ色の円盤（白帯中央）。比率6:7（ほぼ正方形）。**Orange を 150 から 166 C に修正。Green を 355 から 361 C に修正**。CMYK修正。「C」サフィックスを付与。"
+}

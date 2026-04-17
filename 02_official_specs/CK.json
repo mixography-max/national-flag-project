@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CK",
+  "name_en": "Cook Islands",
+  "name_ja": "クック諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "独自の成分配合などはなく、オリンピックや国際的な使用標準に基づくニュージーランド・イギリス標準に準拠した 281 C (Blue) と 032 C (Red / 186 C同等) を承認カラーとして記録。"
+}

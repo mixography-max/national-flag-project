@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "ID",
+  "name_en": "Indonesia",
+  "name_ja": "インドネシア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#FF0000",
+      "rgb": "255, 0, 0",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "「Sang Merah Putih（聖なる紅白）」として知られる二色旗。1945年憲法第35条と法律第24号/2009号で定義されるが、Pantone/CMYK値の法的指定はない。赤は RGB 255,0,0 の鮮明な赤と規定。White の CMYK が空欄だったため 0,0,0,0 に修正。Red の CMYK を 0,100,100,0 に修正し、「C」サフィックスを付与。"
+}

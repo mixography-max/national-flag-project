@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "CV",
+  "name_en": "Cabo Verde",
+  "name_ja": "カーボベルデ",
+  "status": "UN Member",
+  "ratio": "10:17",
+  "specs_source": "De jure (Government Resolution 37/2009)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#003087",
+      "rgb": "0, 48, 135",
+      "cmyk": "100, 89, 8, 2",
+      "pantone": "287 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "12, 100, 100, 3",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "4, 15, 98, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "2009年の政府発令グラフィックデザインマニュアル（Manual de Normas Gráficas）に基づく公式規定 Pantone 287 C (Blue), 186 C (Red), 116 C (Yellow) へと修正し、De jure 指定として確立。"
+}

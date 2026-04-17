@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CY",
+  "name_en": "Cyprus",
+  "name_ja": "キプロス",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (2006 Specifications)",
+  "colors": [
+    {
+      "color_name": "Copper",
+      "hex": "#D57800",
+      "rgb": "213, 120, 0",
+      "cmyk": "0, 54, 100, 5",
+      "pantone": "1385 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Olive Green",
+      "hex": "#4E5B31",
+      "rgb": "78, 91, 49",
+      "cmyk": "49, 22, 85, 58",
+      "pantone": "574 C"
+    }
+  ],
+  "notes": "2006年の政府規定に合致するよう Pantone 1385 C (Copper map), 574 C (Olive green branches) に修正し、De jure に昇格。色名も公式規格に合わせて「Copper」と「Olive Green」へ変更した。"
+}

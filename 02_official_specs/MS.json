@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MS",
+  "name_en": "Montserrat",
+  "name_ja": "モントセラト",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (British MoD BR20 / Standard British Ensign Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "99, 69, 0, 59",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 92, 77, 22",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "英国ブルー・エンサイン。紋章は「エリン」（アイルランドの女性擬人化、緑のドレス、黄金のハープ、黒い十字）。1999年に紋章拡大・白縁取り変更。Blue 280 C, Red 186 C 確認。ノイズ除去。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "PE",
+  "name_en": "Peru",
+  "name_ja": "ペルー",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations / Constitution Article 49)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "憲法第49条が赤白赤の縦三色旗を定めるがPantone値は規定なし。市民旗（Bandera Nacional）は無紋、国旗（Pabellón Nacional）は白帯に国章。Red 186 C は最も広く引用される近似値として確認。「C」サフィックスを付与。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "MA",
+  "name_en": "Morocco",
+  "name_ja": "モロッコ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C1272D",
+      "rgb": "193, 39, 45",
+      "cmyk": "0, 100, 59, 11",
+      "pantone": "7620 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#006233",
+      "rgb": "0, 98, 51",
+      "cmyk": "100, 0, 100, 24",
+      "pantone": "3425 C"
+    }
+  ],
+  "notes": "1915年11月17日スルタン・ユセフのダヒール（勅令）により定義。**Red を 193 から 7620 C に修正（重大誤り）** — モロッコの赤は鮮やかなクリムゾンではなく、より暗く落ち着いた赤。**Green を 363 から 3425 C に修正** — 「棕櫚緑（palm green）」はより暗い緑。五芒星の幾何学的仕様を記録（半径 = 旗の長さの1/6、枝幅 = 星長の1/20）。"
+}

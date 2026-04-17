@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CO",
+  "name_en": "Colombia",
+  "name_ja": "コロンビア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#003087",
+      "rgb": "0, 48, 135",
+      "cmyk": "100, 81, 0, 23",
+      "pantone": "287 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "明確な色指定の法律はない。オリンピック旗マニュアルなどで確立している標準値 116 C (Yellow), 287 C (Blue), 186 C (Red) を使用して統一。"
+}

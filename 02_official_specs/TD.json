@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "TD",
+  "name_en": "Chad",
+  "name_ja": "チャド",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Constitution of 1962 — design only)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#002664",
+      "rgb": "0, 38, 100",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FECB00",
+      "rgb": "254, 203, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C60C30",
+      "rgb": "198, 12, 48",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "1959年11月6日採用、1962年憲法で制定。縦三色旗: 藍（左）黄（中）赤（右）。**ルーマニアとほぼ同一** — チャドの青はより暗い藍色（281 C vs ルーマニア 280 C）。Blue 281 C, Yellow 116 C, Red 186 C 全て確認 ✅。「C」サフィックスを付与。"
+}

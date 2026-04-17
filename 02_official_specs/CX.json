@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "CX",
+  "name_en": "Christmas Island",
+  "name_ja": "クリスマス島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0021AD",
+      "rgb": "0, 33, 173",
+      "cmyk": "100, 81, 0, 32",
+      "pantone": "Dark Blue C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#1C8A42",
+      "rgb": "28, 138, 66",
+      "cmyk": "80, 0, 52, 46",
+      "pantone": "7731 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFC639",
+      "rgb": "255, 198, 57",
+      "cmyk": "0, 22, 78, 0",
+      "pantone": "136 C"
+    }
+  ],
+  "notes": "2002年に正式採用されたがPantone指定はない。汎用標準値 Dark Blue C, 7731 C (Green), 136 C (Yellow) としてフォーマットを修正した。"
+}

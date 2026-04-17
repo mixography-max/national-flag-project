@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "TZ",
+  "name_en": "Tanzania",
+  "name_ja": "タンザニア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#1EB53A",
+      "rgb": "30, 181, 58",
+      "cmyk": "75, 0, 90, 0",
+      "pantone": "361 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCD116",
+      "rgb": "252, 209, 22",
+      "cmyk": "0, 10, 95, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#00A3DD",
+      "rgb": "0, 163, 221",
+      "cmyk": "90, 20, 0, 0",
+      "pantone": "299 C"
+    }
+  ],
+  "notes": "1964年6月30日採用。対角デザイン: 黒帯（黄縁）が下ホイスト→上フライ、上三角=緑、下三角=青。タンガニーカ+ザンジバル連合を表現。**Green 361 C, Yellow 116 C, Blue 299 C — 全て確認** ✅。Black「Black」→「Black C」。CMYK修正。"
+}

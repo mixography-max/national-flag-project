@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "KW",
+  "name_en": "Kuwait",
+  "name_ja": "クウェート",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#007A3D",
+      "rgb": "0, 122, 61",
+      "cmyk": "100, 0, 70, 15",
+      "pantone": "340 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "1961年9月7日採用のパン・アラブ色旗。横三色帯（緑・白・赤）にホイスト側の黒台形。Green 340 C, Red 186 C は標準近似値として確認。Black を「Black」から「Black C」に修正。「C」サフィックスを付与。CMYK修正。"
+}

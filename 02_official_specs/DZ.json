@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "DZ",
+  "name_en": "Algeria",
+  "name_ja": "アルジェリア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#006633",
+      "rgb": "0, 102, 51",
+      "cmyk": "91, 0, 100, 26",
+      "pantone": "356 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D21034",
+      "rgb": "210, 16, 52",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "政府による厳密なPantone指定が存在しない。緑は「黄と青の等量混合」、赤は「純色」とされる記述に従い、旗章学の標準である 356 C (Green), 186 C (Red) に正規化した。"
+}

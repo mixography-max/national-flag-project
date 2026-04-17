@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "GQ",
+  "name_en": "Equatorial Guinea",
+  "name_ja": "赤道ギニア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#3E9A00",
+      "rgb": "62, 154, 0",
+      "cmyk": "100, 0, 80, 5",
+      "pantone": "347 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E32118",
+      "rgb": "227, 33, 24",
+      "cmyk": "0, 89, 68, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0073CE",
+      "rgb": "0, 115, 206",
+      "cmyk": "94, 73, 0, 0",
+      "pantone": "293 C"
+    }
+  ],
+  "notes": "政府による法定仕様なし。CRW Flags 等の旗章学データベースおよび Album des Pavillons に基づき、Green を 355 から 347 C に修正（より権威ある文献の値）。Red 032 C, Blue 293 C はそのまま維持し「C」サフィックスを追加。国章のシルクコットン木、六つ星、格言「UNIDAD – PAZ – JUSTICIA」を注記。"
+}

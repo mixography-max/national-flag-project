@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>国旗ガイド — 250カ国の概要・色のルール・トリビア</title>
+  <meta name="description" content="世界250カ国・地域の国旗ガイド。国の概要、国旗の色のルール、トリビアを一覧できるインタラクティブ図鑑。">
+
+  <meta property="og:title" content="国旗ガイド — National Flag Guide">
+  <meta property="og:description" content="250カ国の国の概要・国旗の色のルール・トリビアを網羅した国旗ガイド">
+  <meta property="og:type" content="website">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/guide.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-link">🏁 フラグアトラス</a>
+      <a href="guide.html" class="nav-link active">📖 国旗ガイド</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero guide-hero">
+    <div class="hero-glow"></div>
+    <h1>📖 世界の国旗ガイド</h1>
+    <p class="subtitle">250カ国・地域の概要 — 色のルール — トリビア</p>
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-number" id="stat-total">250</div>
+        <div class="stat-label">Countries</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" style="color:var(--success)" id="stat-dejure">—</div>
+        <div class="stat-label">De Jure</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" style="color:var(--warning)" id="stat-defacto">—</div>
+        <div class="stat-label">De Facto</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Controls -->
+  <div class="controls-wrapper" id="controls">
+    <div class="controls guide-controls">
+      <div class="search-box">
+        <input type="text" id="search" placeholder="国名・コード・キーワードで検索…" autocomplete="off">
+      </div>
+      <div class="guide-filters">
+        <button class="filter-btn active" data-filter="all">すべて</button>
+        <button class="filter-btn" data-filter="dejure">🏛️ De Jure</button>
+        <button class="filter-btn" data-filter="defacto">📋 De Facto</button>
+        <button class="filter-btn" data-filter="square">⬜ 正方形</button>
+        <button class="filter-btn" data-filter="unique">⭐ ユニーク</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Guide Grid -->
+  <main class="guide-grid" id="guide-grid"></main>
+
+  <!-- Fun Facts -->
+  <section class="fun-facts" id="fun-facts">
+    <h2>🌟 国旗のおもしろ統計</h2>
+    <div class="facts-grid" id="facts-grid"></div>
+  </section>
+
+  <footer class="site-footer">
+    <p>National Flag Project — 国旗ガイド。公式照合検証ノート・Album des Pavillons・各国政府文書に基づく。</p>
+  </footer>
+
+  <script src="js/guide.js"></script>
+</body>
+</html>

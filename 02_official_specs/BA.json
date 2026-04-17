@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BA",
+  "name_en": "Bosnia and Herzegovina",
+  "name_ja": "ボスニア・ヘルツェゴビナ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Album des Pavillons / Council of Europe approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#002F6C",
+      "rgb": "0, 47, 108",
+      "cmyk": "100, 74, 0, 45",
+      "pantone": "294 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "政府による単一の厳密なPantone指定はないが、国旗制定の経緯から欧州評議会の旗（Council of Europe flag）の色に合わせることが意図されているため、標準仕様である Reflex Blue（294 C）と 116 C を確定値として採用。"
+}

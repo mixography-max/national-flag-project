@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "GT",
+  "name_en": "Guatemala",
+  "name_ja": "グアテマラ",
+  "status": "UN Member",
+  "ratio": "5:8",
+  "specs_source": "De facto (ISCC-NBS 177 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Sky Blue",
+      "hex": "#4997D0",
+      "rgb": "73, 151, 208",
+      "cmyk": "65, 27, 0, 18",
+      "pantone": "299 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "法律上「空色（azul cielo）」と定義されているが、Pantone指定はない。歴史的にISCC-NBS 177（Brilliant Blue / Celestial Blue）と紐づく。Pantone 297 と 299 の両方が見られるが、299 C がより一般的に引用されるため採用。色名を「Blue」から公式呼称「Sky Blue」に変更し、「C」サフィックスを付与。"
+}

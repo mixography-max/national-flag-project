@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "IE",
+  "name_en": "Ireland",
+  "name_ja": "アイルランド",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Government Flag Protocol / Standard Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#009A44",
+      "rgb": "0, 154, 68",
+      "cmyk": "100, 0, 80, 10",
+      "pantone": "347 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Orange",
+      "hex": "#FF8200",
+      "rgb": "255, 130, 0",
+      "cmyk": "0, 65, 100, 0",
+      "pantone": "151 C"
+    }
+  ],
+  "notes": "憲法でトリコロール（緑・白・オレンジ）と定められるが技術的色値は規定なし。首相府（Department of the Taoiseach）が国旗に関する行政責任を負う。政府旗章プロトコルにおいて Pantone 347 (Green), 151 (Orange) が歴史的に引用されている。「C」サフィックスを追加し、CMYK値を標準変換値に修正。notes 欄のゴミ文字列「Legal refs: Constitution of」を削除。"
+}

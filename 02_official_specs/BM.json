@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BM",
+  "name_en": "Bermuda",
+  "name_ja": "バミューダ",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard British Ensign Approximations)",
+  "colors": [
+    {
+      "color_name": "Dark Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 85, 5, 36",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "イギリスの海外領土であり、レッド・エンサインに基づく。固有のPantone法令はないが、イギリス標準の 032 C（Red）と 281 C（Dark Blue）として定義し、ステータスを確定。"
+}

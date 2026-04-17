@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "CF",
+  "name_en": "Central African Republic",
+  "name_ja": "中央アフリカ共和国",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#003082",
+      "rgb": "0, 48, 130",
+      "cmyk": "100, 63, 0, 49",
+      "pantone": "287 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#289728",
+      "rgb": "40, 151, 40",
+      "cmyk": "74, 0, 74, 41",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCE00",
+      "rgb": "255, 206, 0",
+      "cmyk": "0, 19, 100, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D21034",
+      "rgb": "210, 16, 52",
+      "cmyk": "0, 92, 75, 18",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "JSON上のPantone指定に「!」などの不正なノイズが含まれていたためクリーンアップ。法的なPantoneの縛りはないため、オリンピックマニュアル等で推奨される標準近似値（287 C, 355 C, 116 C, 186 C 等）の書式を整えて整備した。"
+}

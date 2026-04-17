@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "NZ",
+  "name_en": "New Zealand",
+  "name_ja": "ニュージーランド",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Flags, Emblems, and Names Protection Act 1981 / NZ Government)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。NZ文化遺産省（mch.govt.nz）が Red 186 C, Blue 280 C を指定 — **両方確認** ✅。ブルー・エンサインに赤い四芒南十字星（白フチ）。星サイズ: 5/60, 6/60, 6/60, 7/60（ホイスト比）。白フチ幅 = 1/120。「C」サフィックスを付与。ゴミ source 除去。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "IL",
+  "name_en": "Israel",
+  "name_ja": "イスラエル",
+  "status": "UN Member",
+  "ratio": "8:11",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#005EB8",
+      "rgb": "0, 94, 184",
+      "cmyk": "100, 56, 0, 3",
+      "pantone": "2728 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "「国旗・国章法」(1949) は色を「暗い空色（テヘレット / tekhelet）」と記述するが技術的定義はない。そのため青の正確な色合いは製造者により異なる。CRW Flags等で広く引用される 2728 C を採用（旧データの 300 は代替値）。specs_source に混入していたゴミ文字「act that」を削除。公式寸法：160cm × 220cm（8:11）、青帯幅 25cm。"
+}

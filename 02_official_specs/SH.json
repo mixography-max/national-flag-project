@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "SH",
+  "name_en": "Saint Helena, Ascension and Tristan da Cunha",
+  "name_ja": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (British Blue Ensign / Royal Warrant 1984)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "99, 69, 0, 59",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 92, 77, 22",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**空データから完全に新規作成**。1984年10月4日 Royal Warrant。ブルー・エンサインにフライの紋章盾（白円盤なし）: 上部にワイヤーバード（固有種セントヘレナチドリ）、下部に三本マスト帆船と岩壁。2019年にワイヤーバードの正確性のため紋章改訂。"
+}

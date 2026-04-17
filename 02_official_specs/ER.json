@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "ER",
+  "name_en": "Eritrea",
+  "name_ja": "エリトリア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#43B02A",
+      "rgb": "67, 176, 42",
+      "cmyk": "68, 0, 100, 0",
+      "pantone": "361 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E4002B",
+      "rgb": "228, 0, 43",
+      "cmyk": "0, 100, 89, 0",
+      "pantone": "185 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#418FDE",
+      "rgb": "65, 143, 222",
+      "cmyk": "69, 34, 0, 0",
+      "pantone": "279 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFC72C",
+      "rgb": "255, 199, 44",
+      "cmyk": "0, 16, 89, 0",
+      "pantone": "123 C"
+    }
+  ],
+  "notes": "法的にPantone/CMYK値は規定されていない。旗章学モデルにおける標準値（361 C, 185 C, 279 C, 123 C）を適用しフォーマットを統一。"
+}

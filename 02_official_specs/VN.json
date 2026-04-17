@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "VN",
+  "name_en": "Viet Nam",
+  "name_ja": "ベトナム",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Constitution Art. 141 — design only)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。憲法Art.141:「鮮紅色地に明るい金色の五芒星」。星の半径=旗長の1/5、中央配置。星の5点=知識人・農民・労働者・起業家・軍人。Red 186 C, Yellow 116 C 確認。「C」サフィックスを付与。"
+}

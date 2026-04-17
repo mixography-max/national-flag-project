@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MP",
+  "name_en": "Northern Mariana Islands",
+  "name_ja": "北マリアナ諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations / CRW Flags)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0033A1",
+      "rgb": "0, 51, 161",
+      "cmyk": "100, 68, 0, 37",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Grey",
+      "hex": "#B1B4B3",
+      "rgb": "177, 180, 179",
+      "cmyk": "2, 0, 1, 29",
+      "pantone": "421 C"
+    }
+  ],
+  "notes": "CNMI法令にPantone指定なし。青地に白い星、灰色のラッテ・ストーン（古代チャモロ建築の柱）、ムワール（カロリン族の花輪）。Blue 286 C 確認。**Grey を「Cool Gray 5 C」から「421 C」に修正**。花輪の追加色（Red 1788 C, Yellow 102 C, Purple 239 C 等）は旗の主要色のみ保持。ノイズ「!」除去。"
+}

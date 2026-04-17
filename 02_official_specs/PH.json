@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "PH",
+  "name_en": "Philippines",
+  "name_ja": "フィリピン",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Republic Act No. 8491 / Flag and Heraldic Code of the Philippines)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0032A0",
+      "rgb": "0, 50, 160",
+      "cmyk": "99, 80, 0, 0",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#BF0D3E",
+      "rgb": "191, 13, 62",
+      "cmyk": "12, 100, 87, 3",
+      "pantone": "193 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Golden Yellow",
+      "hex": "#FED141",
+      "rgb": "254, 209, 65",
+      "cmyk": "2, 17, 91, 0",
+      "pantone": "122 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。RA 8491 が Cable Number System（米国色彩協会）で色を定義：Blue #80173, Red #80108, White #80001, Golden-Yellow #80068。Pantone近似：Blue 286 C, Red 193 C, Yellow 122 C — **全て確認** ✅。色名「Yellow」→「Golden Yellow」（公式呼称）。平和時は青が上、戦争時は赤が上。「C」サフィックスを付与。"
+}

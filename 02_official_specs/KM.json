@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "KM",
+  "name_en": "Comoros",
+  "name_ja": "コモロ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#009739",
+      "rgb": "0, 151, 57",
+      "cmyk": "100, 0, 62, 41",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 18, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 79, 73, 6",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#003DA5",
+      "rgb": "0, 61, 165",
+      "cmyk": "100, 63, 0, 35",
+      "pantone": "293 C"
+    }
+  ],
+  "notes": "四色横帯（黄=モヘリ島、白=マヨット島、赤=アンジュアン島、青=グランドコモル島）に緑の二等辺三角（イスラム教、白い三日月と四星）を配する。憲法は色を文言で記述するのみでPantone仕様なし。色順序を再配置（緑三角を先頭、次に四帯上→下順）。ゴミ source「constitution as」を除去。「C」サフィックスを付与、CMYK修正。"
+}

@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "SY",
+  "name_en": "Syria",
+  "name_ja": "シリア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#007A3D",
+      "rgb": "0, 122, 61",
+      "cmyk": "90, 0, 85, 10",
+      "pantone": "354 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "現行旗（独立旗）: 三色帯（緑白黒）に赤い五芒星3個（2025年憲法改正）。汎アラブ色。**Green を 7726 C から 354 C に修正**。Red 186 C 確認。Black「Black」→「Black C」、CMYK 75/68/67/90→0/0/0/100修正。"
+}

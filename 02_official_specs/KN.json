@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "KN",
+  "name_en": "Saint Kitts and Nevis",
+  "name_ja": "セントクリストファー・ネイビス",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Ministry of Foreign Affairs of Saint Kitts and Nevis)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#006A4E",
+      "rgb": "0, 106, 78",
+      "cmyk": "100, 0, 50, 40",
+      "pantone": "349 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FEDF00",
+      "rgb": "254, 223, 0",
+      "cmyk": "0, 6, 95, 0",
+      "pantone": "108 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格。三色とも重大修正**。外務省公式サイト (mofa.gov.kn) が公式Pantone仕様を公表。**Green を 355 → 349 C に修正、Red を 032 → 186 C に修正、Yellow を 109 → 108 C に修正**。斜め黒帯（黄縁取り）が旗を緑上三角と赤下三角に分割。二つの白星 = 双子島のセントキッツとネイビス（希望と自由）。"
+}

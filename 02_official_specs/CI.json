@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CI",
+  "name_en": "Côte d'Ivoire",
+  "name_ja": "コートジボワール",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Orange",
+      "hex": "#FF8200",
+      "rgb": "255, 130, 0",
+      "cmyk": "0, 54, 100, 0",
+      "pantone": "151 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009A44",
+      "rgb": "0, 154, 68",
+      "cmyk": "92, 0, 97, 0",
+      "pantone": "347 C"
+    }
+  ],
+  "notes": "法律による具体的なカラーコードへの言及はない。国際組織（Album des Pavillons等）で広く採用されている 151 C (Orange) と 347 C (Green) を用いて標準化。"
+}

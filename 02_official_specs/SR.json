@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "SR",
+  "name_en": "Suriname",
+  "name_ja": "スリナム",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#007A33",
+      "rgb": "0, 122, 51",
+      "cmyk": "95, 0, 100, 27",
+      "pantone": "356 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 81, 4",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 16, 100, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "1975年11月25日採用。5帯（緑白赤白緑、比2:1:4:1:2）に黄色の五芒星。Green 356 C, Red 186 C, Yellow 116 C — **全て確認** ✅（London 2012一致）。CMYK修正。"
+}

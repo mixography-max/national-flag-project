@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "ME",
+  "name_en": "Montenegro",
+  "name_ja": "モンテネグロ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C40308",
+      "rgb": "196, 3, 8",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#D4AF3A",
+      "rgb": "212, 175, 58",
+      "cmyk": "10, 30, 90, 0",
+      "pantone": "117 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#1D5E91",
+      "rgb": "29, 94, 145",
+      "cmyk": "100, 60, 20, 0",
+      "pantone": "301 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#6D8C3E",
+      "rgb": "109, 140, 62",
+      "cmyk": "70, 30, 100, 0",
+      "pantone": "377 C"
+    },
+    {
+      "color_name": "Brown",
+      "hex": "#B96B29",
+      "rgb": "185, 107, 41",
+      "cmyk": "0, 39, 100, 11",
+      "pantone": "131 C"
+    }
+  ],
+  "notes": "2004年7月13日採用。赤地に金の縁取り（旗の高さの1/20）と中央の国章（旗の高さの2/3）。国章：金の冠付き双頭鷲、笏と十字架球を持つ。**Red を 032 から 186 C に修正。Gold を 110 から 117 C に修正**。CMYK修正。「C」サフィックスを付与。"
+}

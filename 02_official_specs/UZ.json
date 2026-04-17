@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "UZ",
+  "name_en": "Uzbekistan",
+  "name_ja": "ウズベキスタン",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0072CE",
+      "rgb": "0, 114, 206",
+      "cmyk": "90, 47, 0, 0",
+      "pantone": "285 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#43B02A",
+      "rgb": "67, 176, 42",
+      "cmyk": "68, 0, 100, 0",
+      "pantone": "361 C"
+    }
+  ],
+  "notes": "三色帯（青白緑）に赤い縁帯2本。上部ホイストに白い三日月+12白星（12州/月）。公式Pantone未規定。Blue 285 C, Red 485 C, Green 361 C 維持。「C」サフィックスを付与。"
+}

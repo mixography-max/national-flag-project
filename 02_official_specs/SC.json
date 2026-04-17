@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "SC",
+  "name_en": "Seychelles",
+  "name_ja": "セーシェル",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations / National Symbols Act)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#002F6C",
+      "rgb": "0, 47, 108",
+      "cmyk": "100, 74, 0, 45",
+      "pantone": "294 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FED141",
+      "rgb": "254, 209, 65",
+      "cmyk": "0, 9, 80, 0",
+      "pantone": "122 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D22730",
+      "rgb": "210, 39, 48",
+      "cmyk": "0, 96, 82, 1",
+      "pantone": "1795 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#007A33",
+      "rgb": "0, 122, 51",
+      "cmyk": "91, 0, 100, 26",
+      "pantone": "356 C"
+    }
+  ],
+  "notes": "1996年6月18日採用。左下隅から放射する5本の斜帯（青・黄・赤・白・緑）。Blue 294 C, Yellow 122 C, Red 1795 C, Green 356 C — **全て確認** ✅。「C」サフィックスを付与。"
+}

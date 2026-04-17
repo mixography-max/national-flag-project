@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "EE",
+  "name_en": "Estonia",
+  "name_ja": "エストニア",
+  "status": "UN Member",
+  "ratio": "7:11",
+  "specs_source": "De jure (Estonian Flag Act 2005)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0072CE",
+      "rgb": "0, 114, 206",
+      "cmyk": "90, 47, 0, 0",
+      "pantone": "285 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    }
+  ],
+  "notes": "2005年の国旗法において青の色合いがPantone 285 Cと法的に明記されているため、これに合致させ De jure 指定とした。"
+}

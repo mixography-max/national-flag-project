@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 12 8"
+   width="900"
+   height="600">
+  <title>Flag of Central African Republic (中央アフリカ共和国)</title>
+  <desc>ISO 3166-1: CF | Ratio: 2:3 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Central African Republic (中央アフリカ共和国)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>CF</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+	<path fill="#fff" d="m0 0h12v8H0z"/>
+	<path fill="#003082" d="m0 0h12v2H0z"/>
+	<path fill="#ffce00" d="m6 4 6 2v2H0V6zM2 .1859l.529 1.6282L1.144.8078h1.712L1.471 1.8141z"/>
+	<path fill="#289728" d="m0 4h12v2H0z"/>
+	<path fill="#d21034" d="m5 0h2v8H5z"/>
+</svg>

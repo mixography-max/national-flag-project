@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "FO",
+  "name_en": "Faroe Islands",
+  "name_ja": "フェロー諸島",
+  "status": "Territory",
+  "ratio": "8:11",
+  "specs_source": "De jure (Official Faroese Flag Regulations)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0065BD",
+      "rgb": "0, 101, 189",
+      "cmyk": "100, 47, 0, 26",
+      "pantone": "300 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#ED2939",
+      "rgb": "237, 41, 57",
+      "cmyk": "0, 83, 76, 7",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "北欧理事会（norden.org）やフェロー政府によって公式に Pantone 032 C (Red) と 300 C (Blue) が指定されていることを確認。元データの誤った 2144 C, 1788 C を公式値に修正し De jure に昇格。"
+}

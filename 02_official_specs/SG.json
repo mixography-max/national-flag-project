@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "SG",
+  "name_en": "Singapore",
+  "name_ja": "シンガポール",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (National Symbols Act 2022)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#EE2536",
+      "rgb": "238, 37, 54",
+      "cmyk": "0, 84, 77, 6",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。2022年法（旧Singapore Arms and Flag and National Anthem Act を代替）。赤白二色帯、上部カントンに白い三日月（若い国の上昇）と五芒星5個（民主・平和・進歩・正義・平等）。Red 032 C 確認。ゴミ source 除去。"
+}

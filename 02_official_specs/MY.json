@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "MY",
+  "name_en": "Malaysia",
+  "name_ja": "マレーシア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CC0000",
+      "rgb": "204, 0, 0",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0032A0",
+      "rgb": "0, 50, 160",
+      "cmyk": "100, 80, 0, 12",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    }
+  ],
+  "notes": "「Jalur Gemilang（栄光の縞）」。14本の赤白交互帯に紺青カントン（黄色い三日月と14芒星）。公式Pantone仕様が公開されておらず複数ソースが矛盾（Red: 485/2768, Blue: 286/199, Yellow: 108/109）。最も広く引用される Red 485 C, Blue 286 C, Yellow 109 C を維持。公式ガイダンスが入手され次第更新の可能性あり。「C」サフィックスを付与。"
+}

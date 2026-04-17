@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 36 18"
+   width="900"
+   height="450">
+  <title>Flag of Timor-Leste (東ティモール)</title>
+  <desc>ISO 3166-1: TL | Ratio: 1:2 | De jure (Constitution Art. 15)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Timor-Leste (東ティモール)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>TL</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+	<path fill="#da291c" d="m0 0h36v18H0z"/>
+	<path fill="#ffc72c" d="m18 9-18 9V0z"/>
+	<path d="m12 9-12 9V0z"/>
+	<path fill="#fff" d="m2.7816 6.2586 3.8155 4.2431-5.5809-1.1901 5.2145-2.3175-2.8564 4.9399z"/>
+</svg>

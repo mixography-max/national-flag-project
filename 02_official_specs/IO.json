@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "IO",
+  "name_en": "British Indian Ocean Territory",
+  "name_ja": "イギリス領インド洋地域",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard British Ensign Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#006D00",
+      "rgb": "0, 109, 0",
+      "cmyk": "100, 0, 100, 57",
+      "pantone": "356 C"
+    }
+  ],
+  "notes": "イギリスのブルー・エンサインに波型の青白縞と領土紋章（ヤシの木、セント・エドワード王冠）を配する旗。Blue を 280 C から 281 C に修正（標準イギリス・エンサイン色および Vexilla Mundi 準拠）。全Pantone値からノイズ文字列「!」「N. A.」を一掃し、色の順序を整理。"
+}

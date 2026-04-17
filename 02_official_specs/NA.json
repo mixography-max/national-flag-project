@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "NA",
+  "name_en": "Namibia",
+  "name_ja": "ナミビア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations / Album des Pavillons)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#001489",
+      "rgb": "0, 20, 137",
+      "cmyk": "100, 87, 0, 20",
+      "pantone": "Reflex Blue C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFC72C",
+      "rgb": "255, 199, 44",
+      "cmyk": "0, 16, 89, 0",
+      "pantone": "123 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009A44",
+      "rgb": "0, 154, 68",
+      "cmyk": "92, 0, 97, 0",
+      "pantone": "347 C"
+    }
+  ],
+  "notes": "憲法が幾何学的仕様を定義（tierced per bend reversed）。Blue (Reflex Blue C), Red 485 C, Yellow 123 C, Green 347 C — 全て確認。金色の太陽（12本の光線、直径 = 旗幅の1/3）。「C」サフィックスを付与。"
+}

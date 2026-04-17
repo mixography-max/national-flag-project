@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "HU",
+  "name_en": "Hungary",
+  "name_ja": "ハンガリー",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (MSZ 1361:2009 Hungarian National Standard)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE2939",
+      "rgb": "206, 41, 57",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "18-1660 TCX"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#477050",
+      "rgb": "71, 112, 80",
+      "cmyk": "100, 0, 100, 0",
+      "pantone": "18-6320 TCX"
+    }
+  ],
+  "notes": "**De jure に昇格（100カ国目の節目）**。ハンガリー国家標準 MSZ 1361:2009 により、Pantone TCX（Textile Color eXtended）システムで法的に定義されている（Red: 18-1660 TCX / Tomato, Green: 18-6320 TCX / Fairway）。これらは織物製造用の法的に権威ある仕様である。デジタル/印刷近似としては 186 C (Red), 348 C (Green) が国際機関で用いられるが、法定仕様ではない。Pantone値から「✓」マーカーと説明語（\"Tomato\", \"Fairway\"）を削除してクリーンアップ。"
+}

@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "VI",
+  "name_en": "United States Virgin Islands",
+  "name_ja": "アメリカ領ヴァージン諸島",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De facto (Executive Order 1921 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCE300",
+      "rgb": "252, 227, 0",
+      "cmyk": "0, 0, 100, 0",
+      "pantone": "102 C"
+    },
+    {
+      "color_name": "Light Blue",
+      "hex": "#75B2DD",
+      "rgb": "117, 178, 221",
+      "cmyk": "47, 19, 0, 13",
+      "pantone": "292 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009639",
+      "rgb": "0, 150, 57",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E03C31",
+      "rgb": "224, 60, 49",
+      "cmyk": "0, 88, 85, 0",
+      "pantone": "179 C"
+    }
+  ],
+  "notes": "**空データから完全に新規作成**。1921年5月17日EO採用。白地にアメリカン・イーグル（黄）、青文字'V''I'。鷲は月桂枝（緑）+3本の青い矢を持つ。胸に赤白青ストライプ盾。6色（White, Yellow 102 C, Light Blue 292 C, Blue 281 C, Green 355 C, Red 179 C）。London 2012基準。"
+}

@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "AS",
+  "name_en": "American Samoa",
+  "name_ja": "アメリカ領サモア",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (London 2012 Olympics Manual)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 85, 5, 36",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Brown",
+      "hex": "#BF5700",
+      "rgb": "191, 87, 0",
+      "cmyk": "0, 65, 100, 16",
+      "pantone": "167 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    }
+  ],
+  "notes": "アメリカの非自治的未編入地域。現地政府による国旗の法定カラーコードは存在しないため、国際的な指標としてロンドン2012オリンピックのマニュアル値（Blue 281 C, Red 032 C 等）を採用。0件だったJSONデータをフルスクラッチで作成。"
+}

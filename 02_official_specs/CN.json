@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "CN",
+  "name_en": "China",
+  "name_ja": "中国",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (GB 12983-2004 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#EE1C25",
+      "rgb": "238, 28, 37",
+      "cmyk": "0, 88, 84, 7",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "法定標準「GB 12983-2004」にて布地の色彩はCIE 1964色空間で厳密に規定されているが、Pantone表記の法的指定は存在しない。デジタル・印刷用の汎用近似標準（186 C, 116 C）を補完して記録した。"
+}

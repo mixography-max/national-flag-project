@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MR",
+  "name_en": "Mauritania",
+  "name_ja": "モーリタニア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (2020 Charte Graphique / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#00A95C",
+      "rgb": "0, 169, 92",
+      "cmyk": "92, 0, 85, 0",
+      "pantone": "354 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFD700",
+      "rgb": "255, 215, 0",
+      "cmyk": "0, 2, 100, 0",
+      "pantone": "Yellow 012 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D01C1F",
+      "rgb": "208, 28, 31",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "2017年国民投票で赤帯を追加（上下各1/5）。2020年5月に政府グラフィック・チャーターを公布。**Green を 3405 から 354 C に修正。Red を 485 から 186 C に修正**。色名「Yellow」を「Gold」に変更。"
+}

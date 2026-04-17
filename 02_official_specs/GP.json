@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "GP",
+  "name_en": "Guadeloupe",
+  "name_ja": "グアドループ",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (French Constitution & Album des Pavillons 2023)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "2738 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "2347 C"
+    }
+  ],
+  "notes": "フランスの海外県であり、GF（フランス領ギアナ）と同様にフランスの三色旗が唯一の公式旗。旧データの 072 C / 485 C を最新の Album des Pavillons 2023 公式値（Blue: 2738 C, Red: 2347 C）に統一し、FR/GF エントリとの一貫性を確保。"
+}

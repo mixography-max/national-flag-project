@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CD",
+  "name_en": "DR Congo",
+  "name_ja": "コンゴ民主共和国",
+  "status": "UN Member",
+  "ratio": "3:4",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Sky Blue",
+      "hex": "#0085CA",
+      "rgb": "0, 133, 202",
+      "cmyk": "100, 15, 0, 6",
+      "pantone": "Process Blue C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "ユニバーサルな法的Pantone指定は存在しない。特徴的なスカイブルーの地色と赤い帯に用いられる標準仕様（Process Blue C, 109 C, 032 C）へ置換し、確定。"
+}

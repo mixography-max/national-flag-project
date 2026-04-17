@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BI",
+  "name_en": "Burundi",
+  "name_ja": "ブルンジ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#1EB53A",
+      "rgb": "30, 181, 58",
+      "cmyk": "68, 0, 100, 0",
+      "pantone": "361 C"
+    }
+  ],
+  "notes": "憲法で赤・白・緑と規定されているが、政府文書に明確なPantone番号は存在しない。ロンドン2012オリンピックなど国際行事で用いられる事実上の共通規格である 186 C と 361 C を採用。"
+}

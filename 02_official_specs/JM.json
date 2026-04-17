@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "JM",
+  "name_en": "Jamaica",
+  "name_ja": "ジャマイカ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Government Flag Protocol / Jamaica 55 Initiative)",
+  "colors": [
+    {
+      "color_name": "Gold",
+      "hex": "#FED100",
+      "rgb": "254, 209, 0",
+      "cmyk": "0, 4, 88, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009B3A",
+      "rgb": "0, 155, 58",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "Jamaica 55 や政府印刷仕様において Pantone 109 C/U (Gold) および 355 C/U (Green) が引用されている。**Gold Pantone を 115 から 109 C に修正（政府文書準拠）**。色名を「Yellow」から政府公式呼称の「Gold」に変更。Black Pantone を「Black」から「Black C」に修正。色順序を旗のデザイン構造に合わせて再配置（Gold サルタイアーを先頭）。"
+}

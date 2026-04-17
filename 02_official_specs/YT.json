@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "YT",
+  "name_en": "Mayotte",
+  "name_ja": "マヨット",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (French Tricolor / AFNOR NFX 08002)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "072 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    }
+  ],
+  "notes": "**De jure**: 仏海外県 — AFNOR NFX 08002準拠（Blue A503, White A665, Red A805）。Blue 072 C, Red 485 C 確認。非公式地元旗: 白地にマヨット紋章（青赤盾+三日月+イランイラン花、タツノオトシゴ、モットー'RA HACHIRI'）。ゴミ文字列除去。"
+}

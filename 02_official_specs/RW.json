@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "RW",
+  "name_en": "Rwanda",
+  "name_ja": "ルワンダ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Law No. 34/2008 of 08/08/2008 — design and proportions)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#00A1DE",
+      "rgb": "0, 161, 222",
+      "cmyk": "100, 35, 0, 2",
+      "pantone": "3005 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#E5BE01",
+      "rgb": "229, 190, 1",
+      "cmyk": "0, 32, 100, 0",
+      "pantone": "130 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FAD201",
+      "rgb": "250, 210, 1",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#20603D",
+      "rgb": "32, 96, 61",
+      "cmyk": "100, 0, 85, 29",
+      "pantone": "3415 C"
+    }
+  ],
+  "notes": "法34/2008号がデザインを定義するがPantone未規定。三色帯: 青（上半分、フライ上部に金色の太陽24条）、黄（下1/4）、緑（底1/4）。Blue 3005 C, Gold 130 C（太陽）, Yellow 109 C（帯）, Green 3415 C 確認。RAL参照（6029, 1023）も併記。Beijing 2008 と London 2012 の差異あり。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "JP",
+  "name_en": "Japan",
+  "name_ja": "日本",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Act on National Flag and Anthem 1999 / Munsell 5R 4/12)",
+  "colors": [
+    {
+      "color_name": "Crimson",
+      "hex": "#BC002D",
+      "rgb": "188, 0, 45",
+      "cmyk": "0, 100, 90, 0",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。「国旗及び国歌に関する法律」（1999年）により日章旗を公式に制定。法律は白地に赤い円と記述するのみで、Pantone/CMYK値は規定しない。公式色参照：Munsell 5R 4/12（防衛省基準）、DIC 156（ODA文書）。色名を「Red」から「Crimson（紅色）」に変更 — 日本の伝統色「紅」は純粋な赤ではなく深い紅色。Pantone 186 C はデジタル近似値。White CMYK を空欄から修正。「C」サフィックスを付与。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "HK",
+  "name_en": "Hong Kong",
+  "name_ja": "香港",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (Regional Flag and Regional Emblem Ordinance)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#DE2910",
+      "rgb": "222, 41, 16",
+      "cmyk": "0, 87, 99, 0",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。「区旗及び区章条例」により、厳格な建設図面・製造パラメータが法定されている。赤色は中華人民共和国の国旗の赤と同一でなければならないと規定。白いバウヒニア（Bauhinia × blakeana）の花弁に赤い星と花柱が施される。Pantone 186 C に「C」サフィックスを追加し、CMYK値を修正。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "NG",
+  "name_en": "Nigeria",
+  "name_ja": "ナイジェリア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#008751",
+      "rgb": "0, 135, 81",
+      "cmyk": "91, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1960年10月1日採用。縦三色旗（緑・白・緑）。政府文書にPantone/CMYK値なし。「エメラルドグリーン」と記述。Green 355 C が最も広く引用される値として確認。HEX を355 C標準参照値に修正。「C」サフィックスを付与。"
+}

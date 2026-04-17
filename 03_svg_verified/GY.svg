@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 100 60"
+   width="900"
+   height="540">
+  <title>Flag of Guyana (ガイアナ)</title>
+  <desc>ISO 3166-1: GY | Ratio: 3:5 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Guyana (ガイアナ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>GY</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+	<defs>
+		<clipPath id="w">
+			<path d="m0 0 100 30L0 60z"/>
+		</clipPath>
+		<clipPath id="b">
+			<path d="m0 0 50 30L0 60z"/>
+		</clipPath>
+	</defs>
+	<path fill="#009739" d="m0 0h100v60H0z"/>
+	<path clip-path="url(#w)" fill="#FFD100" stroke="#fff" stroke-width="4" d="m0 0 100 30L0 60"/>
+	<path clip-path="url(#b)" fill="#EF3340" stroke="#000" stroke-width="4" d="m0 0 50 30L0 60"/>
+</svg>

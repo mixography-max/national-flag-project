@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "BH",
+  "name_en": "Bahrain",
+  "name_ja": "バーレーン",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De jure (Bahraini Flag Guide)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    }
+  ],
+  "notes": "政府発行の公式ガイドラインで、Red: 485 C と明確に指定されている。国旗の特徴である「イスラム教の五行を象徴する5つのジグザグの三角形」について注記を追加し、ステータスを確定。"
+}

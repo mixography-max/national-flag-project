@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "UY",
+  "name_en": "Uruguay",
+  "name_ja": "ウルグアイ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#001489",
+      "rgb": "0, 20, 137",
+      "cmyk": "100, 87, 0, 20",
+      "pantone": "Reflex Blue C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Brown",
+      "hex": "#7B3F00",
+      "rgb": "123, 63, 0",
+      "cmyk": "0, 63, 100, 57",
+      "pantone": "731 C"
+    }
+  ],
+  "notes": "Pabellón Nacional: 9帯（白5+青4）。白カントンに五月の太陽（16光条: 直線8本+波線8本）。法はPantoneを規定せず。Blue = Reflex Blue C（295 Cとも引用）。Yellow 116 C = 太陽本体。Brown 731 C = 太陽顔面詳細。「C」サフィックスを付与。"
+}

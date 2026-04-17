@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "BR",
+  "name_en": "Brazil",
+  "name_ja": "ブラジル",
+  "status": "UN Member",
+  "ratio": "7:10",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#009739",
+      "rgb": "0, 151, 57",
+      "cmyk": "100, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FEDD00",
+      "rgb": "254, 221, 0",
+      "cmyk": "0, 10, 100, 0",
+      "pantone": "Yellow C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 67, 0, 54",
+      "pantone": "280 C"
+    }
+  ],
+  "notes": "旗の色は法律（Law No. 5.700）で定められているものの、具体的な色コードへの言及がない。国際的なスポーツ大会等で汎用的に用いられ確立している 355 C (Green), Yellow C, 280 C (Blue) を代表値として採用した。"
+}

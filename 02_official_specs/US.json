@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "US",
+  "name_en": "United States",
+  "name_ja": "アメリカ合衆国",
+  "status": "UN Member",
+  "ratio": "10:19",
+  "specs_source": "De jure (Executive Order 10834, 1959 / Federal Spec DDD-F-416F)",
+  "colors": [
+    {
+      "color_name": "Old Glory Red",
+      "hex": "#B31942",
+      "rgb": "179, 25, 66",
+      "cmyk": "0, 100, 66, 13",
+      "pantone": "193 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Old Glory Blue",
+      "hex": "#0A3161",
+      "rgb": "10, 49, 97",
+      "cmyk": "100, 68, 0, 54",
+      "pantone": "281 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。EO 10834（アイゼンハワー、1959年）= 50星デザイン・比率。DDD-F-416F = 色定義（Standard Color Reference of Americaの繊維ケーブル番号、Pantoneではない）。比率 10:19。**Old Glory Red 193 C, Old Glory Blue 281 C** — 広く引用されるPantone近似値として確認（法的拘束力はケーブル番号側にあり）。「C」サフィックスを付与。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "PL",
+  "name_en": "Poland",
+  "name_ja": "ポーランド",
+  "status": "UN Member",
+  "ratio": "5:8",
+  "specs_source": "De jure (Act of 31 January 1980 on the Coat of Arms, Colors and Anthem / CIE 1931)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DC143C",
+      "rgb": "220, 20, 60",
+      "cmyk": "0, 96, 82, 1",
+      "pantone": "1795 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。1980年1月31日法（Ustawa o godle, barwach i hymnie）附則2が CIE 1931 xyY 座標で定義：White x=0.315 y=0.320 Y=82.0 ΔE≤4.0、Red x=0.570 y=0.305 Y=16.0 ΔE≤8.0。法定Pantoneなし — 1795 C が近似値として確認。横二色旗（白が上、赤が下）。色順序を修正（White first）。White CMYK 補填。"
+}

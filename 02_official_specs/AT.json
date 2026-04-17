@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "AT",
+  "name_en": "Austria",
+  "name_ja": "オーストリア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    }
+  ],
+  "notes": "赤と白の国旗だが、連邦法において単一の厳格なCMYK/Pantone指定は存在しない。ただし現代の実務上、および旗章学の標準として Pantone 186 C が広く受け入れられているため、旧規格（032 C）から 186 C へ修正し、法源ステータスを更新。"
+}

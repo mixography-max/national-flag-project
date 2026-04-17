@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "OM",
+  "name_en": "Oman",
+  "name_ja": "オマーン",
+  "status": "UN Member",
+  "ratio": "4:7",
+  "specs_source": "De facto (Standard Vexillological Approximations / Royal Decree 53/2004)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009A44",
+      "rgb": "0, 154, 68",
+      "cmyk": "92, 0, 97, 0",
+      "pantone": "347 C"
+    }
+  ],
+  "notes": "Royal Decree 53/2004 が旗の規制を行う。**比率を 1:2 から 4:7 に修正**。ホイストの赤い縦帯に白い国章（ハンジャルとサイフ交差）。Red 186 C, Green 347 C 確認。「C」サフィックスを付与。"
+}

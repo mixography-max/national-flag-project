@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "SB",
+  "name_en": "Solomon Islands",
+  "name_ja": "ソロモン諸島",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0051BA",
+      "rgb": "0, 81, 186",
+      "cmyk": "100, 56, 0, 27",
+      "pantone": "300 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#215B33",
+      "rgb": "33, 91, 51",
+      "cmyk": "64, 0, 44, 64",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCD116",
+      "rgb": "252, 209, 22",
+      "cmyk": "0, 17, 91, 1",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1977年11月18日採用。対角黄帯（下ホイスト→上フライ）で分割: 青三角（上、白い5星=主要島嶼群）、緑三角（下、肥沃な大地）。**Yellow を 123 から 116 C に修正**。CMYK修正。色順序再整理。"
+}

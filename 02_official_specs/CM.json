@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CM",
+  "name_en": "Cameroon",
+  "name_ja": "カメルーン",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#007A5E",
+      "rgb": "0, 122, 94",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCD116",
+      "rgb": "252, 209, 22",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    }
+  ],
+  "notes": "憲法で意匠は定義されているが、具体的なカラーコード指定は存在しない。汎用として広く確立している 355 C (Green), 032 C (Red), 109 C (Yellow) へと修正・承認した。"
+}

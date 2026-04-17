@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "AQ",
+  "name_en": "Antarctica",
+  "name_ja": "南極",
+  "status": "Special",
+  "ratio": "3:5",
+  "specs_source": "True South project specifications (De facto)",
+  "colors": [
+    {
+      "color_name": "Navy Blue",
+      "hex": "#1B2F4C",
+      "rgb": "27, 47, 76",
+      "cmyk": "64, 38, 0, 70",
+      "pantone": "2767 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "11-0601 TCX"
+    }
+  ],
+  "notes": "主権国家ではないため公式な旗はないが、多くの国家観測プログラム等で採用されている「True South（トゥルー・サウス）」の旗を中心に定義（Navy Blue: Pantone 2767 C, White: 11-0601 TCX, 比率 3:5）。"
+}

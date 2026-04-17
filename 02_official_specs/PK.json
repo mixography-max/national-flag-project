@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "PK",
+  "name_en": "Pakistan",
+  "name_ja": "パキスタン",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations / Survey of Pakistan)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#01411C",
+      "rgb": "1, 65, 28",
+      "cmyk": "99, 0, 57, 75",
+      "pantone": "343 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "「Parcham-e-Sitāra-o-Hilāl」（星と三日月の旗）。暗緑地（3/4）に白い縦帯（1/4、ホイスト）。白い三日月（進歩）と五芒星（光/知識）。Green 343 C 確認。HEX を 343 C 標準参照値に修正。「C」サフィックスを付与。"
+}

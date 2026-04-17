@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "NU",
+  "name_en": "Niue",
+  "name_ja": "ニウエ",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Niue Flag Act 1975 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Yellow",
+      "hex": "#FEDD00",
+      "rgb": "254, 221, 0",
+      "cmyk": "0, 13, 100, 0",
+      "pantone": "Yellow C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "99, 69, 0, 59",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 92, 77, 22",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "1975年10月15日採用（Niue Flag Act 1975）。金黄色地にユニオンジャック（カントン内にダイヤモンド配置の4小星 = 南十字星／NZとの結びつき）、中央に青円盤上の大星（自治地位）。Yellow C, Blue 280 C, Red 186 C 確認。ノイズ「!」除去。"
+}

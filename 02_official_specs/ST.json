@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "ST",
+  "name_en": "São Tomé and Príncipe",
+  "name_ja": "サントメ・プリンシペ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Constitution Part I, Art. 14 — design only)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#009739",
+      "rgb": "0, 151, 57",
+      "cmyk": "75, 0, 90, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 10, 95, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "憲法がデザインを定義（Pantone未規定）。三色帯（緑黄緑、幅比1:1.5:1）にホイスト赤三角、黄帯に黒い五芒星2個。**Yellow を 109 から 116 C に修正。Red を 032 から 186 C に修正**。Black「Black」→「Black C」。CMYK修正。"
+}

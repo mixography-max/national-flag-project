@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "KZ",
+  "name_en": "Kazakhstan",
+  "name_ja": "カザフスタン",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (ST-RK 988-2007 State Standard of the Republic of Kazakhstan)",
+  "colors": [
+    {
+      "color_name": "Sky Blue",
+      "hex": "#00AFCA",
+      "rgb": "0, 175, 202",
+      "cmyk": "100, 13, 0, 21",
+      "pantone": "3125 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FEC50C",
+      "rgb": "254, 197, 12",
+      "cmyk": "0, 22, 95, 0",
+      "pantone": "102 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。国家規格 ST-RK 988-2007「国旗の一般的技術条件」で公式に定義。空色の地に黄金の太陽（32本の光線）、飛翔する草原の鷲、ホイスト側に民族黄金装飾帯。公式Pantone: 3125 C/U (sky blue), 102 C/U (gold)。**色名「Process Yellow」を「Gold」に訂正**。**Pantone を「Process Yellow」から「102 C」に修正（重大誤り）**。色名「Blue」を「Sky Blue」に修正（公式呼称）。ゴミ source「act Book」を除去。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BQ",
+  "name_en": "Bonaire, Sint Eustatius and Saba",
+  "name_ja": "ボネール、シント・ユースタティウスおよびサバ",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (Dutch Standard NEN 3055)",
+  "colors": [
+    {
+      "color_name": "Bright Vermilion (Red)",
+      "hex": "#AE1C28",
+      "rgb": "174, 28, 40",
+      "cmyk": "0, 84, 77, 32",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Cobalt Blue",
+      "hex": "#21468B",
+      "rgb": "33, 70, 139",
+      "cmyk": "76, 50, 0, 46",
+      "pantone": "286 C"
+    }
+  ],
+  "notes": "データが0件だったが、実体として「オランダ特別自治体（ボネール、シント・ユースタティウス、サバ）」の総称であり、この総称に対する固有の旗はない。したがってオランダ国旗が公式旗となるため、オランダの国家工業規格（NEN 3055）に基づく厳密な色（Bright Vermilion, Cobalt Blue）を登録し、理由を注記した。"
+}

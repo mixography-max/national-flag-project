@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "SL",
+  "name_en": "Sierra Leone",
+  "name_ja": "シエラレオネ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Album des Pavillons 1990 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#1EB53A",
+      "rgb": "30, 181, 58",
+      "cmyk": "68, 0, 100, 0",
+      "pantone": "361 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0072C6",
+      "rgb": "0, 114, 198",
+      "cmyk": "100, 56, 0, 0",
+      "pantone": "300 C"
+    }
+  ],
+  "notes": "横三色帯: 緑（天然資源/山地/農業）白（統一/正義）青（フリータウン港/世界平和）。Green 361 C 確認。**Blue を 292 から 300 C に修正**（Album des Pavillons 1990基準）。CMYK修正。"
+}

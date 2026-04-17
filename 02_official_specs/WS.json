@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "WS",
+  "name_en": "Samoa",
+  "name_ja": "サモア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Official Flag and National Anthem of Samoa Act 1994 — design only)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#002B7F",
+      "rgb": "0, 43, 127",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "Act 1994はデザインのみ規定、Pantone未指定。赤地に青カントン（白い南十字星5星）。1949年採用、1962年独立で維持。Tupua Tamasese Meaʻole + Malietoa Tanumafili II デザイン。**Red を 032 から 186 C に修正**。Blue 281 C 確認。色順序修正。"
+}

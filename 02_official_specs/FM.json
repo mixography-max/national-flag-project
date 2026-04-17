@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "FM",
+  "name_en": "Micronesia",
+  "name_ja": "ミクロネシア連邦",
+  "status": "UN Member",
+  "ratio": "10:19",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#6CACE4",
+      "rgb": "108, 172, 228",
+      "cmyk": "27, 13, 0, 9",
+      "pantone": "277 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    }
+  ],
+  "notes": "色データが0件であったため、フルスクラッチで作成。法律上は「青地に白い4つの星」としか記載されておらず、国連旗の青に倣った 277 C を標準として記録。"
+}

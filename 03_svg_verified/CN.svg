@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 900 600"
+   xmlns="http://www.w3.org/2000/svg"
+   width="900"
+   height="600">
+  <title>Flag of China (中国)</title>
+  <desc>ISO 3166-1: CN | Ratio: 2:3 | De jure (GB 12983-2004 / Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of China (中国)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>CN</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+  <path fill="#EE1C25" d="M0 0h900v600H0"/>
+  <g transform="matrix(3 0 0 3 150 150)">
+    <path id="a" d="m0-30 17.634 54.27-46.166-33.54h57.064l-46.166 33.54Z" fill="#FFCD00"/>
+  </g>
+  <use xlink:href="#a" transform="rotate(23.036 2.784 766.082)"/>
+  <use xlink:href="#a" transform="rotate(45.87 38.201 485.396)"/>
+  <use xlink:href="#a" transform="rotate(69.945 29.892 362.328)"/>
+  <use xlink:href="#a" transform="rotate(20.66 -590.66 957.955)"/>
+</svg>

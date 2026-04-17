@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "RU",
+  "name_en": "Russia",
+  "name_ja": "ロシア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Federal Constitutional Law / Standard Government Procurement Specifications)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0032A0",
+      "rgb": "0, 50, 160",
+      "cmyk": "100, 80, 0, 12",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    }
+  ],
+  "notes": "連邦憲法法が白青赤の三色帯を定めるが正確な色調は規定なし（GOST基準も不在）。**Blue を 293 C から 286 C に修正** — 政府調達仕様の標準。Red 485 C 確認。HEX を標準 Pantone 参照値に修正。"
+}

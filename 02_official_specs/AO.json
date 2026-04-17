@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "AO",
+  "name_en": "Angola",
+  "name_ja": "アンゴラ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CC092F",
+      "rgb": "204, 9, 47",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCB00",
+      "rgb": "255, 203, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    }
+  ],
+  "notes": "憲法で色は定められているものの、国家として公布された正確な Pantone 番号の法律が存在しない。旗章学の標準的な近似値（Red: 186 C 等）を特定。"
+}

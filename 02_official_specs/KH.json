@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "KH",
+  "name_en": "Cambodia",
+  "name_ja": "カンボジア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#032EA1",
+      "rgb": "3, 46, 161",
+      "cmyk": "98, 71, 0, 37",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E00025",
+      "rgb": "224, 0, 37",
+      "cmyk": "0, 100, 84, 12",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black 6 C"
+    }
+  ],
+  "notes": "横三色帯（青・赤・青、帯幅比1:2:1）にアンコール・ワット白色シルエット（三塔）を配する。1948年採用、1993年王政復古時に再採用。Blue を 293 から 286 C に修正。Black を「Black」から「Black 6 C」に修正。CMYK値を修正し「C」サフィックスを付与。"
+}

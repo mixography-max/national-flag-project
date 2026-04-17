@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "PN",
+  "name_en": "Pitcairn Islands",
+  "name_ja": "ピトケアン諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (British Blue Ensign / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "99, 69, 0, 59",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 92, 77, 22",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#337321",
+      "rgb": "51, 115, 33",
+      "cmyk": "56, 0, 71, 55",
+      "pantone": "364 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#F7E017",
+      "rgb": "247, 224, 23",
+      "cmyk": "0, 9, 91, 3",
+      "pantone": "107 C"
+    }
+  ],
+  "notes": "1984年4月2日採用。ブルー・エンサインにピトケアン紋章（1969年11月4日Royal Warrant）。紋章: HMS Bountyの聖書と錨、手押し車とミロの木。Blue 280 C, Red 186 C 確認。紋章色 Green 364 C, Yellow 107 C 維持。**8色→5色に整理**（Light Blue, Black, Grey等の紋章細部色を除去）。ノイズ「!」除去。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BS",
+  "name_en": "Bahamas",
+  "name_ja": "バハマ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Government of The Bahamas)",
+  "colors": [
+    {
+      "color_name": "Aquamarine",
+      "hex": "#00778B",
+      "rgb": "0, 119, 139",
+      "cmyk": "84, 33, 34, 15",
+      "pantone": "3145 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFC72C",
+      "rgb": "255, 199, 44",
+      "cmyk": "0, 24, 86, 0",
+      "pantone": "123 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "JSONデータにおいて色が0件（△）となっていた案件。バハマ政府が明確に指定している公式Pantone値（Aquamarine: 3145 C, Gold: 123 C, Black）をフルスクラッチで追加し、国の公式ステータスを有することを明記。"
+}

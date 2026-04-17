@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "PM",
+  "name_en": "Saint Pierre and Miquelon",
+  "name_ja": "サンピエール島・ミクロン島",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (NF X 08002 / French National Standard)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "072 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    }
+  ],
+  "notes": "**空データから完全に新規作成**。フランス海外準県として公式旗はフランス三色旗。NF X 08002: Blue = 072 C, Red = 485 C。非公式地方旗（1982年、Grande Hermine号 + バスク・ブルターニュ・ノルマンディーの3パネル）は法的地位なし。"
+}

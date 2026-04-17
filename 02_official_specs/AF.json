@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "AF",
+  "name_en": "Afghanistan",
+  "name_ja": "アフガニスタン",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Islamic Republic)",
+  "colors": [
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black 6 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D32011",
+      "rgb": "211, 32, 17",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#007A36",
+      "rgb": "0, 122, 54",
+      "cmyk": "100, 0, 56, 52",
+      "pantone": "356 C"
+    }
+  ],
+  "notes": "2021年の政変によりタリバン政権の白旗が事実上の国旗だが、国連加盟国としての公式・国際的認識に従い三色旗（規定: Black 6 C, Red 485 C, Green 356 C）でデータを記述。白旗については注記に留めた。"
+}

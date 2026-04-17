@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "GN",
+  "name_en": "Guinea",
+  "name_ja": "ギニア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCD116",
+      "rgb": "252, 209, 22",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009460",
+      "rgb": "0, 148, 96",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    }
+  ],
+  "notes": "1958年11月10日採用のパン・アフリカ色（赤・黄・緑）の垂直三色旗。憲法で色名のみ定義、Pantone/CMYK規定なし。北京2008オリンピック文書等で汎用的に用いられる 032 C, 109 C, 355 C が既存データと一致することを確認し、「C」サフィックスを付与して正規化。"
+}

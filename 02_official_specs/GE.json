@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "GE",
+  "name_en": "Georgia",
+  "name_ja": "ジョージア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "ジョージアの法律は「五十字旗」（大きな聖ジョージの十字と4つの小さなボルニシ十字）の構造を詳細に定義しているが、赤色の具体的なPantone番号は法制化されていない。各出典で 485 C, 032 C, 186 C と値が分かれるが、最も多くの情報源で引用される 485 C を標準として採用。「C」サフィックスを付与し正規化。"
+}

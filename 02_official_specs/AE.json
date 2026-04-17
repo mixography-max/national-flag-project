@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "AE",
+  "name_en": "United Arab Emirates",
+  "name_ja": "アラブ首長国連邦",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "UAE Government Visual Identity Guidelines",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 85, 6",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#00843D",
+      "rgb": "0, 132, 61",
+      "cmyk": "96, 2, 100, 12",
+      "pantone": "348 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "10, 10, 10, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "UAE政府の公式ガイドラインから直接 Pantone (Red 186 C, Green 348 C) と CMYK 値を特定。データをフルスクラッチで作成し、縦横の構造規定を追記。"
+}

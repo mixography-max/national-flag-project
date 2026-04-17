@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MF",
+  "name_en": "Saint Martin (French part)",
+  "name_ja": "サン・マルタン",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (NF X 08002 / French National Standard)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "072 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    }
+  ],
+  "notes": "フランスの海外準県としてフランス三色旗（tricolore）を使用。NF X 08002（AFNOR規格）が色仕様を提供：Blue = 072 C (A 503), Red = 485 C (A 805)。独自の公式旗なし。既存値は正確と確認。ゴミ notes を除去。"
+}

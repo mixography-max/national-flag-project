@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "KG",
+  "name_en": "Kyrgyzstan",
+  "name_ja": "キルギス",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#FF0000",
+      "rgb": "255, 0, 0",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "1788 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFFF00",
+      "rgb": "255, 255, 0",
+      "cmyk": "0, 0, 100, 0",
+      "pantone": "Yellow C"
+    }
+  ],
+  "notes": "赤い地に黄金の太陽（40本の光線 = マナスに統一された40のキルギス部族）と中央のテュンドゥク（キルギスユルトの冠）。法定Pantone規定なし。既存値（1788 C, Yellow C）は既に「C」サフィックスありで正確と確認。法源とシンボリズム情報を追記。"
+}

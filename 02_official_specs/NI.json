@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "NI",
+  "name_en": "Nicaragua",
+  "name_ja": "ニカラグア",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations / Decree No. 1908, 1971)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0067C6",
+      "rgb": "0, 103, 198",
+      "cmyk": "100, 70, 0, 15",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#C8A400",
+      "rgb": "200, 164, 0",
+      "cmyk": "0, 31, 100, 25",
+      "pantone": "125 C"
+    },
+    {
+      "color_name": "Light Blue",
+      "hex": "#6FD8F3",
+      "rgb": "111, 216, 243",
+      "cmyk": "55, 13, 0, 0",
+      "pantone": "292 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#97C924",
+      "rgb": "151, 201, 36",
+      "cmyk": "44, 0, 100, 0",
+      "pantone": "376 C"
+    }
+  ],
+  "notes": "1971年8月25日法令1908号が現行デザインを再確認。三色帯（青・白・青）に国章（三角形、五火山、大洋、虹、フリジア帽、太陽光線）。**Blue を 281 から 280 C に修正**。色名「Dark Blue」→「Blue」。**Green を 355 から 376 C に修正**（国章の緑はより明るい黄緑色）。重複するYellow (109 C) を除去。CMYK修正。"
+}

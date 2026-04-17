@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "RO",
+  "name_en": "Romania",
+  "name_ja": "ルーマニア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Law No. 75/1994, amended 2023 — Pantone/CMYK/RGB standardized)",
+  "colors": [
+    {
+      "color_name": "Cobalt Blue",
+      "hex": "#002B7F",
+      "rgb": "0, 43, 127",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Chrome Yellow",
+      "hex": "#FCD116",
+      "rgb": "252, 209, 22",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Vermilion Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。法律75/1994号が2023年改正でPantone/CMYK/RGB値を法定化。歴史的色名: コバルトブルー (albastru cobalt)、クロムイエロー (galben crom)、バーミリオンレッド (roșu vermillon)。Blue 280 C, Yellow 116 C, Red 186 C — **全て確認** ✅。縦三色旗: 青（ホイスト）黄（中央）赤（フライ）。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "PR",
+  "name_en": "Puerto Rico",
+  "name_ja": "プエルトリコ",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#E92228",
+      "rgb": "233, 34, 40",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#3A5EAB",
+      "rgb": "58, 94, 171",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    }
+  ],
+  "notes": "1952年コモンウェルス公式旗。法的Pantone規定なし。5本横帯（赤3白2）にホイスト側の青い正三角形（白い五芒星）。**青の濃淡が歴史的に議論**: 1952年のダーク（281 C、合衆国旗に合わせる）vs 1895年のライト（独立運動）。ダーク 281 C を現行公式版として維持。Red 032 C 確認。「C」サフィックスを付与。"
+}

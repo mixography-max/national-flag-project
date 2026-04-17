@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "SO",
+  "name_en": "Somalia",
+  "name_ja": "ソマリア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Beijing 2008 & London 2012 Flag Manuals / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Light Blue",
+      "hex": "#4189DD",
+      "rgb": "65, 137, 221",
+      "cmyk": "71, 38, 0, 13",
+      "pantone": "277 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1954年10月12日採用。水色地に白い五芒星（「統一の星」= ソマリ人5地域: ソマリア, ソマリランド, ジブチ, オガデン/エチオピア, NEP/ケニア）。水色は国連旗へのオマージュ（国連信託統治1950-1960）。Light Blue 277 C 確認（Beijing 2008 & London 2012一致）。CMYK修正。「C」サフィックスを付与。"
+}

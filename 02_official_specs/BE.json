@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BE",
+  "name_en": "Belgium",
+  "name_ja": "ベルギー",
+  "status": "UN Member",
+  "ratio": "13:15",
+  "specs_source": "Official Guide to Belgian Protocol",
+  "colors": [
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FDDE00",
+      "rgb": "253, 222, 0",
+      "cmyk": "0, 8.5, 79, 0",
+      "pantone": "115 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 94, 87, 0",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "ベルギー政府の公式プロトコルガイドにより、厳格なPantone値（Yellow: 115 C, Red: 032 C）が指定されている。自動取得された広く知られる近似値（116 C, 186 C）を公式プロトコルガイドの本来の値に書き換え、さらに法的な比率が「13:15」である事実を明記。"
+}

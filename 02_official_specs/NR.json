@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "NR",
+  "name_en": "Nauru",
+  "name_ja": "ナウル",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 70, 0, 10",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFC72C",
+      "rgb": "255, 199, 44",
+      "cmyk": "0, 30, 95, 0",
+      "pantone": "123 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1968年1月31日採用。暗青地に黄色い細帯（高さの1/12 = 赤道）。白い12芒星（12部族）が帯の下方ホイスト側（ナウルは赤道の1°南）。Blue 280 C, Yellow 123 C 確認。CMYK修正。「C」サフィックスを付与。"
+}

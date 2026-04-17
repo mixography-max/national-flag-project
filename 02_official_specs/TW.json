@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "TW",
+  "name_en": "Taiwan",
+  "name_ja": "台湾",
+  "status": "Special",
+  "ratio": "2:3",
+  "specs_source": "De jure (Act of National Emblem and National Flag of ROC, 1928 — design only)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#FE0000",
+      "rgb": "254, 0, 0",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "2347 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#000095",
+      "rgb": "0, 0, 149",
+      "cmyk": "100, 100, 0, 42",
+      "pantone": "2738 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。中華民國國徽國旗法（1928年制定、改正）。「青天白日滿地紅」。赤地に藍カントン（白い12光条の太陽、各30°）。法はPantoneを規定せず。内政部がCMYK参照値を提供（Red: 0/100/100/0）。Red 2347 C, Blue 2738 C はPantone+系の値（純赤・深藍に合致）、維持。White「N. A.」除去。ノイズ「!」除去。"
+}

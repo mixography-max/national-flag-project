@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "SA",
+  "name_en": "Saudi Arabia",
+  "name_ja": "サウジアラビア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Law of the Flag, 1973 / Official Government Visual Identity)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#005430",
+      "rgb": "0, 84, 48",
+      "cmyk": "89, 15, 97, 56",
+      "pantone": "3425 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。🚨 **Green を 355 から 3425 C に修正** — 公式政府ガイダンスが指定するより暗い特定色（355 C は一般的な緑で不正確）。HEX #165D31→#005430、RGB、CMYK全て修正。シャハーダ（スルス書体）と剣は白。旗は常に両面同一（鏡像製造）。半旗掲揚不可（聖句への敬意）。"
+}

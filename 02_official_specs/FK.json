@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "FK",
+  "name_en": "Falkland Islands",
+  "name_ja": "フォークランド諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard British Ensign Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "99, 69, 0, 59",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 92, 77, 22",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "イギリスの海外領土であり固有のPantone法令はない。データに混入していたノイズ文字列（`!`）を一掃し、イギリス標準エンサイン色（281 C, 186 C）に正規化。"
+}

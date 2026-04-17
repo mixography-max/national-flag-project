@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "KR",
+  "name_en": "South Korea",
+  "name_ja": "韓国",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Act on the National Flag / KS A 0003 / Munsell-CIE System)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CD2E3A",
+      "rgb": "205, 46, 58",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0F64CD",
+      "rgb": "15, 100, 205",
+      "cmyk": "100, 55, 0, 15",
+      "pantone": "294 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "**De jure に昇格**。「大韓民国国旗法」により法的に定義。公式色標準はCIE/マンセル座標：Red = Munsell 6.0R 4.5/14, Blue = 5.0PB 3.0/12, White = N 9.5, Black = N 0.5。政府推奨Pantone: 186 C (Red), 294 C (Blue) — いずれも確認。太極旗：白地、中央に太極（陰陽）、四隅に四卦。Black を「Black」から「Black C」に修正。CMYK を政府推奨値に修正。「C」サフィックスを付与。"
+}

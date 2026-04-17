@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "QA",
+  "name_en": "Qatar",
+  "name_ja": "カタール",
+  "status": "UN Member",
+  "ratio": "11:28",
+  "specs_source": "De jure (Flag Law No. 14 of 2012)",
+  "colors": [
+    {
+      "color_name": "Maroon",
+      "hex": "#8A1538",
+      "rgb": "138, 21, 56",
+      "cmyk": "0, 81, 57, 45",
+      "pantone": "1955 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。🚨 **Maroon を 222 から 1955 C に修正** — 「Qatar Maroon」が現行公式標準（222 C は旧出版物で引用されていた古い値）。比率 11:28（世界でも珍しい超横長）。白帯（ホイスト）とマルーン地（フライ）の間に9個の鋸歯（1916年カタール・英国条約の「第9の和解首長国」）。CMYK修正。"
+}

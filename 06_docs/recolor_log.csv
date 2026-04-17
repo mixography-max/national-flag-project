@@ -1,0 +1,1458 @@
+iso_alpha2,name_en,status,original_hex,new_hex,note
+AD,Andorra,REPLACED,#005EB8,#10069F,
+AD,Andorra,EXACT,#C6AA76,#C6AA76,Already correct
+AD,Andorra,REPLACED,#713F2A,#D50032,
+AD,Andorra,REPLACED,#DA291C,#D50032,
+AD,Andorra,EXACT,#10069F,#10069F,Already correct
+AD,Andorra,EXACT,#FEDD00,#FEDD00,Already correct
+AD,Andorra,EXACT,#D50032,#D50032,Already correct
+AD,Andorra,REPLACED,#FFFFFF,#C6AA76,
+AD,Andorra,REPLACED,#FEDB00,#FEDD00,
+AE,United Arab Emirates,EXACT,#00843D,#00843D,Already correct
+AE,United Arab Emirates,EXACT,#FFFFFF,#FFFFFF,Already correct
+AE,United Arab Emirates,EXACT,#C8102E,#C8102E,Already correct
+AF,Afghanistan,KEPT (ΔE > threshold),#FFFFFF,#FFFFFF,"ΔE too large, original kept"
+AG,Antigua and Barbuda,REPLACED,#CE1126,#EF3340,
+AG,Antigua and Barbuda,REPLACED,#FCD116,#FFD100,
+AG,Antigua and Barbuda,REPLACED,#0072C6,#005EB8,
+AG,Antigua and Barbuda,EXACT,#FFFFFF,#FFFFFF,Already correct
+AI,Anguilla,EXACT,#99CCFF,#99CCFF,Already correct
+AI,Anguilla,EXACT,#012169,#012169,Already correct
+AI,Anguilla,EXACT,#FF9900,#FF9900,Already correct
+AI,Anguilla,EXACT,#C8102E,#C8102E,Already correct
+AI,Anguilla,EXACT,#FFFFFF,#FFFFFF,Already correct
+AL,Albania,EXACT,#000000,#000000,Already correct
+AL,Albania,REPLACED,#FF0000,#E4000F,
+AM,Armenia,REPLACED,#D90012,#DA291C,
+AM,Armenia,EXACT,#0033A0,#0033A0,Already correct
+AM,Armenia,REPLACED,#F2A800,#FFB81C,
+AO,Angola,EXACT,#FFCB00,#FFCB00,Already correct
+AO,Angola,EXACT,#CC092F,#CC092F,Already correct
+AQ,Antarctica,EXACT,#FFFFFF,#FFFFFF,Already correct
+AQ,Antarctica,KEPT (ΔE > threshold),#009EDB,#009EDB,"ΔE too large, original kept"
+AR,Argentina,REPLACED,#843511,#7D4016,
+AR,Argentina,REPLACED,#74ACDF,#6CACE4,
+AR,Argentina,REPLACED,#F6B40E,#FFB81C,
+AR,Argentina,EXACT,#FFFFFF,#FFFFFF,Already correct
+AR,Argentina,REPLACED,#85340A,#7D4016,
+AS,American Samoa,REPLACED,#BF0A30,#EF3340,
+AS,American Samoa,REPLACED,#5A3719,#BF5700,
+AS,American Samoa,EXACT,#00205B,#00205B,Already correct
+AS,American Samoa,REPLACED,#999999,#FFFFFF,
+AS,American Samoa,REPLACED,#FFC221,#FFD100,
+AS,American Samoa,REPLACED,#7B3C20,#BF5700,
+AS,American Samoa,REPLACED,#AA5323,#BF5700,
+AS,American Samoa,EXACT,#FFFFFF,#FFFFFF,Already correct
+AT,Austria,EXACT,#FFFFFF,#FFFFFF,Already correct
+AT,Austria,EXACT,#C8102E,#C8102E,Already correct
+AU,Australia,REPLACED,#00008B,#012169,
+AU,Australia,EXACT,#FFFFFF,#FFFFFF,Already correct
+AU,Australia,REPLACED,#FF0000,#E4002B,
+AW,Aruba,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+AW,Aruba,EXACT,#418FDE,#418FDE,Already correct
+AW,Aruba,EXACT,#FFD100,#FFD100,Already correct
+AW,Aruba,EXACT,#FFFFFF,#FFFFFF,Already correct
+AW,Aruba,EXACT,#EF3340,#EF3340,Already correct
+AX,Åland Islands,REPLACED,#DA0E15,#D21034,
+AX,Åland Islands,REPLACED,#0064AD,#0053A5,
+AX,Åland Islands,REPLACED,#FFD300,#FFCE00,
+AZ,Azerbaijan,REPLACED,#00B5E2,#00BCE4,
+AZ,Azerbaijan,EXACT,#509E2F,#509E2F,Already correct
+AZ,Azerbaijan,EXACT,#FFFFFF,#FFFFFF,Already correct
+AZ,Azerbaijan,EXACT,#EF3340,#EF3340,Already correct
+BA,Bosnia and Herzegovina,REPLACED,#FECB00,#FFCD00,
+BA,Bosnia and Herzegovina,REPLACED,#002395,#002F6C,
+BA,Bosnia and Herzegovina,EXACT,#FFFFFF,#FFFFFF,Already correct
+BB,Barbados,EXACT,#000000,#000000,Already correct
+BB,Barbados,EXACT,#00267F,#00267F,Already correct
+BB,Barbados,EXACT,#FFC726,#FFC726,Already correct
+BD,Bangladesh,EXACT,#DA291C,#DA291C,Already correct
+BD,Bangladesh,REPLACED,#006747,#006A4E,
+BE,Belgium,REPLACED,#FDDA25,#FDDE00,
+BE,Belgium,EXACT,#EF3340,#EF3340,Already correct
+BF,Burkina Faso,REPLACED,#FCD116,#FFCD00,
+BF,Burkina Faso,REPLACED,#009E49,#009739,
+BF,Burkina Faso,REPLACED,#EF2B2D,#EF3340,
+BG,Bulgaria,REPLACED,#D62612,#EF3340,
+BG,Bulgaria,REPLACED,#00966E,#009E60,
+BG,Bulgaria,EXACT,#FFFFFF,#FFFFFF,Already correct
+BH,Bahrain,EXACT,#DA291C,#DA291C,Already correct
+BH,Bahrain,EXACT,#FFFFFF,#FFFFFF,Already correct
+BI,Burundi,REPLACED,#43B02A,#1EB53A,
+BI,Burundi,EXACT,#FFFFFF,#FFFFFF,Already correct
+BI,Burundi,REPLACED,#C8102E,#CE1126,
+BJ,Benin,REPLACED,#FCD116,#FFD100,
+BJ,Benin,REPLACED,#E8112D,#EF3340,
+BJ,Benin,REPLACED,#008751,#009639,
+BL,Saint Barthélemy,REPLACED,#CE1126,#E1000F,
+BL,Saint Barthélemy,EXACT,#FFFFFF,#FFFFFF,Already correct
+BL,Saint Barthélemy,REPLACED,#002654,#000091,
+BM,Bermuda,KEPT (ΔE > threshold),#2F8F22,#2F8F22,"ΔE too large, original kept"
+BM,Bermuda,REPLACED,#000000,#00205B,
+BM,Bermuda,REPLACED,#012169,#00205B,
+BM,Bermuda,REPLACED,#E4CB5E,#FFFFFF,
+BM,Bermuda,REPLACED,#784421,#EF3340,
+BM,Bermuda,REPLACED,#64B4D1,#FFFFFF,
+BM,Bermuda,REPLACED,#C8102E,#EF3340,
+BM,Bermuda,KEPT (ΔE > threshold),#F5CE00,#F5CE00,"ΔE too large, original kept"
+BM,Bermuda,EXACT,#FFFFFF,#FFFFFF,Already correct
+BN,Brunei,REPLACED,#CF1126,#EF3340,
+BN,Brunei,REPLACED,#F7E017,#FFC000,
+BN,Brunei,EXACT,#FFFFFF,#FFFFFF,Already correct
+BO,Bolivia,REPLACED,#D52B1E,#DA291C,
+BO,Bolivia,REPLACED,#007934,#007A33,
+BO,Bolivia,REPLACED,#F9E300,#F8E600,
+BQ,"Bonaire, Sint Eustatius and Saba",REPLACED,#003087,#21468B,
+BQ,"Bonaire, Sint Eustatius and Saba",KEPT (ΔE > threshold),#FFD700,#FFD700,"ΔE too large, original kept"
+BQ,"Bonaire, Sint Eustatius and Saba",REPLACED,#101820,#21468B,
+BQ,"Bonaire, Sint Eustatius and Saba",REPLACED,#D50032,#AE1C28,
+BQ,"Bonaire, Sint Eustatius and Saba",EXACT,#FFFFFF,#FFFFFF,Already correct
+BR,Brazil,REPLACED,#302681,#012169,
+BR,Brazil,EXACT,#FFFFFF,#FFFFFF,Already correct
+BR,Brazil,REPLACED,#009440,#009739,
+BR,Brazil,REPLACED,#FFCB00,#FEDD00,
+BS,Bahamas,EXACT,#00778B,#00778B,Already correct
+BS,Bahamas,EXACT,#FFC72C,#FFC72C,Already correct
+BT,Bhutan,EXACT,#000000,#000000,Already correct
+BT,Bhutan,EXACT,#FFFFFF,#FFFFFF,Already correct
+BT,Bhutan,EXACT,#FFCD00,#FFCD00,Already correct
+BT,Bhutan,REPLACED,#FF671F,#FF6720,
+BV,Bouvet Island,EXACT,#00205B,#00205B,Already correct
+BV,Bouvet Island,EXACT,#BA0C2F,#BA0C2F,Already correct
+BV,Bouvet Island,EXACT,#FFFFFF,#FFFFFF,Already correct
+BW,Botswana,REPLACED,#6DA9D2,#ABCAE9,
+BW,Botswana,EXACT,#FFFFFF,#FFFFFF,Already correct
+BY,Belarus,REPLACED,#007C30,#009739,
+BY,Belarus,REPLACED,#CE1720,#D22730,
+BY,Belarus,EXACT,#FFFFFF,#FFFFFF,Already correct
+BZ,Belize,KEPT (ΔE > threshold),#66FF66,#66FF66,"ΔE too large, original kept"
+BZ,Belize,KEPT (ΔE > threshold),#003300,#003300,"ΔE too large, original kept"
+BZ,Belize,REPLACED,#AD7C59,#DA291C,
+BZ,Belize,REPLACED,#E8E8E6,#FFFFFF,
+BZ,Belize,REPLACED,#AD7D5A,#DA291C,
+BZ,Belize,REPLACED,#9DC9E2,#FFFFFF,
+BZ,Belize,REPLACED,#FFE682,#FFFFFF,
+BZ,Belize,REPLACED,#006AC8,#171696,
+BZ,Belize,REPLACED,#D90F19,#DA291C,
+BZ,Belize,REPLACED,#4D4B4D,#171696,
+BZ,Belize,KEPT (ΔE > threshold),#4D4D4D,#4D4D4D,"ΔE too large, original kept"
+BZ,Belize,EXACT,#171696,#171696,Already correct
+BZ,Belize,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+BZ,Belize,REPLACED,#D67C59,#DA291C,
+BZ,Belize,KEPT (ΔE > threshold),#338A00,#338A00,"ΔE too large, original kept"
+BZ,Belize,KEPT (ΔE > threshold),#006600,#006600,"ΔE too large, original kept"
+BZ,Belize,REPLACED,#CCB8C8,#FFFFFF,
+BZ,Belize,KEPT (ΔE > threshold),#075400,#075400,"ΔE too large, original kept"
+BZ,Belize,EXACT,#FFFFFF,#FFFFFF,Already correct
+BZ,Belize,KEPT (ΔE > threshold),#004B00,#004B00,"ΔE too large, original kept"
+BZ,Belize,KEPT (ΔE > threshold),#5AC800,#5AC800,"ΔE too large, original kept"
+BZ,Belize,REPLACED,#653024,#DA291C,
+BZ,Belize,KEPT (ΔE > threshold),#358B03,#358B03,"ΔE too large, original kept"
+CA,Canada,EXACT,#FFFFFF,#FFFFFF,Already correct
+CA,Canada,REPLACED,#FF0000,#EF3340,
+CC,Cocos (Keeling) Islands,REPLACED,#D1D1D1,#FFCD00,
+CC,Cocos (Keeling) Islands,REPLACED,#19472C,#007A33,
+CC,Cocos (Keeling) Islands,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+CC,Cocos (Keeling) Islands,REPLACED,#008000,#007A33,
+CC,Cocos (Keeling) Islands,REPLACED,#CCCCCC,#FFCD00,
+CC,Cocos (Keeling) Islands,REPLACED,#F8C700,#FFCD00,
+CC,Cocos (Keeling) Islands,REPLACED,#8C4200,#8B4513,
+CC,Cocos (Keeling) Islands,REPLACED,#FFE000,#FFCD00,
+CC,Cocos (Keeling) Islands,REPLACED,#812400,#8B4513,
+CC,Cocos (Keeling) Islands,REPLACED,#109421,#007A33,
+CC,Cocos (Keeling) Islands,KEPT (ΔE > threshold),#FFFFFF,#FFFFFF,"ΔE too large, original kept"
+CD,DR Congo,REPLACED,#F7D618,#FFD100,
+CD,DR Congo,REPLACED,#CE1021,#EF3340,
+CD,DR Congo,REPLACED,#007FFF,#0085CA,
+CF,Central African Republic,EXACT,#003082,#003082,Already correct
+CF,Central African Republic,EXACT,#D21034,#D21034,Already correct
+CF,Central African Republic,EXACT,#FFCE00,#FFCE00,Already correct
+CF,Central African Republic,EXACT,#FFFFFF,#FFFFFF,Already correct
+CF,Central African Republic,EXACT,#289728,#289728,Already correct
+CG,Congo,EXACT,#DC241F,#DC241F,Already correct
+CG,Congo,REPLACED,#FFD100,#FBDE4A,
+CG,Congo,REPLACED,#009739,#009543,
+CH,Switzerland,EXACT,#FFFFFF,#FFFFFF,Already correct
+CH,Switzerland,REPLACED,#FF0000,#DA291C,
+CI,Côte d'Ivoire,EXACT,#009A44,#009A44,Already correct
+CI,Côte d'Ivoire,EXACT,#FFFFFF,#FFFFFF,Already correct
+CI,Côte d'Ivoire,EXACT,#FF8200,#FF8200,Already correct
+CK,Cook Islands,REPLACED,#012169,#00205B,
+CK,Cook Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+CK,Cook Islands,REPLACED,#C8102E,#EF3340,
+CL,Chile,EXACT,#DA291C,#DA291C,Already correct
+CL,Chile,EXACT,#FFFFFF,#FFFFFF,Already correct
+CL,Chile,EXACT,#0032A0,#0032A0,Already correct
+CM,Cameroon,EXACT,#CE1126,#CE1126,Already correct
+CM,Cameroon,EXACT,#FCD116,#FCD116,Already correct
+CM,Cameroon,EXACT,#007A5E,#007A5E,Already correct
+CN,China,EXACT,#EE1C25,#EE1C25,Already correct
+CN,China,REPLACED,#FFFF00,#FFCD00,
+CO,Colombia,EXACT,#C8102E,#C8102E,Already correct
+CO,Colombia,EXACT,#FFCD00,#FFCD00,Already correct
+CO,Colombia,EXACT,#003087,#003087,Already correct
+CR,Costa Rica,REPLACED,#DA291C,#EF3340,
+CR,Costa Rica,REPLACED,#001489,#00205B,
+CR,Costa Rica,EXACT,#FFFFFF,#FFFFFF,Already correct
+CU,Cuba,REPLACED,#CB1515,#DA291C,
+CU,Cuba,EXACT,#FFFFFF,#FFFFFF,Already correct
+CU,Cuba,REPLACED,#002A8F,#004B87,
+CV,Cabo Verde,REPLACED,#F7D116,#FFCD00,
+CV,Cabo Verde,EXACT,#FFFFFF,#FFFFFF,Already correct
+CV,Cabo Verde,REPLACED,#CF2027,#C8102E,
+CV,Cabo Verde,REPLACED,#003893,#003087,
+CW,Curaçao,EXACT,#002B7F,#002B7F,Already correct
+CW,Curaçao,EXACT,#FFFFFF,#FFFFFF,Already correct
+CW,Curaçao,EXACT,#F9E814,#F9E814,Already correct
+CX,Christmas Island,REPLACED,#F7D116,#FFC639,
+CX,Christmas Island,REPLACED,#012169,#0021AD,
+CX,Christmas Island,EXACT,#FFFFFF,#FFFFFF,Already correct
+CX,Christmas Island,REPLACED,#0DB02B,#1C8A42,
+CY,Cyprus,REPLACED,#D67900,#D57800,
+CY,Cyprus,EXACT,#FFFFFF,#FFFFFF,Already correct
+CY,Cyprus,REPLACED,#4D5B2D,#4E5B31,
+CZ,Czechia,EXACT,#D7141A,#D7141A,Already correct
+CZ,Czechia,EXACT,#FFFFFF,#FFFFFF,Already correct
+CZ,Czechia,EXACT,#11457E,#11457E,Already correct
+DE,Germany,EXACT,#000000,#000000,Already correct
+DE,Germany,EXACT,#DD0000,#DD0000,Already correct
+DE,Germany,REPLACED,#FFCE00,#FFCC00,
+DJ,Djibouti,EXACT,#D7141A,#D7141A,Already correct
+DJ,Djibouti,EXACT,#12AD2B,#12AD2B,Already correct
+DJ,Djibouti,EXACT,#6AB2E7,#6AB2E7,Already correct
+DJ,Djibouti,EXACT,#FFFFFF,#FFFFFF,Already correct
+DK,Denmark,EXACT,#FFFFFF,#FFFFFF,Already correct
+DK,Denmark,EXACT,#C8102E,#C8102E,Already correct
+DM,Dominica,EXACT,#000000,#000000,Already correct
+DM,Dominica,REPLACED,#9C4A00,#E4002B,
+DM,Dominica,REPLACED,#046A38,#009A44,
+DM,Dominica,EXACT,#FFCD00,#FFCD00,Already correct
+DM,Dominica,EXACT,#FFFFFF,#FFFFFF,Already correct
+DM,Dominica,REPLACED,#D50032,#E4002B,
+DM,Dominica,REPLACED,#9063CD,#981E97,
+DO,Dominican Republic,EXACT,#000000,#000000,Already correct
+DO,Dominican Republic,EXACT,#002D62,#002D62,Already correct
+DO,Dominican Republic,REPLACED,#201B18,#000000,
+DO,Dominican Republic,REPLACED,#AA241E,#CE1126,
+DO,Dominican Republic,REPLACED,#FFFF00,#EAC102,
+DO,Dominican Republic,REPLACED,#00873F,#006300,
+DO,Dominican Republic,EXACT,#EAC102,#EAC102,Already correct
+DO,Dominican Republic,EXACT,#CE1126,#CE1126,Already correct
+DO,Dominican Republic,REPLACED,#008F4C,#006300,
+DO,Dominican Republic,REPLACED,#808000,#006300,
+DO,Dominican Republic,EXACT,#006300,#006300,Already correct
+DO,Dominican Republic,EXACT,#FFFFFF,#FFFFFF,Already correct
+DO,Dominican Republic,REPLACED,#00863D,#006300,
+DO,Dominican Republic,REPLACED,#FF0000,#CE1126,
+DZ,Algeria,EXACT,#006633,#006633,Already correct
+DZ,Algeria,EXACT,#FFFFFF,#FFFFFF,Already correct
+DZ,Algeria,EXACT,#D21034,#D21034,Already correct
+EC,Ecuador,REPLACED,#6DBE45,#FFD100,
+EC,Ecuador,KEPT (ΔE > threshold),#C0CAD0,#C0CAD0,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#565759,#0072CE,
+EC,Ecuador,KEPT (ΔE > threshold),#B1BABF,#B1BABF,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#AC620E,#EF3340,
+EC,Ecuador,REPLACED,#755338,#EF3340,
+EC,Ecuador,REPLACED,#9B7E39,#FFD100,
+EC,Ecuador,KEPT (ΔE > threshold),#6A5E46,#6A5E46,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#2F3B30,#2F3B30,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#842116,#EF3340,
+EC,Ecuador,KEPT (ΔE > threshold),#009C4F,#009C4F,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#006C3C,#006C3C,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#2F2311,#2F2311,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#FFE600,#FFD100,
+EC,Ecuador,REPLACED,#0077B0,#0072CE,
+EC,Ecuador,REPLACED,#034EA2,#0072CE,
+EC,Ecuador,REPLACED,#A3A5A8,#0072CE,
+EC,Ecuador,REPLACED,#2C87BC,#0072CE,
+EC,Ecuador,REPLACED,#574F4C,#0072CE,
+EC,Ecuador,REPLACED,#395054,#0072CE,
+EC,Ecuador,KEPT (ΔE > threshold),#ACACAD,#ACACAD,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#5E3F17,#5E3F17,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#DBA05F,#FFD100,
+EC,Ecuador,REPLACED,#7A2E26,#EF3340,
+EC,Ecuador,REPLACED,#5998C6,#0072CE,
+EC,Ecuador,REPLACED,#C6262C,#EF3340,
+EC,Ecuador,REPLACED,#FFDF4F,#FFD100,
+EC,Ecuador,KEPT (ΔE > threshold),#5C5342,#5C5342,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#A48B58,#FFD100,
+EC,Ecuador,REPLACED,#023F88,#0072CE,
+EC,Ecuador,REPLACED,#895F33,#EF3340,
+EC,Ecuador,REPLACED,#ED1C24,#EF3340,
+EC,Ecuador,REPLACED,#1EA8D1,#0072CE,
+EC,Ecuador,REPLACED,#99AFCA,#0072CE,
+EC,Ecuador,REPLACED,#557176,#0072CE,
+EC,Ecuador,REPLACED,#007DB5,#0072CE,
+EC,Ecuador,REPLACED,#88B0D5,#0072CE,
+EC,Ecuador,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#0075AF,#0072CE,
+EC,Ecuador,REPLACED,#B76E11,#EF3340,
+EC,Ecuador,REPLACED,#84848A,#0072CE,
+EC,Ecuador,REPLACED,#C69024,#FFD100,
+EC,Ecuador,REPLACED,#999B9E,#0072CE,
+EC,Ecuador,KEPT (ΔE > threshold),#453717,#453717,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#64472D,#64472D,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#EBC900,#FFD100,
+EC,Ecuador,REPLACED,#E8B909,#FFD100,
+EC,Ecuador,KEPT (ΔE > threshold),#D3DCE0,#D3DCE0,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#442C13,#442C13,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#D0C9CE,#D0C9CE,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#DE2126,#EF3340,
+EC,Ecuador,KEPT (ΔE > threshold),#39B54A,#39B54A,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#DCDDDE,#DCDDDE,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#797A7D,#0072CE,
+EC,Ecuador,KEPT (ΔE > threshold),#866D46,#866D46,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#4F91C5,#0072CE,
+EC,Ecuador,KEPT (ΔE > threshold),#FFFFFF,#FFFFFF,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#858D8D,#0072CE,
+EC,Ecuador,REPLACED,#616264,#0072CE,
+EC,Ecuador,REPLACED,#BD8759,#EF3340,
+EC,Ecuador,KEPT (ΔE > threshold),#007638,#007638,"ΔE too large, original kept"
+EC,Ecuador,KEPT (ΔE > threshold),#C1D3E8,#C1D3E8,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#A37853,#EF3340,
+EC,Ecuador,REPLACED,#696161,#0072CE,
+EC,Ecuador,REPLACED,#D9C0B9,#FFD100,
+EC,Ecuador,KEPT (ΔE > threshold),#452C25,#452C25,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#939598,#0072CE,
+EC,Ecuador,REPLACED,#B87510,#FFD100,
+EC,Ecuador,REPLACED,#A2550B,#EF3340,
+EC,Ecuador,KEPT (ΔE > threshold),#080101,#080101,"ΔE too large, original kept"
+EC,Ecuador,REPLACED,#949699,#0072CE,
+EC,Ecuador,REPLACED,#FFDD00,#FFD100,
+EE,Estonia,EXACT,#0072CE,#0072CE,Already correct
+EE,Estonia,EXACT,#FFFFFF,#FFFFFF,Already correct
+EG,Egypt,EXACT,#C8102E,#C8102E,Already correct
+EG,Egypt,EXACT,#FFFFFF,#FFFFFF,Already correct
+EG,Egypt,REPLACED,#FFCD00,#C09300,
+EH,Western Sahara,EXACT,#000000,#000000,Already correct
+EH,Western Sahara,EXACT,#FFFFFF,#FFFFFF,Already correct
+EH,Western Sahara,EXACT,#007A3D,#007A3D,Already correct
+EH,Western Sahara,EXACT,#C4111B,#C4111B,Already correct
+ER,Eritrea,EXACT,#43B02A,#43B02A,Already correct
+ER,Eritrea,EXACT,#E4002B,#E4002B,Already correct
+ER,Eritrea,EXACT,#FFC72C,#FFC72C,Already correct
+ER,Eritrea,EXACT,#418FDE,#418FDE,Already correct
+ES,Spain,REPLACED,#B2B2B2,#F1BF00,
+ES,Spain,KEPT (ΔE > threshold),#D85AAC,#D85AAC,"ΔE too large, original kept"
+ES,Spain,REPLACED,#DB4446,#AA151B,
+ES,Spain,REPLACED,#C8B100,#F1BF00,
+ES,Spain,KEPT (ΔE > threshold),#0045AF,#0045AF,"ΔE too large, original kept"
+ES,Spain,REPLACED,#FABD00,#F1BF00,
+ES,Spain,KEPT (ΔE > threshold),#006F46,#006F46,"ΔE too large, original kept"
+ES,Spain,REPLACED,#2B1100,#AA151B,
+ES,Spain,REPLACED,#F6CB7E,#F1BF00,
+ES,Spain,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+ES,Spain,REPLACED,#B60028,#AA151B,
+ES,Spain,REPLACED,#9F7E00,#F1BF00,
+ES,Spain,REPLACED,#E6E6E6,#F1BF00,
+ES,Spain,REPLACED,#CE1126,#AA151B,
+ES,Spain,KEPT (ΔE > threshold),#FFFFFF,#FFFFFF,"ΔE too large, original kept"
+ES,Spain,KEPT (ΔE > threshold),#005BBF,#005BBF,"ΔE too large, original kept"
+ES,Spain,REPLACED,#AD1519,#AA151B,
+ES,Spain,REPLACED,#A07E00,#F1BF00,
+ES,Spain,REPLACED,#DEAD00,#F1BF00,
+ES,Spain,REPLACED,#B50027,#AA151B,
+ES,Spain,KEPT (ΔE > threshold),#0044AD,#0044AD,"ΔE too large, original kept"
+ET,Ethiopia,REPLACED,#0F47AF,#0645B1,
+ET,Ethiopia,REPLACED,#FCDD09,#FEDD00,
+ET,Ethiopia,REPLACED,#DA121A,#EF3340,
+ET,Ethiopia,REPLACED,#078930,#009A44,
+FI,Finland,EXACT,#002F6C,#002F6C,Already correct
+FI,Finland,EXACT,#FFFFFF,#FFFFFF,Already correct
+FJ,Fiji,REPLACED,#000000,#012169,
+FJ,Fiji,EXACT,#012169,#012169,Already correct
+FJ,Fiji,REPLACED,#862633,#C8102E,
+FJ,Fiji,EXACT,#00AD50,#00AD50,Already correct
+FJ,Fiji,REPLACED,#62B5E5,#69B3E7,
+FJ,Fiji,EXACT,#C8102E,#C8102E,Already correct
+FJ,Fiji,EXACT,#FEDD00,#FEDD00,Already correct
+FJ,Fiji,EXACT,#FFFFFF,#FFFFFF,Already correct
+FK,Falkland Islands,REPLACED,#E2C773,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#294814,#294814,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#D05F01,#C8102E,
+FK,Falkland Islands,REPLACED,#794D2F,#C8102E,
+FK,Falkland Islands,REPLACED,#552200,#C8102E,
+FK,Falkland Islands,REPLACED,#EED3A6,#FFFFFF,
+FK,Falkland Islands,REPLACED,#181818,#012169,
+FK,Falkland Islands,REPLACED,#E96A01,#C8102E,
+FK,Falkland Islands,KEPT (ΔE > threshold),#98B432,#98B432,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#8A8A8A,#FFFFFF,
+FK,Falkland Islands,REPLACED,#FF0000,#C8102E,
+FK,Falkland Islands,REPLACED,#AB1E2B,#C8102E,
+FK,Falkland Islands,REPLACED,#E2B269,#FFFFFF,
+FK,Falkland Islands,REPLACED,#ACACAC,#FFFFFF,
+FK,Falkland Islands,REPLACED,#FEDF82,#FFFFFF,
+FK,Falkland Islands,REPLACED,#333333,#012169,
+FK,Falkland Islands,REPLACED,#FAECBD,#FFFFFF,
+FK,Falkland Islands,REPLACED,#EFC9B2,#FFFFFF,
+FK,Falkland Islands,REPLACED,#280B0B,#012169,
+FK,Falkland Islands,REPLACED,#FECF3E,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#E2A950,#E2A950,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#951B1D,#C8102E,
+FK,Falkland Islands,REPLACED,#C47645,#C8102E,
+FK,Falkland Islands,REPLACED,#CA6B5B,#C8102E,
+FK,Falkland Islands,REPLACED,#AB612E,#C8102E,
+FK,Falkland Islands,REPLACED,#A1A1A1,#FFFFFF,
+FK,Falkland Islands,REPLACED,#959595,#FFFFFF,
+FK,Falkland Islands,REPLACED,#FED65B,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#2C1C12,#2C1C12,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#550000,#C8102E,
+FK,Falkland Islands,REPLACED,#B3B3B3,#FFFFFF,
+FK,Falkland Islands,REPLACED,#E6C74D,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#2B1100,#2B1100,"ΔE too large, original kept"
+FK,Falkland Islands,KEPT (ΔE > threshold),#2A7FFF,#2A7FFF,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#DEC7B7,#FFFFFF,
+FK,Falkland Islands,REPLACED,#E6AB87,#FFFFFF,
+FK,Falkland Islands,EXACT,#012169,#012169,Already correct
+FK,Falkland Islands,REPLACED,#000000,#012169,
+FK,Falkland Islands,REPLACED,#E9BE79,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#007300,#007300,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#6F3F1E,#C8102E,
+FK,Falkland Islands,KEPT (ΔE > threshold),#E9B001,#E9B001,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#C9C9C9,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#3D6C1E,#3D6C1E,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#662900,#C8102E,
+FK,Falkland Islands,REPLACED,#D4D4D4,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#FEC618,#FEC618,"ΔE too large, original kept"
+FK,Falkland Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+FK,Falkland Islands,REPLACED,#DD8B59,#C8102E,
+FK,Falkland Islands,KEPT (ΔE > threshold),#E98E01,#E98E01,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#E6BA74,#FFFFFF,
+FK,Falkland Islands,REPLACED,#AE4C33,#C8102E,
+FK,Falkland Islands,REPLACED,#F2D196,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#E6E600,#E6E600,"ΔE too large, original kept"
+FK,Falkland Islands,KEPT (ΔE > threshold),#C99472,#C99472,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#512007,#C8102E,
+FK,Falkland Islands,REPLACED,#D6B39D,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#C98C26,#C98C26,"ΔE too large, original kept"
+FK,Falkland Islands,REPLACED,#F9E7D9,#FFFFFF,
+FK,Falkland Islands,REPLACED,#C27E50,#C8102E,
+FK,Falkland Islands,REPLACED,#7D5035,#C8102E,
+FK,Falkland Islands,REPLACED,#D0A386,#FFFFFF,
+FK,Falkland Islands,KEPT (ΔE > threshold),#FEC413,#FEC413,"ΔE too large, original kept"
+FK,Falkland Islands,EXACT,#C8102E,#C8102E,Already correct
+FK,Falkland Islands,REPLACED,#DBA35A,#FFFFFF,
+FK,Falkland Islands,REPLACED,#AA0000,#C8102E,
+FK,Falkland Islands,REPLACED,#D7B5A0,#FFFFFF,
+FK,Falkland Islands,REPLACED,#E5E5E5,#FFFFFF,
+FM,Micronesia,EXACT,#FFFFFF,#FFFFFF,Already correct
+FM,Micronesia,REPLACED,#75B2DD,#6CACE4,
+FO,Faroe Islands,REPLACED,#005EB8,#0065BD,
+FO,Faroe Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+FO,Faroe Islands,REPLACED,#EF3340,#ED2939,
+FR,France,REPLACED,#CE1126,#E1000F,
+FR,France,EXACT,#FFFFFF,#FFFFFF,Already correct
+FR,France,REPLACED,#002654,#000091,
+GA,Gabon,EXACT,#3A75C4,#3A75C4,Already correct
+GA,Gabon,EXACT,#009E60,#009E60,Already correct
+GA,Gabon,EXACT,#FCD116,#FCD116,Already correct
+GB,United Kingdom,EXACT,#012169,#012169,Already correct
+GB,United Kingdom,EXACT,#FFFFFF,#FFFFFF,Already correct
+GB,United Kingdom,EXACT,#C8102E,#C8102E,Already correct
+GD,Grenada,REPLACED,#CE1126,#EF3340,
+GD,Grenada,REPLACED,#FCD116,#FFD100,
+GD,Grenada,REPLACED,#007A5E,#009739,
+GE,Georgia,EXACT,#FFFFFF,#FFFFFF,Already correct
+GE,Georgia,REPLACED,#FF0000,#DA291C,
+GF,French Guiana,REPLACED,#CE1126,#E1000F,
+GF,French Guiana,EXACT,#FFFFFF,#FFFFFF,Already correct
+GF,French Guiana,REPLACED,#002654,#000091,
+GG,Guernsey,EXACT,#F9DD16,#F9DD16,Already correct
+GG,Guernsey,EXACT,#E8112D,#E8112D,Already correct
+GG,Guernsey,EXACT,#FFFFFF,#FFFFFF,Already correct
+GH,Ghana,REPLACED,#CE1126,#EF3340,
+GH,Ghana,REPLACED,#FCD116,#FFD100,
+GH,Ghana,REPLACED,#006B3F,#009739,
+GI,Gibraltar,REPLACED,#DA000C,#DA291C,
+GI,Gibraltar,EXACT,#000000,#000000,Already correct
+GI,Gibraltar,REPLACED,#F8D80E,#F1A817,
+GI,Gibraltar,EXACT,#FFFFFF,#FFFFFF,Already correct
+GL,Greenland,EXACT,#FFFFFF,#FFFFFF,Already correct
+GL,Greenland,REPLACED,#C8102E,#D00C33,
+GM,Gambia,EXACT,#CE1126,#CE1126,Already correct
+GM,Gambia,EXACT,#FFFFFF,#FFFFFF,Already correct
+GM,Gambia,EXACT,#0C1C8C,#0C1C8C,Already correct
+GM,Gambia,EXACT,#3A7728,#3A7728,Already correct
+GN,Guinea,EXACT,#009460,#009460,Already correct
+GN,Guinea,EXACT,#CE1126,#CE1126,Already correct
+GN,Guinea,EXACT,#FCD116,#FCD116,Already correct
+GP,Guadeloupe,REPLACED,#CE1126,#E1000F,
+GP,Guadeloupe,EXACT,#FFFFFF,#FFFFFF,Already correct
+GP,Guadeloupe,REPLACED,#002654,#000091,
+GQ,Equatorial Guinea,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+GQ,Equatorial Guinea,EXACT,#E32118,#E32118,Already correct
+GQ,Equatorial Guinea,REPLACED,#A36629,#E32118,
+GQ,Equatorial Guinea,REPLACED,#009900,#3E9A00,
+GQ,Equatorial Guinea,KEPT (ΔE > threshold),#FFFF00,#FFFF00,"ΔE too large, original kept"
+GQ,Equatorial Guinea,EXACT,#3E9A00,#3E9A00,Already correct
+GQ,Equatorial Guinea,REPLACED,#73452B,#E32118,
+GQ,Equatorial Guinea,EXACT,#FFFFFF,#FFFFFF,Already correct
+GQ,Equatorial Guinea,REPLACED,#DDDDDD,#FFFFFF,
+GQ,Equatorial Guinea,EXACT,#0073CE,#0073CE,Already correct
+GR,Greece,EXACT,#0D5EAF,#0D5EAF,Already correct
+GR,Greece,EXACT,#FFFFFF,#FFFFFF,Already correct
+GS,South Georgia and the South Sandwich Islands,KEPT (ΔE > threshold),#00713D,#00713D,"ΔE too large, original kept"
+GS,South Georgia and the South Sandwich Islands,REPLACED,#5E0043,#012169,
+GS,South Georgia and the South Sandwich Islands,KEPT (ΔE > threshold),#FFC500,#FFC500,"ΔE too large, original kept"
+GS,South Georgia and the South Sandwich Islands,REPLACED,#B50000,#C8102E,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#C01500,#C8102E,
+GS,South Georgia and the South Sandwich Islands,KEPT (ΔE > threshold),#FFC900,#FFC900,"ΔE too large, original kept"
+GS,South Georgia and the South Sandwich Islands,REPLACED,#FFFEFF,#FFFFFF,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#B4B6B9,#FFFFFF,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#FF5500,#C8102E,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#C75B00,#C8102E,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#0000FF,#012169,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#1E5AA6,#012169,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#CCCCCD,#FFFFFF,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#656263,#C8102E,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#474747,#012169,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#000000,#012169,
+GS,South Georgia and the South Sandwich Islands,EXACT,#012169,#012169,Already correct
+GS,South Georgia and the South Sandwich Islands,REPLACED,#CCCCCC,#FFFFFF,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#2B2B2B,#012169,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#CECFCF,#FFFFFF,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#CDAD56,#FFFFFF,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#D5DFFF,#FFFFFF,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#FF7000,#C8102E,
+GS,South Georgia and the South Sandwich Islands,KEPT (ΔE > threshold),#006B00,#006B00,"ΔE too large, original kept"
+GS,South Georgia and the South Sandwich Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+GS,South Georgia and the South Sandwich Islands,REPLACED,#8A9396,#FFFFFF,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#6A4C2D,#C8102E,
+GS,South Georgia and the South Sandwich Islands,REPLACED,#923F00,#C8102E,
+GS,South Georgia and the South Sandwich Islands,KEPT (ΔE > threshold),#3EC26D,#3EC26D,"ΔE too large, original kept"
+GS,South Georgia and the South Sandwich Islands,EXACT,#C8102E,#C8102E,Already correct
+GS,South Georgia and the South Sandwich Islands,KEPT (ΔE > threshold),#FFBB00,#FFBB00,"ΔE too large, original kept"
+GS,South Georgia and the South Sandwich Islands,REPLACED,#E80000,#C8102E,
+GS,South Georgia and the South Sandwich Islands,KEPT (ΔE > threshold),#FFF700,#FFF700,"ΔE too large, original kept"
+GT,Guatemala,REPLACED,#8C959D,#4997D0,
+GT,Guatemala,KEPT (ΔE > threshold),#A50A0A,#A50A0A,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#351710,#351710,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#67923D,#67923D,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#406325,#406325,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#FAB81C,#FAB81C,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#485654,#485654,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#BA1F3E,#BA1F3E,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#EAC102,#EAC102,"ΔE too large, original kept"
+GT,Guatemala,EXACT,#4997D0,#4997D0,Already correct
+GT,Guatemala,REPLACED,#F9F0AA,#FFFFFF,
+GT,Guatemala,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#B07E09,#B07E09,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#448127,#448127,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#34541F,#34541F,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#4C0505,#4C0505,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#6C301E,#6C301E,"ΔE too large, original kept"
+GT,Guatemala,REPLACED,#B2B6BA,#FFFFFF,
+GT,Guatemala,KEPT (ΔE > threshold),#999270,#999270,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#A08307,#A08307,"ΔE too large, original kept"
+GT,Guatemala,EXACT,#FFFFFF,#FFFFFF,Already correct
+GT,Guatemala,KEPT (ΔE > threshold),#24420E,#24420E,"ΔE too large, original kept"
+GT,Guatemala,KEPT (ΔE > threshold),#511124,#511124,"ΔE too large, original kept"
+GU,Guam,REPLACED,#000000,#00297B,
+GU,Guam,KEPT (ΔE > threshold),#D1D1D1,#D1D1D1,"ΔE too large, original kept"
+GU,Guam,KEPT (ΔE > threshold),#FDF9FF,#FDF9FF,"ΔE too large, original kept"
+GU,Guam,REPLACED,#BD0728,#C62139,
+GU,Guam,KEPT (ΔE > threshold),#FFDE52,#FFDE52,"ΔE too large, original kept"
+GU,Guam,KEPT (ΔE > threshold),#CCCCCC,#CCCCCC,"ΔE too large, original kept"
+GU,Guam,KEPT (ΔE > threshold),#008CE7,#008CE7,"ΔE too large, original kept"
+GU,Guam,REPLACED,#8C4200,#C62139,
+GU,Guam,KEPT (ΔE > threshold),#92DBFC,#92DBFC,"ΔE too large, original kept"
+GU,Guam,KEPT (ΔE > threshold),#109421,#109421,"ΔE too large, original kept"
+GU,Guam,EXACT,#00297B,#00297B,Already correct
+GU,Guam,KEPT (ΔE > threshold),#FFFFFF,#FFFFFF,"ΔE too large, original kept"
+GU,Guam,EXACT,#C62139,#C62139,Already correct
+GW,Guinea-Bissau,EXACT,#CE1126,#CE1126,Already correct
+GW,Guinea-Bissau,REPLACED,#FCD116,#FFD100,
+GW,Guinea-Bissau,EXACT,#000000,#000000,Already correct
+GW,Guinea-Bissau,REPLACED,#009E49,#009739,
+GY,Guyana,EXACT,#000000,#000000,Already correct
+GY,Guyana,REPLACED,#FFC20E,#FFD100,
+GY,Guyana,REPLACED,#BE1E2D,#EF3340,
+GY,Guyana,REPLACED,#2A936A,#009739,
+GY,Guyana,EXACT,#FFFFFF,#FFFFFF,Already correct
+HK,Hong Kong,REPLACED,#EE1C25,#DE2910,
+HK,Hong Kong,EXACT,#FFFFFF,#FFFFFF,Already correct
+HM,Heard Island and McDonald Islands,REPLACED,#00008B,#012169,
+HM,Heard Island and McDonald Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+HM,Heard Island and McDonald Islands,REPLACED,#FF0000,#E4002B,
+HN,Honduras,EXACT,#FFFFFF,#FFFFFF,Already correct
+HN,Honduras,EXACT,#0D3B99,#0D3B99,Already correct
+HR,Croatia,EXACT,#000000,#000000,Already correct
+HR,Croatia,REPLACED,#0093DD,#71C5E8,
+HR,Croatia,REPLACED,#F7DB17,#FFCD00,
+HR,Croatia,REPLACED,#171796,#012169,
+HR,Croatia,EXACT,#FFFFFF,#FFFFFF,Already correct
+HR,Croatia,EXACT,#FF0000,#FF0000,Already correct
+HT,Haiti,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+HT,Haiti,REPLACED,#D1D1D1,#FFFFFF,
+HT,Haiti,REPLACED,#F1B617,#F1B517,
+HT,Haiti,REPLACED,#008000,#016A16,
+HT,Haiti,EXACT,#016A16,#016A16,Already correct
+HT,Haiti,EXACT,#00209F,#00209F,Already correct
+HT,Haiti,EXACT,#D21034,#D21034,Already correct
+HT,Haiti,REPLACED,#F4CF0E,#F1B517,
+HT,Haiti,EXACT,#F1B517,#F1B517,Already correct
+HT,Haiti,EXACT,#FFFFFF,#FFFFFF,Already correct
+HT,Haiti,REPLACED,#FF0000,#D21034,
+HU,Hungary,EXACT,#CE2939,#CE2939,Already correct
+HU,Hungary,EXACT,#477050,#477050,Already correct
+HU,Hungary,EXACT,#FFFFFF,#FFFFFF,Already correct
+ID,Indonesia,EXACT,#FFFFFF,#FFFFFF,Already correct
+ID,Indonesia,EXACT,#FF0000,#FF0000,Already correct
+IE,Ireland,REPLACED,#169B62,#009A44,
+IE,Ireland,REPLACED,#FF883E,#FF8200,
+IE,Ireland,EXACT,#FFFFFF,#FFFFFF,Already correct
+IL,Israel,EXACT,#FFFFFF,#FFFFFF,Already correct
+IL,Israel,REPLACED,#0038B8,#005EB8,
+IM,Isle of Man,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+IM,Isle of Man,EXACT,#F9DD16,#F9DD16,Already correct
+IM,Isle of Man,EXACT,#FFFFFF,#FFFFFF,Already correct
+IM,Isle of Man,EXACT,#CF142B,#CF142B,Already correct
+IN,India,EXACT,#046A38,#046A38,Already correct
+IN,India,EXACT,#FFFFFF,#FFFFFF,Already correct
+IN,India,REPLACED,#FF6820,#FF671F,
+IN,India,REPLACED,#07038D,#06038D,
+IO,British Indian Ocean Territory,REPLACED,#000000,#012169,
+IO,British Indian Ocean Territory,EXACT,#012169,#012169,Already correct
+IO,British Indian Ocean Territory,KEPT (ΔE > threshold),#F7D917,#F7D917,"ΔE too large, original kept"
+IO,British Indian Ocean Territory,REPLACED,#A24300,#C8102E,
+IO,British Indian Ocean Territory,EXACT,#006D00,#006D00,Already correct
+IO,British Indian Ocean Territory,REPLACED,#3E8225,#006D00,
+IO,British Indian Ocean Territory,EXACT,#C8102E,#C8102E,Already correct
+IO,British Indian Ocean Territory,REPLACED,#9D9D9D,#FFFFFF,
+IO,British Indian Ocean Territory,EXACT,#FFFFFF,#FFFFFF,Already correct
+IQ,Iraq,EXACT,#FFFFFF,#FFFFFF,Already correct
+IQ,Iraq,REPLACED,#CD1125,#CE1126,
+IQ,Iraq,REPLACED,#017B3D,#007A3D,
+IR,Iran,EXACT,#DA0000,#DA0000,Already correct
+IR,Iran,EXACT,#239F40,#239F40,Already correct
+IR,Iran,EXACT,#FFFFFF,#FFFFFF,Already correct
+IS,Iceland,EXACT,#02529C,#02529C,Already correct
+IS,Iceland,EXACT,#DC1E35,#DC1E35,Already correct
+IS,Iceland,EXACT,#FFFFFF,#FFFFFF,Already correct
+IT,Italy,REPLACED,#CE2B37,#CD212A,
+IT,Italy,REPLACED,#FFFFFF,#F4F9FF,
+IT,Italy,REPLACED,#009246,#008C45,
+JE,Jersey,EXACT,#CF142B,#CF142B,Already correct
+JE,Jersey,REPLACED,#2B2200,#000000,
+JE,Jersey,REPLACED,#800000,#CF142B,
+JE,Jersey,KEPT (ΔE > threshold),#806600,#806600,"ΔE too large, original kept"
+JE,Jersey,REPLACED,#D1B948,#FFD700,
+JE,Jersey,REPLACED,#504416,#000000,
+JE,Jersey,EXACT,#FFD700,#FFD700,Already correct
+JE,Jersey,EXACT,#377BC8,#377BC8,Already correct
+JE,Jersey,EXACT,#FFFFFF,#FFFFFF,Already correct
+JE,Jersey,REPLACED,#2C5AA0,#377BC8,
+JM,Jamaica,REPLACED,#007749,#009B3A,
+JM,Jamaica,REPLACED,#2D2926,#000000,
+JM,Jamaica,REPLACED,#FFB81C,#FED100,
+JO,Jordan,EXACT,#CE1126,#CE1126,Already correct
+JO,Jordan,EXACT,#007A3D,#007A3D,Already correct
+JO,Jordan,EXACT,#FFFFFF,#FFFFFF,Already correct
+JP,Japan,EXACT,#BC002D,#BC002D,Already correct
+JP,Japan,EXACT,#FFFFFF,#FFFFFF,Already correct
+KE,Kenya,EXACT,#000000,#000000,Already correct
+KE,Kenya,EXACT,#006600,#006600,Already correct
+KE,Kenya,EXACT,#FFFFFF,#FFFFFF,Already correct
+KE,Kenya,EXACT,#BB0000,#BB0000,Already correct
+KG,Kyrgyzstan,EXACT,#FFFF00,#FFFF00,Already correct
+KG,Kyrgyzstan,EXACT,#FF0000,#FF0000,Already correct
+KH,Cambodia,EXACT,#000000,#000000,Already correct
+KH,Cambodia,EXACT,#E00025,#E00025,Already correct
+KH,Cambodia,EXACT,#FFFFFF,#FFFFFF,Already correct
+KH,Cambodia,EXACT,#032EA1,#032EA1,Already correct
+KI,Kiribati,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+KI,Kiribati,REPLACED,#183070,#0032A0,
+KI,Kiribati,REPLACED,#C81010,#EF3340,
+KI,Kiribati,REPLACED,#F8D000,#FFD100,
+KI,Kiribati,EXACT,#FFFFFF,#FFFFFF,Already correct
+KM,Comoros,REPLACED,#009639,#009739,
+KM,Comoros,EXACT,#FFD100,#FFD100,Already correct
+KM,Comoros,EXACT,#003DA5,#003DA5,Already correct
+KM,Comoros,EXACT,#FFFFFF,#FFFFFF,Already correct
+KM,Comoros,EXACT,#EF3340,#EF3340,Already correct
+KN,Saint Kitts and Nevis,EXACT,#000000,#000000,Already correct
+KN,Saint Kitts and Nevis,REPLACED,#009739,#006A4E,
+KN,Saint Kitts and Nevis,REPLACED,#FFCD00,#FEDF00,
+KN,Saint Kitts and Nevis,EXACT,#C8102E,#C8102E,Already correct
+KN,Saint Kitts and Nevis,EXACT,#FFFFFF,#FFFFFF,Already correct
+KP,North Korea,EXACT,#FFFFFF,#FFFFFF,Already correct
+KP,North Korea,REPLACED,#034DA2,#024FA2,
+KP,North Korea,REPLACED,#EC1D25,#ED1C27,
+KR,South Korea,EXACT,#000000,#000000,Already correct
+KR,South Korea,REPLACED,#0047A0,#0F64CD,
+KR,South Korea,EXACT,#FFFFFF,#FFFFFF,Already correct
+KR,South Korea,EXACT,#CD2E3A,#CD2E3A,Already correct
+KW,Kuwait,EXACT,#CE1126,#CE1126,Already correct
+KW,Kuwait,EXACT,#007A3D,#007A3D,Already correct
+KW,Kuwait,EXACT,#FFFFFF,#FFFFFF,Already correct
+KY,Cayman Islands,REPLACED,#000000,#00205B,
+KY,Cayman Islands,REPLACED,#012169,#00205B,
+KY,Cayman Islands,KEPT (ΔE > threshold),#00493D,#00493D,"ΔE too large, original kept"
+KY,Cayman Islands,REPLACED,#073163,#00205B,
+KY,Cayman Islands,KEPT (ΔE > threshold),#059334,#059334,"ΔE too large, original kept"
+KY,Cayman Islands,REPLACED,#FCEA83,#FFFFFF,
+KY,Cayman Islands,REPLACED,#C8102E,#EF3340,
+KY,Cayman Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+KY,Cayman Islands,KEPT (ΔE > threshold),#024919,#024919,"ΔE too large, original kept"
+KY,Cayman Islands,REPLACED,#0B50A0,#00205B,
+KY,Cayman Islands,REPLACED,#F9D050,#FFFFFF,
+KZ,Kazakhstan,REPLACED,#FFEC2D,#FEC50C,
+KZ,Kazakhstan,REPLACED,#00ABC2,#00AFCA,
+LA,Laos,EXACT,#002868,#002868,Already correct
+LA,Laos,EXACT,#CE1126,#CE1126,Already correct
+LA,Laos,EXACT,#FFFFFF,#FFFFFF,Already correct
+LB,Lebanon,REPLACED,#008C3E,#009739,
+LB,Lebanon,EXACT,#FFFFFF,#FFFFFF,Already correct
+LB,Lebanon,REPLACED,#D31624,#ED1C24,
+LC,Saint Lucia,REPLACED,#66CCFF,#FFFFFF,
+LC,Saint Lucia,REPLACED,#FCD116,#FFD100,
+LC,Saint Lucia,EXACT,#FFFFFF,#FFFFFF,Already correct
+LI,Liechtenstein,REPLACED,#002B7F,#002776,
+LI,Liechtenstein,EXACT,#CE1126,#CE1126,Already correct
+LI,Liechtenstein,EXACT,#000000,#000000,Already correct
+LI,Liechtenstein,REPLACED,#FFD83D,#FFCD00,
+LK,Sri Lanka,EXACT,#000000,#000000,Already correct
+LK,Sri Lanka,REPLACED,#FFBE29,#F7B718,
+LK,Sri Lanka,REPLACED,#00534E,#005F56,
+LK,Sri Lanka,REPLACED,#EB7400,#DF7500,
+LK,Sri Lanka,REPLACED,#8D153A,#941E32,
+LR,Liberia,EXACT,#FFFFFF,#FFFFFF,Already correct
+LR,Liberia,REPLACED,#003377,#00205B,
+LR,Liberia,REPLACED,#CC1133,#EF3340,
+LS,Lesotho,REPLACED,#009A44,#009543,
+LS,Lesotho,REPLACED,#001489,#00209F,
+LS,Lesotho,EXACT,#FFFFFF,#FFFFFF,Already correct
+LT,Lithuania,REPLACED,#C1272D,#BE3A34,
+LT,Lithuania,REPLACED,#006A44,#046A38,
+LT,Lithuania,REPLACED,#FDB913,#FFB81C,
+LU,Luxembourg,REPLACED,#00A3E0,#51ADDA,
+LU,Luxembourg,EXACT,#FFFFFF,#FFFFFF,Already correct
+LU,Luxembourg,REPLACED,#EF3340,#EA141D,
+LV,Latvia,EXACT,#FFFFFF,#FFFFFF,Already correct
+LV,Latvia,REPLACED,#9D2235,#9B2335,
+LY,Libya,EXACT,#000000,#000000,Already correct
+LY,Libya,EXACT,#E70013,#E70013,Already correct
+LY,Libya,EXACT,#FFFFFF,#FFFFFF,Already correct
+LY,Libya,EXACT,#239E46,#239E46,Already correct
+MA,Morocco,EXACT,#C1272D,#C1272D,Already correct
+MA,Morocco,EXACT,#006233,#006233,Already correct
+MC,Monaco,EXACT,#CE1126,#CE1126,Already correct
+MC,Monaco,EXACT,#FFFFFF,#FFFFFF,Already correct
+MD,Moldova,REPLACED,#0046AE,#003DA5,
+MD,Moldova,REPLACED,#CC092F,#C8102E,
+MD,Moldova,REPLACED,#FFD200,#FFD100,
+MD,Moldova,REPLACED,#B07E5B,#AD7C59,
+MD,Moldova,REPLACED,#007A50,#007749,
+ME,Montenegro,REPLACED,#E30000,#C40308,
+ME,Montenegro,REPLACED,#0071BC,#1D5E91,
+ME,Montenegro,REPLACED,#FFC000,#D4AF3A,
+ME,Montenegro,REPLACED,#D17624,#B96B29,
+ME,Montenegro,REPLACED,#39B54A,#6D8C3E,
+MF,Saint Martin (French part),REPLACED,#CE1126,#E1000F,
+MF,Saint Martin (French part),EXACT,#FFFFFF,#FFFFFF,Already correct
+MF,Saint Martin (French part),REPLACED,#002654,#000091,
+MG,Madagascar,EXACT,#00843D,#00843D,Already correct
+MG,Madagascar,EXACT,#F9423A,#F9423A,Already correct
+MG,Madagascar,EXACT,#FFFFFF,#FFFFFF,Already correct
+MH,Marshall Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+MH,Marshall Islands,REPLACED,#003893,#003087,
+MH,Marshall Islands,REPLACED,#DD7500,#E57200,
+MK,North Macedonia,EXACT,#D82126,#D82126,Already correct
+MK,North Macedonia,EXACT,#F8E92E,#F8E92E,Already correct
+ML,Mali,EXACT,#CE1126,#CE1126,Already correct
+ML,Mali,EXACT,#14B53A,#14B53A,Already correct
+ML,Mali,EXACT,#FCD116,#FCD116,Already correct
+MM,Myanmar,REPLACED,#EA2839,#EE2737,
+MM,Myanmar,REPLACED,#34B233,#43B02A,
+MM,Myanmar,REPLACED,#FECB00,#FFCD00,
+MM,Myanmar,EXACT,#FFFFFF,#FFFFFF,Already correct
+MN,Mongolia,REPLACED,#DA2031,#DA2032,
+MN,Mongolia,REPLACED,#0066B2,#0066B3,
+MN,Mongolia,EXACT,#DA2032,#DA2032,Already correct
+MN,Mongolia,REPLACED,#FFD300,#FFCD00,
+MO,Macao,EXACT,#FFFFFF,#FFFFFF,Already correct
+MO,Macao,REPLACED,#FFDE23,#FFD100,
+MO,Macao,REPLACED,#0F7562,#00785E,
+MP,Northern Mariana Islands,KEPT (ΔE > threshold),#D0362D,#D0362D,"ΔE too large, original kept"
+MP,Northern Mariana Islands,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+MP,Northern Mariana Islands,REPLACED,#DCDCDC,#FFFFFF,
+MP,Northern Mariana Islands,REPLACED,#76BC21,#B1B4B3,
+MP,Northern Mariana Islands,EXACT,#0033A1,#0033A1,Already correct
+MP,Northern Mariana Islands,KEPT (ΔE > threshold),#FDE300,#FDE300,"ΔE too large, original kept"
+MP,Northern Mariana Islands,REPLACED,#62A70F,#B1B4B3,
+MP,Northern Mariana Islands,REPLACED,#E357B8,#B1B4B3,
+MP,Northern Mariana Islands,KEPT (ΔE > threshold),#007935,#007935,"ΔE too large, original kept"
+MP,Northern Mariana Islands,KEPT (ΔE > threshold),#C16B13,#C16B13,"ΔE too large, original kept"
+MP,Northern Mariana Islands,KEPT (ΔE > threshold),#E1261C,#E1261C,"ΔE too large, original kept"
+MP,Northern Mariana Islands,REPLACED,#E8E8E8,#FFFFFF,
+MP,Northern Mariana Islands,KEPT (ΔE > threshold),#2D2A26,#2D2A26,"ΔE too large, original kept"
+MP,Northern Mariana Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+MP,Northern Mariana Islands,EXACT,#B1B4B3,#B1B4B3,Already correct
+MQ,Martinique,REPLACED,#CE1126,#E1000F,
+MQ,Martinique,EXACT,#FFFFFF,#FFFFFF,Already correct
+MQ,Martinique,REPLACED,#002654,#000091,
+MR,Mauritania,EXACT,#D01C1F,#D01C1F,Already correct
+MR,Mauritania,EXACT,#00A95C,#00A95C,Already correct
+MR,Mauritania,EXACT,#FFD700,#FFD700,Already correct
+MS,Montserrat,KEPT (ΔE > threshold),#EEAA00,#EEAA00,"ΔE too large, original kept"
+MS,Montserrat,REPLACED,#000000,#012169,
+MS,Montserrat,EXACT,#012169,#012169,Already correct
+MS,Montserrat,KEPT (ΔE > threshold),#FFDF00,#FFDF00,"ΔE too large, original kept"
+MS,Montserrat,KEPT (ΔE > threshold),#FF9A08,#FF9A08,"ΔE too large, original kept"
+MS,Montserrat,KEPT (ΔE > threshold),#008021,#008021,"ΔE too large, original kept"
+MS,Montserrat,REPLACED,#FFE1CF,#FFFFFF,
+MS,Montserrat,KEPT (ΔE > threshold),#00A2DD,#00A2DD,"ΔE too large, original kept"
+MS,Montserrat,EXACT,#C8102E,#C8102E,Already correct
+MS,Montserrat,REPLACED,#A53D08,#C8102E,
+MS,Montserrat,REPLACED,#551100,#C8102E,
+MS,Montserrat,EXACT,#FFFFFF,#FFFFFF,Already correct
+MT,Malta,EXACT,#000000,#000000,Already correct
+MT,Malta,EXACT,#FFFFFF,#FFFFFF,Already correct
+MT,Malta,EXACT,#CF142B,#CF142B,Already correct
+MU,Mauritius,REPLACED,#D01C1F,#EA2839,
+MU,Mauritius,REPLACED,#F7B718,#FFD500,
+MU,Mauritius,REPLACED,#008658,#00A551,
+MU,Mauritius,REPLACED,#2D3359,#1A206D,
+MV,Maldives,REPLACED,#007E3A,#00843D,
+MV,Maldives,EXACT,#FFFFFF,#FFFFFF,Already correct
+MV,Maldives,REPLACED,#D21034,#C8102E,
+MW,Malawi,REPLACED,#339E35,#007A33,
+MW,Malawi,REPLACED,#CE1126,#C8102E,
+MX,Mexico,REPLACED,#DBAD6C,#FFFFFF,
+MX,Mexico,REPLACED,#04534E,#006341,
+MX,Mexico,REPLACED,#874F20,#C8102E,
+MX,Mexico,REPLACED,#0C8489,#006341,
+MX,Mexico,REPLACED,#6F5B24,#006341,
+MX,Mexico,REPLACED,#816C2A,#006341,
+MX,Mexico,REPLACED,#8F4620,#C8102E,
+MX,Mexico,REPLACED,#F9C83A,#FFFFFF,
+MX,Mexico,REPLACED,#6C3F18,#C8102E,
+MX,Mexico,KEPT (ΔE > threshold),#AA8C30,#AA8C30,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#4D2A15,#C8102E,
+MX,Mexico,KEPT (ΔE > threshold),#0872A7,#0872A7,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#C6C7A6,#FFFFFF,
+MX,Mexico,KEPT (ΔE > threshold),#F1A720,#F1A720,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#D2A567,#FFFFFF,
+MX,Mexico,REPLACED,#513625,#C8102E,
+MX,Mexico,REPLACED,#FCCA3D,#FFFFFF,
+MX,Mexico,REPLACED,#FCF3D8,#FFFFFF,
+MX,Mexico,REPLACED,#8B441F,#C8102E,
+MX,Mexico,REPLACED,#404118,#006341,
+MX,Mexico,KEPT (ΔE > threshold),#977C2E,#977C2E,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#717732,#006341,
+MX,Mexico,REPLACED,#F8C83C,#FFFFFF,
+MX,Mexico,KEPT (ΔE > threshold),#9CA168,#9CA168,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#803F1D,#C8102E,
+MX,Mexico,REPLACED,#FCCA3E,#FFFFFF,
+MX,Mexico,REPLACED,#E92736,#C8102E,
+MX,Mexico,REPLACED,#FDEAAF,#FFFFFF,
+MX,Mexico,REPLACED,#F9AA51,#FFFFFF,
+MX,Mexico,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#D1D1D1,#FFFFFF,
+MX,Mexico,REPLACED,#5C3A1D,#C8102E,
+MX,Mexico,REPLACED,#202220,#006341,
+MX,Mexico,REPLACED,#5C3818,#C8102E,
+MX,Mexico,KEPT (ΔE > threshold),#1C242F,#1C242F,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#006847,#006341,
+MX,Mexico,REPLACED,#202020,#006341,
+MX,Mexico,REPLACED,#78732E,#006341,
+MX,Mexico,REPLACED,#4B4139,#006341,
+MX,Mexico,REPLACED,#CE1126,#C8102E,
+MX,Mexico,REPLACED,#CD202A,#C8102E,
+MX,Mexico,REPLACED,#AB6D29,#C8102E,
+MX,Mexico,KEPT (ΔE > threshold),#171717,#171717,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#F15770,#C8102E,
+MX,Mexico,REPLACED,#016848,#006341,
+MX,Mexico,KEPT (ΔE > threshold),#312317,#312317,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#F16E16,#C8102E,
+MX,Mexico,REPLACED,#B27129,#C8102E,
+MX,Mexico,KEPT (ΔE > threshold),#BF802D,#BF802D,"ΔE too large, original kept"
+MX,Mexico,EXACT,#FFFFFF,#FFFFFF,Already correct
+MX,Mexico,REPLACED,#45392D,#006341,
+MX,Mexico,REPLACED,#30C2DC,#FFFFFF,
+MX,Mexico,REPLACED,#6C4119,#C8102E,
+MX,Mexico,KEPT (ΔE > threshold),#F7E204,#F7E204,"ΔE too large, original kept"
+MX,Mexico,REPLACED,#1E2121,#006341,
+MX,Mexico,REPLACED,#AF7029,#C8102E,
+MX,Mexico,REPLACED,#B07229,#C8102E,
+MX,Mexico,REPLACED,#904720,#C8102E,
+MX,Mexico,REPLACED,#A8AC71,#FFFFFF,
+MX,Mexico,REPLACED,#D5D3CA,#FFFFFF,
+MX,Mexico,REPLACED,#953220,#C8102E,
+MX,Mexico,REPLACED,#8CBEBF,#FFFFFF,
+MX,Mexico,KEPT (ΔE > threshold),#231F20,#231F20,"ΔE too large, original kept"
+MY,Malaysia,REPLACED,#000066,#0032A0,
+MY,Malaysia,EXACT,#FFFFFF,#FFFFFF,Already correct
+MY,Malaysia,REPLACED,#FFCC00,#FFD100,
+MY,Malaysia,EXACT,#CC0000,#CC0000,Already correct
+MZ,Mozambique,EXACT,#000000,#000000,Already correct
+MZ,Mozambique,REPLACED,#FCE100,#FFD100,
+MZ,Mozambique,REPLACED,#007168,#009739,
+MZ,Mozambique,REPLACED,#D21034,#E4002B,
+MZ,Mozambique,EXACT,#FFFFFF,#FFFFFF,Already correct
+NA,Namibia,EXACT,#009A44,#009A44,Already correct
+NA,Namibia,REPLACED,#002F6C,#001489,
+NA,Namibia,REPLACED,#FFCD00,#FFC72C,
+NA,Namibia,REPLACED,#C8102E,#DA291C,
+NA,Namibia,EXACT,#FFFFFF,#FFFFFF,Already correct
+NC,New Caledonia,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+NC,New Caledonia,REPLACED,#002654,#000091,
+NC,New Caledonia,REPLACED,#CE1126,#E1000F,
+NC,New Caledonia,REPLACED,#ED4135,#E1000F,
+NC,New Caledonia,EXACT,#FFFFFF,#FFFFFF,Already correct
+NC,New Caledonia,KEPT (ΔE > threshold),#666666,#666666,"ΔE too large, original kept"
+NC,New Caledonia,REPLACED,#0035AD,#000091,
+NC,New Caledonia,KEPT (ΔE > threshold),#009543,#009543,"ΔE too large, original kept"
+NC,New Caledonia,KEPT (ΔE > threshold),#FAE600,#FAE600,"ΔE too large, original kept"
+NE,Niger,EXACT,#E05206,#E05206,Already correct
+NE,Niger,EXACT,#0DB02B,#0DB02B,Already correct
+NE,Niger,EXACT,#FFFFFF,#FFFFFF,Already correct
+NF,Norfolk Island,EXACT,#FFFFFF,#FFFFFF,Already correct
+NF,Norfolk Island,EXACT,#007934,#007934,Already correct
+NG,Nigeria,EXACT,#FFFFFF,#FFFFFF,Already correct
+NG,Nigeria,EXACT,#008751,#008751,Already correct
+NI,Nicaragua,KEPT (ΔE > threshold),#8A0000,#8A0000,"ΔE too large, original kept"
+NI,Nicaragua,REPLACED,#17C0EB,#6FD8F3,
+NI,Nicaragua,KEPT (ΔE > threshold),#510000,#510000,"ΔE too large, original kept"
+NI,Nicaragua,REPLACED,#0044AA,#0067C6,
+NI,Nicaragua,KEPT (ΔE > threshold),#FF0000,#FF0000,"ΔE too large, original kept"
+NI,Nicaragua,KEPT (ΔE > threshold),#800080,#800080,"ΔE too large, original kept"
+NI,Nicaragua,REPLACED,#00CCFF,#6FD8F3,
+NI,Nicaragua,REPLACED,#0000FF,#0067C6,
+NI,Nicaragua,REPLACED,#C6CB24,#97C924,
+NI,Nicaragua,REPLACED,#00FF00,#97C924,
+NI,Nicaragua,REPLACED,#EDE71F,#97C924,
+NI,Nicaragua,EXACT,#C8A400,#C8A400,Already correct
+NI,Nicaragua,REPLACED,#93BC30,#97C924,
+NI,Nicaragua,KEPT (ΔE > threshold),#FF3A3A,#FF3A3A,"ΔE too large, original kept"
+NI,Nicaragua,REPLACED,#9ECB34,#97C924,
+NI,Nicaragua,REPLACED,#CCD11E,#97C924,
+NI,Nicaragua,REPLACED,#002255,#0067C6,
+NI,Nicaragua,EXACT,#FFFFFF,#FFFFFF,Already correct
+NI,Nicaragua,KEPT (ΔE > threshold),#910000,#910000,"ΔE too large, original kept"
+NI,Nicaragua,REPLACED,#FFFF00,#97C924,
+NI,Nicaragua,EXACT,#0067C6,#0067C6,Already correct
+NI,Nicaragua,EXACT,#97C924,#97C924,Already correct
+NI,Nicaragua,KEPT (ΔE > threshold),#AA0000,#AA0000,"ΔE too large, original kept"
+NI,Nicaragua,REPLACED,#F5F549,#97C924,
+NI,Nicaragua,KEPT (ΔE > threshold),#FF2A2A,#FF2A2A,"ΔE too large, original kept"
+NI,Nicaragua,KEPT (ΔE > threshold),#FF6600,#FF6600,"ΔE too large, original kept"
+NL,Netherlands,EXACT,#AE1C28,#AE1C28,Already correct
+NL,Netherlands,EXACT,#FFFFFF,#FFFFFF,Already correct
+NL,Netherlands,EXACT,#21468B,#21468B,Already correct
+NO,Norway,EXACT,#00205B,#00205B,Already correct
+NO,Norway,EXACT,#BA0C2F,#BA0C2F,Already correct
+NO,Norway,EXACT,#FFFFFF,#FFFFFF,Already correct
+NP,Nepal,EXACT,#DC143C,#DC143C,Already correct
+NP,Nepal,EXACT,#FFFFFF,#FFFFFF,Already correct
+NP,Nepal,EXACT,#003893,#003893,Already correct
+NR,Nauru,REPLACED,#002B7F,#012169,
+NR,Nauru,EXACT,#012169,#012169,Already correct
+NR,Nauru,EXACT,#FFC72C,#FFC72C,Already correct
+NR,Nauru,REPLACED,#FFC61E,#FFC72C,
+NR,Nauru,EXACT,#FFFFFF,#FFFFFF,Already correct
+NU,Niue,EXACT,#FEDD00,#FEDD00,Already correct
+NU,Niue,EXACT,#012169,#012169,Already correct
+NU,Niue,EXACT,#FFFFFF,#FFFFFF,Already correct
+NU,Niue,EXACT,#C8102E,#C8102E,Already correct
+NZ,New Zealand,EXACT,#012169,#012169,Already correct
+NZ,New Zealand,EXACT,#FFFFFF,#FFFFFF,Already correct
+NZ,New Zealand,EXACT,#C8102E,#C8102E,Already correct
+OM,Oman,REPLACED,#DB171B,#C8102E,
+OM,Oman,EXACT,#FFFFFF,#FFFFFF,Already correct
+OM,Oman,REPLACED,#028002,#009A44,
+PA,Panama,EXACT,#DA121A,#DA121A,Already correct
+PA,Panama,EXACT,#072357,#072357,Already correct
+PA,Panama,EXACT,#FFFFFF,#FFFFFF,Already correct
+PE,Peru,REPLACED,#D91023,#C8102E,
+PE,Peru,EXACT,#FFFFFF,#FFFFFF,Already correct
+PF,French Polynesia,REPLACED,#630810,#CE1126,
+PF,French Polynesia,EXACT,#CE1126,#CE1126,Already correct
+PF,French Polynesia,REPLACED,#FF9C10,#FFCD00,
+PF,French Polynesia,EXACT,#FFFFFF,#FFFFFF,Already correct
+PF,French Polynesia,REPLACED,#083D9C,#0033A0,
+PG,Papua New Guinea,EXACT,#FFCD00,#FFCD00,Already correct
+PG,Papua New Guinea,EXACT,#FFFFFF,#FFFFFF,Already correct
+PG,Papua New Guinea,EXACT,#C8102E,#C8102E,Already correct
+PH,Philippines,REPLACED,#CE1126,#BF0D3E,
+PH,Philippines,REPLACED,#FCD116,#FED141,
+PH,Philippines,EXACT,#FFFFFF,#FFFFFF,Already correct
+PH,Philippines,REPLACED,#0038A8,#0032A0,
+PK,Pakistan,EXACT,#FFFFFF,#FFFFFF,Already correct
+PK,Pakistan,EXACT,#01411C,#01411C,Already correct
+PL,Poland,EXACT,#FFFFFF,#FFFFFF,Already correct
+PL,Poland,EXACT,#DC143C,#DC143C,Already correct
+PM,Saint Pierre and Miquelon,KEPT (ΔE > threshold),#0091C8,#0091C8,"ΔE too large, original kept"
+PM,Saint Pierre and Miquelon,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+PM,Saint Pierre and Miquelon,REPLACED,#2B5DF2,#000091,
+PM,Saint Pierre and Miquelon,REPLACED,#770000,#E1000F,
+PM,Saint Pierre and Miquelon,KEPT (ΔE > threshold),#08672F,#08672F,"ΔE too large, original kept"
+PM,Saint Pierre and Miquelon,KEPT (ΔE > threshold),#0092C8,#0092C8,"ΔE too large, original kept"
+PM,Saint Pierre and Miquelon,KEPT (ΔE > threshold),#FFCF00,#FFCF00,"ΔE too large, original kept"
+PM,Saint Pierre and Miquelon,KEPT (ΔE > threshold),#390000,#390000,"ΔE too large, original kept"
+PM,Saint Pierre and Miquelon,REPLACED,#CC0000,#E1000F,
+PM,Saint Pierre and Miquelon,REPLACED,#660000,#E1000F,
+PM,Saint Pierre and Miquelon,KEPT (ΔE > threshold),#4A0000,#4A0000,"ΔE too large, original kept"
+PM,Saint Pierre and Miquelon,REPLACED,#650000,#E1000F,
+PM,Saint Pierre and Miquelon,EXACT,#FFFFFF,#FFFFFF,Already correct
+PN,Pitcairn Islands,REPLACED,#96877D,#C8102E,
+PN,Pitcairn Islands,REPLACED,#000000,#012169,
+PN,Pitcairn Islands,EXACT,#F7E017,#F7E017,Already correct
+PN,Pitcairn Islands,EXACT,#012169,#012169,Already correct
+PN,Pitcairn Islands,EXACT,#337321,#337321,Already correct
+PN,Pitcairn Islands,REPLACED,#006EC7,#012169,
+PN,Pitcairn Islands,EXACT,#C8102E,#C8102E,Already correct
+PN,Pitcairn Islands,REPLACED,#E5E5E5,#FFFFFF,
+PN,Pitcairn Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+PN,Pitcairn Islands,REPLACED,#316D3A,#337321,
+PR,Puerto Rico,REPLACED,#EE0000,#E92228,
+PR,Puerto Rico,EXACT,#FFFFFF,#FFFFFF,Already correct
+PR,Puerto Rico,REPLACED,#0044FF,#3A5EAB,
+PS,Palestine,EXACT,#FFFFFF,#FFFFFF,Already correct
+PS,Palestine,REPLACED,#ED2E38,#E4312B,
+PS,Palestine,REPLACED,#009639,#149954,
+PT,Portugal,EXACT,#000000,#000000,Already correct
+PT,Portugal,REPLACED,#FFFF00,#FFE900,
+PT,Portugal,REPLACED,#006600,#046A38,
+PT,Portugal,EXACT,#FFFFFF,#FFFFFF,Already correct
+PT,Portugal,REPLACED,#003399,#002D72,
+PT,Portugal,REPLACED,#FF0000,#DA291C,
+PW,Palau,REPLACED,#FFFF00,#FFD100,
+PW,Palau,REPLACED,#0099FF,#0085CA,
+PY,Paraguay,EXACT,#000000,#000000,Already correct
+PY,Paraguay,EXACT,#009B3A,#009B3A,Already correct
+PY,Paraguay,EXACT,#0038A8,#0038A8,Already correct
+PY,Paraguay,EXACT,#D52B1E,#D52B1E,Already correct
+PY,Paraguay,EXACT,#FEDF00,#FEDF00,Already correct
+PY,Paraguay,EXACT,#FFFFFF,#FFFFFF,Already correct
+QA,Qatar,EXACT,#8A1538,#8A1538,Already correct
+QA,Qatar,EXACT,#FFFFFF,#FFFFFF,Already correct
+RE,Réunion,REPLACED,#CE1126,#E1000F,
+RE,Réunion,EXACT,#FFFFFF,#FFFFFF,Already correct
+RE,Réunion,REPLACED,#002654,#000091,
+RO,Romania,EXACT,#002B7F,#002B7F,Already correct
+RO,Romania,EXACT,#FCD116,#FCD116,Already correct
+RO,Romania,EXACT,#CE1126,#CE1126,Already correct
+RS,Serbia,EXACT,#0C4076,#0C4076,Already correct
+RS,Serbia,REPLACED,#21231E,#0C4076,
+RS,Serbia,EXACT,#C6363C,#C6363C,Already correct
+RS,Serbia,KEPT (ΔE > threshold),#EDB92E,#EDB92E,"ΔE too large, original kept"
+RS,Serbia,EXACT,#FFFFFF,#FFFFFF,Already correct
+RU,Russia,REPLACED,#D52B1E,#DA291C,
+RU,Russia,REPLACED,#0039A6,#0032A0,
+RU,Russia,EXACT,#FFFFFF,#FFFFFF,Already correct
+RW,Rwanda,EXACT,#FAD201,#FAD201,Already correct
+RW,Rwanda,EXACT,#E5BE01,#E5BE01,Already correct
+RW,Rwanda,REPLACED,#00A3E0,#00A1DE,
+RW,Rwanda,EXACT,#20603D,#20603D,Already correct
+SA,Saudi Arabia,EXACT,#005430,#005430,Already correct
+SA,Saudi Arabia,EXACT,#FFFFFF,#FFFFFF,Already correct
+SB,Solomon Islands,EXACT,#FCD116,#FCD116,Already correct
+SB,Solomon Islands,EXACT,#0051BA,#0051BA,Already correct
+SB,Solomon Islands,EXACT,#215B33,#215B33,Already correct
+SB,Solomon Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+SC,Seychelles,EXACT,#007A33,#007A33,Already correct
+SC,Seychelles,EXACT,#002F6C,#002F6C,Already correct
+SC,Seychelles,EXACT,#FED141,#FED141,Already correct
+SC,Seychelles,EXACT,#D22730,#D22730,Already correct
+SC,Seychelles,EXACT,#FFFFFF,#FFFFFF,Already correct
+SD,Sudan,EXACT,#007229,#007229,Already correct
+SD,Sudan,EXACT,#FFFFFF,#FFFFFF,Already correct
+SD,Sudan,EXACT,#D21034,#D21034,Already correct
+SE,Sweden,REPLACED,#FECB00,#FECC02,
+SE,Sweden,REPLACED,#005293,#006AA7,
+SG,Singapore,REPLACED,#ED2939,#EE2536,
+SG,Singapore,EXACT,#FFFFFF,#FFFFFF,Already correct
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#9CB8C5,#FFFFFF,
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#000000,#012169,
+SH,"Saint Helena, Ascension and Tristan da Cunha",EXACT,#012169,#012169,Already correct
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#F2D049,#FFFFFF,
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#E8ECE9,#FFFFFF,
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#7E7B80,#C8102E,
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#5C5568,#012169,
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#B38C79,#C8102E,
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#A89078,#FFFFFF,
+SH,"Saint Helena, Ascension and Tristan da Cunha",KEPT (ΔE > threshold),#5F7DBD,#5F7DBD,"ΔE too large, original kept"
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#DABCB0,#FFFFFF,
+SH,"Saint Helena, Ascension and Tristan da Cunha",EXACT,#C8102E,#C8102E,Already correct
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#9B7463,#C8102E,
+SH,"Saint Helena, Ascension and Tristan da Cunha",EXACT,#FFFFFF,#FFFFFF,Already correct
+SH,"Saint Helena, Ascension and Tristan da Cunha",REPLACED,#EF072D,#C8102E,
+SI,Slovenia,REPLACED,#FFFF00,#FFCD00,
+SI,Slovenia,EXACT,#FFFFFF,#FFFFFF,Already correct
+SI,Slovenia,REPLACED,#0000FF,#003DA5,
+SI,Slovenia,EXACT,#FF0000,#FF0000,Already correct
+SJ,Svalbard and Jan Mayen,SKIP,,,No color data
+SK,Slovakia,REPLACED,#254AA5,#0B4EA2,
+SK,Slovakia,REPLACED,#ED1C24,#EE1C25,
+SK,Slovakia,EXACT,#FFFFFF,#FFFFFF,Already correct
+SL,Sierra Leone,EXACT,#0072C6,#0072C6,Already correct
+SL,Sierra Leone,EXACT,#1EB53A,#1EB53A,Already correct
+SL,Sierra Leone,EXACT,#FFFFFF,#FFFFFF,Already correct
+SM,San Marino,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+SM,San Marino,EXACT,#FFFFFF,#FFFFFF,Already correct
+SM,San Marino,REPLACED,#94BB79,#FFFFFF,
+SM,San Marino,REPLACED,#BDBFC1,#FFFFFF,
+SM,San Marino,KEPT (ΔE > threshold),#466343,#466343,"ΔE too large, original kept"
+SM,San Marino,REPLACED,#F1F1F2,#FFFFFF,
+SM,San Marino,REPLACED,#4C819A,#62B5E5,
+SM,San Marino,REPLACED,#FFEEAA,#FFFFFF,
+SM,San Marino,KEPT (ΔE > threshold),#A48253,#A48253,"ΔE too large, original kept"
+SM,San Marino,REPLACED,#A0CFEB,#62B5E5,
+SM,San Marino,KEPT (ΔE > threshold),#D99F31,#D99F31,"ΔE too large, original kept"
+SM,San Marino,REPLACED,#5EB6E4,#62B5E5,
+SM,San Marino,KEPT (ΔE > threshold),#658D5C,#658D5C,"ΔE too large, original kept"
+SM,San Marino,KEPT (ΔE > threshold),#F1BF31,#F1BF31,"ΔE too large, original kept"
+SN,Senegal,EXACT,#00853F,#00853F,Already correct
+SN,Senegal,EXACT,#E31B23,#E31B23,Already correct
+SN,Senegal,EXACT,#FDEF42,#FDEF42,Already correct
+SO,Somalia,EXACT,#FFFFFF,#FFFFFF,Already correct
+SO,Somalia,REPLACED,#418FDE,#4189DD,
+SR,Suriname,REPLACED,#377E3F,#007A33,
+SR,Suriname,REPLACED,#ECC81D,#FFCD00,
+SR,Suriname,REPLACED,#B40A2D,#C8102E,
+SR,Suriname,EXACT,#FFFFFF,#FFFFFF,Already correct
+SS,South Sudan,KEPT (ΔE > threshold),#00B6F2,#00B6F2,"ΔE too large, original kept"
+SS,South Sudan,REPLACED,#00914C,#078930,
+SS,South Sudan,REPLACED,#FFE51A,#FCDD09,
+SS,South Sudan,EXACT,#FFFFFF,#FFFFFF,Already correct
+SS,South Sudan,REPLACED,#E22028,#DA121A,
+ST,São Tomé and Príncipe,EXACT,#FFD100,#FFD100,Already correct
+ST,São Tomé and Príncipe,EXACT,#009739,#009739,Already correct
+ST,São Tomé and Príncipe,EXACT,#EF3340,#EF3340,Already correct
+SV,El Salvador,REPLACED,#FFE2DC,#FFFFFF,
+SV,El Salvador,REPLACED,#0049AF,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF3900,#FF3900,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFE2DE,#FFFFFF,
+SV,El Salvador,REPLACED,#1316FF,#0047AB,
+SV,El Salvador,REPLACED,#FFEBE8,#FFFFFF,
+SV,El Salvador,REPLACED,#FFC2AD,#FFFFFF,
+SV,El Salvador,REPLACED,#001C82,#0047AB,
+SV,El Salvador,REPLACED,#FFD3C9,#FFFFFF,
+SV,El Salvador,REPLACED,#FFD6C9,#FFFFFF,
+SV,El Salvador,KEPT (ΔE > threshold),#E60000,#E60000,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#00359C,#0047AB,
+SV,El Salvador,REPLACED,#000058,#0047AB,
+SV,El Salvador,REPLACED,#001379,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF0500,#FF0500,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#0042A8,#0047AB,
+SV,El Salvador,REPLACED,#FFEFED,#FFFFFF,
+SV,El Salvador,REPLACED,#007200,#009900,
+SV,El Salvador,KEPT (ΔE > threshold),#FF1800,#FF1800,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#0039A0,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#009EFF,#009EFF,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#002289,#0047AB,
+SV,El Salvador,REPLACED,#FFEDEB,#FFFFFF,
+SV,El Salvador,REPLACED,#00004F,#0047AB,
+SV,El Salvador,EXACT,#009900,#009900,Already correct
+SV,El Salvador,REPLACED,#FFC9B9,#FFFFFF,
+SV,El Salvador,REPLACED,#20E653,#009900,
+SV,El Salvador,EXACT,#000000,#000000,Already correct
+SV,El Salvador,REPLACED,#FFCF00,#FCE300,
+SV,El Salvador,REPLACED,#000053,#0047AB,
+SV,El Salvador,REPLACED,#0096FF,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF2D00,#FF2D00,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFB399,#FFFFFF,
+SV,El Salvador,REPLACED,#0082FF,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#00A8FF,#00A8FF,"ΔE too large, original kept"
+SV,El Salvador,KEPT (ΔE > threshold),#FF8600,#FF8600,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFB59E,#FFFFFF,
+SV,El Salvador,REPLACED,#002B91,#0047AB,
+SV,El Salvador,REPLACED,#FFE6E0,#FFFFFF,
+SV,El Salvador,REPLACED,#FFDCD3,#FFFFFF,
+SV,El Salvador,REPLACED,#FFD9CF,#FFFFFF,
+SV,El Salvador,KEPT (ΔE > threshold),#FF1E00,#FF1E00,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFD3C6,#FFFFFF,
+SV,El Salvador,KEPT (ΔE > threshold),#FF1100,#FF1100,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFB59C,#FFFFFF,
+SV,El Salvador,REPLACED,#FFDED3,#FFFFFF,
+SV,El Salvador,REPLACED,#FFC6B5,#FFFFFF,
+SV,El Salvador,REPLACED,#1800FF,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#00B3FF,#00B3FF,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFF500,#FCE300,
+SV,El Salvador,KEPT (ΔE > threshold),#FF6000,#FF6000,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFC500,#FCE300,
+SV,El Salvador,KEPT (ΔE > threshold),#FF7C00,#FF7C00,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#85FF00,#FCE300,
+SV,El Salvador,REPLACED,#C2FF00,#FCE300,
+SV,El Salvador,REPLACED,#99FF00,#FCE300,
+SV,El Salvador,REPLACED,#FFB9A6,#FFFFFF,
+SV,El Salvador,REPLACED,#46FF00,#009900,
+SV,El Salvador,REPLACED,#000062,#0047AB,
+SV,El Salvador,REPLACED,#FFD600,#FCE300,
+SV,El Salvador,REPLACED,#000033,#000000,
+SV,El Salvador,REPLACED,#FFD1C2,#FFFFFF,
+SV,El Salvador,REPLACED,#0645FF,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF0000,#FF0000,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FF9C00,#FCE300,
+SV,El Salvador,REPLACED,#006FFF,#0047AB,
+SV,El Salvador,REPLACED,#000B73,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF4500,#FF4500,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFB900,#FCE300,
+SV,El Salvador,REPLACED,#002D93,#0047AB,
+SV,El Salvador,EXACT,#0047AB,#0047AB,Already correct
+SV,El Salvador,REPLACED,#2DF81C,#009900,
+SV,El Salvador,REPLACED,#FFCFC2,#FFFFFF,
+SV,El Salvador,KEPT (ΔE > threshold),#FF3E00,#FF3E00,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#003CA2,#0047AB,
+SV,El Salvador,REPLACED,#05B9E2,#FFFFFF,
+SV,El Salvador,REPLACED,#001E85,#0047AB,
+SV,El Salvador,REPLACED,#000051,#0047AB,
+SV,El Salvador,REPLACED,#EBFF00,#FCE300,
+SV,El Salvador,REPLACED,#FFE8E6,#FFFFFF,
+SV,El Salvador,REPLACED,#002086,#0047AB,
+SV,El Salvador,REPLACED,#FFE0D9,#FFFFFF,
+SV,El Salvador,REPLACED,#33FF00,#009900,
+SV,El Salvador,REPLACED,#00056B,#0047AB,
+SV,El Salvador,REPLACED,#FFCFBE,#FFFFFF,
+SV,El Salvador,REPLACED,#FFC9B8,#FFFFFF,
+SV,El Salvador,REPLACED,#FFB9A2,#FFFFFF,
+SV,El Salvador,KEPT (ΔE > threshold),#FF6B00,#FF6B00,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFF3EF,#FFFFFF,
+SV,El Salvador,REPLACED,#FFBCA8,#FFFFFF,
+SV,El Salvador,REPLACED,#008BFF,#0047AB,
+SV,El Salvador,REPLACED,#003EA6,#0047AB,
+SV,El Salvador,REPLACED,#FFB8A0,#FFFFFF,
+SV,El Salvador,REPLACED,#000056,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF4B00,#FF4B00,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFEBE6,#FFFFFF,
+SV,El Salvador,REPLACED,#FF9100,#FCE300,
+SV,El Salvador,REPLACED,#FFC6B8,#FFFFFF,
+SV,El Salvador,REPLACED,#003399,#0047AB,
+SV,El Salvador,REPLACED,#FFAF00,#FCE300,
+SV,El Salvador,REPLACED,#1609FF,#0047AB,
+SV,El Salvador,REPLACED,#0938FF,#0047AB,
+SV,El Salvador,REPLACED,#FFF3F3,#FFFFFF,
+SV,El Salvador,REPLACED,#001178,#0047AB,
+SV,El Salvador,REPLACED,#00004B,#0047AB,
+SV,El Salvador,REPLACED,#0046AD,#0047AB,
+SV,El Salvador,REPLACED,#0088E8,#0047AB,
+SV,El Salvador,REPLACED,#FFCCBC,#FFFFFF,
+SV,El Salvador,REPLACED,#000F75,#0047AB,
+SV,El Salvador,REPLACED,#00288F,#0047AB,
+SV,El Salvador,REPLACED,#FFEFEF,#FFFFFF,
+SV,El Salvador,REPLACED,#FFDED6,#FFFFFF,
+SV,El Salvador,REPLACED,#025CFF,#0047AB,
+SV,El Salvador,REPLACED,#00167C,#0047AB,
+SV,El Salvador,REPLACED,#FFD1C5,#FFFFFF,
+SV,El Salvador,REPLACED,#FFC2AF,#FFFFFF,
+SV,El Salvador,REPLACED,#FFE000,#FCE300,
+SV,El Salvador,REPLACED,#FFB39C,#FFFFFF,
+SV,El Salvador,REPLACED,#09C5C6,#FFFFFF,
+SV,El Salvador,REPLACED,#FFC5B3,#FFFFFF,
+SV,El Salvador,REPLACED,#1120FF,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF5600,#FF5600,"ΔE too large, original kept"
+SV,El Salvador,EXACT,#FFFFFF,#FFFFFF,Already correct
+SV,El Salvador,REPLACED,#000268,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF3300,#FF3300,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#6FFF00,#FCE300,
+SV,El Salvador,REPLACED,#FFE8E2,#FFFFFF,
+SV,El Salvador,REPLACED,#000066,#0047AB,
+SV,El Salvador,REPLACED,#0066FF,#0047AB,
+SV,El Salvador,REPLACED,#00389E,#0047AB,
+SV,El Salvador,REPLACED,#1CDE6F,#009900,
+SV,El Salvador,REPLACED,#000060,#0047AB,
+SV,El Salvador,REPLACED,#FFEB00,#FCE300,
+SV,El Salvador,REPLACED,#FFE6DE,#FFFFFF,
+SV,El Salvador,REPLACED,#FFBCA6,#FFFFFF,
+SV,El Salvador,REPLACED,#00187E,#0047AB,
+SV,El Salvador,REPLACED,#004BB3,#0047AB,
+SV,El Salvador,REPLACED,#00258B,#0047AB,
+SV,El Salvador,REPLACED,#00005E,#0047AB,
+SV,El Salvador,REPLACED,#5CFF00,#FCE300,
+SV,El Salvador,REPLACED,#00005C,#0047AB,
+SV,El Salvador,REPLACED,#28ED38,#009900,
+SV,El Salvador,REPLACED,#0F2DFF,#0047AB,
+SV,El Salvador,REPLACED,#002F96,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF0B00,#FF0B00,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#16D38F,#009900,
+SV,El Salvador,REPLACED,#FFDCD1,#FFFFFF,
+SV,El Salvador,REPLACED,#D6FF00,#FCE300,
+SV,El Salvador,REPLACED,#054FFF,#0047AB,
+SV,El Salvador,REPLACED,#FFCC00,#FCE300,
+SV,El Salvador,REPLACED,#ADFF00,#FCE300,
+SV,El Salvador,REPLACED,#0079FF,#0047AB,
+SV,El Salvador,REPLACED,#FFD6CC,#FFFFFF,
+SV,El Salvador,REPLACED,#FFBEAD,#FFFFFF,
+SV,El Salvador,REPLACED,#11CCAB,#009900,
+SV,El Salvador,REPLACED,#00066D,#0047AB,
+SV,El Salvador,REPLACED,#FFA600,#FCE300,
+SV,El Salvador,REPLACED,#FFFF00,#FCE300,
+SV,El Salvador,REPLACED,#00096F,#0047AB,
+SV,El Salvador,REPLACED,#0045AB,#0047AB,
+SV,El Salvador,KEPT (ΔE > threshold),#FF7500,#FF7500,"ΔE too large, original kept"
+SV,El Salvador,KEPT (ΔE > threshold),#FF2500,#FF2500,"ΔE too large, original kept"
+SV,El Salvador,REPLACED,#FFBEAB,#FFFFFF,
+SX,Sint Maarten (Dutch part),KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+SX,Sint Maarten (Dutch part),REPLACED,#012A87,#0032A0,
+SX,Sint Maarten (Dutch part),REPLACED,#DC171D,#C8102E,
+SX,Sint Maarten (Dutch part),KEPT (ΔE > threshold),#008545,#008545,"ΔE too large, original kept"
+SX,Sint Maarten (Dutch part),REPLACED,#173D89,#0032A0,
+SX,Sint Maarten (Dutch part),REPLACED,#666666,#C8102E,
+SX,Sint Maarten (Dutch part),REPLACED,#8FBEE3,#FFFFFF,
+SX,Sint Maarten (Dutch part),KEPT (ΔE > threshold),#F7B017,#F7B017,"ΔE too large, original kept"
+SX,Sint Maarten (Dutch part),KEPT (ΔE > threshold),#F7D417,#F7D417,"ΔE too large, original kept"
+SX,Sint Maarten (Dutch part),EXACT,#FFFFFF,#FFFFFF,Already correct
+SX,Sint Maarten (Dutch part),REPLACED,#CBAF9A,#FFFFFF,
+SX,Sint Maarten (Dutch part),REPLACED,#21468B,#0032A0,
+SX,Sint Maarten (Dutch part),REPLACED,#DA4823,#C8102E,
+SY,Syria,EXACT,#CE1126,#CE1126,Already correct
+SY,Syria,EXACT,#007A3D,#007A3D,Already correct
+SY,Syria,EXACT,#FFFFFF,#FFFFFF,Already correct
+SZ,Eswatini,EXACT,#3E5EB9,#3E5EB9,Already correct
+SZ,Eswatini,EXACT,#000000,#000000,Already correct
+SZ,Eswatini,REPLACED,#B10C0C,#B10202,
+SZ,Eswatini,REPLACED,#3D5DA7,#3E5EB9,
+SZ,Eswatini,REPLACED,#A70000,#B10202,
+SZ,Eswatini,REPLACED,#FFD900,#FFD100,
+SZ,Eswatini,EXACT,#FFFFFF,#FFFFFF,Already correct
+TC,Turks and Caicos Islands,REPLACED,#000000,#002868,
+TC,Turks and Caicos Islands,REPLACED,#F1B2DC,#FFFFFF,
+TC,Turks and Caicos Islands,EXACT,#002868,#002868,Already correct
+TC,Turks and Caicos Islands,EXACT,#FCD116,#FCD116,Already correct
+TC,Turks and Caicos Islands,EXACT,#009E49,#009E49,Already correct
+TC,Turks and Caicos Islands,REPLACED,#FCAD56,#FCD116,
+TC,Turks and Caicos Islands,EXACT,#CE1126,#CE1126,Already correct
+TC,Turks and Caicos Islands,REPLACED,#9E540A,#CE1126,
+TC,Turks and Caicos Islands,REPLACED,#FFA1A1,#FFFFFF,
+TC,Turks and Caicos Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+TD,Chad,EXACT,#FECB00,#FECB00,Already correct
+TD,Chad,EXACT,#C60C30,#C60C30,Already correct
+TD,Chad,EXACT,#002664,#002664,Already correct
+TF,French Southern Territories,SKIP,,,No color data
+TG,Togo,REPLACED,#006A4E,#006A4A,
+TG,Togo,EXACT,#FFCE00,#FFCE00,Already correct
+TG,Togo,EXACT,#FFFFFF,#FFFFFF,Already correct
+TG,Togo,EXACT,#D21034,#D21034,Already correct
+TH,Thailand,REPLACED,#A51931,#EF3340,
+TH,Thailand,REPLACED,#F4F5F8,#FFFFFF,
+TH,Thailand,REPLACED,#2D2A4A,#00247D,
+TJ,Tajikistan,REPLACED,#197B30,#006600,
+TJ,Tajikistan,REPLACED,#F7BF00,#F8C300,
+TJ,Tajikistan,KEPT (ΔE > threshold),#373435,#373435,"ΔE too large, original kept"
+TJ,Tajikistan,REPLACED,#DC161D,#CC0000,
+TJ,Tajikistan,EXACT,#FFFFFF,#FFFFFF,Already correct
+TK,Tokelau,EXACT,#FFD100,#FFD100,Already correct
+TK,Tokelau,EXACT,#012169,#012169,Already correct
+TK,Tokelau,EXACT,#FFFFFF,#FFFFFF,Already correct
+TL,Timor-Leste,EXACT,#DA291C,#DA291C,Already correct
+TL,Timor-Leste,EXACT,#FFFFFF,#FFFFFF,Already correct
+TL,Timor-Leste,EXACT,#FFC72C,#FFC72C,Already correct
+TM,Turkmenistan,REPLACED,#D22630,#E03C31,
+TM,Turkmenistan,REPLACED,#00843D,#009739,
+TM,Turkmenistan,KEPT (ΔE > threshold),#383739,#383739,"ΔE too large, original kept"
+TM,Turkmenistan,EXACT,#FFC72C,#FFC72C,Already correct
+TM,Turkmenistan,EXACT,#FFFFFF,#FFFFFF,Already correct
+TN,Tunisia,REPLACED,#E70013,#C8102E,
+TN,Tunisia,EXACT,#FFFFFF,#FFFFFF,Already correct
+TO,Tonga,REPLACED,#C10000,#C8102E,
+TO,Tonga,EXACT,#FFFFFF,#FFFFFF,Already correct
+TR,Türkiye,EXACT,#E30A17,#E30A17,Already correct
+TR,Türkiye,EXACT,#FFFFFF,#FFFFFF,Already correct
+TT,Trinidad and Tobago,EXACT,#FFFFFF,#FFFFFF,Already correct
+TT,Trinidad and Tobago,REPLACED,#DA1A35,#C8102E,
+TV,Tuvalu,EXACT,#012169,#012169,Already correct
+TV,Tuvalu,REPLACED,#009CDE,#418FDE,
+TV,Tuvalu,EXACT,#C8102E,#C8102E,Already correct
+TV,Tuvalu,REPLACED,#FEDD00,#FFCD00,
+TV,Tuvalu,EXACT,#FFFFFF,#FFFFFF,Already correct
+TW,Taiwan,REPLACED,#000094,#000095,
+TW,Taiwan,EXACT,#FE0000,#FE0000,Already correct
+TW,Taiwan,EXACT,#FFFFFF,#FFFFFF,Already correct
+TZ,Tanzania,EXACT,#000000,#000000,Already correct
+TZ,Tanzania,EXACT,#FCD116,#FCD116,Already correct
+TZ,Tanzania,EXACT,#00A3DD,#00A3DD,Already correct
+TZ,Tanzania,EXACT,#1EB53A,#1EB53A,Already correct
+UA,Ukraine,EXACT,#0057B7,#0057B7,Already correct
+UA,Ukraine,EXACT,#FFD700,#FFD700,Already correct
+UG,Uganda,EXACT,#9CA69C,#9CA69C,Already correct
+UG,Uganda,EXACT,#000000,#000000,Already correct
+UG,Uganda,EXACT,#D90000,#D90000,Already correct
+UG,Uganda,EXACT,#FFFFFF,#FFFFFF,Already correct
+UG,Uganda,EXACT,#FCDC04,#FCDC04,Already correct
+UM,United States Minor Outlying Islands,SKIP,,,No color data
+US,United States,EXACT,#0A3161,#0A3161,Already correct
+US,United States,EXACT,#B31942,#B31942,Already correct
+US,United States,EXACT,#FFFFFF,#FFFFFF,Already correct
+UY,Uruguay,REPLACED,#FCD116,#FFCD00,
+UY,Uruguay,EXACT,#7B3F00,#7B3F00,Already correct
+UY,Uruguay,REPLACED,#0038A8,#001489,
+UY,Uruguay,EXACT,#FFFFFF,#FFFFFF,Already correct
+UZ,Uzbekistan,REPLACED,#308738,#43B02A,
+UZ,Uzbekistan,REPLACED,#EE162E,#DA291C,
+UZ,Uzbekistan,EXACT,#FFFFFF,#FFFFFF,Already correct
+UZ,Uzbekistan,REPLACED,#3081F7,#0072CE,
+VA,Holy See,REPLACED,#FFCC20,#FFE81F,
+VA,Holy See,KEPT (ΔE > threshold),#000000,#000000,"ΔE too large, original kept"
+VA,Holy See,REPLACED,#A88D37,#FFE81F,
+VA,Holy See,REPLACED,#FFCC21,#FFE81F,
+VA,Holy See,KEPT (ΔE > threshold),#515356,#515356,"ΔE too large, original kept"
+VA,Holy See,REPLACED,#FFF200,#FFE81F,
+VA,Holy See,REPLACED,#FFE000,#FFE81F,
+VA,Holy See,REPLACED,#BDBEC0,#FFFFFF,
+VA,Holy See,REPLACED,#C9252C,#C8102E,
+VA,Holy See,EXACT,#FFFFFF,#FFFFFF,Already correct
+VC,Saint Vincent and the Grenadines,EXACT,#002674,#002674,Already correct
+VC,Saint Vincent and the Grenadines,EXACT,#FCD022,#FCD022,Already correct
+VC,Saint Vincent and the Grenadines,EXACT,#007C2E,#007C2E,Already correct
+VE,Venezuela,REPLACED,#00247D,#003DA5,
+VE,Venezuela,EXACT,#FFFFFF,#FFFFFF,Already correct
+VE,Venezuela,REPLACED,#FFCC00,#FCE300,
+VE,Venezuela,REPLACED,#CF142B,#EF3340,
+VG,British Virgin Islands,REPLACED,#006129,#4C8D2B,
+VG,British Virgin Islands,EXACT,#000000,#000000,Already correct
+VG,British Virgin Islands,REPLACED,#012169,#00205B,
+VG,British Virgin Islands,REPLACED,#9C5100,#C8102E,
+VG,British Virgin Islands,EXACT,#C8102E,#C8102E,Already correct
+VG,British Virgin Islands,REPLACED,#FFC72C,#FFD100,
+VG,British Virgin Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+VG,British Virgin Islands,REPLACED,#FFC6B5,#FFFFFF,
+VG,British Virgin Islands,REPLACED,#FFFF00,#FFD100,
+VG,British Virgin Islands,REPLACED,#FF0000,#C8102E,
+VI,United States Virgin Islands,REPLACED,#162667,#00205B,
+VI,United States Virgin Islands,REPLACED,#0081C6,#75B2DD,
+VI,United States Virgin Islands,REPLACED,#010002,#00205B,
+VI,United States Virgin Islands,REPLACED,#F4C53D,#FCE300,
+VI,United States Virgin Islands,REPLACED,#369443,#009639,
+VI,United States Virgin Islands,EXACT,#FFFFFF,#FFFFFF,Already correct
+VI,United States Virgin Islands,REPLACED,#A60032,#E03C31,
+VN,Viet Nam,REPLACED,#DA251D,#C8102E,
+VN,Viet Nam,REPLACED,#FFFF00,#FFCD00,
+VU,Vanuatu,EXACT,#000000,#000000,Already correct
+VU,Vanuatu,REPLACED,#FDCE12,#FFCD00,
+VU,Vanuatu,REPLACED,#009543,#009A44,
+VU,Vanuatu,REPLACED,#D21034,#C8102E,
+WF,Wallis and Futuna,REPLACED,#CE1126,#ED2939,
+WF,Wallis and Futuna,EXACT,#FFFFFF,#FFFFFF,Already correct
+WF,Wallis and Futuna,REPLACED,#002654,#002395,
+WS,Samoa,EXACT,#002B7F,#002B7F,Already correct
+WS,Samoa,EXACT,#CE1126,#CE1126,Already correct
+WS,Samoa,EXACT,#FFFFFF,#FFFFFF,Already correct
+XK,Kosovo,REPLACED,#666666,#244AA5,
+XK,Kosovo,EXACT,#D0A650,#D0A650,Already correct
+XK,Kosovo,EXACT,#FFFFFF,#FFFFFF,Already correct
+XK,Kosovo,EXACT,#244AA5,#244AA5,Already correct
+YE,Yemen,EXACT,#CE1126,#CE1126,Already correct
+YE,Yemen,EXACT,#FFFFFF,#FFFFFF,Already correct
+YT,Mayotte,REPLACED,#CE1126,#E1000F,
+YT,Mayotte,EXACT,#FFFFFF,#FFFFFF,Already correct
+YT,Mayotte,REPLACED,#002654,#000091,
+ZA,South Africa,EXACT,#000000,#000000,Already correct
+ZA,South Africa,EXACT,#E03C31,#E03C31,Already correct
+ZA,South Africa,EXACT,#FFB81C,#FFB81C,Already correct
+ZA,South Africa,EXACT,#007749,#007749,Already correct
+ZA,South Africa,EXACT,#001489,#001489,Already correct
+ZA,South Africa,EXACT,#FFFFFF,#FFFFFF,Already correct
+ZM,Zambia,REPLACED,#D40829,#DE2010,
+ZM,Zambia,EXACT,#000000,#000000,Already correct
+ZM,Zambia,REPLACED,#147F55,#198A00,
+ZM,Zambia,REPLACED,#F99815,#EF7D00,
+ZW,Zimbabwe,EXACT,#000000,#000000,Already correct
+ZW,Zimbabwe,REPLACED,#D40000,#EF3340,
+ZW,Zimbabwe,REPLACED,#006400,#009739,
+ZW,Zimbabwe,REPLACED,#FFD200,#FCE300,
+ZW,Zimbabwe,REPLACED,#319208,#009739,
+ZW,Zimbabwe,REPLACED,#DE2010,#EF3340,
+ZW,Zimbabwe,REPLACED,#FFCC00,#FCE300,
+ZW,Zimbabwe,REPLACED,#666666,#009739,
+ZW,Zimbabwe,EXACT,#FFFFFF,#FFFFFF,Already correct

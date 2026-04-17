@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "EC",
+  "name_en": "Ecuador",
+  "name_ja": "エクアドル",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (National Secretariat of Communication - SENACOM 2009)",
+  "colors": [
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0072CE",
+      "rgb": "0, 114, 206",
+      "cmyk": "90, 47, 0, 0",
+      "pantone": "285 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "2009年に国家通信庁(SENACOM)が策定した「国旗・国章使用マニュアル（Instructivo de uso de los Símbolos Patrios）」に基づき、109 C (Yellow), 285 C (Blue), 032 C (Red) へと修正し De jure 指定に昇格。"
+}

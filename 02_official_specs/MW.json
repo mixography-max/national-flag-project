@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MW",
+  "name_en": "Malawi",
+  "name_ja": "マラウイ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations / London 2012)",
+  "colors": [
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#007A33",
+      "rgb": "0, 122, 51",
+      "cmyk": "91, 0, 100, 26",
+      "pantone": "356 C"
+    }
+  ],
+  "notes": "2012年5月28日復活旗（各1964年独立時デザイン、2010年変更は不評で撤回）。三色帯（黒・赤・緑）に赤い昇る太陽（31本の光線 = アフリカ31番目の独立国）。Red 186 C, Green 356 C 確認。Black 「Black」→「Black C」。「C」サフィックスを付与。"
+}

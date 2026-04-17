@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BV",
+  "name_en": "Bouvet Island",
+  "name_ja": "ブーベ島",
+  "status": "Territory",
+  "ratio": "8:11",
+  "specs_source": "De jure (Norwegian Ministry of Foreign Affairs)",
+  "colors": [
+    {
+      "color_name": "Norwegian Red",
+      "hex": "#BA0C2F",
+      "rgb": "186, 12, 47",
+      "cmyk": "0, 100, 76, 13",
+      "pantone": "200 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Norwegian Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    }
+  ],
+  "notes": "ノルウェー属領で無人島であり専用の旗はないため、ノルウェー国旗を使用。2021年のノルウェー外務省の公式ガイドラインで指定された 200 C と 281 C を採用し、その旨を追記。"
+}

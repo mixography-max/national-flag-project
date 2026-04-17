@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "HR",
+  "name_en": "Croatia",
+  "name_ja": "クロアチア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Croatian Parliament Guidelines / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#FF0000",
+      "rgb": "255, 0, 0",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Light Blue",
+      "hex": "#71C5E8",
+      "rgb": "113, 197, 232",
+      "cmyk": "52, 0, 0, 0",
+      "pantone": "297 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "「国章・国旗・国歌法」は色を文言（赤・白・青）で定義するのみで、技術的仕様は指定されていない。クロアチア国会（Sabor）が国家シンボルの建設シートを提供。主要三色旗は 186 C (Red), 280 C (Blue)。国章の王冠部分に Light Blue (297 C) と Yellow/Gold (116 C) が使われる。色名「Dark Blue」を「Blue」に簡略化し、全Pantone値に「C」サフィックスを付与。"
+}

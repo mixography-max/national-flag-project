@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "VC",
+  "name_en": "Saint Vincent and the Grenadines",
+  "name_ja": "セントビンセントおよびグレナディーン諸島",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#002674",
+      "rgb": "0, 38, 116",
+      "cmyk": "100, 80, 0, 12",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCD022",
+      "rgb": "252, 208, 34",
+      "cmyk": "0, 17, 87, 1",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#007C2E",
+      "rgb": "0, 124, 46",
+      "cmyk": "85, 0, 98, 0",
+      "pantone": "354 C"
+    }
+  ],
+  "notes": "Canadian pale triband: 青・黄・緑（帯幅比1:2:1）。黄帯に緑のV字形ダイヤモンド3個（= 'Gems of the Antilles'）。Blue 286 C 確認。**Yellow を 109 から 116 C に修正**。Green 354 C 確認。CMYK修正。"
+}

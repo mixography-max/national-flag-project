@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "MK",
+  "name_en": "North Macedonia",
+  "name_ja": "北マケドニア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#D82126",
+      "rgb": "216, 33, 38",
+      "cmyk": "0, 100, 90, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#F8E92E",
+      "rgb": "248, 233, 46",
+      "cmyk": "0, 0, 100, 0",
+      "pantone": "108 C"
+    }
+  ],
+  "notes": "1995年10月5日国旗法採用。**Red を 1795 C から 485 C に修正。Yellow を 107 C から 108 C に修正** — Album des Pavillons の標準値。太陽の中心は旗の対角線の交点、中央円盤の直径 = 旗の長さの1/7。ノイズ文字「!」を除去。CMYK修正。"
+}

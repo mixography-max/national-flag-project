@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "GB",
+  "name_en": "United Kingdom",
+  "name_ja": "イギリス",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Flag Institute Recommendations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**重大なデータ誤りを発見・修正**。元データには Blue (#0057B7) と Yellow (#FFDD00) のみが登録されており、これはウクライナ国旗の配色であった。ユニオンジャックの正しい3色（Blue 280 C, Red 186 C, White）にフルスクラッチで再構成。Flag Institute（英国旗章学協会・国家旗章登録機関）の推奨値に準拠。法的に色を義務付ける British Standard は存在しない。"
+}

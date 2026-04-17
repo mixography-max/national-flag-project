@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MN",
+  "name_en": "Mongolia",
+  "name_ja": "モンゴル",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (2011 Official Color Standardization / Government of Mongolia)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#DA2032",
+      "rgb": "218, 32, 50",
+      "cmyk": "0, 100, 90, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0066B3",
+      "rgb": "0, 102, 179",
+      "cmyk": "100, 35, 0, 10",
+      "pantone": "660 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 12, 100, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "**De jure に昇格。全3色とも重大修正**。2011年7月8日の公式色標準化にて確定。1992年1月12日の現行デザイン（社会主義の星を除去）採用。三色縦帯（赤・青・赤）にソヨンボ紋章。**Red を 485 から 032 C に修正。Blue を 2915 から 660 C に修正。Yellow を 109 から 116 C に修正** — 2011年以前の国際マニュアル値（485, 2915, 109）は完全に置換されている。"
+}

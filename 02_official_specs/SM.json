@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "SM",
+  "name_en": "San Marino",
+  "name_ja": "サンマリノ",
+  "status": "UN Member",
+  "ratio": "3:4",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Light Blue",
+      "hex": "#62B5E5",
+      "rgb": "98, 181, 229",
+      "cmyk": "58, 8, 0, 0",
+      "pantone": "2915 C"
+    }
+  ],
+  "notes": "横二色帯（白+水色）。国旗版は紋章付（ティターノ山3峰+3塔、冠、月桂/樫花輪、'LIBERTAS'）。比率3:4（国際的には2:3も使用）。Light Blue 2915 C 確認。「C」サフィックスを付与。"
+}

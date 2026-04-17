@@ -1,0 +1,251 @@
+﻿Index,Code,Name_EN,Name_JA,Region,Ratio
+1,AF,Afghanistan,アフガニスタン,Asia,2:3
+2,AL,Albania,アルバニア,Europe,5:7
+3,DZ,Algeria,アルジェリア,Africa,2:3
+4,AS,American Samoa,アメリカ領サモア,Oceania,1:2
+5,AD,Andorra,アンドラ,Europe,7:10
+6,AO,Angola,アンゴラ,Africa,2:3
+7,AI,Anguilla,アンギラ,Americas,1:2
+8,AQ,Antarctica,南極,Other,3:5
+9,AG,Antigua and Barbuda,アンティグア・バーブーダ,Americas,2:3
+10,AR,Argentina,アルゼンチン,Americas,5:8
+11,AM,Armenia,アルメニア,Asia,1:2
+12,AW,Aruba,アルバ,Americas,2:3
+13,AU,Australia,オーストラリア,Oceania,1:2
+14,AT,Austria,オーストリア,Europe,2:3
+15,AZ,Azerbaijan,アゼルバイジャン,Asia,1:2
+16,BS,Bahamas,バハマ,Americas,1:2
+17,BH,Bahrain,バーレーン,Asia,3:5
+18,BD,Bangladesh,バングラデシュ,Asia,3:5
+19,BB,Barbados,バルバドス,Americas,2:3
+20,BY,Belarus,ベラルーシ,Europe,1:2
+21,BE,Belgium,ベルギー,Europe,13:15
+22,BZ,Belize,ベリーズ,Americas,3:5
+23,BJ,Benin,ベナン,Africa,2:3
+24,BM,Bermuda,バミューダ,Americas,1:2
+25,BT,Bhutan,ブータン,Asia,2:3
+26,BO,Bolivia,ボリビア,Americas,15:22
+27,BQ,"Bonaire, Sint Eustatius and Saba",ボネール、シント・ユースタティウスおよびサバ,Americas,2:3
+28,BA,Bosnia and Herzegovina,ボスニア・ヘルツェゴビナ,Europe,1:2
+29,BW,Botswana,ボツワナ,Africa,2:3
+30,BV,Bouvet Island,ブーベ島,Americas,8:11
+31,BR,Brazil,ブラジル,Americas,7:10
+32,IO,British Indian Ocean Territory,イギリス領インド洋地域,Africa,1:2
+33,VG,British Virgin Islands,イギリス領ヴァージン諸島,Americas,1:2
+34,BN,Brunei,ブルネイ,Asia,1:2
+35,BG,Bulgaria,ブルガリア,Europe,3:5
+36,BF,Burkina Faso,ブルキナファソ,Africa,2:3
+37,BI,Burundi,ブルンジ,Africa,3:5
+38,CV,Cabo Verde,カーボベルデ,Africa,10:17
+39,KH,Cambodia,カンボジア,Asia,2:3
+40,CM,Cameroon,カメルーン,Africa,2:3
+41,CA,Canada,カナダ,Americas,1:2
+42,KY,Cayman Islands,ケイマン諸島,Americas,1:2
+43,CF,Central African Republic,中央アフリカ共和国,Africa,2:3
+44,TD,Chad,チャド,Africa,2:3
+45,CL,Chile,チリ,Americas,2:3
+46,CN,China,中国,Asia,2:3
+47,CX,Christmas Island,クリスマス島,Oceania,1:2
+48,CC,Cocos (Keeling) Islands,ココス（キーリング）諸島,Oceania,1:2
+49,CO,Colombia,コロンビア,Americas,2:3
+50,KM,Comoros,コモロ,Africa,3:5
+51,CG,Congo,コンゴ共和国,Africa,2:3
+52,CK,Cook Islands,クック諸島,Oceania,1:2
+53,CR,Costa Rica,コスタリカ,Americas,3:5
+54,HR,Croatia,クロアチア,Europe,1:2
+55,CU,Cuba,キューバ,Americas,1:2
+56,CW,Curaçao,キュラソー,Americas,2:3
+57,CY,Cyprus,キプロス,Asia,2:3
+58,CZ,Czechia,チェコ,Europe,2:3
+59,CI,Côte d'Ivoire,コートジボワール,Africa,2:3
+60,CD,DR Congo,コンゴ民主共和国,Africa,3:4
+61,DK,Denmark,デンマーク,Europe,28:37
+62,DJ,Djibouti,ジブチ,Africa,2:3
+63,DM,Dominica,ドミニカ国,Americas,1:2
+64,DO,Dominican Republic,ドミニカ共和国,Americas,2:3
+65,EC,Ecuador,エクアドル,Americas,2:3
+66,EG,Egypt,エジプト,Africa,2:3
+67,SV,El Salvador,エルサルバドル,Americas,189:335
+68,GQ,Equatorial Guinea,赤道ギニア,Africa,2:3
+69,ER,Eritrea,エリトリア,Africa,1:2
+70,EE,Estonia,エストニア,Europe,7:11
+71,SZ,Eswatini,エスワティニ,Africa,2:3
+72,ET,Ethiopia,エチオピア,Africa,1:2
+73,FK,Falkland Islands,フォークランド諸島,Americas,1:2
+74,FO,Faroe Islands,フェロー諸島,Europe,8:11
+75,FJ,Fiji,フィジー,Oceania,1:2
+76,FI,Finland,フィンランド,Europe,11:18
+77,FR,France,フランス,Europe,2:3
+78,GF,French Guiana,フランス領ギアナ,Americas,2:3
+79,PF,French Polynesia,フランス領ポリネシア,Oceania,2:3
+80,TF,French Southern Territories,フランス領南方・南極地域,Africa,2:3
+81,GA,Gabon,ガボン,Africa,3:4
+82,GM,Gambia,ガンビア,Africa,2:3
+83,GE,Georgia,ジョージア,Asia,2:3
+84,DE,Germany,ドイツ,Europe,3:5
+85,GH,Ghana,ガーナ,Africa,2:3
+86,GI,Gibraltar,ジブラルタル,Europe,1:2
+87,GR,Greece,ギリシャ,Europe,2:3
+88,GL,Greenland,グリーンランド,Americas,2:3
+89,GD,Grenada,グレナダ,Americas,3:5
+90,GP,Guadeloupe,グアドループ,Americas,2:3
+91,GU,Guam,グアム,Oceania,22:41
+92,GT,Guatemala,グアテマラ,Americas,5:8
+93,GG,Guernsey,ガーンジー,Europe,3:5
+94,GN,Guinea,ギニア,Africa,2:3
+95,GW,Guinea-Bissau,ギニアビサウ,Africa,1:2
+96,GY,Guyana,ガイアナ,Americas,3:5
+97,HT,Haiti,ハイチ,Americas,3:5
+98,HM,Heard Island and McDonald Islands,ハード島とマクドナルド諸島,Oceania,1:2
+99,VA,Holy See,バチカン市国,Europe,1:1
+100,HN,Honduras,ホンジュラス,Americas,1:2
+101,HK,Hong Kong,香港,Asia,2:3
+102,HU,Hungary,ハンガリー,Europe,1:2
+103,IS,Iceland,アイスランド,Europe,18:25
+104,IN,India,インド,Asia,2:3
+105,ID,Indonesia,インドネシア,Asia,2:3
+106,IR,Iran,イラン,Asia,4:7
+107,IQ,Iraq,イラク,Asia,2:3
+108,IE,Ireland,アイルランド,Europe,1:2
+109,IM,Isle of Man,マン島,Europe,1:2
+110,IL,Israel,イスラエル,Asia,8:11
+111,IT,Italy,イタリア,Europe,2:3
+112,JM,Jamaica,ジャマイカ,Americas,1:2
+113,JP,Japan,日本,Asia,2:3
+114,JE,Jersey,ジャージー,Europe,3:5
+115,JO,Jordan,ヨルダン,Asia,1:2
+116,KZ,Kazakhstan,カザフスタン,Asia,1:2
+117,KE,Kenya,ケニア,Africa,2:3
+118,KI,Kiribati,キリバス,Oceania,1:2
+119,XK,Kosovo,コソボ,Europe,5:7
+120,KW,Kuwait,クウェート,Asia,1:2
+121,KG,Kyrgyzstan,キルギス,Asia,3:5
+122,LA,Laos,ラオス,Asia,2:3
+123,LV,Latvia,ラトビア,Europe,1:2
+124,LB,Lebanon,レバノン,Asia,2:3
+125,LS,Lesotho,レソト,Africa,2:3
+126,LR,Liberia,リベリア,Africa,10:19
+127,LY,Libya,リビア,Africa,1:2
+128,LI,Liechtenstein,リヒテンシュタイン,Europe,3:5
+129,LT,Lithuania,リトアニア,Europe,3:5
+130,LU,Luxembourg,ルクセンブルク,Europe,3:5
+131,MO,Macao,マカオ,Asia,2:3
+132,MG,Madagascar,マダガスカル,Africa,2:3
+133,MW,Malawi,マラウイ,Africa,2:3
+134,MY,Malaysia,マレーシア,Asia,1:2
+135,MV,Maldives,モルディブ,Asia,2:3
+136,ML,Mali,マリ,Africa,2:3
+137,MT,Malta,マルタ,Europe,2:3
+138,MH,Marshall Islands,マーシャル諸島,Oceania,10:19
+139,MQ,Martinique,マルティニーク,Americas,2:3
+140,MR,Mauritania,モーリタニア,Africa,2:3
+141,MU,Mauritius,モーリシャス,Africa,2:3
+142,YT,Mayotte,マヨット,Africa,2:3
+143,MX,Mexico,メキシコ,Americas,4:7
+144,FM,Micronesia,ミクロネシア連邦,Oceania,10:19
+145,MD,Moldova,モルドバ,Europe,1:2
+146,MC,Monaco,モナコ,Europe,4:5
+147,MN,Mongolia,モンゴル,Asia,1:2
+148,ME,Montenegro,モンテネグロ,Europe,1:2
+149,MS,Montserrat,モントセラト,Americas,1:2
+150,MA,Morocco,モロッコ,Africa,2:3
+151,MZ,Mozambique,モザンビーク,Africa,2:3
+152,MM,Myanmar,ミャンマー,Asia,2:3
+153,NA,Namibia,ナミビア,Africa,2:3
+154,NR,Nauru,ナウル,Oceania,1:2
+155,NP,Nepal,ネパール,Asia,special (non-rectangular)
+156,NL,Netherlands,オランダ,Europe,2:3
+157,NC,New Caledonia,ニューカレドニア,Oceania,2:3
+158,NZ,New Zealand,ニュージーランド,Oceania,1:2
+159,NI,Nicaragua,ニカラグア,Americas,3:5
+160,NE,Niger,ニジェール,Africa,6:7
+161,NG,Nigeria,ナイジェリア,Africa,1:2
+162,NU,Niue,ニウエ,Oceania,1:2
+163,NF,Norfolk Island,ノーフォーク島,Oceania,1:2
+164,KP,North Korea,北朝鮮,Asia,1:2
+165,MK,North Macedonia,北マケドニア,Europe,1:2
+166,MP,Northern Mariana Islands,北マリアナ諸島,Oceania,1:2
+167,NO,Norway,ノルウェー,Europe,8:11
+168,OM,Oman,オマーン,Asia,4:7
+169,PK,Pakistan,パキスタン,Asia,2:3
+170,PW,Palau,パラオ,Oceania,5:8
+171,PS,Palestine,パレスチナ,Asia,1:2
+172,PA,Panama,パナマ,Americas,2:3
+173,PG,Papua New Guinea,パプアニューギニア,Oceania,3:4
+174,PY,Paraguay,パラグアイ,Americas,3:5
+175,PE,Peru,ペルー,Americas,2:3
+176,PH,Philippines,フィリピン,Asia,1:2
+177,PN,Pitcairn Islands,ピトケアン諸島,Oceania,1:2
+178,PL,Poland,ポーランド,Europe,5:8
+179,PT,Portugal,ポルトガル,Europe,2:3
+180,PR,Puerto Rico,プエルトリコ,Americas,2:3
+181,QA,Qatar,カタール,Asia,11:28
+182,RO,Romania,ルーマニア,Europe,2:3
+183,RU,Russia,ロシア,Europe,2:3
+184,RW,Rwanda,ルワンダ,Africa,2:3
+185,RE,Réunion,レユニオン,Africa,2:3
+186,BL,Saint Barthélemy,サン・バルテルミー,Americas,2:3
+187,SH,"Saint Helena, Ascension and Tristan da Cunha",セントヘレナ・アセンションおよびトリスタンダクーニャ,Africa,1:2
+188,KN,Saint Kitts and Nevis,セントクリストファー・ネイビス,Americas,2:3
+189,LC,Saint Lucia,セントルシア,Americas,1:2
+190,MF,Saint Martin (French part),サン・マルタン,Americas,2:3
+191,PM,Saint Pierre and Miquelon,サンピエール島・ミクロン島,Americas,2:3
+192,VC,Saint Vincent and the Grenadines,セントビンセントおよびグレナディーン諸島,Americas,2:3
+193,WS,Samoa,サモア,Oceania,1:2
+194,SM,San Marino,サンマリノ,Europe,3:4
+195,SA,Saudi Arabia,サウジアラビア,Asia,2:3
+196,SN,Senegal,セネガル,Africa,2:3
+197,RS,Serbia,セルビア,Europe,2:3
+198,SC,Seychelles,セーシェル,Africa,1:2
+199,SL,Sierra Leone,シエラレオネ,Africa,2:3
+200,SG,Singapore,シンガポール,Asia,2:3
+201,SX,Sint Maarten (Dutch part),シント・マールテン,Americas,2:3
+202,SK,Slovakia,スロバキア,Europe,2:3
+203,SI,Slovenia,スロベニア,Europe,1:2
+204,SB,Solomon Islands,ソロモン諸島,Oceania,1:2
+205,SO,Somalia,ソマリア,Africa,2:3
+206,ZA,South Africa,南アフリカ,Africa,2:3
+207,GS,South Georgia and the South Sandwich Islands,サウスジョージア・サウスサンドウィッチ諸島,Americas,1:2
+208,KR,South Korea,韓国,Asia,2:3
+209,SS,South Sudan,南スーダン,Africa,1:2
+210,ES,Spain,スペイン,Europe,2:3
+211,LK,Sri Lanka,スリランカ,Asia,1:2
+212,SD,Sudan,スーダン,Africa,1:2
+213,SR,Suriname,スリナム,Americas,2:3
+214,SJ,Svalbard and Jan Mayen,スヴァールバル諸島およびヤンマイエン島,Europe,8:11
+215,SE,Sweden,スウェーデン,Europe,5:8
+216,CH,Switzerland,スイス,Europe,1:1
+217,SY,Syria,シリア,Asia,2:3
+218,ST,São Tomé and Príncipe,サントメ・プリンシペ,Africa,1:2
+219,TW,Taiwan,台湾,Asia,2:3
+220,TJ,Tajikistan,タジキスタン,Asia,1:2
+221,TZ,Tanzania,タンザニア,Africa,2:3
+222,TH,Thailand,タイ,Asia,2:3
+223,TL,Timor-Leste,東ティモール,Asia,1:2
+224,TG,Togo,トーゴ,Africa,1:1.618
+225,TK,Tokelau,トケラウ,Oceania,1:2
+226,TO,Tonga,トンガ,Oceania,1:2
+227,TT,Trinidad and Tobago,トリニダード・トバゴ,Americas,3:5
+228,TN,Tunisia,チュニジア,Africa,2:3
+229,TM,Turkmenistan,トルクメニスタン,Asia,2:3
+230,TC,Turks and Caicos Islands,タークス・カイコス諸島,Americas,1:2
+231,TV,Tuvalu,ツバル,Oceania,1:2
+232,TR,Türkiye,トルコ,Asia,2:3
+233,UG,Uganda,ウガンダ,Africa,2:3
+234,UA,Ukraine,ウクライナ,Europe,2:3
+235,AE,United Arab Emirates,アラブ首長国連邦,Asia,1:2
+236,GB,United Kingdom,イギリス,Europe,1:2
+237,US,United States,アメリカ合衆国,Americas,10:19
+238,UM,United States Minor Outlying Islands,合衆国領有小離島,Oceania,10:19
+239,VI,United States Virgin Islands,アメリカ領ヴァージン諸島,Americas,2:3
+240,UY,Uruguay,ウルグアイ,Americas,2:3
+241,UZ,Uzbekistan,ウズベキスタン,Asia,1:2
+242,VU,Vanuatu,バヌアツ,Oceania,3:5
+243,VE,Venezuela,ベネズエラ,Americas,2:3
+244,VN,Viet Nam,ベトナム,Asia,2:3
+245,WF,Wallis and Futuna,ウォリス・フツナ,Oceania,2:3
+246,EH,Western Sahara,西サハラ,Africa,1:2
+247,YE,Yemen,イエメン,Asia,2:3
+248,ZM,Zambia,ザンビア,Africa,2:3
+249,ZW,Zimbabwe,ジンバブエ,Africa,1:2
+250,AX,Åland Islands,オーランド諸島,Europe,17:26

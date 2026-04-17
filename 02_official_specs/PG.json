@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "PG",
+  "name_en": "Papua New Guinea",
+  "name_ja": "パプアニューギニア",
+  "status": "UN Member",
+  "ratio": "3:4",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "対角分割（上ホイスト→下フライ）：上赤三角に金色の極楽鳥（Kumul = 国家誕生）、下黒三角に白い南十字星5星。Red 186 C, Yellow 116 C 確認。Black 「Black」→「Black C」。「C」サフィックスを付与。ゴミ source 除去。"
+}

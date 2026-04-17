@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MO",
+  "name_en": "Macao",
+  "name_ja": "マカオ",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (GB 17654-1999 / National Standard of the PRC)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#00785E",
+      "rgb": "0, 120, 94",
+      "cmyk": "100, 0, 50, 30",
+      "pantone": "3295 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    }
+  ],
+  "notes": "**De jure。空データから完全に新規作成**。GB 17654-1999 が旗の仕様を定義。緑地に白い蓮花（三枚花弁 = マカオ半島、タイパ島、コロアネ島）、白い橋と水の意匠、五つの金色星。Green 3295 C, Yellow 109 C を設定。"
+}

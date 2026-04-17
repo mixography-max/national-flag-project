@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "GL",
+  "name_en": "Greenland",
+  "name_ja": "グリーンランド",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De facto (Album des Pavillons / Danish Standard Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#D00C33",
+      "rgb": "208, 12, 51",
+      "cmyk": "0, 90, 90, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1985年6月21日採用の「Erfalasorput（我らの旗）」。デザイナーはThue Christiansen。Album des Pavillons で赤は 032 C と記載されているが、元データは「186 C            !」とノイズ付きで誤った値になっていた。032 C に修正しノイズを一掃。デンマーク国旗（Dannebrog）と同色であることを注記。"
+}

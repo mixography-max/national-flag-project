@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "AX",
+  "name_en": "Åland Islands",
+  "name_ja": "オーランド諸島",
+  "status": "Territory",
+  "ratio": "17:26",
+  "specs_source": "Landskapsförordning (2004:15)",
+  "colors": [
+    {
+      "color_name": "Medium Blue",
+      "hex": "#0053A5",
+      "rgb": "0, 83, 165",
+      "cmyk": "100, 54, 2, 0",
+      "pantone": "2945 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCE00",
+      "rgb": "255, 206, 0",
+      "cmyk": "0, 16, 100, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D21034",
+      "rgb": "210, 16, 52",
+      "cmyk": "6, 100, 100, 0",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "データが0件だったが、実体は自治政府の条例（2004年第15号）により Pantone および CMYK（Medium Blue: 2945 C, Yellow: 116 C, Red: 186 C）が極めて厳密に制定されている。データと比率（17:26）をフルスクラッチで追加。"
+}

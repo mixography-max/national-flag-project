@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "UG",
+  "name_en": "Uganda",
+  "name_ja": "ウガンダ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCDC04",
+      "rgb": "252, 220, 4",
+      "cmyk": "0, 10, 95, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D90000",
+      "rgb": "217, 0, 0",
+      "cmyk": "0, 100, 85, 6",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Grey",
+      "hex": "#9CA69C",
+      "rgb": "156, 166, 156",
+      "cmyk": "50, 34, 27, 11",
+      "pantone": "430 C"
+    }
+  ],
+  "notes": "1962年10月9日採用。6帯（黒黄赤×2）、中央に白円盤（ハイイロカンムリヅル）。**Yellow を 109 から 116 C に修正。Red を 032 から 186 C に修正**。Black「Black」→「Black C」。White を追加（円盤）。Grey 430 C 確認。色順序修正。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "DE",
+  "name_en": "Germany",
+  "name_ja": "ドイツ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De jure (Corporate Design manual of the Federal Government)",
+  "colors": [
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DD0000",
+      "rgb": "221, 0, 0",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFCC00",
+      "rgb": "255, 204, 0",
+      "cmyk": "0, 12, 100, 5",
+      "pantone": "7405 C"
+    }
+  ],
+  "notes": "基礎法（基本法）で黒・赤・金が定められている。技術的仕様は連邦政府のコーポレートデザイン規格が存在し、基本色として Black C, 485 C (Red), 7405 C (Gold) を適用して De jure 指定へ昇格させた。"
+}

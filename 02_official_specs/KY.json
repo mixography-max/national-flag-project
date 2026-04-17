@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "KY",
+  "name_en": "Cayman Islands",
+  "name_ja": "ケイマン諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard British Ensign Approximations / London 2012 LOCOG)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "イギリスのブルー・エンサインに紋章（海亀、パイナップル、三つ星の紋章盾）を白円内に配する旗。法定Pantone規定なし。ロンドン2012大会旗章マニュアルが 281 (Blue), 032 (Red) を参照値として提供。紋章にはYellow 109, Green 348/361, Light Blue 292 も含まれるが主要エンサイン色のみ保持。色名「Dark Blue」を「Blue」に簡略化。「C」サフィックスを付与。"
+}

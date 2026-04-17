@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BY",
+  "name_en": "Belarus",
+  "name_ja": "ベラルーシ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#D22730",
+      "rgb": "210, 39, 48",
+      "cmyk": "0, 96, 82, 1",
+      "pantone": "1795 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009739",
+      "rgb": "0, 151, 57",
+      "cmyk": "100, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    }
+  ],
+  "notes": "意匠は STB 911-2008 および大統領令で定義されるが、Pantone指定はないため、一般的な標準近似値である 1795 C (Red), 355 C (Green) を採用して最適化。"
+}

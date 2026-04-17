@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "AW",
+  "name_en": "Aruba",
+  "name_ja": "アルバ",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (National Flag Ordinance standards)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#418FDE",
+      "rgb": "65, 143, 222",
+      "cmyk": "69, 34, 0, 0",
+      "pantone": "279 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 18, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 84, 77, 5",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "独自の国家旗章法で色が厳格に定められている（Larkspur Blue: 279 C, Bunting Yellow: 109 C, Union Jack Red: 032 C）。自動取得データ（Yellow 107, Red 186）が誤っていたため、法定値に正しく修正。"
+}

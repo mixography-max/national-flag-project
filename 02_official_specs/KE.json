@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "KE",
+  "name_en": "Kenya",
+  "name_ja": "ケニア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#BB0000",
+      "rgb": "187, 0, 0",
+      "cmyk": "0, 75, 85, 10",
+      "pantone": "180 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#006600",
+      "rgb": "0, 102, 0",
+      "cmyk": "100, 0, 90, 20",
+      "pantone": "347 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "憲法（第二附則）が旗のデザインを定めるがPantone/CMYK色値は規定なし。横三色帯（黒・赤・緑）に白い縁取りと中央のマサイ族の盾と交差した槍。Red 180 C, Green 347 C は広く引用される標準近似値として確認。色順序を旗の構造に合わせて再配置。「C」サフィックスを付与。ゴミ文字列「Legal refs: Constitution in」を除去。"
+}

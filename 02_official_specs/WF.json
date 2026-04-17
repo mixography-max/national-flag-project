@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "WF",
+  "name_en": "Wallis and Futuna",
+  "name_ja": "ウォリス・フツナ",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De facto (Unofficial local flag / French Tricolor is official)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#ED2939",
+      "rgb": "237, 41, 57",
+      "cmyk": "0, 83, 76, 7",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#002395",
+      "rgb": "0, 35, 149",
+      "cmyk": "100, 76, 0, 42",
+      "pantone": "286 C"
+    }
+  ],
+  "notes": "**空データから完全に新規作成**。仏海外準県 — 公式旗は仏三色旗。非公式地元旗（ウヴェア旗、c.1985）: 赤地にカントンの仏三色旗+白い十字パテ（4つの白い二等辺三角形=3王+仏総督）。三色旗基準色を記録（Red 186 C, Blue 286 C）。"
+}

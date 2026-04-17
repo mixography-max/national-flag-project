@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "VE",
+  "name_en": "Venezuela",
+  "name_ja": "ベネズエラ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Ley de Bandera, Escudo e Himno Nacionales, 2006 — design only)",
+  "colors": [
+    {
+      "color_name": "Yellow",
+      "hex": "#FCE300",
+      "rgb": "252, 227, 0",
+      "cmyk": "0, 0, 100, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#003DA5",
+      "rgb": "0, 61, 165",
+      "cmyk": "100, 76, 0, 9",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。2006年改正で8番目の星を追加（ボリバルの勅令に基づく）。法はPantoneを規定せず。**Yellow を 102 から 116 C に修正。Blue を 293 から 286 C に修正。Red を 032 から 186 C に修正** — 3色全て修正。"
+}

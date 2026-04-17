@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "LY",
+  "name_en": "Libya",
+  "name_ja": "リビア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#E70013",
+      "rgb": "231, 0, 19",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#239E46",
+      "rgb": "35, 158, 70",
+      "cmyk": "93, 0, 98, 17",
+      "pantone": "348 C"
+    }
+  ],
+  "notes": "2011年8月に復活（1951年憲法の旗）。横三色帯（赤・黒・緑、黒は倍幅）に白い三日月と五芒星。政府発行のPantone仕様なし。Red 485 C, Green 348 C は CRW Flags の標準近似値。Black 「Black」→「Black C」。「C」サフィックスを付与。"
+}

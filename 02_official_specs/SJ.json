@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "SJ",
+  "name_en": "Svalbard and Jan Mayen",
+  "name_ja": "スヴァールバル諸島およびヤンマイエン島",
+  "status": "Territory",
+  "ratio": "8:11",
+  "specs_source": "De facto (Nordic Council / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#BA0C2F",
+      "rgb": "186, 12, 47",
+      "cmyk": "0, 94, 75, 27",
+      "pantone": "200 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 65, 0, 64",
+      "pantone": "281 C"
+    }
+  ],
+  "notes": "ノルウェーの領土（スヴァールバル条約に基づく管轄）であり、固有の旗は存在しない。公式にはノルウェー国旗を使用する。カラー仕様はNO（ノルウェー）エントリと同一。"
+}

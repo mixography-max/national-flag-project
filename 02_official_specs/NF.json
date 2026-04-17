@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "NF",
+  "name_en": "Norfolk Island",
+  "name_ja": "ノーフォーク島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De jure (Norfolk Island Flag and Public Seal Act 1979)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#007934",
+      "rgb": "0, 121, 52",
+      "cmyk": "100, 0, 57, 53",
+      "pantone": "356 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。1979年法が Green **356 C** を法定指定 — 唯一の立法規定色。三色縦帯（緑・白・緑）比率7:9:7にノーフォーク島松（Araucaria heterophylla）。**356 C は正確と確認** ✅。ノイズ「!」除去。ゴミ source 除去。"
+}

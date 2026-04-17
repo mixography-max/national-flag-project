@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "IR",
+  "name_en": "Iran",
+  "name_ja": "イラン",
+  "status": "UN Member",
+  "ratio": "4:7",
+  "specs_source": "De facto (ISIRI 1 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#239F40",
+      "rgb": "35, 159, 64",
+      "cmyk": "100, 0, 95, 5",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DA0000",
+      "rgb": "218, 0, 0",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "横三色旗（緑・白・赤）に帯境界沿いの「アッラーフ・アクバル」22回繰返しと中央紋章。ISIRI 1 はデザイン・構造を規定するが色のPantone定義を厳密には含まない。**Green を 335 から 355 C に修正（重大な誤り）**。Red は 186 C で確認。CMYK値を修正し「C」サフィックスを付与。"
+}

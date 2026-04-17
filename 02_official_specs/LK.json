@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "LK",
+  "name_en": "Sri Lanka",
+  "name_ja": "スリランカ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (SLS 1:2020 - Sri Lanka Standards Institution)",
+  "colors": [
+    {
+      "color_name": "Gold",
+      "hex": "#F7B718",
+      "rgb": "247, 183, 24",
+      "cmyk": "0, 26, 90, 3",
+      "pantone": "124 C"
+    },
+    {
+      "color_name": "Maroon",
+      "hex": "#941E32",
+      "rgb": "148, 30, 50",
+      "cmyk": "0, 80, 66, 42",
+      "pantone": "194 C"
+    },
+    {
+      "color_name": "Saffron",
+      "hex": "#DF7500",
+      "rgb": "223, 117, 0",
+      "cmyk": "0, 48, 100, 13",
+      "pantone": "152 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#005F56",
+      "rgb": "0, 95, 86",
+      "cmyk": "100, 0, 9, 63",
+      "pantone": "3302 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "**De jure に昇格。全色を公式規格に基づき全面更新**。SLS 1:2020 が公式CMYK/HEX値を定義。色名「Dark Red」→「Maroon」（公式名）、「Yellow」→「Gold」に修正。全HEX/CMYK値をSLS 1:2020に更新。旧Pantone近似（109, 150, 361）は公式CMYK/HEXと大幅に乖離していたため、正確な近似値（124 C, 152 C, 3302 C）に全面置換。ライオン（kastane剣持ち）= シンハラ人の勇気、四つの菩提樹の葉 = 仏教の四徳、緑 = スリランカ・ムーア人、サフラン = スリランカ・タミル人。"
+}

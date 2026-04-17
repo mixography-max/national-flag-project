@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "JO",
+  "name_en": "Jordan",
+  "name_ja": "ヨルダン",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Royal Protocol 2007 'Jordanian Flag Basic Elements')",
+  "colors": [
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#007A3D",
+      "rgb": "0, 122, 61",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Crimson",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 100, 65, 15",
+      "pantone": "200 C"
+    }
+  ],
+  "notes": "**De jure に昇格。重大修正あり**。2007年王室プロトコル「ヨルダン国旗の基本要素」が権威ある出典。**赤を「Crimson」（Pantone 200 C）に修正 — 旧データの 485 は単なる赤で、王室プロトコルが指定する「深紅」とは全く異なる値であった**。パン・アラブ色：Black（アッバース朝）、White（ウマイヤ朝）、Green（ファーティマ朝）、Crimson三角（ハーシム家/大アラブ反乱）。七芒星 = クルアーン冒頭7節。"
+}

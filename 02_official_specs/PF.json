@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "PF",
+  "name_en": "French Polynesia",
+  "name_ja": "フランス領ポリネシア",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 100, 81, 11",
+      "pantone": "185 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0033A0",
+      "rgb": "0, 51, 160",
+      "cmyk": "100, 68, 0, 37",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "1984年11月23日採用。赤白赤の横三色帯（1:2:1比率）に領土紋章（ポリネシアのピローグ＝カヌー、5人の人物 = 5つの諸島群、太陽、波）。**Red を 186 から 185 C に修正。Blue を 293 から 286 C に修正。Gold を 1375 から 116 C に修正**。ノイズ「!」除去。"
+}

@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "TM",
+  "name_en": "Turkmenistan",
+  "name_ja": "トルクメニスタン",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Presidential Decree PP-3051, 2000 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#009739",
+      "rgb": "0, 151, 57",
+      "cmyk": "100, 0, 56, 48",
+      "pantone": "348 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E03C31",
+      "rgb": "224, 60, 49",
+      "cmyk": "0, 91, 72, 24",
+      "pantone": "187 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFC72C",
+      "rgb": "255, 199, 44",
+      "cmyk": "0, 22, 83, 0",
+      "pantone": "123 C"
+    }
+  ],
+  "notes": "大統領令PP-3051参照。緑地にホイスト近くの垂直赤帯（5つの絨毯グル=5部族）上に交差オリーブ枝（永世中立）。白い三日月+白い5星（5州）。世界で最も複雑なデザインの国旗。**Green を 355 から 348 C に修正。Red を 179 から 187 C に修正。Yellow を「N.A」から 123 C に修正**。White「White」除去。CMYK修正。"
+}

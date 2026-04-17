@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "SN",
+  "name_en": "Senegal",
+  "name_ja": "セネガル",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Constitution of Senegal — design only)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#00853F",
+      "rgb": "0, 133, 63",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "354 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FDEF42",
+      "rgb": "253, 239, 66",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E31B23",
+      "rgb": "227, 27, 35",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "憲法が定義。縦三色旗: 緑（ホイスト）・金（中央、緑の五芒星）・赤（フライ）。汎アフリカ色。**Green を 355 から 354 C に修正。Yellow を 109 から 116 C に修正。Red を 032 から 186 C に修正** — 3色全て修正。"
+}

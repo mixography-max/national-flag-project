@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "GR",
+  "name_en": "Greece",
+  "name_ja": "ギリシャ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0D5EAF",
+      "rgb": "13, 94, 175",
+      "cmyk": "93, 46, 0, 31",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "法律851/1978号は「κυανός（シアン）」と白のみ規定し、技術的な色定義は存在しない。歴史的に青の濃淡は大きく変遷（オットー国王時代の淡青→軍事政権時代の濃紺）。元データの specs_source に「act shade」というゴミ文字が入っていたため削除。Blue を 300 C から 286 C（Album des Pavillons 準拠）に修正し、ノイズ文字列「!」を一掃。"
+}

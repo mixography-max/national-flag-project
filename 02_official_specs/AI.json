@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "AI",
+  "name_en": "Anguilla",
+  "name_ja": "アンギラ",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard British Ensign Approximations)",
+  "colors": [
+    {
+      "color_name": "Dark Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "99, 69, 0, 59",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 92, 77, 22",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Light Blue",
+      "hex": "#99CCFF",
+      "rgb": "153, 204, 255",
+      "cmyk": "40, 20, 0, 0",
+      "pantone": "291 C"
+    },
+    {
+      "color_name": "Orange",
+      "hex": "#FF9900",
+      "rgb": "255, 153, 0",
+      "cmyk": "0, 40, 100, 0",
+      "pantone": "150 C"
+    }
+  ],
+  "notes": "イギリスの海外領土のため「イギリスのブルー・エンサイン」の規定に従う。ベースの青を標準的な Pantone 281 C、独自のイルカ紋章のオレンジを 150 C と特定。"
+}

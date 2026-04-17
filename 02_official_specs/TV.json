@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "TV",
+  "name_en": "Tuvalu",
+  "name_ja": "ツバル",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Light Blue",
+      "hex": "#418FDE",
+      "rgb": "65, 143, 222",
+      "cmyk": "69, 34, 0, 0",
+      "pantone": "279 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "1978年10月1日独立時採用。Vione Natano デザイン。水色エンサインにユニオンジャック + フライ側に黄色の九星（9島の地理的配置を反映）。1995-1997年に一時別旗を使用後復活。**Light Blue 279 C, Blue 280 C, Red 186 C, Yellow 116 C — 全て確認** ✅。「C」サフィックスを付与。"
+}

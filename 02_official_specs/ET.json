@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "ET",
+  "name_en": "Ethiopia",
+  "name_ja": "エチオピア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#009A44",
+      "rgb": "0, 154, 68",
+      "cmyk": "92,  0,  97,  0",
+      "pantone": "347 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FEDD00",
+      "rgb": "254, 221, 0",
+      "cmyk": "0,  1,  100,  0",
+      "pantone": "Yellow C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0,  90,  76,  0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0645B1",
+      "rgb": "6, 69, 177",
+      "cmyk": "99,  76,  0,  0",
+      "pantone": "2728 C"
+    }
+  ],
+  "notes": "連邦旗章令（Proclamation 654/2009）で構造は定義されているが、Pantone数値の法的規定はない。既存のPantone値（347 C, Yellow C, 032 C, 2728 C）が標準に合致していることを確認し、ソースを正規化。"
+}

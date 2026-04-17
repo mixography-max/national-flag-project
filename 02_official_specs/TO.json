@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "TO",
+  "name_en": "Tonga",
+  "name_ja": "トンガ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Constitution §47 — design immutable, colors not specified)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。1875年憲法§47: 「ジョージ王の旗は決して変更されない」。赤地に白カントン（赤いギリシャ十字）。**Red を 032 から 186 C に修正**（Album des Pavillons 2023基準）。HEX修正。CMYK修正。「C」サフィックスを付与。"
+}

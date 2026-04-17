@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "GD",
+  "name_en": "Grenada",
+  "name_ja": "グレナダ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 10, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009739",
+      "rgb": "0, 151, 57",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    }
+  ],
+  "notes": "グレナダ大使館は国旗の象徴と比率（陸上5:3、海上2:1）を提供するが、Pantone/CMYK値は公式に規定していない。旗章学的な業界標準である 032 C (Red), 109 C (Yellow), 355 C (Green) が既存データと一致することを確認し、Pantone値に「C」サフィックスを付与して正規化。"
+}

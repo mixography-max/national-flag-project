@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "NP",
+  "name_en": "Nepal",
+  "name_ja": "ネパール",
+  "status": "UN Member",
+  "ratio": "special (non-rectangular)",
+  "specs_source": "De jure (Constitution of Nepal 2015, Schedule 1)",
+  "colors": [
+    {
+      "color_name": "Crimson Red",
+      "hex": "#DC143C",
+      "rgb": "220, 20, 60",
+      "cmyk": "0, 91, 73, 14",
+      "pantone": "199 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#003893",
+      "rgb": "0, 56, 147",
+      "cmyk": "100, 62, 0, 42",
+      "pantone": "661 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。世界唯一の非長方形国旗（二重三角ペナント）。憲法スケジュール1が精密な幾何学的作図法を提供。色は「crimson」と「deep blue」。**Crimson Red を 186 から 199 C に修正。Blue を 287 から 661 C に修正**。Shankar Nath Rimal (1962) が近代デザインを標準化。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "GS",
+  "name_en": "South Georgia and the South Sandwich Islands",
+  "name_ja": "サウスジョージア・サウスサンドウィッチ諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard British Ensign Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**データ0件からフルスクラッチで作成**。イギリスの海外領土であり、ブルー・エンサインに領土紋章（1992年王室令で授与）を配する。紋章にはトーチを持つ金のライオン、オットセイ、マカロニペンギン、トナカイ、格言「Leo Terram Propriam Protegat」が描かれる。標準イギリス・エンサイン色（281 C, 186 C）で記録。"
+}

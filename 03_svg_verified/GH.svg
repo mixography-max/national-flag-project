@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 900 600"
+   xmlns="http://www.w3.org/2000/svg"
+   width="900"
+   height="600">
+  <title>Flag of Ghana (ガーナ)</title>
+  <desc>ISO 3166-1: GH | Ratio: 2:3 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Ghana (ガーナ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>GH</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata><path fill="#009739" d="m0 0h900v600H0"/><path fill="#FFD100" d="m0 0h900v400H0"/><path fill="#EF3340" d="m0 0h900v200H0"/><path d="m450 200 64.98 200-170.13-123.61h210.3L385.02 400"/></svg>

@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "PT",
+  "name_en": "Portugal",
+  "name_ja": "ポルトガル",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Decree of 30 June 1911 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#046A38",
+      "rgb": "4, 106, 56",
+      "cmyk": "85, 3, 91, 44",
+      "pantone": "349 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFE900",
+      "rgb": "255, 233, 0",
+      "cmyk": "0, 3, 97, 0",
+      "pantone": "803 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#002D72",
+      "rgb": "0, 45, 114",
+      "cmyk": "100, 79, 0, 37",
+      "pantone": "288 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "1911年6月30日法令が定性的に定義: 「verde escuro」（暗緑）と「escarlate」（スカーレット）。Pantone規定なし。縦分割: 緑 2/5（ホイスト）+ 赤 3/5（フライ）に紋章（ポルトガル盾＝quinas + 天球儀）。Green 349 C, Red 485 C, Yellow 803 C, Blue 288 C — 全て確認。Black「Black」→「Black C」。White CMYK 補填。ゴミ source 除去。"
+}

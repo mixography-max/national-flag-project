@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "EG",
+  "name_en": "Egypt",
+  "name_ja": "エジプト",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#C09300",
+      "rgb": "192, 147, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "法律で赤・白・黒とサラディンの鷲（金）が定められているものの、Pantone数値規定はないため、標準近似である 186 C (Red), 116 C (Gold) などの値を含めフォーマットを整えた。"
+}

@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "AZ",
+  "name_en": "Azerbaijan",
+  "name_ja": "アゼルバイジャン",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "State Symbols Law (Amended 2013)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#00BCE4",
+      "rgb": "0, 188, 228",
+      "cmyk": "75, 0, 5, 0",
+      "pantone": "306 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#509E2F",
+      "rgb": "80, 158, 47",
+      "cmyk": "70, 0, 100, 9",
+      "pantone": "362 C"
+    }
+  ],
+  "notes": "2013年の国家象徴法の改正により、厳密なPantone指定（Blue: 306 C, Red: 032 C, Green: 362 C）がなされた。自動取得されていた古い規定値（313, 185, 3405）から最新の法定値に修正。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MX",
+  "name_en": "Mexico",
+  "name_ja": "メキシコ",
+  "status": "UN Member",
+  "ratio": "4:7",
+  "specs_source": "De jure (Ley sobre el Escudo, la Bandera y el Himno Nacionales / Secretaría de Gobernación)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#006341",
+      "rgb": "0, 99, 65",
+      "cmyk": "92, 2, 80, 47",
+      "pantone": "3425 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。内務省が Green 3425 C と Red 186 C を推奨 — **両方とも既存値と一致、正確と確認** ✅。比率4:7（独自比率）。国章（サボテン上で蛇を食す鷲）は白帯中央、直径 = 白帯幅の3/4。色名「Dark Green」→「Green」（公式呼称）。White CMYK 補填。"
+}

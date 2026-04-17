@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "BD",
+  "name_en": "Bangladesh",
+  "name_ja": "バングラデシュ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "Bottle Green",
+      "hex": "#006A4E",
+      "rgb": "0, 106, 78",
+      "cmyk": "100, 0, 69, 43",
+      "pantone": "342 C"
+    }
+  ],
+  "notes": "旗の法律上の色は「ボトルグリーン」と規定されているが、厳密なCMYK/Pantoneは国家立法では指定されていない。国際競技などの世界基準仕様である 342 C と 485 C を標準とし、「赤い円は旗竿側に少し寄っている（オフセット）」という構造上の特筆事項を追記。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "NO",
+  "name_en": "Norway",
+  "name_ja": "ノルウェー",
+  "status": "UN Member",
+  "ratio": "8:11",
+  "specs_source": "De facto (Nordic Council / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#BA0C2F",
+      "rgb": "186, 12, 47",
+      "cmyk": "0, 94, 75, 27",
+      "pantone": "200 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 65, 0, 64",
+      "pantone": "281 C"
+    }
+  ],
+  "notes": "法律は色を「深紅」(høirødt) と「暗青」(mørkeblått) とのみ定義。Nordic Council と旗製造業者の事実上の標準：Red 200 C, Blue 281 C — **両方確認** ✅。色名「Norwegian Red/Blue」→「Red/Blue」に簡略化。CMYK を標準変換値に修正。"
+}

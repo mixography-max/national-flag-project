@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "FI",
+  "name_en": "Finland",
+  "name_ja": "フィンランド",
+  "status": "UN Member",
+  "ratio": "11:18",
+  "specs_source": "De jure (Government Decision 827/1993)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#002F6C",
+      "rgb": "0, 47, 108",
+      "cmyk": "100, 74, 0, 45",
+      "pantone": "294 C"
+    }
+  ],
+  "notes": "1993年の政府決定（827/1993）によりCIE色空間で青色が厳密に法定されている。実用Pantone換算値として294 Cが広く認められており、De jure ステータスを付与。"
+}

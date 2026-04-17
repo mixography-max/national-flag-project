@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CR",
+  "name_en": "Costa Rica",
+  "name_ja": "コスタリカ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "法律で国旗意匠は定義されているものの、技術的なPantone指定はない。広く認知されている 281 C (Blue) と 032 C (Red) を標準として確定した。"
+}

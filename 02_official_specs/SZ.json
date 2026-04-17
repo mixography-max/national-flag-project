@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "SZ",
+  "name_en": "Eswatini",
+  "name_ja": "エスワティニ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#3E5EB9",
+      "rgb": "62, 94, 185",
+      "cmyk": "66, 49, 0, 27",
+      "pantone": "542 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 18, 100, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#B10202",
+      "rgb": "177, 2, 2",
+      "cmyk": "0, 99, 99, 31",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**空データから完全に新規作成**。1968年10月6日採用。5帯（青黄赤黄青、比3:1:8:1:3）。中央赤帯にンクニ牛革の盾（白黒）、杖（インジョボ羽飾り）、交差する2本の槍。ソース間で色の変動が非常に大きい（Blue: 542/638/300、Yellow: 803/102/109、Red: 157/199）。"
+}

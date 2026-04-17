@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 150 100"
+   xmlns="http://www.w3.org/2000/svg"
+   width="900"
+   height="600">
+  <title>Flag of Wallis and Futuna (ウォリス・フツナ)</title>
+  <desc>ISO 3166-1: WF | Ratio: 2:3 | De facto (Unofficial local flag / French Tricolor is official)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Wallis and Futuna (ウォリス・フツナ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>WF</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+  <path fill="#ED2939" d="M0 0h150v100H0z" style="fill:#ED2939;fill-opacity:1"/>
+  <path fill="#FFF" d="M0 0h40v40H0z"/>
+  <path fill="#002395" d="M0 0h20v40H0z" style="fill:#002395;fill-opacity:1"/>
+  <path fill="none" stroke="#FFF" d="M0 40h60V0"/>
+  <path fill="#FFF" d="M105 46 93 34h24zm-4 4L89 38v24zm4 4L93 66h24zm4-4 12-12v24z"/>
+</svg>

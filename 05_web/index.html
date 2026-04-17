@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>国旗図鑑 — National Flag Atlas</title>
+  <meta name="description" content="250カ国・地域の検証済み国旗データ。公式カラープロファイル、構造解説、歴史を網羅。">
+  
+  <!-- OGP Tags -->
+  <meta property="og:title" content="国旗図鑑 — National Flag Atlas">
+  <meta property="og:description" content="250カ国の検証済み公式カラープロファイルとフラグアトラス">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/flags">
+  <meta property="og:image" content="https://example.com/flags/og-image.jpg">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/guide.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-link active">🏁 フラグアトラス</a>
+      <a href="guide.html" class="nav-link">📖 国旗ガイド</a>
+    </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <h1>🏳️ 国旗アトラス <span class="version">Verified Edition</span></h1>
+    <p class="subtitle">公式資料に基づく250カ国のカラープロファイルと仕様検証データベース</p>
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-number" id="stat-total">0</div>
+        <div class="stat-label">Total Flags</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="stat-verified" style="color:var(--success)">0</div>
+        <div class="stat-label">Verified SVGs</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="stat-colors" style="color:var(--warning)">0</div>
+        <div class="stat-label">Colors Tracked</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="stat-regions">0</div>
+        <div class="stat-label">Regions</div>
+      </div>
+    </div>
+    <div class="verified-definition" id="verified-definition">
+      <button class="verified-def-toggle" id="verified-def-btn" onclick="var el=document.getElementById('verified-definition');var body=el.querySelector('.verified-def-body');if(el.classList.contains('expanded')){el.classList.remove('expanded');body.style.maxHeight='0';body.style.paddingTop='0';}else{el.classList.add('expanded');body.style.maxHeight='300px';body.style.paddingTop='1rem';}">
+        <span class="verified-def-badge">✅ Verified</span> とは？
+        <span class="toggle-arrow">▼</span>
+      </button>
+      <div class="verified-def-body" style="max-height:0;overflow:hidden">
+        <div class="verified-def-grid">
+          <div class="verified-def-item">
+            <span class="vd-icon">🎨</span>
+            <div><strong>公式色検証済み</strong><br>Pantone/CMYK値を各国政府文書・法律・Album des Pavillons等の権威ある資料で照合</div>
+          </div>
+          <div class="verified-def-item">
+            <span class="vd-icon">📐</span>
+            <div><strong>法定比率準拠</strong><br>国旗法で定められた正式な縦横比率（例：カタール🇶🇦 11:28、ネパール🇳🇵 非長方形）でSVGを作成</div>
+          </div>
+          <div class="verified-def-item">
+            <span class="vd-icon">📋</span>
+            <div><strong>メタデータ内蔵</strong><br>ISO 3166-1コード・比率・法的根拠（De jure/De facto）をSVGファイルに埋め込み</div>
+          </div>
+          <div class="verified-def-item">
+            <span class="vd-icon">🔄</span>
+            <div><strong>Wikipedia版との比較</strong><br>Wikimedia Commons版と並べて色や比率の違いを確認可能</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Controls & Map Filter -->
+  <div class="controls-wrapper" id="controls">
+    <div class="controls">
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search by name, code, or region..." autocomplete="off">
+      </div>
+      <button class="filter-btn active" data-region="all">All</button>
+      <button class="filter-btn" data-region="Asia">Asia</button>
+      <button class="filter-btn" data-region="Europe">Europe</button>
+      <button class="filter-btn" data-region="Africa">Africa</button>
+      <button class="filter-btn" data-region="Americas">Americas</button>
+      <button class="filter-btn" data-region="Oceania">Oceania</button>
+      <div class="view-toggle">
+        <button class="active" data-view="normal" title="Normal view">🏁</button>
+        <button data-view="compact" title="Compact view">📋</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flag Grid -->
+  <main class="flag-grid" id="flag-grid"></main>
+
+  <!-- Similar Flags Section -->
+  <section class="similar-section" id="similar-section">
+    <h2>🔍 類似国旗ペア比較</h2>
+    <div class="similar-pairs" id="similar-pairs"></div>
+  </section>
+
+  <footer class="site-footer">
+    <p>National Flag Project — Phase 4 Web Atlas. Data verified against official government sources.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-title"></div>
+        <div class="modal-actions">
+          <button class="download-btn" id="download-btn" title="Download Verified SVG">📥 Download</button>
+          <button class="modal-close" id="modal-close" title="Close">✕</button>
+        </div>
+      </div>
+      <div class="modal-flag" id="modal-flag"></div>
+      
+      <!-- Metadata Section: Colors, Notes, Source -->
+      <div class="modal-body-content">
+        <div class="modal-colors" id="modal-colors"></div>
+        <div class="modal-text-content">
+          <div class="notes-section" id="modal-notes" style="display: none;">
+            <h3>📐 構造・歴史ノート</h3>
+            <p id="modal-notes-text"></p>
+          </div>
+          <div class="specs-source" id="modal-source"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

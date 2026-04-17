@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "CA",
+  "name_en": "Canada",
+  "name_ja": "カナダ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Federal Identity Program)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    }
+  ],
+  "notes": "カナダ政府の Federal Identity Program によって厳密に規定された国旗の赤（Pantone 032 C / CMYK: 0, 100, 100, 0）を確定させ、法定カラーとしてステータスを更新。"
+}

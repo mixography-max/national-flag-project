@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "PA",
+  "name_en": "Panama",
+  "name_ja": "パナマ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Decreto Ejecutivo No. 337 de 22 de diciembre de 2017)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#072357",
+      "rgb": "7, 35, 87",
+      "cmyk": "100, 46, 0, 70",
+      "pantone": "295 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DA121A",
+      "rgb": "218, 18, 26",
+      "cmyk": "0, 100, 79, 20",
+      "pantone": "187 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。2017年行政令337号が色を標準化。**Blue を 300 から 295 C に修正。Red を 186 から 187 C に修正** — 両方とも2017年法令が明確に指定。四分割旗：白+青星、赤、青、白+赤星。"
+}

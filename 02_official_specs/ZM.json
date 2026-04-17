@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "ZM",
+  "name_en": "Zambia",
+  "name_ja": "ザンビア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (National Flag and Armorial Ensigns Act, Cap. 6 / BCC Shade References)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#198A00",
+      "rgb": "25, 138, 0",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DE2010",
+      "rgb": "222, 32, 16",
+      "cmyk": "0, 100, 85, 0",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Orange",
+      "hex": "#EF7D00",
+      "rgb": "239, 125, 0",
+      "cmyk": "0, 48, 100, 6",
+      "pantone": "151 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。British Colour Council (BCC) 色番号が法的根拠: Green=BCC 100 (Spectrum Green), Red=BCC 210 (Union Jack Red), Black=BCC 220 (Jet Black), Orange=BCC 57 (Spectrum Orange)。緑地（旗の3/4）+右下にフライ三色帯（赤黒橙）+上にアフリカン・フィッシュ・イーグル。**Red を 032 から 186 C に修正。Orange を 150 から 151 C に修正**。Black→Black C。CMYK修正。"
+}

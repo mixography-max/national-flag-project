@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "TK",
+  "name_en": "Tokelau",
+  "name_ja": "トケラウ",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Royal Warrant 2009 / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "99, 69, 0, 59",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 18, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "2009年9月7日 Royal Warrant で採用。NZ依存領域。青地にホイスト方向へ航行する黄色のトケラウ・カヌー（va'a）、ホイスト側に白い南十字星4星。Blazon: 'Azure a Tokelau Canoe Or...'。Blue 280 C, Yellow 109 C 確認。White の無効Pantone「N. A.」除去。ノイズ「!」除去。"
+}

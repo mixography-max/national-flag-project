@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BB",
+  "name_en": "Barbados",
+  "name_ja": "バルバドス",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (British Standard Color Codes)",
+  "colors": [
+    {
+      "color_name": "Ultramarine",
+      "hex": "#00267F",
+      "rgb": "0, 38, 127",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFC726",
+      "rgb": "255, 199, 38",
+      "cmyk": "0, 16, 89, 0",
+      "pantone": "123 C"
+    }
+  ],
+  "notes": "制定当時はイギリスの標準規格（British Standard Color Codes）のUltramarine (BCC 148) と Gold (BS 0/002) として定義されていた。これらに対応する現代の標準Pantone近似値（280 C, 123 C）を確定させ、法源ソースを更新。"
+}

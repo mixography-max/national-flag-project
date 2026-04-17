@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CW",
+  "name_en": "Curaçao",
+  "name_ja": "キュラソー",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#002B7F",
+      "rgb": "0, 43, 127",
+      "cmyk": "100, 66, 0, 50",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#F9E814",
+      "rgb": "249, 232, 20",
+      "cmyk": "0, 7, 92, 2",
+      "pantone": "102 C"
+    }
+  ],
+  "notes": "法的なPantone指定はないため、旗章学の標準である 280 C (Blue), 102 C (Yellow) に正規化し、不要な文字列ノイズを削除してクリーンアップした。"
+}

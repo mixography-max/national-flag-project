@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "JE",
+  "name_en": "Jersey",
+  "name_ja": "ジャージー",
+  "status": "Territory",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CF142B",
+      "rgb": "207, 20, 43",
+      "cmyk": "0, 90, 79, 19",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFD700",
+      "rgb": "255, 215, 0",
+      "cmyk": "0, 6, 95, 0",
+      "pantone": "108 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#377BC8",
+      "rgb": "55, 123, 200",
+      "cmyk": "73, 39, 0, 22",
+      "pantone": "293 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black 6 C"
+    }
+  ],
+  "notes": "白地に赤いサルタイアー（X字十字）、ジャージー紋章（赤地に三頭の金の豹）、プランタジネット冠を配する旗。法定Pantone規定なし。全Pantone値からノイズ文字列「!」を一掃。Gold の Pantone を「Yellow 012 C」から「108 C」に修正。色名「Yellow」を紋章学用語の「Gold」に変更。旗の白い地（White）がデータから欠落していたため追加。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "IM",
+  "name_en": "Isle of Man",
+  "name_ja": "マン島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CF142B",
+      "rgb": "207, 20, 43",
+      "cmyk": "0, 90, 79, 19",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#F9DD16",
+      "rgb": "249, 221, 22",
+      "cmyk": "0, 11, 93, 2",
+      "pantone": "108 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "赤地にトリスケリオン（三本の武装した脚が太腿で結合）を配する旗。13世紀のマン島紋章に由来し、1968年王室布告で時計回りに標準化。法定のPantone規定はない。全Pantone値からノイズ文字列「!」「N. A.」を一掃。Gold の Pantone を 107 C から 108 C に修正（CRW Flags 準拠）。"
+}

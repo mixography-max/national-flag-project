@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "FR",
+  "name_en": "France",
+  "name_ja": "フランス",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Album des Pavillons 2023 / NFX 08-002)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "2738 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "2347 C"
+    }
+  ],
+  "notes": "フランス海軍旗章局が発行する「Album des Pavillons」2023年版にて Pantone 2738 C (Blue) と 2347 C (Red) が最新の公式指定として確認された。元データの 072 C (Blue) と 485 C (Red) は旧来の代替表記であったため、最新公式値へと修正。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "IS",
+  "name_en": "Iceland",
+  "name_ja": "アイスランド",
+  "status": "UN Member",
+  "ratio": "18:25",
+  "specs_source": "De jure (Act No. 34/1944 / SCOTDIC Color Standard)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#02529C",
+      "rgb": "2, 82, 156",
+      "cmyk": "100, 69, 0, 12",
+      "pantone": "287 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DC1E35",
+      "rgb": "220, 30, 53",
+      "cmyk": "0, 94, 100, 0",
+      "pantone": "1795 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。「アイスランド人の国旗及び国章に関する法律」第34号/1944年により公式に定義。色は SCOTDIC（Standard Colour of Textile）システムで規格化：Blue = SCOTDIC 693009, White = SCOTDIC 95, Red = SCOTDIC ICELAND FLAG RED。**Red を 199 から 1795 C に修正（重大な誤り）**。記述的色名（Light Blue, Snow White, Fiery Red）を標準名に簡略化。ノイズマーカー「✓」を除去。White CMYK を空欄から 0,0,0,0 に修正。"
+}

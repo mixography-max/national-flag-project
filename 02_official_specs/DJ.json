@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "DJ",
+  "name_en": "Djibouti",
+  "name_ja": "ジブチ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Light Blue",
+      "hex": "#6AB2E7",
+      "rgb": "106, 178, 231",
+      "cmyk": "55, 13, 0, 0",
+      "pantone": "292 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D7141A",
+      "rgb": "215, 20, 26",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#12AD2B",
+      "rgb": "18, 173, 43",
+      "cmyk": "68, 0, 100, 0",
+      "pantone": "361 C"
+    }
+  ],
+  "notes": "法的なPantone指定はないため、汎用的に用いられている近似標準値である 292 C (Light Blue), 361 C (Green), 032 C (Red) などへと構成とフォーマットを修正した。"
+}

@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "IN",
+  "name_en": "India",
+  "name_ja": "インド",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Bureau of Indian Standards IS 1 / CIE 1931 Color Space)",
+  "colors": [
+    {
+      "color_name": "India Saffron",
+      "hex": "#FF671F",
+      "rgb": "255, 103, 31",
+      "cmyk": "0, 60, 88, 0",
+      "pantone": "165 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "India Green",
+      "hex": "#046A38",
+      "rgb": "4, 106, 56",
+      "cmyk": "86, 0, 94, 47",
+      "pantone": "348 C"
+    },
+    {
+      "color_name": "Navy Blue",
+      "hex": "#06038D",
+      "rgb": "6, 3, 141",
+      "cmyk": "100, 92, 21, 6",
+      "pantone": "2755 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。インド標準局（BIS）の規格 IS 1 により、CIE 1931色空間（照明体C）で色が法的に定義。公式色名は India Saffron (Kesari), White, India Green, Navy Blue (Ashoka Chakra)。色は政府が保管する「封印標準旗（seal standard flag）」と一致しなければならない。Pantone値は印刷/デジタル近似（法的拘束力なし）。色名「Saffron」を「India Saffron」に変更（IS 1 準拠）。Green を 2258 C → 348 C、Navy Blue を 2735 C → 2755 C に修正（より広く認められた近似値）。White の非標準 Pantone「White C」を削除。"
+}

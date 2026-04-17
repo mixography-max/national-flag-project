@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "VA",
+  "name_en": "Holy See",
+  "name_ja": "バチカン市国",
+  "status": "UN Observer",
+  "ratio": "1:1",
+  "specs_source": "De facto (Fundamental Law of Vatican City State / Album des Pavillons)",
+  "colors": [
+    {
+      "color_name": "Yellow",
+      "hex": "#FFE81F",
+      "rgb": "255, 232, 31",
+      "cmyk": "0, 9, 88, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "10, 100, 74, 2",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "正方形旗（1:1、スイスと共に世界で2つのみ）。縦二色帯（黄+白）。白帯に聖座紋章（聖ペトロの天国の鍵2本交差+教皇冠）。**Yellow を 803 C（蛍光色！）から 116 C に修正。Red を 711 C から 186 C に修正** — Album des Pavillons準拠。紋章レンダリング詳細色（Dark Yellow, Light Grey, Grey, Gold）は基本旗色ではないため除去。ノイズ除去。"
+}

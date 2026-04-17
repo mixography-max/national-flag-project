@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 900 600"
+   version="1.0"
+   xmlns="http://www.w3.org/2000/svg"
+   width="900"
+   height="600">
+  <title>Flag of Suriname (スリナム)</title>
+  <desc>ISO 3166-1: SR | Ratio: 2:3 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Suriname (スリナム)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>SR</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+<rect width="900" height="600" fill="#007A33" />
+<rect y="120" width="900" height="360" fill="#fff" />
+<rect y="180" width="900" height="240" fill="#C8102E" />
+<path d="M 450,191.459 520.534,408.541 335.873,274.377 564.127,274.377 379.466,408.541 z" fill="#FFCD00" />
+</svg>

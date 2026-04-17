@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "LU",
+  "name_en": "Luxembourg",
+  "name_ja": "ルクセンブルク",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De jure (Grand-Ducal Regulation of 27 July 1993)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#EA141D",
+      "rgb": "234, 20, 29",
+      "cmyk": "0, 90, 85, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Light Blue",
+      "hex": "#51ADDA",
+      "rgb": "81, 173, 218",
+      "cmyk": "85, 20, 0, 0",
+      "pantone": "299 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。1993年7月27日大公令が Pantone 032 C (Red) および 299 C (Light Blue) を法定指定。色名「Blue」を法的に必要な「Light Blue」に修正 — オランダ国旗（より暗い色調の三色旗）との区別が法的要件。既存Pantone値（032, 299）は正確と確認。CMYK修正。「C」サフィックスを付与。"
+}

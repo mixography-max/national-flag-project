@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "BT",
+  "name_en": "Bhutan",
+  "name_ja": "ブータン",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Orange",
+      "hex": "#FF6720",
+      "rgb": "255, 103, 32",
+      "cmyk": "0, 68, 96, 0",
+      "pantone": "165 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "複数の政府文書でRALカラー（RAL 1023など）が指定されているケースもあるが、国際的に最も一般的な印刷基準として確立している Pantone 116 C (Yellow) と 165 C (Orange) を採用して整備。"
+}

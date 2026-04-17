@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "TL",
+  "name_en": "Timor-Leste",
+  "name_ja": "東ティモール",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Constitution Art. 15)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 81, 87, 15",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFC72C",
+      "rgb": "255, 199, 44",
+      "cmyk": "0, 22, 83, 0",
+      "pantone": "123 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。赤地に2つの重なる二等辺三角形（黒=ホイスト底辺、高さ=旗長の1/3）（黄=高さ=旗長の1/2）。黒三角内に白い五芒星。Red 485 C（186 Cとも引用）, Yellow 123 C 確認。Black「Black 6 C」→「Black C」。White「N. A.」除去。ノイズ「!」除去。"
+}

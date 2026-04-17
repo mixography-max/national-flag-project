@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "TC",
+  "name_en": "Turks and Caicos Islands",
+  "name_ja": "タークス・カイコス諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (British Blue Ensign / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#002868",
+      "rgb": "0, 40, 104",
+      "cmyk": "100, 62, 0, 59",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 92, 82, 19",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FCD116",
+      "rgb": "252, 209, 22",
+      "cmyk": "0, 17, 91, 1",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009E49",
+      "rgb": "0, 158, 73",
+      "cmyk": "100, 0, 54, 38",
+      "pantone": "348 C"
+    }
+  ],
+  "notes": "British Blue Ensign。紋章（巻き貝、フラミンゴ、ターキーヘッド・サボテン）。**Yellow を 115 から 116 C に修正。Green を 7482 C から 348 C に修正**。White の無効Pantone「N. A.」除去。ノイズ「!」を全色から除去。"
+}

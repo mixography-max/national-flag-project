@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "TH",
+  "name_en": "Thailand",
+  "name_ja": "タイ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Royal Decree 1917 / Flag Act B.E. 2522 (1979) / 2017 CIELAB D65 Standard)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#00247D",
+      "rgb": "0, 36, 125",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。1917年ラーマ6世勅令→1979年国旗法→**2017年CIELAB D65標準**（首相府告示、世界でも珍しい色空間の法定化）。トング・トライロング（ธงไตรรงค์）: 5帯（赤白青白赤、比1:1:2:1:1）。赤=国民/血、白=宗教/仏教、藍=王室（ラーマ6世の金曜日の吉色）。**Red を 032 から 186 C に修正**。Blue 281 C 確認。"
+}

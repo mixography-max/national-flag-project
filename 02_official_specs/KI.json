@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "KI",
+  "name_en": "Kiribati",
+  "name_ja": "キリバス",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (National Identity Act 1989 / BSI 381C Standards)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0032A0",
+      "rgb": "0, 50, 160",
+      "cmyk": "100, 80, 0, 12",
+      "pantone": "286 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。国家アイデンティティ法1989年によりデザインが法定。1937年紋章に基づく旗章旗。軍艦鳥（te eitei）が昇る太陽（17本の光 = ギルバート諸島16島 + バナバ）の上を飛び、青白の波型縞（太平洋）を配する。BSI 381C規格（Red: 539, Gold: 355, Blue: 110）も参照。ロンドン2012オリンピック値（032/109/286）をPantone近似値として採用。色名「Yellow」を「Gold」に変更。"
+}

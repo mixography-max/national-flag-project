@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MQ",
+  "name_en": "Martinique",
+  "name_ja": "マルティニーク",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (NF X 08002 / French National Standard)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "072 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    }
+  ],
+  "notes": "フランスの海外県としてフランス三色旗を使用。NF X 08002 が色仕様を提供。既存値（072 C, 485 C）は正確と確認。ゴミ notes 除去。"
+}

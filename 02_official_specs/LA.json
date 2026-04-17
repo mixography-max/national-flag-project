@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "LA",
+  "name_en": "Laos",
+  "name_ja": "ラオス",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 92, 82, 19",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#002868",
+      "rgb": "0, 40, 104",
+      "cmyk": "100, 62, 0, 59",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1975年12月2日採用。赤帯の倍幅の青帯を中央に配し、白い円盤（メコン川の満月）を配した横三色帯旗。**Red を 032 から 186 C に修正。Blue を 293 から 280 C に修正**。CMYK修正。「C」サフィックスを付与。"
+}

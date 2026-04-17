@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "YE",
+  "name_en": "Yemen",
+  "name_ja": "イエメン",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 90, 85, 0",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "1990年5月22日統一で採用。汎アラブ色: 三等分帯（赤白黒）。赤=統一/殉教者の血、白=明るい未来、黒=歴史/過去の困難。**Red を 032 から 186 C に修正**。Black「Black」→「Black C」。CMYK修正。"
+}

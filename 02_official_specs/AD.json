@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "AD",
+  "name_en": "Andorra",
+  "name_ja": "アンドラ",
+  "status": "UN Member",
+  "ratio": "7:10",
+  "specs_source": "Reglament sobre la utilització dels signes d'Estat del Principat d'Andorra (1999)",
+  "colors": [
+    {
+      "color_name": "Dark Blue",
+      "hex": "#10069F",
+      "rgb": "16, 6, 159",
+      "cmyk": "100, 90, 0, 7",
+      "pantone": "Blue 072"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FEDD00",
+      "rgb": "254, 221, 0",
+      "cmyk": "0, 1, 100, 0",
+      "pantone": "Yellow"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D50032",
+      "rgb": "213, 0, 50",
+      "cmyk": "0, 100, 79, 0",
+      "pantone": "199"
+    },
+    {
+      "color_name": "Beige",
+      "hex": "#C6AA76",
+      "rgb": "198, 170, 118",
+      "cmyk": "13, 25, 52, 6",
+      "pantone": "466"
+    }
+  ],
+  "notes": "1999年の政府規定に基づく公式カラー（Blue: Pantone 072 C, Yellow, Red 199 C）を確認。帯の比率が均等（1:1:1）ではなく「8:8:9」である構造規定を追記。"
+}

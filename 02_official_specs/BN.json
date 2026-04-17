@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "BN",
+  "name_en": "Brunei",
+  "name_ja": "ブルネイ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Yellow",
+      "hex": "#FFC000",
+      "rgb": "255, 192, 0",
+      "cmyk": "0, 25, 100, 0",
+      "pantone": "102 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EF3340",
+      "rgb": "239, 51, 64",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "政府によるデジタルや印刷向けの公式なカラーテーブルが公開されていないため、ロンドンオリンピックマニュアルなどで国際的に広く用いられている近似値（Yellow: 102 C, Red: 032 C）を採用して確定。"
+}

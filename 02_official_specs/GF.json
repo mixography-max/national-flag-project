@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "GF",
+  "name_en": "French Guiana",
+  "name_ja": "フランス領ギアナ",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (French Constitution & Album des Pavillons 2023)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "2738 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "2347 C"
+    }
+  ],
+  "notes": "フランスの海外県であり、公式旗はフランスの三色旗（Tricolour）のみ。独自の非公式旗（緑/黄の対角分割に赤い星）は存在するが、フランス国当局は認めていない。FR（フランス）エントリと同一の最新公式値（Blue: 2738 C, Red: 2347 C）に統一。旧データの 072 C / 485 C を置換済み。"
+}

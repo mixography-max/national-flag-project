@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "SX",
+  "name_en": "Sint Maarten (Dutch part)",
+  "name_ja": "シント・マールテン",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 81, 4",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0032A0",
+      "rgb": "0, 50, 160",
+      "cmyk": "100, 72, 0, 18",
+      "pantone": "286 C"
+    }
+  ],
+  "notes": "**空データから完全に新規作成**。1985年6月13日採用。赤青の二色帯（赤が上）にホイスト側白三角、中央に紋章（フィリプスバーグ裁判所、蘭仏友好碑、黄セージ花束、ペリカン）。Red 186 C, Blue 286 C。"
+}

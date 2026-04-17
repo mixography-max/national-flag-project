@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "MD",
+  "name_en": "Moldova",
+  "name_ja": "モルドバ",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Law on the State Flag 2010 / National Heraldic Commission)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#003DA5",
+      "rgb": "0, 61, 165",
+      "cmyk": "100, 76, 0, 9",
+      "pantone": "293 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Brown",
+      "hex": "#AD7C59",
+      "rgb": "173, 124, 89",
+      "cmyk": "14, 44, 59, 18",
+      "pantone": "4645 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#007749",
+      "rgb": "0, 119, 73",
+      "cmyk": "100, 0, 85, 29",
+      "pantone": "3415 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "**De jure に昇格**。国旗法（2010年）により法定。縦三色旗：ベルリン紺青（青）、クロームイエロー、朱赤。紋章は黄帯中央（幅 = 旗の長さの1/5）、両面印刷。紋章色（Brown 4645, Green 3415）は国家紋章委員会により確認。Black 「Black」→「Black C」。ゴミ source 除去。「C」サフィックスを付与。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "UA",
+  "name_en": "Ukraine",
+  "name_ja": "ウクライナ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Constitution Art. 20 / Decree 2067-XII, 1992 / DSTU 4512:2006)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0057B7",
+      "rgb": "0, 87, 183",
+      "cmyk": "100, 63, 0, 2",
+      "pantone": "2935 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD700",
+      "rgb": "255, 215, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "012 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。DSTU 4512:2006（国家技術標準）が公式色を定義。Blue 2935 C 確認。**Yellow を「Yellow」（無効なPantone名）から 012 C に修正** — DSTU 4512:2006準拠。HEX修正。重要な修正。"
+}

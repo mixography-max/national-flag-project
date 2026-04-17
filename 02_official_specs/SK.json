@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "SK",
+  "name_en": "Slovakia",
+  "name_ja": "スロバキア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Constitution Art. 9 / Act No. 63/1993 — design only)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0B4EA2",
+      "rgb": "11, 78, 162",
+      "cmyk": "100, 60, 0, 0",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EE1C25",
+      "rgb": "238, 28, 37",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "憲法第9条と法63/1993号がデザインを定義（Pantone値は未規定）。汎スラヴ三色旗（白青赤）にロシア旗との区別のため紋章追加（銀色の二重十字が三峰の山上に立つ赤い盾）。**Blue を 293 から 286 C に修正。Red を 032 から 186 C に修正**。CMYK修正。"
+}

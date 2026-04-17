@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "BW",
+  "name_en": "Botswana",
+  "name_ja": "ボツワナ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Azure Blue",
+      "hex": "#ABCAE9",
+      "rgb": "171, 202, 233",
+      "cmyk": "32, 8, 0, 0",
+      "pantone": "277 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "法律（Botswana Emblems Act）では単に \"Azure Blue\" としか規定されていないため、ロンドンオリンピック標準などで確立している代理の Pantone 277 C を汎用スタンダードとして固定。"
+}

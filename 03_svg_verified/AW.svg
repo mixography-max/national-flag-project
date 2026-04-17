@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 27 18"
+   width="900"
+   height="600">
+  <title>Flag of Aruba (アルバ)</title>
+  <desc>ISO 3166-1: AW | Ratio: 2:3 | De jure (National Flag Ordinance standards)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Aruba (アルバ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>AW</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata><path fill="#418fde" d="M0 0h27v18H0V0z"/><path fill="#ffd100" d="M0 12h27v1H0v1h27v1H0v-3z"/><g color="#000"><path fill="#fff" d="m4 1-.7074 2.2926L1 4l2.2926.7074L4 7l.7074-2.2926L7 4l-2.2926-.7074Z" style="-inkscape-stroke:none"/><path fill="#ef3340" d="m4 1.6797.5469 1.7734L6.3203 4l-1.7734.5469L4 6.3203 3.4531 4.547 1.6797 4l1.7734-.5469Z" style="-inkscape-stroke:none"/></g></svg>

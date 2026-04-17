@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "UM",
+  "name_en": "United States Minor Outlying Islands",
+  "name_ja": "合衆国領有小離島",
+  "status": "Territory",
+  "ratio": "10:19",
+  "specs_source": "De jure (Executive Order 10834, 1959 / Federal Spec DDD-F-416F)",
+  "colors": [
+    {
+      "color_name": "Old Glory Red",
+      "hex": "#B31942",
+      "rgb": "179, 25, 66",
+      "cmyk": "0, 100, 66, 13",
+      "pantone": "193 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Old Glory Blue",
+      "hex": "#0A3161",
+      "rgb": "10, 49, 97",
+      "cmyk": "100, 68, 0, 54",
+      "pantone": "281 C"
+    }
+  ],
+  "notes": "アメリカ合衆国の非法人非自治領であり、固有の旗は存在しない。公式にはアメリカ合衆国旗（星条旗）を使用する。カラー仕様はUS（アメリカ合衆国）エントリと同一。"
+}

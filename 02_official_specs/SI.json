@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "SI",
+  "name_en": "Slovenia",
+  "name_ja": "スロベニア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Law on the National Symbols / gov.si CMYK specifications)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#003DA5",
+      "rgb": "0, 61, 165",
+      "cmyk": "100, 60, 0, 10",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#FF0000",
+      "rgb": "255, 0, 0",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "185 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 100, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。gov.si が公式CMYK値を公開: Blue C100 M60 Y0 K10, Red C0 M100 Y100 K0, Yellow C0 M10 Y100 K0。**Blue を 293 から 286 C に修正。Red を 199 から 185 C に修正**（公式CMYKとの整合性）。横三色帯（白青赤）。紋章: Marko Pogačnik作、トリグラウ山（白い三峰）+ 波線2本（海/河川）+ ツェリェ伯の金色六芒星3個。"
+}

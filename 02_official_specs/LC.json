@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "LC",
+  "name_en": "Saint Lucia",
+  "name_ja": "セントルシア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Flags and Anthems Manual / Standard Approximations)",
+  "colors": [
+    {
+      "color_name": "Cerulean Blue",
+      "hex": "#0077C8",
+      "rgb": "0, 119, 200",
+      "cmyk": "100, 35, 0, 2",
+      "pantone": "3005 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "Dunstan St. Omer デザイン。セルリアンブルーの地に三つの重畳三角形（金・黒・白）が双子のピトン山を表す星を形成。政府記述は「Process Cyan 100%」と「Light Chrome Yellow」を参照。色名「Blue」を公式呼称「Cerulean Blue」に変更、「Yellow」を「Gold」に変更。Black 「Black」→「Black C」に修正。「C」サフィックスを付与。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "MC",
+  "name_en": "Monaco",
+  "name_ja": "モナコ",
+  "status": "UN Member",
+  "ratio": "4:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1881年4月4日公主令がデザインを定めるが色の具体的指定なし。**186 C は正確と確認**。グリマルディ家の紋章（1339年以来）に由来。公式比率は4:5（2:3でも製造）。「C」サフィックスを付与。"
+}

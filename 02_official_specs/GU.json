@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "GU",
+  "name_en": "Guam",
+  "name_ja": "グアム",
+  "status": "Territory",
+  "ratio": "22:41",
+  "specs_source": "De facto (London 2012 Olympics Manual)",
+  "colors": [
+    {
+      "color_name": "Dark Blue",
+      "hex": "#00297B",
+      "rgb": "0, 41, 123",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C62139",
+      "rgb": "198, 33, 57",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "032 C"
+    }
+  ],
+  "notes": "領土法（1 GCA § 407）が旗のデザインと寸法（78×40インチ、赤枠2インチ）を法定するが、Pantone/CMYK値は規定なし。ロンドン2012オリンピック旗章マニュアルに記載の 281 C (Dark Blue), 032 C (Red) を De facto 標準として採用。「C」サフィックスを追加し正規化。"
+}

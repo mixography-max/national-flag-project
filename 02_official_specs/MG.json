@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MG",
+  "name_en": "Madagascar",
+  "name_ja": "マダガスカル",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#F9423A",
+      "rgb": "249, 66, 58",
+      "cmyk": "0, 80, 90, 0",
+      "pantone": "Warm Red C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#00843D",
+      "rgb": "0, 132, 61",
+      "cmyk": "100, 0, 80, 25",
+      "pantone": "348 C"
+    }
+  ],
+  "notes": "憲法が白・赤・緑の三色旗と定義。ホイスト側に白縦帯、フライ側に赤（上）と緑（下）。Album des Pavillons が Warm Red C と 348 C を引用 — いずれも正確と確認。色順序を再配置（White を先頭に）。White の CMYK に含まれていた不正なトレーリングカンマを修正。"
+}

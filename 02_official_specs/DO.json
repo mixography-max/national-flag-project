@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "DO",
+  "name_en": "Dominican Republic",
+  "name_ja": "ドミニカ共和国",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#002D62",
+      "rgb": "0, 45, 98",
+      "cmyk": "100, 54, 0, 62",
+      "pantone": "294 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 92, 82, 19",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#006300",
+      "rgb": "0, 99, 0",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#EAC102",
+      "rgb": "234, 193, 2",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    }
+  ],
+  "notes": "憲法ではウルトラマリンブルーとバーミリオンレッドと定義されているが数値規定はない。国際的に広く使われている 294 C (Blue), 186 C (Red) 等を De facto 指定として適用した。"
+}

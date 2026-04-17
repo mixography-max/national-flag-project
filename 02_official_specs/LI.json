@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "LI",
+  "name_en": "Liechtenstein",
+  "name_ja": "リヒテンシュタイン",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#002776",
+      "rgb": "0, 39, 118",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 98, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Process Black C"
+    }
+  ],
+  "notes": "1982年国家シンボル法がデザインを定めるがPantone値は規定なし。Album des Pavillons が 280 C (Blue), 186 C (Red), 116 C (Gold) を引用。**Blue を 293→280 C、Red を 185→186 C、Gold を 109→116 C に修正（全3色修正）**。1937年にハイチの同一二色旗（1936年ベルリン五輪で発覚）と区別するため金の公爵冠を追加。色順序を整理。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "SE",
+  "name_en": "Sweden",
+  "name_ja": "スウェーデン",
+  "status": "UN Member",
+  "ratio": "5:8",
+  "specs_source": "De jure (Act on the Swedish Flag 1982:269 / Ordinance 1983:826 / NCS)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#006AA7",
+      "rgb": "0, 106, 167",
+      "cmyk": "100, 37, 0, 35",
+      "pantone": "301 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FECC02",
+      "rgb": "254, 204, 2",
+      "cmyk": "0, 20, 99, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "**De jure に昇格**。NCS で法定: Blue = NCS 4055-R95B, Yellow = NCS 0580-Y10R。🚨 **重大バグ修正: Blue が「201 C」（赤色のPantone値!）と記録されていた → 301 C に修正**。Yellow 116 C 確認。ノイズ「✓」除去。Proportions: 5:2:9 × 4:2:4。"
+}

@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "TJ",
+  "name_en": "Tajikistan",
+  "name_ja": "タジキスタン",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CC0000",
+      "rgb": "204, 0, 0",
+      "cmyk": "0, 100, 62, 0",
+      "pantone": "192 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#006600",
+      "rgb": "0, 102, 0",
+      "cmyk": "80, 0, 61, 52",
+      "pantone": "348 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#F8C300",
+      "rgb": "248, 195, 0",
+      "cmyk": "0, 23, 100, 3",
+      "pantone": "115 C"
+    }
+  ],
+  "notes": "1992年11月24日採用。水平三色帯（赤白緑、幅比2:3:2）。白帯中央に金冠+七星アーチ。**Green を 355 から 348 C に修正。Yellow を 109 から 115 C に修正**。Red 192 C 確認。CMYK修正。「C」サフィックスを付与。"
+}

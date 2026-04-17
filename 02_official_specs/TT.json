@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "TT",
+  "name_en": "Trinidad and Tobago",
+  "name_ja": "トリニダード・トバゴ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 85, 6",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1962年採用。比率3:5。赤地に白縁黒斜帯（上ホイスト→下フライ、帯幅=旗長の1/5、白:黒:白=1:4:1）。Red 186 C 確認。Black「Black」→「Black C」。CMYK修正。"
+}

@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "MM",
+  "name_en": "Myanmar",
+  "name_ja": "ミャンマー",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Myanmar Embassy Berlin / FOTW Documentation)",
+  "colors": [
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 12, 100, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#43B02A",
+      "rgb": "67, 176, 42",
+      "cmyk": "71, 0, 100, 0",
+      "pantone": "361 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#EE2737",
+      "rgb": "238, 39, 55",
+      "cmyk": "0, 83, 76, 0",
+      "pantone": "1788 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "2010年10月21日採用。三色帯（黄・緑・赤）に大きな白い五芒星が全帯に重なる。ミャンマー大使館（ベルリン）が公式Pantone PC値を提供：116 PC (Yellow), 361 PC (Green), 1788 PC (Red) — **全て正確と確認** ✅。色順序を再配置（White を末尾に）。CMYK を大使館値に修正。「C」サフィックスを付与。"
+}

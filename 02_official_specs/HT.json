@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "HT",
+  "name_en": "Haiti",
+  "name_ja": "ハイチ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#00209F",
+      "rgb": "0, 32, 159",
+      "cmyk": "100, 80, 0, 38",
+      "pantone": "293 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D21034",
+      "rgb": "210, 16, 52",
+      "cmyk": "0, 92, 75, 18",
+      "pantone": "032 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#016A16",
+      "rgb": "1, 106, 22",
+      "cmyk": "99, 0, 79, 58",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#F1B517",
+      "rgb": "241, 181, 23",
+      "cmyk": "0, 25, 90, 5",
+      "pantone": "102 C"
+    }
+  ],
+  "notes": "憲法に青と赤の水平二色帯と記載されるが、色コードは規定されていない。国旗（State Flag）は中央に白い四角と国章（王ヤシ、自由の帽子、格言「L'Union fait la force」）を配する。5色すべてに「C」サフィックスを追加し、CMYK値を旗章学標準に合わせて修正。"
+}

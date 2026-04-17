@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "PW",
+  "name_en": "Palau",
+  "name_ja": "パラオ",
+  "status": "UN Member",
+  "ratio": "5:8",
+  "specs_source": "De facto (London 2012 Flag Manual / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#0085CA",
+      "rgb": "0, 133, 202",
+      "cmyk": "100, 15, 0, 6",
+      "pantone": "Process Blue C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    }
+  ],
+  "notes": "水色の地に金色の円盤（満月）がホイスト寄りにオフセンター。**比率を 3:5 から 5:8 に修正**。Process Blue C, Yellow 109 C は London 2012 値として確認（Beijing 2008: 292/102, Album 2000: 299/101 と異なる）。「C」サフィックスを付与。"
+}

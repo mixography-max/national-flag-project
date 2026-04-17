@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Temporary files
+*.log
+error.log
+test_err.log
+test_*.jsx
+test_*.ai
+temp_*.jsx
+
+# Gemini/Agent
+.agents/

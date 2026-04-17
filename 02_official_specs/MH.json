@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MH",
+  "name_en": "Marshall Islands",
+  "name_ja": "マーシャル諸島",
+  "status": "UN Member",
+  "ratio": "10:19",
+  "specs_source": "De facto (Standard Vexillological Approximations / Vexilla Mundi)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#003087",
+      "rgb": "0, 48, 135",
+      "cmyk": "100, 70, 0, 5",
+      "pantone": "287 C"
+    },
+    {
+      "color_name": "Orange",
+      "hex": "#E57200",
+      "rgb": "229, 114, 0",
+      "cmyk": "0, 50, 100, 0",
+      "pantone": "152 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "公式旗章法1979年がデザインを定めるがPantone値なし。**色名「Gold」を「Orange」に修正** — 立法上の公式名称は「orange」。24芒星の24の点 = 24の自治体。Blue 287 C, Orange 152 C は確認。CMYK修正。「C」サフィックスを付与。"
+}

@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "TR",
+  "name_en": "Türkiye",
+  "name_ja": "トルコ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Turkish Flag Law No. 2893, 22 September 1983 / TSE Standards)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#E30A17",
+      "rgb": "227, 10, 23",
+      "cmyk": "0, 96, 93, 11",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格**。法2893号（1983年、1936年法2994号を置換）+ TSE（トルコ標準化機構）製造基準。幾何学構築: 三日月外円直径=G/2、内円=0.4G、星円=G/4。Red 186 C 確認。**HEX を #C8102E から #E30A17 に修正**（複数ソースで一致するトルコ公式赤）。CMYK修正。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "AU",
+  "name_en": "Australia",
+  "name_ja": "オーストラリア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "Australian Government (Department of the Prime Minister and Cabinet)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 80, 0, 0",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E4002B",
+      "rgb": "228, 0, 43",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "185 C"
+    }
+  ],
+  "notes": "首相内閣省（PM&C）により公式な Pantone 指定（Blue 280 C, Red 185 C）が存在する。自動取得されたHEX値のゆらぎやデータ順序を整理し、公式のステータスとして完全に上書きして確定。"
+}

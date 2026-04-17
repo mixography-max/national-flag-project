@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "MT",
+  "name_en": "Malta",
+  "name_ja": "マルタ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Graphical Specifications for the National Flag of Malta, Office of the Prime Minister, February 2008)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CF142B",
+      "rgb": "207, 20, 43",
+      "cmyk": "0, 91, 76, 6",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "**De jure に昇格**。首相府が2008年2月に公式仕様書を公布。Red 186 C（スポットカラー: 50% rubine red / 50% warm red）。白・赤の二色帯（白がホイスト）にジョージ・クロス（1942年4月15日授与）。White CMYK を補填。色順序を再配置。ノイズ「!」とゴミ source 除去。"
+}

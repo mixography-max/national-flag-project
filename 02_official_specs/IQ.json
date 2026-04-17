@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "IQ",
+  "name_en": "Iraq",
+  "name_ja": "イラク",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 90, 75, 0",
+      "pantone": "185 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black 6 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#007A3D",
+      "rgb": "0, 122, 61",
+      "cmyk": "100, 0, 95, 5",
+      "pantone": "355 C"
+    }
+  ],
+  "notes": "パン・アラブ色（赤・白・黒・緑）の横三色帯で、白帯に緑のクーフィー体で「アッラーフ・アクバル」。Album des Pavillons が 185 C (Red), 355 C (Green), Black 6 C を引用。Black の Pantone を「Black」から「Black 6 C」に修正。CMYK値を標準近似に修正し、「C」サフィックスを付与。"
+}

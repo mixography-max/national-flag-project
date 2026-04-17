@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "HM",
+  "name_en": "Heard Island and McDonald Islands",
+  "name_ja": "ハード島とマクドナルド諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De jure (Australian Government - Department of the Prime Minister and Cabinet)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 85, 0, 39",
+      "pantone": "280 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E4002B",
+      "rgb": "228, 0, 43",
+      "cmyk": "0, 100, 81, 4",
+      "pantone": "185 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "無人島のオーストラリア外部領であり、独自の公式旗は存在しない。オーストラリア国旗を使用するため、AU（オーストラリア）エントリと同一の公式Pantone値（Blue: 280 C, Red: 185 C）を適用。全Pantone値から「N. A. !」等のノイズ文字列を一掃し、色の順序を整理（White を最後に配置）。"
+}

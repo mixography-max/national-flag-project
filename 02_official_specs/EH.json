@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "EH",
+  "name_en": "Western Sahara",
+  "name_ja": "西サハラ",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C4111B",
+      "rgb": "196, 17, 27",
+      "cmyk": "0, 91, 86, 23",
+      "pantone": "3546 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black 6 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#007A3D",
+      "rgb": "0, 122, 61",
+      "cmyk": "100, 0, 50, 52",
+      "pantone": "7732 C"
+    }
+  ],
+  "notes": "サハラ・アラブ民主共和国政府による法的なPantone規定は存在しない。パン・アラブ色を用いた旗章学の標準近似値（3546 C, Black 6 C, 7732 C）を整備し、ノイズ文字列を除去。"
+}

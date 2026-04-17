@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CZ",
+  "name_en": "Czechia",
+  "name_ja": "チェコ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#11457E",
+      "rgb": "17, 69, 126",
+      "cmyk": "100, 81, 0, 23",
+      "pantone": "287 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D7141A",
+      "rgb": "215, 20, 26",
+      "cmyk": "0, 100, 62, 0",
+      "pantone": "192 C"
+    }
+  ],
+  "notes": "法律で白・赤・青の三色は定義されているが、技術的なPantoneの法的規定はない。旗章学的に広く認められている 287 C (Blue) と 192 C (Red) を使用して標準化した。"
+}

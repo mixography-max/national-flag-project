@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "GG",
+  "name_en": "Guernsey",
+  "name_ja": "ガーンジー",
+  "status": "Territory",
+  "ratio": "3:5",
+  "specs_source": "De facto (Guernsey Heraldic Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#E8112D",
+      "rgb": "232, 17, 45",
+      "cmyk": "0, 93, 81, 9",
+      "pantone": "185 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#F9DD16",
+      "rgb": "249, 221, 22",
+      "cmyk": "0, 11, 91, 2",
+      "pantone": "108 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "1985年4月30日にイングランドとの区別のため採用された白地に赤い聖ジョージ十字＋金のノルマン十字（Cross Pattée）。Pantone値に「N. A.            !」「185 C            !」等の大量のノイズ文字列が混入しており一掃。比率を2:3から正しい3:5へ修正。色順序を再整理し、色名「Yellow」を「Gold」に変更。"
+}

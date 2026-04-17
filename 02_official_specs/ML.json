@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "ML",
+  "name_en": "Mali",
+  "name_ja": "マリ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#14B53A",
+      "rgb": "20, 181, 58",
+      "cmyk": "89, 0, 68, 29",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#FCD116",
+      "rgb": "252, 209, 22",
+      "cmyk": "0, 9, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CE1126",
+      "rgb": "206, 17, 38",
+      "cmyk": "0, 92, 82, 19",
+      "pantone": "186 C"
+    }
+  ],
+  "notes": "1961年3月1日採用（1959年マリ連邦旗からカナガ像を除去）。縦三色旗：緑（ホイスト）、金、赤。Green 355 C, Gold 109 C 確認。**Red を 032 から 186 C に修正**。色名「Yellow」を「Gold」に変更（鉱物資源の象徴）。CMYK修正。「C」サフィックスを付与。"
+}

@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "CL",
+  "name_en": "Chile",
+  "name_ja": "チリ",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#DA291C",
+      "rgb": "218, 41, 28",
+      "cmyk": "0, 95, 100, 0",
+      "pantone": "485 C"
+    },
+    {
+      "color_name": "Blue",
+      "hex": "#0032A0",
+      "rgb": "0, 50, 160",
+      "cmyk": "100, 80, 0, 12",
+      "pantone": "286 C"
+    }
+  ],
+  "notes": "旗の意匠や使用は規定（最高布告第1534号など）で定められているが、正確なPantone規定はない。国際的に広く採用されている 286 C (Blue) と 485 C (Red) で最適化した。"
+}

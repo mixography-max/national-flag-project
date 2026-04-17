@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "IT",
+  "name_en": "Italy",
+  "name_ja": "イタリア",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De jure (Gazzetta Ufficiale No. 174, 28 July 2006)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#008C45",
+      "rgb": "0, 140, 69",
+      "cmyk": "100, 0, 51, 45",
+      "pantone": "17-6153 TCX"
+    },
+    {
+      "color_name": "White",
+      "hex": "#F4F9FF",
+      "rgb": "244, 249, 255",
+      "cmyk": "4, 2, 0, 0",
+      "pantone": "11-0601 TCX"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#CD212A",
+      "rgb": "205, 33, 42",
+      "cmyk": "0, 84, 80, 20",
+      "pantone": "18-1662 TCX"
+    }
+  ],
+  "notes": "**De jure に昇格**。2006年7月28日付官報第174号で公式に定義。Pantone TCX 織物値：Green = 17-6153 TCX (Fern Green), White = 11-0601 TCX (Bright White), Red = 18-1662 TCX (Scarlet Red)。布地旗の基準標本は国務儀典局、各県庁（Prefecture）、在外公館に保管されることが法定。デジタル/印刷近似として 340 C / 186 C が使用されるが法定値ではない。ノイズマーカー「✓」と記述的サフィックスを削除。ゴミ文字列「Legal refs: Constitution of」を除去。"
+}

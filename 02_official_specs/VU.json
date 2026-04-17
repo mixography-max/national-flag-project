@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "VU",
+  "name_en": "Vanuatu",
+  "name_ja": "バヌアツ",
+  "status": "UN Member",
+  "ratio": "3:5",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 90, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#009A44",
+      "rgb": "0, 154, 68",
+      "cmyk": "100, 0, 80, 10",
+      "pantone": "347 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCD00",
+      "rgb": "255, 205, 0",
+      "cmyk": "0, 10, 95, 0",
+      "pantone": "116 C"
+    }
+  ],
+  "notes": "1980年2月18日採用。比率3:5。赤緑二色帯にホイスト黒三角+黄Y字型（pall、黒縁帯）。黒三角内に金の猪の牙+交差するナメレ・シダ（39葉=39議員）。**Red 186 C, Green 347 C, Yellow 116 C 全て確認** ✅。Black→Black C。"
+}

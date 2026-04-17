@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "VG",
+  "name_en": "British Virgin Islands",
+  "name_ja": "イギリス領ヴァージン諸島",
+  "status": "Territory",
+  "ratio": "1:2",
+  "specs_source": "De facto (British Blue Ensign / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 100, 80, 5",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Green",
+      "hex": "#4C8D2B",
+      "rgb": "76, 141, 43",
+      "cmyk": "64, 0, 100, 24",
+      "pantone": "363 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 18, 100, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    }
+  ],
+  "notes": "British Blue Ensign。紋章: 緑盾に聖ウルスラ（金のランプ+11の炎ランプ）、巻物'Vigilate'。1999年以降バッジ拡大+白縁。**Red を 032 から 186 C に修正。Yellow を 109 から 116 C に修正**。Green 363 C, Blue 281 C 確認。Black→Black C。"
+}

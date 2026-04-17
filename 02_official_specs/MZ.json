@@ -1,0 +1,46 @@
+{
+  "iso_alpha2": "MZ",
+  "name_en": "Mozambique",
+  "name_ja": "モザンビーク",
+  "status": "UN Member",
+  "ratio": "2:3",
+  "specs_source": "De facto (London 2012 Flag Manual / Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#009739",
+      "rgb": "0, 151, 57",
+      "cmyk": "93, 0, 100, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Black",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "cmyk": "0, 0, 0, 100",
+      "pantone": "Black C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFD100",
+      "rgb": "255, 209, 0",
+      "cmyk": "0, 5, 100, 0",
+      "pantone": "109 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E4002B",
+      "rgb": "228, 0, 43",
+      "cmyk": "0, 100, 89, 0",
+      "pantone": "185 C"
+    }
+  ],
+  "notes": "世界唯一の近代火器掲載国旗（AK-47銃剣付き）。憲法がデザインを定めるがPantone値は規定なし。複数の公式マニュアルが異なる値を使用（London 2012: 355/109/185、政府ウェブ: 328/102/186、Beijing 2008: 032/102/342）。London 2012値を採用。Green 355 C, Yellow 109 C, Red 185 C 確認。Black 「Black」→「Black C」。ゴミ source 除去。"
+}

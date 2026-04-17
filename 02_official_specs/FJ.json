@@ -1,0 +1,53 @@
+{
+  "iso_alpha2": "FJ",
+  "name_en": "Fiji",
+  "name_ja": "フィジー",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Light Blue",
+      "hex": "#69B3E7",
+      "rgb": "105, 179, 231",
+      "cmyk": "58, 8, 0, 0",
+      "pantone": "2915 C"
+    },
+    {
+      "color_name": "Dark Blue",
+      "hex": "#012169",
+      "rgb": "1, 33, 105",
+      "cmyk": "100, 78, 0, 57",
+      "pantone": "281 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": "White"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#C8102E",
+      "rgb": "200, 16, 46",
+      "cmyk": "0, 90, 76, 0",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "Green",
+      "hex": "#00AD50",
+      "rgb": "0, 173, 80",
+      "cmyk": "81, 2, 97, 0",
+      "pantone": "355 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FEDD00",
+      "rgb": "254, 221, 0",
+      "cmyk": "2, 9, 100, 0",
+      "pantone": "109 C"
+    }
+  ],
+  "notes": "政府によるPantone/CMYK規定は存在しない。イギリスのブルー・エンサインに基づく旗であり、標準近似値（2915 C, 281 C, 186 C等）を補完し、空欄だったGreen/Yellowにそれぞれ 355 C, 109 C を追加。"
+}

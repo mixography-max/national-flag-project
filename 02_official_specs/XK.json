@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "XK",
+  "name_en": "Kosovo",
+  "name_ja": "コソボ",
+  "status": "Disputed",
+  "ratio": "5:7",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#244AA5",
+      "rgb": "36, 74, 165",
+      "cmyk": "78, 55, 0, 35",
+      "pantone": "2133 C"
+    },
+    {
+      "color_name": "Gold",
+      "hex": "#D0A650",
+      "rgb": "208, 166, 80",
+      "cmyk": "0, 20, 62, 18",
+      "pantone": "7407 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "2008年2月17日独立宣言で採用。比率5:7。青地に金のコソボ地図+白い六星アーチ（6民族: アルバニア人・セルビア人・ボスニア人・トルコ人・ロマ・ゴラニ人）。**Blue 2133 C, Gold 7407 C 確認** ✅（複数ソースで一致）。White「N. A.」除去。ノイズ「!」除去。"
+}

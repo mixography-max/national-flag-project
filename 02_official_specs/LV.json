@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "LV",
+  "name_en": "Latvia",
+  "name_ja": "ラトビア",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (Law on the National Flag / Cabinet of Ministers Regulation, amended 2018)",
+  "colors": [
+    {
+      "color_name": "Carmine Red",
+      "hex": "#9B2335",
+      "rgb": "155, 35, 53",
+      "cmyk": "0, 82, 53, 39",
+      "pantone": "201 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**De jure に昇格。重大修正あり**。2018年改正（2019年1月1日施行）により印刷/デジタル用に **Pantone 201 C**、織物用に **19-1629 TPX/TC** を明確化。**Pantone を 1807 から 201 C に修正（重大誤り — 完全に異なる色）**。色名「Carmine-Red」を「Carmine Red」に正規化。HEX修正。帯比率 2:1:2（深紅・白・深紅）。"
+}

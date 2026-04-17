@@ -1,0 +1,25 @@
+{
+  "iso_alpha2": "HN",
+  "name_en": "Honduras",
+  "name_ja": "ホンジュラス",
+  "status": "UN Member",
+  "ratio": "1:2",
+  "specs_source": "De jure (2026 Government Decree - Navy Blue Reversion)",
+  "colors": [
+    {
+      "color_name": "Navy Blue",
+      "hex": "#0D3B99",
+      "rgb": "13, 59, 153",
+      "cmyk": "92, 61, 0, 40",
+      "pantone": "286 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "**＜最新情勢に基づく重要更新＞**。2026年1月27日、ホンジュラス政府は2022年のターコイズブルー政策を撤回し、伝統的な**ネイビーブルー**に復帰した。1949年法令では「turquoise」と明記されていたが、70年以上にわたりネイビーブルーで製造されてきた慣行を追認。旧データのターコイズ（306 C / #00BCE4）を新公式値のネイビーブルー（#0D3B99）に全面置換。White のPantone値に混入していた誤値 7436 C を削除し、色名を「Turquoise」から「Navy Blue」に変更。"
+}

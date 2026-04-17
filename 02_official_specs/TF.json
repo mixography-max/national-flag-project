@@ -1,0 +1,32 @@
+{
+  "iso_alpha2": "TF",
+  "name_en": "French Southern Territories",
+  "name_ja": "フランス領南方・南極地域",
+  "status": "Territory",
+  "ratio": "2:3",
+  "specs_source": "De jure (NF X 08002 / French National Standard)",
+  "colors": [
+    {
+      "color_name": "Blue",
+      "hex": "#000091",
+      "rgb": "0, 0, 145",
+      "cmyk": "100, 90, 20, 7",
+      "pantone": "072 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    },
+    {
+      "color_name": "Red",
+      "hex": "#E1000F",
+      "rgb": "225, 0, 15",
+      "cmyk": "0, 100, 100, 0",
+      "pantone": "485 C"
+    }
+  ],
+  "notes": "フランスの海外領土であり、公式旗はフランス三色旗（Tricolore）を使用する。カラー仕様はFR（フランス）エントリのNF X 08002規格に準拠。独自の領土旗（青地に白い「TAAF」の文字と紋章）は非公式。"
+}

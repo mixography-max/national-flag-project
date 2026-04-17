@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 9600 4800"
+   width="900"
+   height="450">
+  <title>Flag of Cook Islands (クック諸島)</title>
+  <desc>ISO 3166-1: CK | Ratio: 1:2 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Cook Islands (クック諸島)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>CK</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+	<defs>
+		<clipPath id="f">
+			<path d="m0 0h12v6H0z"/>
+		</clipPath>
+		<clipPath id="c">
+			<path d="m0 0v1.5h8V4zm6 0H3v4h-5z"/>
+		</clipPath>
+	</defs>
+	<g transform="scale(800)" stroke-width=".6" fill="#00205B" clip-path="url(#f)">
+		<path d="m0 0h12v6H0z"/>
+		<path stroke="#fff" d="m0 0 6 3M0 3l6-3"/>
+		<path stroke="#EF3340" stroke-width=".4" clip-path="url(#c)" d="m0 0 6 3M0 3l6-3"/>
+		<path stroke="#fff" stroke-width="1" d="m3 0v4M0 1.5h7"/>
+		<path stroke="#EF3340" d="m3 0v4M0 1.5h7"/>
+		<path d="m0 3h6V0h6v6H0z"/>
+	</g>
+	<g transform="translate(7200,2400)">
+		<g id="t">
+			<path id="s" fill="#fff" d="m0-1992 81 249h261l-211 153 81 249L0-1494l-212 153 81-249-211-153h261z"/>
+			<use transform="rotate(24)" xlink:href="#s"/>
+			<use transform="rotate(48)" xlink:href="#s"/>
+		</g>
+		<use transform="rotate(72)" xlink:href="#t"/>
+		<use transform="rotate(144)" xlink:href="#t"/>
+		<use transform="rotate(216)" xlink:href="#t"/>
+		<use transform="rotate(288)" xlink:href="#t"/>
+	</g>
+</svg>

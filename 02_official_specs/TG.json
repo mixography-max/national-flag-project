@@ -1,0 +1,39 @@
+{
+  "iso_alpha2": "TG",
+  "name_en": "Togo",
+  "name_ja": "トーゴ",
+  "status": "UN Member",
+  "ratio": "1:1.618",
+  "specs_source": "De facto (Standard Vexillological Approximations)",
+  "colors": [
+    {
+      "color_name": "Green",
+      "hex": "#006A4A",
+      "rgb": "0, 106, 74",
+      "cmyk": "100, 0, 27, 58",
+      "pantone": "354 C"
+    },
+    {
+      "color_name": "Yellow",
+      "hex": "#FFCE00",
+      "rgb": "255, 206, 0",
+      "cmyk": "0, 19, 100, 0",
+      "pantone": "116 C"
+    },
+    {
+      "color_name": "Red",
+      "hex": "#D21034",
+      "rgb": "210, 16, 52",
+      "cmyk": "0, 92, 75, 18",
+      "pantone": "186 C"
+    },
+    {
+      "color_name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "pantone": ""
+    }
+  ],
+  "notes": "Paul Ahyi デザイン。**比率を「golden ratio」から「1:1.618」（φ）に正規化**（実務的には3:5も使用）。5帯（緑黄交互、3緑+2黄）に赤い正方形カントン（白い五芒星）。**Green を 355 から 354 C に修正。Yellow を 109 から 116 C に修正。Red を 032 から 186 C に修正** — 3色全て修正。CMYK修正。"
+}
