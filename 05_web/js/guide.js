@@ -1052,8 +1052,8 @@ function renderGrid() {
       <div class="country-card ${isExpanded ? 'expanded' : ''}" id="card-${d.code}">
         <div class="card-header" onclick="toggleCard('${d.code}')">
           <div class="card-flag-wrap">
-            <img src="/03_svg_verified/${d.code}.svg?v=20260415c" alt="${d.nameEn}" loading="lazy"
-                 onerror="this.src='/01_svg_wikipedia/${d.code}.svg?v=20260415c'; this.onerror=function(){this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%2280%22><rect fill=%22%23333%22 width=%22120%22 height=%2280%22/><text x=%2260%22 y=%2244%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>${d.code}</text></svg>';}" >
+            <img src="03_svg_verified/${d.code}.svg?v=20260415c" alt="${d.nameEn}" loading="lazy"
+                 onerror="this.src='01_svg_wikipedia/${d.code}.svg?v=20260415c'; this.onerror=function(){this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%2280%22><rect fill=%22%23333%22 width=%22120%22 height=%2280%22/><text x=%2260%22 y=%2244%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>${d.code}</text></svg>';}" >
           </div>
           <div class="card-title-area">
             <div class="card-number">#${String(d.num).padStart(3, '0')} <span class="card-code-badge">${d.code}</span> ${statusBadge}</div>
