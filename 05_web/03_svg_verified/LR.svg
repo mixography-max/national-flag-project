@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   version="1.1"
+   viewBox="0 0 192 101"
+   xmlns="http://www.w3.org/2000/svg"
+   fill="#fff"
+   width="900"
+   height="474">
+  <title>Flag of Liberia (リベリア)</title>
+  <desc>ISO 3166-1: LR | Ratio: 10:19 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Liberia (リベリア)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>LR</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+ <path d="m0 0h192v101h-192z" fill="#EF3340"/>
+ <rect y="9.17" width="192" height="9.17"/>
+ <rect y="27.5" width="192" height="9.17"/>
+ <rect y="45.8" width="192" height="9.17"/>
+ <rect y="64.2" width="192" height="9.17"/>
+ <rect y="82.5" width="192" height="9.17"/>
+ <rect width="45.8" height="45.8" fill="#00205B"/>
+ <path d="m32.1 35.8-9.18-6.46-9.22 6.41 3.31-10.7-8.94-6.79 11.2-0.171 3.69-10.6 3.63 10.6 11.2 0.235-8.98 6.74z"/>
+</svg>

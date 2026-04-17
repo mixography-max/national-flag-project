@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 75 50"
+   fill="none"
+   width="900"
+   height="600">
+  <title>Flag of Saint Kitts and Nevis (セントクリストファー・ネイビス)</title>
+  <desc>ISO 3166-1: KN | Ratio: 2:3 | De jure (Ministry of Foreign Affairs of Saint Kitts and Nevis)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Saint Kitts and Nevis (セントクリストファー・ネイビス)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>KN</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+	<defs>
+		<clipPath id="f">
+			<path d="m0 0h75v50H0z"/>
+		</clipPath>
+	</defs>
+	<path fill="#006A4E" d="m0 50V0h75z"/>
+	<path fill="#c8102e" d="m75 0v50H0z"/>
+	<g clip-path="url(#f)">
+		<path stroke="#FEDF00" stroke-width="21" d="m0 50L75 0"/>
+		<path stroke="#000" stroke-width="15" d="m0 50L75 0"/>
+	</g>
+	<path fill="#fff" d="m19.565 29.347 10.448 8.254L16.709 37.065l11.078-7.386-4.621 12.487zm28.846-19.231 10.448 8.254L45.555 17.834l11.078-7.386-4.621 12.487z"/>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 30 15"
+   fill="#fff"
+   width="900"
+   height="450">
+  <title>Flag of Cuba (キューバ)</title>
+  <desc>ISO 3166-1: CU | Ratio: 1:2 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Cuba (キューバ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>CU</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+	<path fill="#004B87"  d="m0 0h30v15H0z"/>
+	<path d="m3 3h27v3H9v3h21v3H3z"/>
+	<path fill="#DA291C" d="m12.99 7.5L0 15V0z"/>
+	<path d="m4.33 5-1.469 4.523 3.847-2.796H1.952L5.8 9.523z"/>
+</svg>

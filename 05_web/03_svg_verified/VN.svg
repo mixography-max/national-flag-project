@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 30 20"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="900"
+   height="600">
+  <title>Flag of Viet Nam (ベトナム)</title>
+  <desc>ISO 3166-1: VN | Ratio: 2:3 | De jure (Constitution Art. 141 — design only)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Viet Nam (ベトナム)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>VN</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+<rect width="30" height="20" fill="#C8102E"/>
+<polygon points="15,4 11.47,14.85 20.71,8.15 9.29,8.15 18.53,14.85" fill="#FFCD00"/>
+</svg>

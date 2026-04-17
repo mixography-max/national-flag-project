@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 120 80"
+   xmlns="http://www.w3.org/2000/svg"
+   width="900"
+   height="600">
+  <title>Flag of Taiwan (台湾)</title>
+  <desc>ISO 3166-1: TW | Ratio: 2:3 | De jure (Act of National Emblem and National Flag of ROC, 1928 — design only)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Taiwan (台湾)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>TW</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+<path fill="#fe0000" d="M0 0h120v80H0z"/>
+<path fill="#000095" d="M0 0h60v40H0z"/>
+<path id="a" d="M30 5l4 15-4 15-4-15zM15 20l15 4 15-4-15-4z" fill="#fff"/>
+<use transform="rotate(30,30,20)" href="#a"/>
+<use transform="rotate(60,30,20)" href="#a"/>
+<circle fill="#fff" stroke="#000095" cx="30" cy="20" r="8"/>
+</svg>

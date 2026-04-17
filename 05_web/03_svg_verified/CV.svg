@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 1020 600"
+   xmlns="http://www.w3.org/2000/svg"
+   width="900"
+   height="529">
+  <title>Flag of Cabo Verde (カーボベルデ)</title>
+  <desc>ISO 3166-1: CV | Ratio: 10:17 | De jure (Government Resolution 37/2009)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Cabo Verde (カーボベルデ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>CV</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata><path fill="#003087" d="M0 0h1020v600H0z"/><path fill="#fff" d="M0 300h1020v150H0z"/><path fill="#C8102E" d="M0 350h1020v50H0z"/><path fill="#FFCD00" d="m382.5 198.715 5.933 18.119 19.066.043-15.4 11.242 5.852 18.148-15.452-11.173-15.45 11.173 5.851-18.148-15.4-11.242 19.066-.043zm-88.168 28.646 5.933 18.121 19.066.043-15.4 11.242 5.852 18.147-15.452-11.172-15.45 11.172 5.851-18.147-15.4-11.242 19.066-.043zm176.336 0 5.933 18.121 19.066.043-15.4 11.242 5.852 18.147-15.452-11.172-15.45 11.172 5.851-18.147-15.4-11.242 19.066-.043zm-230.826 73.863 5.933 18.12 19.067.043-15.4 11.242 5.85 18.148-15.45-11.174-15.452 11.174 5.852-18.148-15.4-11.242 19.066-.043zm285.316 0 5.934 18.12 19.066.043-15.4 11.242 5.851 18.148-15.451-11.174-15.451 11.174 5.851-18.148-15.4-11.242 19.066-.043zm-285.316 100 5.933 18.119 19.067.044-15.4 11.242 5.85 18.148-15.45-11.173-15.452 11.173 5.852-18.148-15.4-11.242 19.066-.043zm285.316 0 5.934 18.119 19.066.044-15.4 11.242 5.851 18.148-15.451-11.173-15.451 11.173 5.851-18.148-15.4-11.242 19.066-.043zm-230.826 68.842 5.933 18.121 19.066.044-15.4 11.242 5.852 18.146-15.452-11.172-15.45 11.172 5.851-18.146-15.4-11.242 19.066-.044zm176.336 0 5.933 18.121 19.066.044-15.4 11.242 5.852 18.146-15.452-11.172-15.45 11.172 5.851-18.146-15.4-11.242 19.066-.044zM382.5 498.715l5.933 18.119 19.066.043-15.4 11.242 5.852 18.149-15.452-11.174-15.45 11.174 5.851-18.149-15.4-11.242 19.066-.043z"/></svg>

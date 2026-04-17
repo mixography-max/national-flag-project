@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 700 600"
+   xmlns="http://www.w3.org/2000/svg"
+   width="900"
+   height="771">
+  <title>Flag of Niger (ニジェール)</title>
+  <desc>ISO 3166-1: NE | Ratio: 6:7 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Niger (ニジェール)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>NE</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata><rect width="700" height="600" fill="#0DB02B"/><rect width="700" height="400" fill="#FFF"/><rect width="700" height="200" fill="#e05206"/><circle cx="350" cy="300" r="85" fill="#e05206"/></svg>

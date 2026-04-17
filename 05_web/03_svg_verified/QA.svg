@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   viewBox="0 0 504 198"
+   width="1120"
+   height="440">
+  <title>Flag of Qatar (カタール)</title>
+  <desc>ISO 3166-1: QA | Ratio: 11:28 | De jure (Flag Law No. 14 of 2012) | Maroon: Pantone 1955 C (#8A1538)</desc>
+  <metadata>
+    <rdf:RDF>
+      <rdf:Description>
+        <dc:title>Flag of Qatar (カタール)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from Flag Law No. 14 of 2012. Ratio 11:28 per official specification. SVG geometry reconstructed to match legal ratio.</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>QA</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+  <!-- Maroon field: Pantone 1955 C ("Qatar Maroon") -->
+  <rect width="504" height="198" fill="#8A1538"/>
+  <!-- White serrated band (hoist side): 9 teeth per 1916 treaty -->
+  <path d="M0,0H148l40,11-40,11 40,11-40,11 40,11-40,11 40,11-40,11 40,11-40,11 40,11-40,11 40,11-40,11 40,11-40,11 40,11-40,11H0Z" fill="#FFFFFF"/>
+</svg>

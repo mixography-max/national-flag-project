@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   viewBox="0 0 500 300"
+   xmlns="http://www.w3.org/2000/svg"
+   width="900"
+   height="540">
+  <title>Flag of Grenada (グレナダ)</title>
+  <desc>ISO 3166-1: GD | Ratio: 3:5 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Grenada (グレナダ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>GD</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata><path fill="#EF3340" d="M0 0h500v300H0z"/><path fill="#009739" d="M42 42h416v216H42z"/><path d="M42 42h416L42 258h416z" fill="#FFD100"/><circle r="36" cy="150" cx="250" fill="#EF3340"/><path d="M67.944 150.113c4.262 8.515 12.757 17.893 20.313 21.321.367-8.513-2.341-19.515-6.224-28.33z" fill="#EF3340"/><path d="M60.284 121.487c6.35 13.695-17.533 45.856 21.453 53.976-4.736-6.643-7.33-17.752-6.04-26.456 8.095 3.448 16.212 11.464 19.402 18.972 13.444-37.484-26.456-33.922-34.815-46.492z" fill="#FFD100"/><use xlink:href="#a" fill="#FFD100"/><use xlink:href="#a" x="100" fill="#FFD100"/><use xlink:href="#a" x="200" fill="#FFD100"/><use xlink:href="#a" x="200" y="-258" fill="#FFD100"/><use xlink:href="#a" x="100" y="-258" fill="#FFD100"/><use xlink:href="#a" y="-258" fill="#FFD100"/><path d="m250 117-19.397 59.697 50.782-36.895h-62.769l50.782 36.895z" fill="#FFD100"/><defs><path id="a" d="m150 259.5-11.462 35.276 30.007-21.802h-37.091l30.007 21.802z"/></defs></svg>

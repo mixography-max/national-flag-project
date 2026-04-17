@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 138 92"
+   width="900"
+   height="600">
+  <title>Flag of Antigua and Barbuda (アンティグア・バーブーダ)</title>
+  <desc>ISO 3166-1: AG | Ratio: 2:3 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Antigua and Barbuda (アンティグア・バーブーダ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>AG</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+	<path fill="#fff" d="m0 0h138v92H0z"/>
+	<path d="m0 0h138l-9 46H9z"/>
+	<path fill="#FFD100" d="m69 46-30-10 15.288-2.926-13.004-8.555 15.244 3.147-8.741-12.879 12.879 8.741-3.147-15.244 8.555 13.004L69 6l2.926 15.288L80.481 8.284 77.334 23.528l12.879-8.741-8.741 12.879 15.244-3.147-13.004 8.555L99 36z"/>
+	<path fill="#005EB8" d="m9 36h120v20H9z"/>
+	<path fill="#EF3340" d="m0 0 69 92 69-92v92H0z"/>
+</svg>

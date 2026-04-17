@@ -61,7 +61,7 @@ function renderGrid() {
   grid.className = 'flag-grid' + (viewMode === 'compact' ? ' compact' : '');
 
   grid.innerHTML = filtered.map(f => {
-    const svgDir = showVerified ? '/03_svg_verified' : '/01_svg_wikipedia';
+    const svgDir = showVerified ? '03_svg_verified' : '01_svg_wikipedia';
     const badge = showVerified ? 'verified' : 'wiki';
     const badgeText = showVerified ? 'Verified' : 'Wiki';
 
@@ -108,7 +108,7 @@ function openModal(code) {
         <button class="active" onclick="switchModalView(this, '${f.code}', 'verified')">✅ Verified（公式色・法定比率）</button>
         <button onclick="switchModalView(this, '${f.code}', 'wiki')">📘 Wikipedia（Wikimedia Commons）</button>
       </div>
-      <img id="modal-img" src="/03_svg_verified/${f.code}.svg?${SVG_VERSION}" alt="${f.name_en}"
+      <img id="modal-img" src="03_svg_verified/${f.code}.svg?${SVG_VERSION}" alt="${f.name_en}"
            onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22200%22><rect fill=%22%23333%22 width=%22300%22 height=%22200%22/><text x=%22150%22 y=%22105%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2214%22>N/A</text></svg>'">
     </div>
     <div class="modal-flag-details">
@@ -163,7 +163,7 @@ function openModal(code) {
   const downloadBtn = document.getElementById('download-btn');
   downloadBtn.onclick = () => {
     const a = document.createElement('a');
-    a.href = `/03_svg_verified/${f.code}.svg?${SVG_VERSION}`;
+    a.href = `03_svg_verified/${f.code}.svg?${SVG_VERSION}`;
     a.download = `Flag_of_${f.name_en.replace(/ /g, '_')}_Verified.svg`;
     document.body.appendChild(a);
     a.click();
@@ -180,8 +180,8 @@ function switchModalView(btn, code, view) {
   btn.classList.add('active');
   const img = document.getElementById('modal-img');
   img.src = view === 'verified'
-    ? `/03_svg_verified/${code}.svg?${SVG_VERSION}`
-    : `/01_svg_wikipedia/${code}.svg?${SVG_VERSION}`;
+    ? `03_svg_verified/${code}.svg?${SVG_VERSION}`
+    : `01_svg_wikipedia/${code}.svg?${SVG_VERSION}`;
 }
 
 function closeModal() {
@@ -199,14 +199,14 @@ function renderSimilarPairs() {
     return `
       <div class="pair-card">
         <div class="pair-flag" onclick="openModal('${a.code}')" style="cursor:pointer">
-          <img src="/03_svg_verified/${a.code}.svg?${SVG_VERSION}" alt="${a.name_en}" loading="lazy">
+          <img src="03_svg_verified/${a.code}.svg?${SVG_VERSION}" alt="${a.name_en}" loading="lazy">
         </div>
         <div style="text-align:center">
           <div class="pair-vs">VS</div>
           <div class="pair-info">${pair.label}</div>
         </div>
         <div class="pair-flag" onclick="openModal('${b.code}')" style="cursor:pointer">
-          <img src="/03_svg_verified/${b.code}.svg?${SVG_VERSION}" alt="${b.name_en}" loading="lazy">
+          <img src="03_svg_verified/${b.code}.svg?${SVG_VERSION}" alt="${b.name_en}" loading="lazy">
         </div>
       </div>
     `;

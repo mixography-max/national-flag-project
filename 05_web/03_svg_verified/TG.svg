@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   version="1.1"
+   id="flag_of_togo"
+   xmlns="http://www.w3.org/2000/svg"
+   x="0px"
+   y="0px"
+   viewBox="0 0 809.016 500"
+   enable-background="new 0 0 809.016 500"
+   xml:space="preserve"
+   width="900"
+   height="556">
+  <title>Flag of Togo (トーゴ)</title>
+  <desc>ISO 3166-1: TG | Ratio: 1:1.618 | De facto (Standard Vexillological Approximations)</desc>
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>Flag of Togo (トーゴ)</dc:title>
+        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
+        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:identifier>TG</dc:identifier>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+<path fill="#006A4A" d="M0,0h809.016v500H0V0z"/>
+<path fill="#FFCE00" d="M0,100h809.016v100H0V100z"/>
+<path fill="#D21034" d="M0,0h300v300H0V0z"/>
+<path fill="#FFCE00" d="M0,300h809.016v100H0V300z"/>
+<polygon fill="#FFFFFF" points="184.511,161.213 240.351,120.644 171.329,120.644 150,55 128.671,120.644 59.649,120.644 
+	115.489,161.213 94.16,226.856 150,186.287 205.84,226.856 "/>
+</svg>
