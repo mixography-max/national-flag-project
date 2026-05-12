@@ -495,6 +495,15 @@ a.source-link:hover {
   background: var(--success);
   color: #000;
 }
+.download-btn.download-png {
+  background: rgba(108,92,231,0.15);
+  border-color: rgba(108,92,231,0.3);
+  color: var(--accent);
+}
+.download-btn.download-png:hover {
+  background: var(--accent);
+  color: white;
+}
 .modal-title h2 {
   font-size: 1.3rem;
   font-weight: 700;

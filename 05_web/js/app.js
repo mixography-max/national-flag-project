@@ -159,12 +159,25 @@ function openModal(code) {
     ? `<strong>Source/De Jure:</strong> ${f.specs_source}`
     : '';
 
-  // Handle download button logic
-  const downloadBtn = document.getElementById('download-btn');
-  downloadBtn.onclick = () => {
+  // Handle SVG download
+  const svgBtn = document.getElementById('download-svg');
+  svgBtn.onclick = () => {
     const a = document.createElement('a');
     a.href = `03_svg_verified/${f.code}.svg?${SVG_VERSION}`;
     a.download = `Flag_of_${f.name_en.replace(/ /g, '_')}_Verified.svg`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
+
+  // Handle PNG download (h=1080px, filename is Name_EN based)
+  const pngBtn = document.getElementById('download-png');
+  const pngFilename = f.name_en.replace(/ /g, '_');
+  const pngPath = `png_flags/1080/${encodeURIComponent(pngFilename)}.png`;
+  pngBtn.onclick = () => {
+    const a = document.createElement('a');
+    a.href = pngPath;
+    a.download = `Flag_of_${pngFilename}_1080px.png`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
