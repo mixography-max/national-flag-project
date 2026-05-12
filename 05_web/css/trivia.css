@@ -1,0 +1,213 @@
+/* ── Trivia Page Styles ──────────────────────── */
+
+.trivia-hero {
+  padding: 2.5rem 2rem 2rem;
+}
+.trivia-hero h1 {
+  font-size: 2rem;
+}
+
+/* Sparkle particles */
+.hero-sparkles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.sparkle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--warning);
+  border-radius: 50%;
+  opacity: 0;
+  animation: sparkleFloat 4s ease-in-out infinite;
+}
+@keyframes sparkleFloat {
+  0%   { opacity: 0; transform: translateY(0) scale(0); }
+  20%  { opacity: 0.8; transform: translateY(-20px) scale(1); }
+  100% { opacity: 0; transform: translateY(-80px) scale(0.3); }
+}
+
+/* ── Trivia Grid ─────────────────────────────── */
+.trivia-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ── Trivia Card ─────────────────────────────── */
+.trivia-card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
+  position: relative;
+}
+.trivia-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+  transform: translateY(-2px);
+}
+
+/* Episode number badge */
+.trivia-episode {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 40px;
+  height: 40px;
+  background: var(--accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: white;
+  z-index: 5;
+  box-shadow: 0 4px 12px rgba(108,92,231,0.4);
+}
+
+/* Card inner layout */
+.trivia-inner {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  min-height: 180px;
+}
+
+/* Flag side */
+.trivia-flags {
+  background: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 1rem 0.75rem;
+  position: relative;
+}
+.trivia-flags img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+.trivia-flags.multi img {
+  max-width: 72px;
+}
+.trivia-card:hover .trivia-flags img {
+  transform: scale(1.05);
+}
+.trivia-vs {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #999;
+  padding: 0 4px;
+}
+
+/* Content side */
+.trivia-content {
+  padding: 1.5rem 1.5rem 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.trivia-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin-bottom: 0.6rem;
+}
+.trivia-title .emoji {
+  margin-right: 0.3rem;
+}
+.trivia-body {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+.trivia-body strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+.trivia-body .highlight {
+  color: var(--warning);
+  font-weight: 600;
+}
+.trivia-body .accent {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Tags */
+.trivia-tags {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+}
+.trivia-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  background: rgba(108,92,231,0.12);
+  color: var(--accent);
+  letter-spacing: 0.02em;
+}
+.trivia-tag.geo  { background: rgba(0,201,167,0.12); color: var(--success); }
+.trivia-tag.hist { background: rgba(255,193,7,0.12); color: var(--warning); }
+.trivia-tag.fun  { background: rgba(255,107,107,0.12); color: #ff6b6b; }
+
+/* Source footer */
+.source-footer {
+  text-align: center;
+  padding: 1.5rem 2rem;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  border-top: 1px solid var(--border);
+}
+.source-footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.source-footer a:hover { text-decoration: underline; }
+
+/* ── Responsive ──────────────────────────────── */
+@media (max-width: 768px) {
+  .trivia-hero h1 { font-size: 1.5rem; }
+  .trivia-grid { padding: 1rem; gap: 1.5rem; }
+  .trivia-inner {
+    grid-template-columns: 1fr;
+  }
+  .trivia-flags {
+    padding: 1rem;
+    min-height: 120px;
+  }
+  .trivia-episode {
+    top: 0.75rem;
+    left: 0.75rem;
+    width: 32px;
+    height: 32px;
+    font-size: 0.75rem;
+  }
+}
+
+/* ── Card enter animation ────────────────────── */
+@keyframes cardSlideIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.trivia-card {
+  animation: cardSlideIn 0.5s ease-out both;
+}
