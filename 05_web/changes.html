@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>国旗の変遷 — National Flag Atlas</title>
+  <meta name="description" content="2016〜2026年に変更があった国旗のまとめ。政変・国民投票・デザイン刷新など、国旗に刻まれた10年の歴史。">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/changes.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-link">🏁 フラグアトラス</a>
+      <a href="guide.html" class="nav-link">📖 国旗ガイド</a>
+      <a href="countries.html" class="nav-link">🌐 国名・首都名</a>
+      <a href="trivia.html" class="nav-link">💡 トリビア</a>
+      <a href="changes.html" class="nav-link active">🔄 国旗の変遷</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero changes-hero">
+    <h1>🔄 国旗の変遷 2016–2026</h1>
+    <p class="subtitle">この10年で変更・改定があった国旗をまとめました</p>
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-number" id="stat-changes">7</div>
+        <div class="stat-label">Changes</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" style="color:var(--warning)">10</div>
+        <div class="stat-label">Years Span</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Timeline -->
+  <main class="timeline-container" id="timeline"></main>
+
+  <footer class="source-footer">
+    <p>出典: 各国政府公式資料、国連記録、Album des Pavillons ｜ <a href="index.html">フラグアトラスへ戻る</a></p>
+  </footer>
+
+  <script src="js/changes.js"></script>
+</body>
+</html>

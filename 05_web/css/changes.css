@@ -1,0 +1,246 @@
+/* ── Changes / Timeline Page Styles ──────────── */
+
+.changes-hero {
+  padding: 2.5rem 2rem 2rem;
+}
+.changes-hero h1 {
+  font-size: 1.9rem;
+}
+
+/* Source footer */
+.source-footer {
+  text-align: center;
+  padding: 1.5rem 2rem;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  border-top: 1px solid var(--border);
+}
+.source-footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.source-footer a:hover { text-decoration: underline; }
+
+/* ── Timeline Container ──────────────────────── */
+.timeline-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+  position: relative;
+}
+
+/* Vertical line */
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 40px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--accent) 5%,
+    var(--accent) 95%,
+    transparent 100%
+  );
+  opacity: 0.3;
+}
+
+/* ── Year Marker ─────────────────────────────── */
+.year-marker {
+  position: relative;
+  padding-left: 80px;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+.year-marker:first-child {
+  margin-top: 0;
+}
+.year-dot {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  background: var(--accent);
+  border-radius: 50%;
+  border: 3px solid var(--bg-primary);
+  box-shadow: 0 0 0 2px var(--accent), 0 0 12px var(--accent-glow);
+  z-index: 2;
+}
+.year-label {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+}
+
+/* ── Change Card ─────────────────────────────── */
+.change-card {
+  position: relative;
+  padding-left: 80px;
+  margin-bottom: 1.5rem;
+}
+.change-dot {
+  position: absolute;
+  left: 34px;
+  top: 1.5rem;
+  width: 14px;
+  height: 14px;
+  background: var(--bg-card);
+  border-radius: 50%;
+  border: 2px solid var(--text-muted);
+  z-index: 2;
+  transition: all 0.3s;
+}
+.change-card:hover .change-dot {
+  border-color: var(--accent);
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.change-body {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.change-card:hover .change-body {
+  border-color: var(--border-hover);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  transform: translateY(-2px);
+}
+
+/* Card header with flag comparison */
+.change-header {
+  display: flex;
+  align-items: stretch;
+  min-height: 140px;
+}
+
+/* Flag comparison area */
+.flag-compare {
+  flex: 0 0 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  background: #f5f5f5;
+  position: relative;
+  padding: 1rem;
+}
+.flag-compare img {
+  max-width: 120px;
+  max-height: 80px;
+  object-fit: contain;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+.change-card:hover .flag-compare img {
+  transform: scale(1.05);
+}
+.flag-arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.75rem;
+  color: #999;
+}
+.flag-arrow-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.flag-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #999;
+  text-align: center;
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Info area */
+.change-info {
+  flex: 1;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.change-country {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.change-country-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.change-country-en {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.change-type-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.badge-new      { background: rgba(255,107,107,0.15); color: #ff6b6b; }
+.badge-modify   { background: rgba(255,193,7,0.15); color: #ffc107; }
+.badge-revert   { background: rgba(0,201,167,0.15); color: #00c9a7; }
+.badge-defacto  { background: rgba(108,92,231,0.15); color: #6c5ce7; }
+.badge-reject   { background: rgba(136,136,160,0.15); color: #8888a0; }
+.badge-color    { background: rgba(54,162,235,0.15); color: #36a2eb; }
+
+.change-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.change-description {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+.change-description strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ── Responsive ──────────────────────────────── */
+@media (max-width: 768px) {
+  .changes-hero h1 { font-size: 1.4rem; }
+  .timeline-container { padding: 1rem; }
+  .timeline-container::before { left: 20px; }
+  .year-marker { padding-left: 50px; }
+  .year-dot { left: 10px; width: 18px; height: 18px; }
+  .change-card { padding-left: 50px; }
+  .change-dot { left: 14px; width: 10px; height: 10px; }
+  .change-header { flex-direction: column; }
+  .flag-compare { flex: none; min-height: 100px; }
+  .flag-compare img { max-width: 90px; max-height: 60px; }
+}
+
+/* ── Card enter animation ────────────────────── */
+@keyframes timelineIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.change-card {
+  animation: timelineIn 0.5s ease-out both;
+}
+.year-marker {
+  animation: timelineIn 0.4s ease-out both;
+}
