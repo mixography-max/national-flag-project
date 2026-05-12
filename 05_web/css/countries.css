@@ -1,0 +1,264 @@
+/* ── Countries Page Styles ────────────────────── */
+
+/* Hero override */
+.countries-hero {
+  padding: 2.5rem 2rem 1.8rem;
+}
+.countries-hero h1 {
+  font-size: 1.8rem;
+}
+
+/* Navigation link for new page */
+.nav-inner {
+  display: flex;
+  gap: 0;
+}
+.site-nav {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  padding: 0.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  backdrop-filter: blur(20px);
+}
+.nav-link {
+  padding: 0.5rem 1.2rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+}
+.nav-link:hover {
+  color: var(--text-primary);
+  background: rgba(255,255,255,0.05);
+}
+.nav-link.active {
+  color: var(--accent);
+  background: rgba(108,92,231,0.1);
+}
+
+/* Region filter buttons */
+.region-filters {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+/* ── Table Container ─────────────────────────── */
+.table-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 4rem;
+}
+.table-scroll {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+/* ── Countries Table ─────────────────────────── */
+.countries-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.countries-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.countries-table th {
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.8rem 0.75rem;
+  text-align: left;
+  border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.countries-table th.sortable {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.countries-table th.sortable:hover {
+  color: var(--accent);
+}
+.countries-table th.sortable .sort-arrow {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 0.6rem;
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+.countries-table th.sortable .sort-arrow::after {
+  content: "▼";
+}
+.countries-table th.sort-asc .sort-arrow,
+.countries-table th.sort-desc .sort-arrow {
+  opacity: 1;
+  color: var(--accent);
+}
+.countries-table th.sort-asc .sort-arrow::after {
+  content: "▲";
+}
+.countries-table th.sort-desc .sort-arrow::after {
+  content: "▼";
+}
+
+/* Column widths */
+.th-flag { width: 56px; text-align: center; }
+.th-name { min-width: 200px; }
+.th-name-en { min-width: 240px; }
+.th-capital { min-width: 120px; }
+.th-note { min-width: 160px; }
+.th-region { width: 80px; }
+
+/* ── Table Rows ──────────────────────────────── */
+.countries-table td {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  vertical-align: middle;
+  transition: background 0.15s;
+}
+
+.countries-table tbody tr {
+  transition: background 0.15s;
+}
+.countries-table tbody tr:hover {
+  background: rgba(108,92,231,0.06);
+}
+.countries-table tbody tr:hover td {
+  border-bottom-color: rgba(108,92,231,0.1);
+}
+
+/* Flag cell */
+.td-flag {
+  text-align: center;
+  padding: 0.4rem;
+}
+.flag-thumb {
+  width: 42px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: #f5f5f5;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.flag-thumb:hover {
+  transform: scale(1.6);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  z-index: 10;
+  position: relative;
+}
+
+/* Name cells */
+.td-name-ja {
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+.td-name-en {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+.td-capital {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+/* Note cell */
+.td-note {
+  font-size: 0.75rem;
+  color: var(--warning);
+  line-height: 1.4;
+}
+.td-note:empty {
+  color: transparent;
+}
+
+/* Region badge */
+.region-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+}
+.region-badge[data-region="アジア"]   { background: rgba(255,107,107,0.15); color: #ff6b6b; }
+.region-badge[data-region="大洋州"]   { background: rgba(0,201,167,0.15);  color: #00c9a7; }
+.region-badge[data-region="欧州"]     { background: rgba(108,92,231,0.15); color: #6c5ce7; }
+.region-badge[data-region="中東"]     { background: rgba(255,159,67,0.15); color: #ff9f43; }
+.region-badge[data-region="北米"]     { background: rgba(54,162,235,0.15); color: #36a2eb; }
+.region-badge[data-region="中南米"]   { background: rgba(255,205,86,0.15); color: #e8c555; }
+.region-badge[data-region="アフリカ"] { background: rgba(153,102,255,0.15); color: #9966ff; }
+
+/* No MOFA data row */
+.no-mofa td {
+  opacity: 0.45;
+}
+
+/* ── Result Count ────────────────────────────── */
+.result-count {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* ── Source Footer ───────────────────────────── */
+.source-footer {
+  text-align: center;
+  padding: 1.5rem 2rem;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  border-top: 1px solid var(--border);
+  line-height: 1.8;
+}
+.source-footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.source-footer a:hover {
+  text-decoration: underline;
+}
+
+/* ── Responsive ──────────────────────────────── */
+@media (max-width: 1024px) {
+  .table-container { padding: 1rem; }
+  .th-name-en { min-width: 180px; }
+  .th-note { min-width: 120px; }
+}
+
+@media (max-width: 768px) {
+  .countries-hero h1 { font-size: 1.4rem; }
+  .table-container { padding: 0.5rem; }
+  .countries-table { font-size: 0.78rem; }
+  .countries-table th { font-size: 0.65rem; padding: 0.6rem 0.5rem; }
+  .countries-table td { padding: 0.45rem 0.5rem; }
+  .flag-thumb { width: 32px; height: 21px; }
+  .th-note { display: none; }
+  .td-note { display: none; }
+}
+
+/* ── Animations ──────────────────────────────── */
+@keyframes rowFadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.countries-table tbody tr {
+  animation: rowFadeIn 0.3s ease-out both;
+}

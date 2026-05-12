@@ -1,0 +1,1982 @@
+[
+  {
+    "slug": "india",
+    "region": "アジア",
+    "formal_name_ja": "インド（ヒンディー語：バーラト）",
+    "formal_name_en": "India (Hindi: Bharat)",
+    "capital": "ニューデリー",
+    "capital_note": "",
+    "update_date": "令和6年8月1日",
+    "url": "https://www.mofa.go.jp/mofaj/area/india/data.html"
+  },
+  {
+    "slug": "indonesia",
+    "region": "アジア",
+    "formal_name_ja": "インドネシア共和国",
+    "formal_name_en": "Republic of Indonesia",
+    "capital": "ジャカルタ",
+    "capital_note": "",
+    "update_date": "令和6年10月8日",
+    "url": "https://www.mofa.go.jp/mofaj/area/indonesia/data.html"
+  },
+  {
+    "slug": "cambodia",
+    "region": "アジア",
+    "formal_name_ja": "カンボジア王国",
+    "formal_name_en": "Kingdom of Cambodia",
+    "capital": "プノンペン",
+    "capital_note": "",
+    "update_date": "令和6年11月14日",
+    "url": "https://www.mofa.go.jp/mofaj/area/cambodia/data.html"
+  },
+  {
+    "slug": "singapore",
+    "region": "アジア",
+    "formal_name_ja": "シンガポール共和国",
+    "formal_name_en": "Republic of Singapore",
+    "capital": "シンガポール",
+    "capital_note": "都市国家",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/singapore/data.html"
+  },
+  {
+    "slug": "srilanka",
+    "region": "アジア",
+    "formal_name_ja": "スリランカ民主社会主義共和国",
+    "formal_name_en": "Democratic Socialist Republic of Sri Lanka",
+    "capital": "スリ・ジャヤワルダナプラ・コッテ",
+    "capital_note": "",
+    "update_date": "令和6年11月22日",
+    "url": "https://www.mofa.go.jp/mofaj/area/srilanka/data.html"
+  },
+  {
+    "slug": "thailand",
+    "region": "アジア",
+    "formal_name_ja": "タイ王国",
+    "formal_name_en": "Kingdom of Thailand",
+    "capital": "バンコク",
+    "capital_note": "",
+    "update_date": "令和6年10月30日",
+    "url": "https://www.mofa.go.jp/mofaj/area/thailand/data.html"
+  },
+  {
+    "slug": "korea",
+    "region": "アジア",
+    "formal_name_ja": "大韓民国",
+    "formal_name_en": "Republic of Korea",
+    "capital": "ソウル",
+    "capital_note": "",
+    "update_date": "令和6年12月19日",
+    "url": "https://www.mofa.go.jp/mofaj/area/korea/data.html"
+  },
+  {
+    "slug": "china",
+    "region": "アジア",
+    "formal_name_ja": "中華人民共和国",
+    "formal_name_en": "People's Republic of China",
+    "capital": "北京",
+    "capital_note": "",
+    "update_date": "令和6年9月10日",
+    "url": "https://www.mofa.go.jp/mofaj/area/china/data.html"
+  },
+  {
+    "slug": "nepal",
+    "region": "アジア",
+    "formal_name_ja": "ネパール連邦民主共和国",
+    "formal_name_en": "Federal Democratic Republic of Nepal",
+    "capital": "カトマンズ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/nepal/data.html"
+  },
+  {
+    "slug": "pakistan",
+    "region": "アジア",
+    "formal_name_ja": "パキスタン・イスラム共和国",
+    "formal_name_en": "Islamic Republic of Pakistan",
+    "capital": "イスラマバード",
+    "capital_note": "",
+    "update_date": "令和6年6月11日",
+    "url": "https://www.mofa.go.jp/mofaj/area/pakistan/data.html"
+  },
+  {
+    "slug": "bangladesh",
+    "region": "アジア",
+    "formal_name_ja": "バングラデシュ人民共和国",
+    "formal_name_en": "People's Republic of Bangladesh",
+    "capital": "ダッカ",
+    "capital_note": "",
+    "update_date": "令和6年11月14日",
+    "url": "https://www.mofa.go.jp/mofaj/area/bangladesh/data.html"
+  },
+  {
+    "slug": "easttimor",
+    "region": "アジア",
+    "formal_name_ja": "東ティモール民主共和国",
+    "formal_name_en": "The Democratic Republic of Timor-Leste",
+    "capital": "ディリ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/easttimor/data.html"
+  },
+  {
+    "slug": "philippines",
+    "region": "アジア",
+    "formal_name_ja": "フィリピン共和国",
+    "formal_name_en": "Republic of the Philippines",
+    "capital": "マニラ",
+    "capital_note": "",
+    "update_date": "令和6年9月30日",
+    "url": "https://www.mofa.go.jp/mofaj/area/philippines/data.html"
+  },
+  {
+    "slug": "bhutan",
+    "region": "アジア",
+    "formal_name_ja": "ブータン王国",
+    "formal_name_en": "Kingdom of Bhutan",
+    "capital": "ティンプー",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/bhutan/data.html"
+  },
+  {
+    "slug": "brunei",
+    "region": "アジア",
+    "formal_name_ja": "ブルネイ・ダルサラーム国",
+    "formal_name_en": "Brunei Darussalam",
+    "capital": "バンダルスリブガワン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/brunei/data.html"
+  },
+  {
+    "slug": "vietnam",
+    "region": "アジア",
+    "formal_name_ja": "ベトナム社会主義共和国",
+    "formal_name_en": "Socialist Republic of Viet Nam",
+    "capital": "ハノイ",
+    "capital_note": "",
+    "update_date": "令和6年11月14日",
+    "url": "https://www.mofa.go.jp/mofaj/area/vietnam/data.html"
+  },
+  {
+    "slug": "malaysia",
+    "region": "アジア",
+    "formal_name_ja": "マレーシア",
+    "formal_name_en": "Malaysia",
+    "capital": "クアラルンプール",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/malaysia/data.html"
+  },
+  {
+    "slug": "myanmar",
+    "region": "アジア",
+    "formal_name_ja": "ミャンマー連邦共和国",
+    "formal_name_en": "Republic of the Union of Myanmar",
+    "capital": "ネーピードー",
+    "capital_note": "",
+    "update_date": "令和6年8月27日",
+    "url": "https://www.mofa.go.jp/mofaj/area/myanmar/data.html"
+  },
+  {
+    "slug": "maldives",
+    "region": "アジア",
+    "formal_name_ja": "モルディブ共和国",
+    "formal_name_en": "Republic of Maldives",
+    "capital": "マレ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/maldives/data.html"
+  },
+  {
+    "slug": "mongolia",
+    "region": "アジア",
+    "formal_name_ja": "モンゴル国",
+    "formal_name_en": "Mongolia",
+    "capital": "ウランバートル",
+    "capital_note": "",
+    "update_date": "令和6年10月8日",
+    "url": "https://www.mofa.go.jp/mofaj/area/mongolia/data.html"
+  },
+  {
+    "slug": "laos",
+    "region": "アジア",
+    "formal_name_ja": "ラオス人民民主共和国",
+    "formal_name_en": "Lao People's Democratic Republic",
+    "capital": "ビエンチャン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/laos/data.html"
+  },
+  {
+    "slug": "n_korea",
+    "region": "アジア",
+    "formal_name_ja": "朝鮮民主主義人民共和国",
+    "formal_name_en": "Democratic People's Republic of Korea",
+    "capital": "平壌",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/n_korea/data.html"
+  },
+  {
+    "slug": "taiwan",
+    "region": "アジア",
+    "formal_name_ja": "台湾",
+    "formal_name_en": "",
+    "capital": "台北",
+    "capital_note": "日本国との間に外交関係なし",
+    "update_date": "",
+    "url": "https://www.mofa.go.jp/mofaj/area/taiwan/data.html"
+  },
+  {
+    "slug": "australia",
+    "region": "大洋州",
+    "formal_name_ja": "オーストラリア連邦",
+    "formal_name_en": "Commonwealth of Australia",
+    "capital": "キャンベラ",
+    "capital_note": "",
+    "update_date": "令和6年11月20日",
+    "url": "https://www.mofa.go.jp/mofaj/area/australia/data.html"
+  },
+  {
+    "slug": "kiribati",
+    "region": "大洋州",
+    "formal_name_ja": "キリバス共和国",
+    "formal_name_en": "Republic of Kiribati",
+    "capital": "タラワ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/kiribati/data.html"
+  },
+  {
+    "slug": "cook",
+    "region": "大洋州",
+    "formal_name_ja": "クック諸島",
+    "formal_name_en": "Cook Islands",
+    "capital": "アバルア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/cook/data.html"
+  },
+  {
+    "slug": "samoa",
+    "region": "大洋州",
+    "formal_name_ja": "サモア独立国",
+    "formal_name_en": "Independent State of Samoa",
+    "capital": "アピア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/samoa/data.html"
+  },
+  {
+    "slug": "solomon",
+    "region": "大洋州",
+    "formal_name_ja": "ソロモン諸島",
+    "formal_name_en": "Solomon Islands",
+    "capital": "ホニアラ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/solomon/data.html"
+  },
+  {
+    "slug": "tuvalu",
+    "region": "大洋州",
+    "formal_name_ja": "ツバル",
+    "formal_name_en": "Tuvalu",
+    "capital": "フナフティ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/tuvalu/data.html"
+  },
+  {
+    "slug": "tonga",
+    "region": "大洋州",
+    "formal_name_ja": "トンガ王国",
+    "formal_name_en": "Kingdom of Tonga",
+    "capital": "ヌクアロファ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/tonga/data.html"
+  },
+  {
+    "slug": "nauru",
+    "region": "大洋州",
+    "formal_name_ja": "ナウル共和国",
+    "formal_name_en": "Republic of Nauru",
+    "capital": "ヤレン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/nauru/data.html"
+  },
+  {
+    "slug": "niue",
+    "region": "大洋州",
+    "formal_name_ja": "ニウエ",
+    "formal_name_en": "Niue",
+    "capital": "アロフィ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/niue/data.html"
+  },
+  {
+    "slug": "nz",
+    "region": "大洋州",
+    "formal_name_ja": "ニュージーランド",
+    "formal_name_en": "New Zealand",
+    "capital": "ウェリントン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/nz/data.html"
+  },
+  {
+    "slug": "vanuatu",
+    "region": "大洋州",
+    "formal_name_ja": "バヌアツ共和国",
+    "formal_name_en": "Republic of Vanuatu",
+    "capital": "ポートビラ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/vanuatu/data.html"
+  },
+  {
+    "slug": "png",
+    "region": "大洋州",
+    "formal_name_ja": "パプアニューギニア独立国",
+    "formal_name_en": "Independent State of Papua New Guinea",
+    "capital": "ポートモレスビー",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/png/data.html"
+  },
+  {
+    "slug": "palau",
+    "region": "大洋州",
+    "formal_name_ja": "パラオ共和国",
+    "formal_name_en": "Republic of Palau",
+    "capital": "マルキョク",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/palau/data.html"
+  },
+  {
+    "slug": "fiji",
+    "region": "大洋州",
+    "formal_name_ja": "フィジー共和国",
+    "formal_name_en": "Republic of Fiji",
+    "capital": "スバ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/fiji/data.html"
+  },
+  {
+    "slug": "marshall",
+    "region": "大洋州",
+    "formal_name_ja": "マーシャル諸島共和国",
+    "formal_name_en": "Republic of the Marshall Islands",
+    "capital": "マジュロ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/marshall/data.html"
+  },
+  {
+    "slug": "micronesia",
+    "region": "大洋州",
+    "formal_name_ja": "ミクロネシア連邦",
+    "formal_name_en": "Federated States of Micronesia",
+    "capital": "パリキール",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/micronesia/data.html"
+  },
+  {
+    "slug": "usa",
+    "region": "北米",
+    "formal_name_ja": "アメリカ合衆国",
+    "formal_name_en": "United States of America",
+    "capital": "ワシントンD.C.",
+    "capital_note": "",
+    "update_date": "令和7年2月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/usa/data.html"
+  },
+  {
+    "slug": "canada",
+    "region": "北米",
+    "formal_name_ja": "カナダ",
+    "formal_name_en": "Canada",
+    "capital": "オタワ",
+    "capital_note": "",
+    "update_date": "令和6年11月11日",
+    "url": "https://www.mofa.go.jp/mofaj/area/canada/data.html"
+  },
+  {
+    "slug": "argentine",
+    "region": "中南米",
+    "formal_name_ja": "アルゼンチン共和国",
+    "formal_name_en": "Argentine Republic",
+    "capital": "ブエノスアイレス",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/argentine/data.html"
+  },
+  {
+    "slug": "antigua",
+    "region": "中南米",
+    "formal_name_ja": "アンティグア・バーブーダ",
+    "formal_name_en": "Antigua and Barbuda",
+    "capital": "セントジョンズ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/antigua/data.html"
+  },
+  {
+    "slug": "uruguay",
+    "region": "中南米",
+    "formal_name_ja": "ウルグアイ東方共和国",
+    "formal_name_en": "Oriental Republic of Uruguay",
+    "capital": "モンテビデオ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/uruguay/data.html"
+  },
+  {
+    "slug": "ecuador",
+    "region": "中南米",
+    "formal_name_ja": "エクアドル共和国",
+    "formal_name_en": "Republic of Ecuador",
+    "capital": "キト",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/ecuador/data.html"
+  },
+  {
+    "slug": "elsalvador",
+    "region": "中南米",
+    "formal_name_ja": "エルサルバドル共和国",
+    "formal_name_en": "Republic of El Salvador",
+    "capital": "サンサルバドル",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/elsalvador/data.html"
+  },
+  {
+    "slug": "guyana",
+    "region": "中南米",
+    "formal_name_ja": "ガイアナ共同共和国",
+    "formal_name_en": "Co-operative Republic of Guyana",
+    "capital": "ジョージタウン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/guyana/data.html"
+  },
+  {
+    "slug": "cuba",
+    "region": "中南米",
+    "formal_name_ja": "キューバ共和国",
+    "formal_name_en": "Republic of Cuba",
+    "capital": "ハバナ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/cuba/data.html"
+  },
+  {
+    "slug": "guatemala",
+    "region": "中南米",
+    "formal_name_ja": "グアテマラ共和国",
+    "formal_name_en": "Republic of Guatemala",
+    "capital": "グアテマラシティ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/guatemala/data.html"
+  },
+  {
+    "slug": "grenada",
+    "region": "中南米",
+    "formal_name_ja": "グレナダ",
+    "formal_name_en": "Grenada",
+    "capital": "セントジョージズ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/grenada/data.html"
+  },
+  {
+    "slug": "costarica",
+    "region": "中南米",
+    "formal_name_ja": "コスタリカ共和国",
+    "formal_name_en": "Republic of Costa Rica",
+    "capital": "サンホセ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/costarica/data.html"
+  },
+  {
+    "slug": "colombia",
+    "region": "中南米",
+    "formal_name_ja": "コロンビア共和国",
+    "formal_name_en": "Republic of Colombia",
+    "capital": "ボゴタ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/colombia/data.html"
+  },
+  {
+    "slug": "jamaica",
+    "region": "中南米",
+    "formal_name_ja": "ジャマイカ",
+    "formal_name_en": "Jamaica",
+    "capital": "キングストン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/jamaica/data.html"
+  },
+  {
+    "slug": "suriname",
+    "region": "中南米",
+    "formal_name_ja": "スリナム共和国",
+    "formal_name_en": "Republic of Suriname",
+    "capital": "パラマリボ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/suriname/data.html"
+  },
+  {
+    "slug": "svg",
+    "region": "中南米",
+    "formal_name_ja": "セントビンセント及びグレナディーン諸島",
+    "formal_name_en": "Saint Vincent and the Grenadines",
+    "capital": "キングスタウン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/svg/data.html"
+  },
+  {
+    "slug": "scn",
+    "region": "中南米",
+    "formal_name_ja": "セントクリストファー・ネービス",
+    "formal_name_en": "Federation of Saint Christopher and Nevis",
+    "capital": "バセテール",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/scn/data.html"
+  },
+  {
+    "slug": "s_lucia",
+    "region": "中南米",
+    "formal_name_ja": "セントルシア",
+    "formal_name_en": "Saint Lucia",
+    "capital": "カストリーズ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/s_lucia/data.html"
+  },
+  {
+    "slug": "chile",
+    "region": "中南米",
+    "formal_name_ja": "チリ共和国",
+    "formal_name_en": "Republic of Chile",
+    "capital": "サンティアゴ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/chile/data.html"
+  },
+  {
+    "slug": "c_dominica",
+    "region": "中南米",
+    "formal_name_ja": "ドミニカ国",
+    "formal_name_en": "Commonwealth of Dominica",
+    "capital": "ロゾー",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/c_dominica/data.html"
+  },
+  {
+    "slug": "dominican_r",
+    "region": "中南米",
+    "formal_name_ja": "ドミニカ共和国",
+    "formal_name_en": "Dominican Republic",
+    "capital": "サントドミンゴ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/dominican_r/data.html"
+  },
+  {
+    "slug": "trinidad",
+    "region": "中南米",
+    "formal_name_ja": "トリニダード・トバゴ共和国",
+    "formal_name_en": "Republic of Trinidad and Tobago",
+    "capital": "ポートオブスペイン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/trinidad/data.html"
+  },
+  {
+    "slug": "nicaragua",
+    "region": "中南米",
+    "formal_name_ja": "ニカラグア共和国",
+    "formal_name_en": "Republic of Nicaragua",
+    "capital": "マナグア",
+    "capital_note": "",
+    "update_date": "令和6年8月1日",
+    "url": "https://www.mofa.go.jp/mofaj/area/nicaragua/data.html"
+  },
+  {
+    "slug": "haiti",
+    "region": "中南米",
+    "formal_name_ja": "ハイチ共和国",
+    "formal_name_en": "Republic of Haiti",
+    "capital": "ポルトープランス",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/haiti/data.html"
+  },
+  {
+    "slug": "panama",
+    "region": "中南米",
+    "formal_name_ja": "パナマ共和国",
+    "formal_name_en": "Republic of Panama",
+    "capital": "パナマシティ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/panama/data.html"
+  },
+  {
+    "slug": "bahama",
+    "region": "中南米",
+    "formal_name_ja": "バハマ国",
+    "formal_name_en": "Commonwealth of The Bahamas",
+    "capital": "ナッソー",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/bahama/data.html"
+  },
+  {
+    "slug": "paraguay",
+    "region": "中南米",
+    "formal_name_ja": "パラグアイ共和国",
+    "formal_name_en": "Republic of Paraguay",
+    "capital": "アスンシオン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/paraguay/data.html"
+  },
+  {
+    "slug": "barbados",
+    "region": "中南米",
+    "formal_name_ja": "バルバドス",
+    "formal_name_en": "Barbados",
+    "capital": "ブリッジタウン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/barbados/data.html"
+  },
+  {
+    "slug": "brazil",
+    "region": "中南米",
+    "formal_name_ja": "ブラジル連邦共和国",
+    "formal_name_en": "Federative Republic of Brazil",
+    "capital": "ブラジリア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/brazil/data.html"
+  },
+  {
+    "slug": "venezuela",
+    "region": "中南米",
+    "formal_name_ja": "ベネズエラ・ボリバル共和国",
+    "formal_name_en": "Bolivarian Republic of Venezuela",
+    "capital": "カラカス",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/venezuela/data.html"
+  },
+  {
+    "slug": "belize",
+    "region": "中南米",
+    "formal_name_ja": "ベリーズ",
+    "formal_name_en": "Belize",
+    "capital": "ベルモパン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/belize/data.html"
+  },
+  {
+    "slug": "peru",
+    "region": "中南米",
+    "formal_name_ja": "ペルー共和国",
+    "formal_name_en": "Republic of Peru",
+    "capital": "リマ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/peru/data.html"
+  },
+  {
+    "slug": "bolivia",
+    "region": "中南米",
+    "formal_name_ja": "ボリビア多民族国",
+    "formal_name_en": "Plurinational State of Bolivia",
+    "capital": "ラパス",
+    "capital_note": "憲法上の首都はスクレ",
+    "update_date": "令和6年8月1日",
+    "url": "https://www.mofa.go.jp/mofaj/area/bolivia/data.html"
+  },
+  {
+    "slug": "honduras",
+    "region": "中南米",
+    "formal_name_ja": "ホンジュラス共和国",
+    "formal_name_en": "Republic of Honduras",
+    "capital": "テグシガルパ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/honduras/data.html"
+  },
+  {
+    "slug": "mexico",
+    "region": "中南米",
+    "formal_name_ja": "メキシコ合衆国",
+    "formal_name_en": "United Mexican States",
+    "capital": "メキシコシティ",
+    "capital_note": "",
+    "update_date": "令和6年11月5日",
+    "url": "https://www.mofa.go.jp/mofaj/area/mexico/data.html"
+  },
+  {
+    "slug": "iceland",
+    "region": "欧州",
+    "formal_name_ja": "アイスランド共和国",
+    "formal_name_en": "Republic of Iceland",
+    "capital": "レイキャビク",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/iceland/data.html"
+  },
+  {
+    "slug": "ireland",
+    "region": "欧州",
+    "formal_name_ja": "アイルランド",
+    "formal_name_en": "Ireland",
+    "capital": "ダブリン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/ireland/data.html"
+  },
+  {
+    "slug": "azerbaijan",
+    "region": "欧州",
+    "formal_name_ja": "アゼルバイジャン共和国",
+    "formal_name_en": "Republic of Azerbaijan",
+    "capital": "バクー",
+    "capital_note": "",
+    "update_date": "令和6年11月12日",
+    "url": "https://www.mofa.go.jp/mofaj/area/azerbaijan/data.html"
+  },
+  {
+    "slug": "albania",
+    "region": "欧州",
+    "formal_name_ja": "アルバニア共和国",
+    "formal_name_en": "Republic of Albania",
+    "capital": "ティラナ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/albania/data.html"
+  },
+  {
+    "slug": "armenia",
+    "region": "欧州",
+    "formal_name_ja": "アルメニア共和国",
+    "formal_name_en": "Republic of Armenia",
+    "capital": "エレバン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/armenia/data.html"
+  },
+  {
+    "slug": "andorra",
+    "region": "欧州",
+    "formal_name_ja": "アンドラ公国",
+    "formal_name_en": "Principality of Andorra",
+    "capital": "アンドラ・ラ・ベリャ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/andorra/data.html"
+  },
+  {
+    "slug": "italy",
+    "region": "欧州",
+    "formal_name_ja": "イタリア共和国",
+    "formal_name_en": "Italian Republic",
+    "capital": "ローマ",
+    "capital_note": "",
+    "update_date": "令和6年10月28日",
+    "url": "https://www.mofa.go.jp/mofaj/area/italy/data.html"
+  },
+  {
+    "slug": "ukraine",
+    "region": "欧州",
+    "formal_name_ja": "ウクライナ",
+    "formal_name_en": "Ukraine",
+    "capital": "キーウ",
+    "capital_note": "",
+    "update_date": "令和7年3月4日",
+    "url": "https://www.mofa.go.jp/mofaj/area/ukraine/data.html"
+  },
+  {
+    "slug": "uzbekistan",
+    "region": "欧州",
+    "formal_name_ja": "ウズベキスタン共和国",
+    "formal_name_en": "Republic of Uzbekistan",
+    "capital": "タシケント",
+    "capital_note": "",
+    "update_date": "令和6年11月14日",
+    "url": "https://www.mofa.go.jp/mofaj/area/uzbekistan/data.html"
+  },
+  {
+    "slug": "uk",
+    "region": "欧州",
+    "formal_name_ja": "グレートブリテン及び北アイルランド連合王国（英国）",
+    "formal_name_en": "United Kingdom of Great Britain and Northern Ireland",
+    "capital": "ロンドン",
+    "capital_note": "",
+    "update_date": "令和7年1月16日",
+    "url": "https://www.mofa.go.jp/mofaj/area/uk/data.html"
+  },
+  {
+    "slug": "estonia",
+    "region": "欧州",
+    "formal_name_ja": "エストニア共和国",
+    "formal_name_en": "Republic of Estonia",
+    "capital": "タリン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/estonia/data.html"
+  },
+  {
+    "slug": "austria",
+    "region": "欧州",
+    "formal_name_ja": "オーストリア共和国",
+    "formal_name_en": "Republic of Austria",
+    "capital": "ウィーン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/austria/data.html"
+  },
+  {
+    "slug": "netherlands",
+    "region": "欧州",
+    "formal_name_ja": "オランダ王国",
+    "formal_name_en": "Kingdom of the Netherlands",
+    "capital": "アムステルダム",
+    "capital_note": "憲法上の首都。政府所在地はハーグ",
+    "update_date": "令和6年6月17日",
+    "url": "https://www.mofa.go.jp/mofaj/area/netherlands/data.html"
+  },
+  {
+    "slug": "kazakhstan",
+    "region": "欧州",
+    "formal_name_ja": "カザフスタン共和国",
+    "formal_name_en": "Republic of Kazakhstan",
+    "capital": "アスタナ",
+    "capital_note": "",
+    "update_date": "令和6年7月5日",
+    "url": "https://www.mofa.go.jp/mofaj/area/kazakhstan/data.html"
+  },
+  {
+    "slug": "macedonia",
+    "region": "欧州",
+    "formal_name_ja": "北マケドニア共和国",
+    "formal_name_en": "Republic of North Macedonia",
+    "capital": "スコピエ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/macedonia/data.html"
+  },
+  {
+    "slug": "cyprus",
+    "region": "欧州",
+    "formal_name_ja": "キプロス共和国",
+    "formal_name_en": "Republic of Cyprus",
+    "capital": "ニコシア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/cyprus/data.html"
+  },
+  {
+    "slug": "greece",
+    "region": "欧州",
+    "formal_name_ja": "ギリシャ共和国",
+    "formal_name_en": "Hellenic Republic",
+    "capital": "アテネ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/greece/data.html"
+  },
+  {
+    "slug": "kyrgyz",
+    "region": "欧州",
+    "formal_name_ja": "キルギス共和国",
+    "formal_name_en": "Kyrgyz Republic",
+    "capital": "ビシュケク",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/kyrgyz/data.html"
+  },
+  {
+    "slug": "croatia",
+    "region": "欧州",
+    "formal_name_ja": "クロアチア共和国",
+    "formal_name_en": "Republic of Croatia",
+    "capital": "ザグレブ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/croatia/data.html"
+  },
+  {
+    "slug": "kosovo",
+    "region": "欧州",
+    "formal_name_ja": "コソボ共和国",
+    "formal_name_en": "Republic of Kosovo",
+    "capital": "プリシュティナ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/kosovo/data.html"
+  },
+  {
+    "slug": "sanmarino_r",
+    "region": "欧州",
+    "formal_name_ja": "サンマリノ共和国",
+    "formal_name_en": "Republic of San Marino",
+    "capital": "サンマリノ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/sanmarino_r/data.html"
+  },
+  {
+    "slug": "georgia",
+    "region": "欧州",
+    "formal_name_ja": "ジョージア",
+    "formal_name_en": "Georgia",
+    "capital": "トビリシ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/georgia/data.html"
+  },
+  {
+    "slug": "switzerland",
+    "region": "欧州",
+    "formal_name_ja": "スイス連邦",
+    "formal_name_en": "Swiss Confederation",
+    "capital": "ベルン",
+    "capital_note": "",
+    "update_date": "令和6年9月12日",
+    "url": "https://www.mofa.go.jp/mofaj/area/switzerland/data.html"
+  },
+  {
+    "slug": "sweden",
+    "region": "欧州",
+    "formal_name_ja": "スウェーデン王国",
+    "formal_name_en": "Kingdom of Sweden",
+    "capital": "ストックホルム",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/sweden/data.html"
+  },
+  {
+    "slug": "spain",
+    "region": "欧州",
+    "formal_name_ja": "スペイン王国",
+    "formal_name_en": "Kingdom of Spain",
+    "capital": "マドリード",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/spain/data.html"
+  },
+  {
+    "slug": "slovak",
+    "region": "欧州",
+    "formal_name_ja": "スロバキア共和国",
+    "formal_name_en": "Slovak Republic",
+    "capital": "ブラチスラバ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/slovak/data.html"
+  },
+  {
+    "slug": "slovenia",
+    "region": "欧州",
+    "formal_name_ja": "スロベニア共和国",
+    "formal_name_en": "Republic of Slovenia",
+    "capital": "リュブリャナ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/slovenia/data.html"
+  },
+  {
+    "slug": "serbia",
+    "region": "欧州",
+    "formal_name_ja": "セルビア共和国",
+    "formal_name_en": "Republic of Serbia",
+    "capital": "ベオグラード",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/serbia/data.html"
+  },
+  {
+    "slug": "tajikistan",
+    "region": "欧州",
+    "formal_name_ja": "タジキスタン共和国",
+    "formal_name_en": "Republic of Tajikistan",
+    "capital": "ドゥシャンベ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/tajikistan/data.html"
+  },
+  {
+    "slug": "czech",
+    "region": "欧州",
+    "formal_name_ja": "チェコ共和国",
+    "formal_name_en": "Czech Republic",
+    "capital": "プラハ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/czech/data.html"
+  },
+  {
+    "slug": "denmark",
+    "region": "欧州",
+    "formal_name_ja": "デンマーク王国",
+    "formal_name_en": "Kingdom of Denmark",
+    "capital": "コペンハーゲン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/denmark/data.html"
+  },
+  {
+    "slug": "germany",
+    "region": "欧州",
+    "formal_name_ja": "ドイツ連邦共和国",
+    "formal_name_en": "Federal Republic of Germany",
+    "capital": "ベルリン",
+    "capital_note": "",
+    "update_date": "令和6年10月21日",
+    "url": "https://www.mofa.go.jp/mofaj/area/germany/data.html"
+  },
+  {
+    "slug": "turkmenistan",
+    "region": "欧州",
+    "formal_name_ja": "トルクメニスタン",
+    "formal_name_en": "Turkmenistan",
+    "capital": "アシガバット",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/turkmenistan/data.html"
+  },
+  {
+    "slug": "norway",
+    "region": "欧州",
+    "formal_name_ja": "ノルウェー王国",
+    "formal_name_en": "Kingdom of Norway",
+    "capital": "オスロ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/norway/data.html"
+  },
+  {
+    "slug": "vatican",
+    "region": "欧州",
+    "formal_name_ja": "バチカン市国",
+    "formal_name_en": "Vatican City State",
+    "capital": "バチカン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/vatican/data.html"
+  },
+  {
+    "slug": "hungary",
+    "region": "欧州",
+    "formal_name_ja": "ハンガリー",
+    "formal_name_en": "Hungary",
+    "capital": "ブダペスト",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/hungary/data.html"
+  },
+  {
+    "slug": "finland",
+    "region": "欧州",
+    "formal_name_ja": "フィンランド共和国",
+    "formal_name_en": "Republic of Finland",
+    "capital": "ヘルシンキ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/finland/data.html"
+  },
+  {
+    "slug": "france",
+    "region": "欧州",
+    "formal_name_ja": "フランス共和国",
+    "formal_name_en": "French Republic",
+    "capital": "パリ",
+    "capital_note": "",
+    "update_date": "令和6年9月18日",
+    "url": "https://www.mofa.go.jp/mofaj/area/france/data.html"
+  },
+  {
+    "slug": "bulgaria",
+    "region": "欧州",
+    "formal_name_ja": "ブルガリア共和国",
+    "formal_name_en": "Republic of Bulgaria",
+    "capital": "ソフィア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/bulgaria/data.html"
+  },
+  {
+    "slug": "belarus",
+    "region": "欧州",
+    "formal_name_ja": "ベラルーシ共和国",
+    "formal_name_en": "Republic of Belarus",
+    "capital": "ミンスク",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/belarus/data.html"
+  },
+  {
+    "slug": "belgium",
+    "region": "欧州",
+    "formal_name_ja": "ベルギー王国",
+    "formal_name_en": "Kingdom of Belgium",
+    "capital": "ブリュッセル",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/belgium/data.html"
+  },
+  {
+    "slug": "poland",
+    "region": "欧州",
+    "formal_name_ja": "ポーランド共和国",
+    "formal_name_en": "Republic of Poland",
+    "capital": "ワルシャワ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/poland/data.html"
+  },
+  {
+    "slug": "bosnia_h",
+    "region": "欧州",
+    "formal_name_ja": "ボスニア・ヘルツェゴビナ",
+    "formal_name_en": "Bosnia and Herzegovina",
+    "capital": "サラエボ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/bosnia_h/data.html"
+  },
+  {
+    "slug": "portugal",
+    "region": "欧州",
+    "formal_name_ja": "ポルトガル共和国",
+    "formal_name_en": "Portuguese Republic",
+    "capital": "リスボン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/portugal/data.html"
+  },
+  {
+    "slug": "malta",
+    "region": "欧州",
+    "formal_name_ja": "マルタ共和国",
+    "formal_name_en": "Republic of Malta",
+    "capital": "バレッタ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/malta/data.html"
+  },
+  {
+    "slug": "monaco",
+    "region": "欧州",
+    "formal_name_ja": "モナコ公国",
+    "formal_name_en": "Principality of Monaco",
+    "capital": "モナコ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/monaco/data.html"
+  },
+  {
+    "slug": "moldova",
+    "region": "欧州",
+    "formal_name_ja": "モルドバ共和国",
+    "formal_name_en": "Republic of Moldova",
+    "capital": "キシナウ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/moldova/data.html"
+  },
+  {
+    "slug": "montenegro",
+    "region": "欧州",
+    "formal_name_ja": "モンテネグロ",
+    "formal_name_en": "Montenegro",
+    "capital": "ポドゴリツァ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/montenegro/data.html"
+  },
+  {
+    "slug": "latvia",
+    "region": "欧州",
+    "formal_name_ja": "ラトビア共和国",
+    "formal_name_en": "Republic of Latvia",
+    "capital": "リガ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/latvia/data.html"
+  },
+  {
+    "slug": "liechtenstein",
+    "region": "欧州",
+    "formal_name_ja": "リヒテンシュタイン公国",
+    "formal_name_en": "Principality of Liechtenstein",
+    "capital": "ファドゥーツ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/liechtenstein/data.html"
+  },
+  {
+    "slug": "lithuania",
+    "region": "欧州",
+    "formal_name_ja": "リトアニア共和国",
+    "formal_name_en": "Republic of Lithuania",
+    "capital": "ビリニュス",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/lithuania/data.html"
+  },
+  {
+    "slug": "romania",
+    "region": "欧州",
+    "formal_name_ja": "ルーマニア",
+    "formal_name_en": "Romania",
+    "capital": "ブカレスト",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/romania/data.html"
+  },
+  {
+    "slug": "luxembourg",
+    "region": "欧州",
+    "formal_name_ja": "ルクセンブルク大公国",
+    "formal_name_en": "Grand Duchy of Luxembourg",
+    "capital": "ルクセンブルク",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/luxembourg/data.html"
+  },
+  {
+    "slug": "russia",
+    "region": "欧州",
+    "formal_name_ja": "ロシア連邦",
+    "formal_name_en": "Russian Federation",
+    "capital": "モスクワ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/russia/data.html"
+  },
+  {
+    "slug": "afghanistan",
+    "region": "中東",
+    "formal_name_ja": "アフガニスタン・イスラム共和国",
+    "formal_name_en": "Islamic Republic of Afghanistan",
+    "capital": "カブール",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/afghanistan/data.html"
+  },
+  {
+    "slug": "uae",
+    "region": "中東",
+    "formal_name_ja": "アラブ首長国連邦",
+    "formal_name_en": "United Arab Emirates",
+    "capital": "アブダビ",
+    "capital_note": "",
+    "update_date": "令和6年9月24日",
+    "url": "https://www.mofa.go.jp/mofaj/area/uae/data.html"
+  },
+  {
+    "slug": "yemen",
+    "region": "中東",
+    "formal_name_ja": "イエメン共和国",
+    "formal_name_en": "Republic of Yemen",
+    "capital": "サヌア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/yemen/data.html"
+  },
+  {
+    "slug": "israel",
+    "region": "中東",
+    "formal_name_ja": "イスラエル国",
+    "formal_name_en": "State of Israel",
+    "capital": "エルサレム",
+    "capital_note": "日本は東エルサレムの地位について国際法上未確定との立場",
+    "update_date": "令和6年12月26日",
+    "url": "https://www.mofa.go.jp/mofaj/area/israel/data.html"
+  },
+  {
+    "slug": "iraq",
+    "region": "中東",
+    "formal_name_ja": "イラク共和国",
+    "formal_name_en": "Republic of Iraq",
+    "capital": "バグダッド",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/iraq/data.html"
+  },
+  {
+    "slug": "iran",
+    "region": "中東",
+    "formal_name_ja": "イラン・イスラム共和国",
+    "formal_name_en": "Islamic Republic of Iran",
+    "capital": "テヘラン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/iran/data.html"
+  },
+  {
+    "slug": "oman",
+    "region": "中東",
+    "formal_name_ja": "オマーン国",
+    "formal_name_en": "Sultanate of Oman",
+    "capital": "マスカット",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/oman/data.html"
+  },
+  {
+    "slug": "qatar",
+    "region": "中東",
+    "formal_name_ja": "カタール国",
+    "formal_name_en": "State of Qatar",
+    "capital": "ドーハ",
+    "capital_note": "",
+    "update_date": "令和6年11月5日",
+    "url": "https://www.mofa.go.jp/mofaj/area/qatar/data.html"
+  },
+  {
+    "slug": "kuwait",
+    "region": "中東",
+    "formal_name_ja": "クウェート国",
+    "formal_name_en": "State of Kuwait",
+    "capital": "クウェート",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/kuwait/data.html"
+  },
+  {
+    "slug": "saudi",
+    "region": "中東",
+    "formal_name_ja": "サウジアラビア王国",
+    "formal_name_en": "Kingdom of Saudi Arabia",
+    "capital": "リヤド",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/saudi/data.html"
+  },
+  {
+    "slug": "syria",
+    "region": "中東",
+    "formal_name_ja": "シリア・アラブ共和国",
+    "formal_name_en": "Syrian Arab Republic",
+    "capital": "ダマスカス",
+    "capital_note": "",
+    "update_date": "令和7年2月12日",
+    "url": "https://www.mofa.go.jp/mofaj/area/syria/data.html"
+  },
+  {
+    "slug": "turkey",
+    "region": "中東",
+    "formal_name_ja": "トルコ共和国",
+    "formal_name_en": "Republic of Türkiye",
+    "capital": "アンカラ",
+    "capital_note": "",
+    "update_date": "令和6年6月6日",
+    "url": "https://www.mofa.go.jp/mofaj/area/turkey/data.html"
+  },
+  {
+    "slug": "bahrain",
+    "region": "中東",
+    "formal_name_ja": "バーレーン王国",
+    "formal_name_en": "Kingdom of Bahrain",
+    "capital": "マナーマ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/bahrain/data.html"
+  },
+  {
+    "slug": "jordan",
+    "region": "中東",
+    "formal_name_ja": "ヨルダン・ハシェミット王国",
+    "formal_name_en": "Hashemite Kingdom of Jordan",
+    "capital": "アンマン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/jordan/data.html"
+  },
+  {
+    "slug": "lebanon",
+    "region": "中東",
+    "formal_name_ja": "レバノン共和国",
+    "formal_name_en": "Lebanese Republic",
+    "capital": "ベイルート",
+    "capital_note": "",
+    "update_date": "令和6年11月5日",
+    "url": "https://www.mofa.go.jp/mofaj/area/lebanon/data.html"
+  },
+  {
+    "slug": "plo",
+    "region": "中東",
+    "formal_name_ja": "パレスチナ",
+    "formal_name_en": "Palestine",
+    "capital": "ラマッラ",
+    "capital_note": "（西岸地区）",
+    "update_date": "令和6年11月26日",
+    "url": "https://www.mofa.go.jp/mofaj/area/plo/data.html"
+  },
+  {
+    "slug": "algeria",
+    "region": "アフリカ",
+    "formal_name_ja": "アルジェリア民主人民共和国",
+    "formal_name_en": "People's Democratic Republic of Algeria",
+    "capital": "アルジェ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/algeria/data.html"
+  },
+  {
+    "slug": "angola",
+    "region": "アフリカ",
+    "formal_name_ja": "アンゴラ共和国",
+    "formal_name_en": "Republic of Angola",
+    "capital": "ルアンダ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/angola/data.html"
+  },
+  {
+    "slug": "uganda",
+    "region": "アフリカ",
+    "formal_name_ja": "ウガンダ共和国",
+    "formal_name_en": "Republic of Uganda",
+    "capital": "カンパラ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/uganda/data.html"
+  },
+  {
+    "slug": "egypt",
+    "region": "アフリカ",
+    "formal_name_ja": "エジプト・アラブ共和国",
+    "formal_name_en": "Arab Republic of Egypt",
+    "capital": "カイロ",
+    "capital_note": "",
+    "update_date": "令和6年6月6日",
+    "url": "https://www.mofa.go.jp/mofaj/area/egypt/data.html"
+  },
+  {
+    "slug": "eswatini",
+    "region": "アフリカ",
+    "formal_name_ja": "エスワティニ王国",
+    "formal_name_en": "Kingdom of Eswatini",
+    "capital": "ムババネ",
+    "capital_note": "行政上の首都。立法上の首都はロバンバ",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/eswatini/data.html"
+  },
+  {
+    "slug": "ethiopia",
+    "region": "アフリカ",
+    "formal_name_ja": "エチオピア連邦民主共和国",
+    "formal_name_en": "Federal Democratic Republic of Ethiopia",
+    "capital": "アディスアベバ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/ethiopia/data.html"
+  },
+  {
+    "slug": "eritrea",
+    "region": "アフリカ",
+    "formal_name_ja": "エリトリア国",
+    "formal_name_en": "State of Eritrea",
+    "capital": "アスマラ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/eritrea/data.html"
+  },
+  {
+    "slug": "ghana",
+    "region": "アフリカ",
+    "formal_name_ja": "ガーナ共和国",
+    "formal_name_en": "Republic of Ghana",
+    "capital": "アクラ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/ghana/data.html"
+  },
+  {
+    "slug": "capeverde",
+    "region": "アフリカ",
+    "formal_name_ja": "カーボベルデ共和国",
+    "formal_name_en": "Republic of Cabo Verde",
+    "capital": "プライア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/capeverde/data.html"
+  },
+  {
+    "slug": "gabon",
+    "region": "アフリカ",
+    "formal_name_ja": "ガボン共和国",
+    "formal_name_en": "Gabonese Republic",
+    "capital": "リーブルビル",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/gabon/data.html"
+  },
+  {
+    "slug": "cameroon",
+    "region": "アフリカ",
+    "formal_name_ja": "カメルーン共和国",
+    "formal_name_en": "Republic of Cameroon",
+    "capital": "ヤウンデ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/cameroon/data.html"
+  },
+  {
+    "slug": "gambia",
+    "region": "アフリカ",
+    "formal_name_ja": "ガンビア共和国",
+    "formal_name_en": "Republic of The Gambia",
+    "capital": "バンジュール",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/gambia/data.html"
+  },
+  {
+    "slug": "guinea",
+    "region": "アフリカ",
+    "formal_name_ja": "ギニア共和国",
+    "formal_name_en": "Republic of Guinea",
+    "capital": "コナクリ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/guinea/data.html"
+  },
+  {
+    "slug": "guinea_b",
+    "region": "アフリカ",
+    "formal_name_ja": "ギニアビサウ共和国",
+    "formal_name_en": "Republic of Guinea-Bissau",
+    "capital": "ビサウ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/guinea_b/data.html"
+  },
+  {
+    "slug": "kenya",
+    "region": "アフリカ",
+    "formal_name_ja": "ケニア共和国",
+    "formal_name_en": "Republic of Kenya",
+    "capital": "ナイロビ",
+    "capital_note": "",
+    "update_date": "令和6年11月14日",
+    "url": "https://www.mofa.go.jp/mofaj/area/kenya/data.html"
+  },
+  {
+    "slug": "cote_d",
+    "region": "アフリカ",
+    "formal_name_ja": "コートジボワール共和国",
+    "formal_name_en": "Republic of Côte d'Ivoire",
+    "capital": "ヤムスクロ",
+    "capital_note": "政治上の実質的首都はアビジャン",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/cote_d/data.html"
+  },
+  {
+    "slug": "comoros",
+    "region": "アフリカ",
+    "formal_name_ja": "コモロ連合",
+    "formal_name_en": "Union of the Comoros",
+    "capital": "モロニ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/comoros/data.html"
+  },
+  {
+    "slug": "congokyo",
+    "region": "アフリカ",
+    "formal_name_ja": "コンゴ共和国",
+    "formal_name_en": "Republic of the Congo",
+    "capital": "ブラザビル",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/congokyo/data.html"
+  },
+  {
+    "slug": "congomin",
+    "region": "アフリカ",
+    "formal_name_ja": "コンゴ民主共和国",
+    "formal_name_en": "Democratic Republic of the Congo",
+    "capital": "キンシャサ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/congomin/data.html"
+  },
+  {
+    "slug": "stp",
+    "region": "アフリカ",
+    "formal_name_ja": "サントメ・プリンシペ民主共和国",
+    "formal_name_en": "Democratic Republic of São Tomé and Príncipe",
+    "capital": "サントメ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/stp/data.html"
+  },
+  {
+    "slug": "zambia",
+    "region": "アフリカ",
+    "formal_name_ja": "ザンビア共和国",
+    "formal_name_en": "Republic of Zambia",
+    "capital": "ルサカ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/zambia/data.html"
+  },
+  {
+    "slug": "s_leone",
+    "region": "アフリカ",
+    "formal_name_ja": "シエラレオネ共和国",
+    "formal_name_en": "Republic of Sierra Leone",
+    "capital": "フリータウン",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/s_leone/data.html"
+  },
+  {
+    "slug": "djibouti",
+    "region": "アフリカ",
+    "formal_name_ja": "ジブチ共和国",
+    "formal_name_en": "Republic of Djibouti",
+    "capital": "ジブチ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/djibouti/data.html"
+  },
+  {
+    "slug": "zimbabwe",
+    "region": "アフリカ",
+    "formal_name_ja": "ジンバブエ共和国",
+    "formal_name_en": "Republic of Zimbabwe",
+    "capital": "ハラレ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/zimbabwe/data.html"
+  },
+  {
+    "slug": "sudan",
+    "region": "アフリカ",
+    "formal_name_ja": "スーダン共和国",
+    "formal_name_en": "Republic of the Sudan",
+    "capital": "ハルツーム",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/sudan/data.html"
+  },
+  {
+    "slug": "seychelles",
+    "region": "アフリカ",
+    "formal_name_ja": "セーシェル共和国",
+    "formal_name_en": "Republic of Seychelles",
+    "capital": "ビクトリア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/seychelles/data.html"
+  },
+  {
+    "slug": "eq_guinea",
+    "region": "アフリカ",
+    "formal_name_ja": "赤道ギニア共和国",
+    "formal_name_en": "Republic of Equatorial Guinea",
+    "capital": "マラボ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/eq_guinea/data.html"
+  },
+  {
+    "slug": "senegal",
+    "region": "アフリカ",
+    "formal_name_ja": "セネガル共和国",
+    "formal_name_en": "Republic of Senegal",
+    "capital": "ダカール",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/senegal/data.html"
+  },
+  {
+    "slug": "somali",
+    "region": "アフリカ",
+    "formal_name_ja": "ソマリア連邦共和国",
+    "formal_name_en": "Federal Republic of Somalia",
+    "capital": "モガディシュ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/somali/data.html"
+  },
+  {
+    "slug": "tanzania",
+    "region": "アフリカ",
+    "formal_name_ja": "タンザニア連合共和国",
+    "formal_name_en": "United Republic of Tanzania",
+    "capital": "ドドマ",
+    "capital_note": "",
+    "update_date": "令和6年11月14日",
+    "url": "https://www.mofa.go.jp/mofaj/area/tanzania/data.html"
+  },
+  {
+    "slug": "chad",
+    "region": "アフリカ",
+    "formal_name_ja": "チャド共和国",
+    "formal_name_en": "Republic of Chad",
+    "capital": "ンジャメナ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/chad/data.html"
+  },
+  {
+    "slug": "car",
+    "region": "アフリカ",
+    "formal_name_ja": "中央アフリカ共和国",
+    "formal_name_en": "Central African Republic",
+    "capital": "バンギ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/car/data.html"
+  },
+  {
+    "slug": "tunisia",
+    "region": "アフリカ",
+    "formal_name_ja": "チュニジア共和国",
+    "formal_name_en": "Republic of Tunisia",
+    "capital": "チュニス",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/tunisia/data.html"
+  },
+  {
+    "slug": "togo",
+    "region": "アフリカ",
+    "formal_name_ja": "トーゴ共和国",
+    "formal_name_en": "Togolese Republic",
+    "capital": "ロメ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/togo/data.html"
+  },
+  {
+    "slug": "nigeria",
+    "region": "アフリカ",
+    "formal_name_ja": "ナイジェリア連邦共和国",
+    "formal_name_en": "Federal Republic of Nigeria",
+    "capital": "アブジャ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/nigeria/data.html"
+  },
+  {
+    "slug": "namibia",
+    "region": "アフリカ",
+    "formal_name_ja": "ナミビア共和国",
+    "formal_name_en": "Republic of Namibia",
+    "capital": "ウィントフック",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/namibia/data.html"
+  },
+  {
+    "slug": "niger",
+    "region": "アフリカ",
+    "formal_name_ja": "ニジェール共和国",
+    "formal_name_en": "Republic of Niger",
+    "capital": "ニアメ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/niger/data.html"
+  },
+  {
+    "slug": "burkina",
+    "region": "アフリカ",
+    "formal_name_ja": "ブルキナファソ",
+    "formal_name_en": "Burkina Faso",
+    "capital": "ワガドゥグー",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/burkina/data.html"
+  },
+  {
+    "slug": "brundi",
+    "region": "アフリカ",
+    "formal_name_ja": "ブルンジ共和国",
+    "formal_name_en": "Republic of Burundi",
+    "capital": "ギテガ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/brundi/data.html"
+  },
+  {
+    "slug": "benin",
+    "region": "アフリカ",
+    "formal_name_ja": "ベナン共和国",
+    "formal_name_en": "Republic of Benin",
+    "capital": "ポルトノボ",
+    "capital_note": "事実上の首都はコトヌー",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/benin/data.html"
+  },
+  {
+    "slug": "botswana",
+    "region": "アフリカ",
+    "formal_name_ja": "ボツワナ共和国",
+    "formal_name_en": "Republic of Botswana",
+    "capital": "ハボローネ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/botswana/data.html"
+  },
+  {
+    "slug": "madagascar",
+    "region": "アフリカ",
+    "formal_name_ja": "マダガスカル共和国",
+    "formal_name_en": "Republic of Madagascar",
+    "capital": "アンタナナリボ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/madagascar/data.html"
+  },
+  {
+    "slug": "malawi",
+    "region": "アフリカ",
+    "formal_name_ja": "マラウイ共和国",
+    "formal_name_en": "Republic of Malawi",
+    "capital": "リロングウェ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/malawi/data.html"
+  },
+  {
+    "slug": "mali",
+    "region": "アフリカ",
+    "formal_name_ja": "マリ共和国",
+    "formal_name_en": "Republic of Mali",
+    "capital": "バマコ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/mali/data.html"
+  },
+  {
+    "slug": "s_africa",
+    "region": "アフリカ",
+    "formal_name_ja": "南アフリカ共和国",
+    "formal_name_en": "Republic of South Africa",
+    "capital": "プレトリア",
+    "capital_note": "行政府所在地。立法府所在地はケープタウン、司法府所在地はブルームフォンテーン",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/s_africa/data.html"
+  },
+  {
+    "slug": "s_sudan",
+    "region": "アフリカ",
+    "formal_name_ja": "南スーダン共和国",
+    "formal_name_en": "Republic of South Sudan",
+    "capital": "ジュバ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/s_sudan/data.html"
+  },
+  {
+    "slug": "mozambique",
+    "region": "アフリカ",
+    "formal_name_ja": "モザンビーク共和国",
+    "formal_name_en": "Republic of Mozambique",
+    "capital": "マプト",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/mozambique/data.html"
+  },
+  {
+    "slug": "mauritius",
+    "region": "アフリカ",
+    "formal_name_ja": "モーリシャス共和国",
+    "formal_name_en": "Republic of Mauritius",
+    "capital": "ポートルイス",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/mauritius/data.html"
+  },
+  {
+    "slug": "mauritania",
+    "region": "アフリカ",
+    "formal_name_ja": "モーリタニア・イスラム共和国",
+    "formal_name_en": "Islamic Republic of Mauritania",
+    "capital": "ヌアクショット",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/mauritania/data.html"
+  },
+  {
+    "slug": "morocco",
+    "region": "アフリカ",
+    "formal_name_ja": "モロッコ王国",
+    "formal_name_en": "Kingdom of Morocco",
+    "capital": "ラバト",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/morocco/data.html"
+  },
+  {
+    "slug": "libya",
+    "region": "アフリカ",
+    "formal_name_ja": "リビア",
+    "formal_name_en": "Libya",
+    "capital": "トリポリ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/libya/data.html"
+  },
+  {
+    "slug": "liberia",
+    "region": "アフリカ",
+    "formal_name_ja": "リベリア共和国",
+    "formal_name_en": "Republic of Liberia",
+    "capital": "モンロビア",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/liberia/data.html"
+  },
+  {
+    "slug": "rwanda",
+    "region": "アフリカ",
+    "formal_name_ja": "ルワンダ共和国",
+    "formal_name_en": "Republic of Rwanda",
+    "capital": "キガリ",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/rwanda/data.html"
+  },
+  {
+    "slug": "lesotho",
+    "region": "アフリカ",
+    "formal_name_ja": "レソト王国",
+    "formal_name_en": "Kingdom of Lesotho",
+    "capital": "マセル",
+    "capital_note": "",
+    "update_date": "令和6年6月3日",
+    "url": "https://www.mofa.go.jp/mofaj/area/lesotho/data.html"
+  }
+]

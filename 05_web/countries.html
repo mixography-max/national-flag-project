@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>国名・首都名一覧 — National Flag Atlas</title>
+  <meta name="description" content="外務省基礎データに基づく198カ国の正式国名・首都名一覧。国旗付きで検索・地域フィルタ可能。">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/countries.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-link">🏁 フラグアトラス</a>
+      <a href="guide.html" class="nav-link">📖 国旗ガイド</a>
+      <a href="countries.html" class="nav-link active">🌐 国名・首都名</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero countries-hero">
+    <h1>🌐 国名・首都名一覧</h1>
+    <p class="subtitle">外務省基礎データに基づく正式国名・欧文国名・首都名</p>
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-number" id="stat-total">0</div>
+        <div class="stat-label">Countries</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="stat-mofa" style="color:var(--success)">0</div>
+        <div class="stat-label">MOFA Verified</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="stat-regions">7</div>
+        <div class="stat-label">Regions</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Controls -->
+  <div class="controls-wrapper">
+    <div class="controls">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="国名・首都名を検索…" autocomplete="off">
+      </div>
+      <div class="region-filters" id="region-filters">
+        <button class="filter-btn active" data-region="all">すべて</button>
+        <button class="filter-btn" data-region="アジア">アジア</button>
+        <button class="filter-btn" data-region="大洋州">大洋州</button>
+        <button class="filter-btn" data-region="欧州">欧州</button>
+        <button class="filter-btn" data-region="中東">中東</button>
+        <button class="filter-btn" data-region="北米">北米</button>
+        <button class="filter-btn" data-region="中南米">中南米</button>
+        <button class="filter-btn" data-region="アフリカ">アフリカ</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table Container -->
+  <main class="table-container">
+    <div class="table-scroll">
+      <table class="countries-table" id="countries-table">
+        <thead>
+          <tr>
+            <th class="th-flag">国旗</th>
+            <th class="th-name sortable" data-sort="formal_ja">正式名称（和文） <span class="sort-arrow"></span></th>
+            <th class="th-name-en sortable" data-sort="formal_en">正式名称（英語） <span class="sort-arrow"></span></th>
+            <th class="th-capital sortable" data-sort="capital">首都 <span class="sort-arrow"></span></th>
+            <th class="th-note">注記</th>
+            <th class="th-region sortable" data-sort="mofa_region">地域 <span class="sort-arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="countries-tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- No results -->
+    <div class="no-results" id="no-results" style="display:none">
+      <div class="icon">🔍</div>
+      <p>一致する国が見つかりませんでした</p>
+    </div>
+
+    <!-- Count indicator -->
+    <div class="result-count" id="result-count"></div>
+  </main>
+
+  <!-- Source footer -->
+  <footer class="source-footer">
+    <p>出典: <a href="https://www.mofa.go.jp/mofaj/area/index.html" target="_blank" rel="noopener">外務省「国・地域」</a>（2026年5月12日取得）</p>
+    <p>国旗データ: 公式資料に基づく検証済みSVG</p>
+  </footer>
+
+  <script src="js/countries.js"></script>
+</body>
+</html>
