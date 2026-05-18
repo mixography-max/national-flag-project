@@ -189,16 +189,4 @@
 
   grid.innerHTML = TRIVIA.map((t, i) => renderCard(t, i)).join('');
 
-  // ── Hero sparkles ──
-  const sparkleContainer = document.getElementById('hero-sparkles');
-  for (let i = 0; i < 20; i++) {
-    const s = document.createElement('div');
-    s.className = 'sparkle';
-    s.style.left = Math.random() * 100 + '%';
-    s.style.top = Math.random() * 100 + '%';
-    s.style.animationDelay = Math.random() * 4 + 's';
-    s.style.animationDuration = (3 + Math.random() * 2) + 's';
-    sparkleContainer.appendChild(s);
-  }
-
 })();

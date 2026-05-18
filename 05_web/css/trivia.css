@@ -7,28 +7,6 @@
   font-size: 2rem;
 }
 
-/* Sparkle particles */
-.hero-sparkles {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-.sparkle {
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  background: var(--warning);
-  border-radius: 50%;
-  opacity: 0;
-  animation: sparkleFloat 4s ease-in-out infinite;
-}
-@keyframes sparkleFloat {
-  0%   { opacity: 0; transform: translateY(0) scale(0); }
-  20%  { opacity: 0.8; transform: translateY(-20px) scale(1); }
-  100% { opacity: 0; transform: translateY(-80px) scale(0.3); }
-}
-
 /* ── Trivia Grid ─────────────────────────────── */
 .trivia-grid {
   max-width: 1100px;

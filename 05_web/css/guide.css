@@ -1,39 +1,5 @@
 /* ── Guide Page Styles ───────────────────────────── */
 
-/* Navigation */
-.site-nav {
-  background: rgba(10, 10, 15, 0.95);
-  backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--border);
-  padding: 0.5rem 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 200;
-}
-.nav-inner {
-  display: flex;
-  gap: 0.5rem;
-  max-width: 1600px;
-  margin: 0 auto;
-}
-.nav-link {
-  padding: 0.5rem 1rem;
-  border-radius: var(--radius-sm);
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 0.85rem;
-  font-weight: 500;
-  transition: all 0.2s;
-}
-.nav-link:hover {
-  color: var(--text-primary);
-  background: rgba(255,255,255,0.05);
-}
-.nav-link.active {
-  color: white;
-  background: var(--accent);
-}
-
 /* Guide Hero */
 .guide-hero {
   padding-top: 2.5rem;

@@ -8,38 +8,6 @@
   font-size: 1.8rem;
 }
 
-/* Navigation link for new page */
-.nav-inner {
-  display: flex;
-  gap: 0;
-}
-.site-nav {
-  background: var(--bg-secondary);
-  border-bottom: 1px solid var(--border);
-  padding: 0.5rem 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 200;
-  backdrop-filter: blur(20px);
-}
-.nav-link {
-  padding: 0.5rem 1.2rem;
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 0.82rem;
-  font-weight: 500;
-  border-radius: var(--radius-sm);
-  transition: all 0.2s;
-}
-.nav-link:hover {
-  color: var(--text-primary);
-  background: rgba(255,255,255,0.05);
-}
-.nav-link.active {
-  color: var(--accent);
-  background: rgba(108,92,231,0.1);
-}
-
 /* Region filter buttons */
 .region-filters {
   display: flex;
