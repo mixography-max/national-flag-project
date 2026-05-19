@@ -70,7 +70,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
             lines.append(f'  if(!spot_{i}) {{')
             lines.append(f'      spot_{i} = doc.spots.add();')
             lines.append(f'      spot_{i}.name = "{pantone}";')
-            lines.append(f'      spot_{i}.colorType = ColorModel.SPOT;')
+            lines.append(f'      spot_{i}.colorType = ColorModel.PROCESS;')
             lines.append(f'      spot_{i}.color = cmyk_{i};')
             lines.append(f'  }}')
             lines.append(f'  var finalColor_{i} = new SpotColor();')
