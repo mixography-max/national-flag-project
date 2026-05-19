@@ -190,7 +190,7 @@ const GUIDE_DATA = [
     colorRules: "Green 355 C・Red 032 C・Yellow 109 C。憲法で意匠は定義されるがカラーコード指定なし。",
     trivia: "中央の黄色い星は統一のシンボルで「統一の星」と呼ばれる。フランス三色旗がモデル。" },
   { num: 48, code: "CN", emoji: "🇨🇳", name: "中国", nameEn: "China", status: "dejure",
-    overview: "東アジアの国。5000年の歴史と世界第2位のGDPを誇る社会主義国家。世界最大の人口。",
+    overview: "東アジアの国。5000年の歴史と世界第2位のGDPを誇る社会主義国家。14億人超の人口を擁する。",
     colorRules: "Red 186 C・Yellow 116 C。法定標準GB 12983-2004でCIE色空間により厳密に規定。",
     trivia: "大きい星は共産党、4つの小星は労働者・農民・知識人・民族資本家の4階級を象徴。通称「五星紅旗」。" },
   { num: 49, code: "CO", emoji: "🇨🇴", name: "コロンビア", nameEn: "Colombia", status: "defacto",
