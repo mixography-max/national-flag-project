@@ -220,7 +220,7 @@ const GUIDE_DATA = [
   { num: 55, code: "CY", emoji: "🇨🇾", name: "キプロス", nameEn: "Cyprus", status: "dejure",
     overview: "地中海東部の島国。ギリシャ系とトルコ系の2コミュニティ。EU加盟国。",
     colorRules: "Copper 1385 C・Olive Green 574 C。2006年政府規定に基づきDe jure指定。銅色と緑が公式色名。",
-    trivia: "世界で唯一、國の地図の輪郭を描いた国旗の一つ。銅色は3000年以上の銅の産地に由来。" },
+    trivia: "国の形をそのまま国旗に描いた世界的にも珍しい例。銅色は3000年以上前からの銅の産地に由来する。" },
   { num: 56, code: "CZ", emoji: "🇨🇿", name: "チェコ", nameEn: "Czechia", status: "defacto",
     overview: "中央ヨーロッパの内陸国。ビール消費量世界一。プラハの美しい街並みが魅力。",
     colorRules: "Blue 287 C・Red 192 C。法律で色は定義されるが技術的なPantone法的規定なし。",

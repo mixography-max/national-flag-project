@@ -7,11 +7,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
-   viewBox="0 0 900 600"
+   viewBox="0 0 960 640"
    version="1.1"
    xmlns="http://www.w3.org/2000/svg"
-   width="900"
-   height="600">
+   width="960"
+   height="640">
   <title>Flag of Cambodia (カンボジア)</title>
   <desc>ISO 3166-1: KH | Ratio: 2:3 | De facto (Standard Vexillological Approximations)</desc>
   <metadata>
@@ -26,9 +26,9 @@
       </rdf:Description>
     </rdf:RDF>
   </metadata>
- <path d="M0 0h1000v640H0Z" fill="#032ea1"/>
- <path d="M0 160h1000v320H0Z" fill="#e00025"/>
- <g transform="matrix(1.6 0 0 1.6 187.36 -697.78)" fill="#fff" stroke="#000" stroke-width=".9">
+ <path d="M0 0h960v640H0Z" fill="#032ea1"/>
+ <path d="M0 160h960v320H0Z" fill="#e00025"/>
+ <g transform="matrix(1.6 0 0 1.6 167.41 -697.78)" fill="#fff" stroke="#000" stroke-width=".9">
   <g stroke-linejoin="bevel">
    <path d="m138.91 623.46h113.8v43.788h-113.8z" stroke-width=".9"/>
    <path d="M138.458 632.59h113.8v4.49h-113.8zm0 6.9h113.8v5.09h-113.8zm1.592 8.15v16.495h3.586V647.64Zm7.03 0v16.495h3.586V647.64Zm7.5 0v16.495h3.585V647.64Zm7.5 0v16.495h3.586V647.64Zm7.03 0v16.495h3.586V647.64Zm48.99 0v16.495h3.586V647.64Zm6.8 0v16.495h3.586V647.64Zm7.5 0v16.495h3.586V647.64Zm7.5 0v16.495h3.585V647.64Zm7.18 0v16.495h3.586V647.64Z" stroke-width=".9"/>
