@@ -183,6 +183,17 @@ function openModal(code) {
     document.body.removeChild(a);
   };
 
+  // Handle AI download (CMYK)
+  const aiBtn = document.getElementById('download-ai');
+  aiBtn.onclick = () => {
+    const a = document.createElement('a');
+    a.href = `ai_cmyk/${f.code}.ai`;
+    a.download = `Flag_of_${pngFilename}_CMYK.ai`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
+
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }

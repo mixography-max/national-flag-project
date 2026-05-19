@@ -571,6 +571,15 @@ a.source-link:hover {
   background: var(--accent);
   color: white;
 }
+.download-btn.download-ai {
+  background: rgba(255, 154, 0, 0.15);
+  border-color: rgba(255, 154, 0, 0.3);
+  color: #ff9a00;
+}
+.download-btn.download-ai:hover {
+  background: #ff9a00;
+  color: #000;
+}
 .modal-title h2 {
   font-size: 1.3rem;
   font-weight: 700;

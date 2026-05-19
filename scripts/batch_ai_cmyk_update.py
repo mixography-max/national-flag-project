@@ -85,10 +85,11 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
         lines.append(f'  }});')
 
     lines.append('''
-  function processPaths(items) {
+  function markPaths(items) {
       for (var i = 0; i < items.length; i++) {
           var item = items[i];
           if (item.typename == "PathItem") {
+              var tags = [];
               if (item.filled && item.fillColor && item.fillColor.typename == "RGBColor") {
                   var r = item.fillColor.red;
                   var g = item.fillColor.green;
@@ -98,7 +99,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
                       if (Math.abs(r - mapping.targetR) <= 8 && 
                           Math.abs(g - mapping.targetG) <= 8 && 
                           Math.abs(b - mapping.targetB) <= 8) {
-                          item.fillColor = mapping.replColor;
+                          tags.push("fill:" + c);
                           break;
                       }
                   }
@@ -112,23 +113,65 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
                       if (Math.abs(r - mapping.targetR) <= 8 && 
                           Math.abs(g - mapping.targetG) <= 8 && 
                           Math.abs(b - mapping.targetB) <= 8) {
-                          item.strokeColor = mapping.replColor;
-                          item.strokeOverprint = false;
+                          tags.push("stroke:" + c);
                           break;
                       }
                   }
               }
+              if (tags.length > 0) {
+                  item.note = tags.join("|");
+              }
           } else if (item.typename == "GroupItem") {
-              processPaths(item.pageItems);
+              markPaths(item.pageItems);
           } else if (item.typename == "CompoundPathItem") {
-              processPaths(item.pathItems);
+              markPaths(item.pathItems);
           }
       }
   }
-  processPaths(doc.pageItems);
+
+  function applyColors(items) {
+      for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          if (item.typename == "PathItem") {
+              if (item.note) {
+                  var parts = item.note.split("|");
+                  for (var p = 0; p < parts.length; p++) {
+                      var tag = parts[p].split(":");
+                      if (tag.length == 2) {
+                          var type = tag[0];
+                          var idx = parseInt(tag[1]);
+                          var color = colorMappings[idx].replColor;
+                          if (type == "fill") {
+                              item.filled = true;
+                              item.fillColor = color;
+                          } else if (type == "stroke") {
+                              item.stroked = true;
+                              item.strokeColor = color;
+                              item.strokeOverprint = false;
+                          }
+                      }
+                  }
+                  // Clear note after applying
+                  item.note = "";
+              }
+          } else if (item.typename == "GroupItem") {
+              applyColors(item.pageItems);
+          } else if (item.typename == "CompoundPathItem") {
+              applyColors(item.pathItems);
+          }
+      }
+  }
+
+  // Pass 1: tag paths based on RGB matching
+  markPaths(doc.pageItems);
+  
+  // Switch document to CMYK mode
+  app.executeMenuCommand('doc-color-cmyk');
+  
+  // Pass 2: apply exact CMYK / Spot colors to tagged paths
+  applyColors(doc.pageItems);
 ''')
-    
-    lines.append("  app.executeMenuCommand('doc-color-cmyk');")
+
     lines.append(f'  var saveFile = new File("{ai_path.absolute()}");')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
