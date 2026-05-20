@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>国旗クイズ — National Flag Atlas</title>
+  <meta name="description" content="国旗の4択クイズに挑戦しよう！ランダムに20問出題され、100点満点で成績を測定します。">
+  
+  <!-- OGP Tags -->
+  <meta property="og:title" content="国旗クイズ — National Flag Atlas">
+  <meta property="og:description" content="国旗の4択クイズに挑戦！20問ランダム出題で100点満点を狙おう。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/flags/quiz.html">
+  <meta property="og:image" content="https://example.com/flags/og-image.jpg">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-link">🏁 フラグアトラス</a>
+      <a href="guide.html" class="nav-link">📖 国旗ガイド</a>
+      <a href="countries.html" class="nav-link">🌐 国名・首都名</a>
+      <a href="trivia.html" class="nav-link">💡 トリビア</a>
+      <a href="changes.html" class="nav-link">🔄 国旗の変遷</a>
+      <a href="quiz.html" class="nav-link active">🎮 国旗クイズ</a>
+    </div>
+  </nav>
+
+  <!-- Quiz Layout Container -->
+  <div class="quiz-container">
+    <div class="quiz-card">
+      
+      <!-- 1. Start Screen -->
+      <div id="screen-start" class="quiz-screen active start-screen">
+        <span class="start-icon">🎮</span>
+        <h2>国旗4択クイズ</h2>
+        <p>
+          全世界の国旗アトラスから、ランダムに20問の国旗クイズが出題されます。<br>
+          国旗の画像を見て、正しい国名を選択肢から選んでください。<br>
+          1問につき5点で、100点満点の成績を測定します。
+        </p>
+        <button id="start-btn" class="btn-primary">クイズをはじめる</button>
+      </div>
+
+      <!-- 2. Play Screen -->
+      <div id="screen-play" class="quiz-screen">
+        <div class="quiz-header">
+          <div class="quiz-progress-text">問題 <span id="current-question-num">1</span> / 20</div>
+          <div id="current-score-text" class="quiz-progress-text">スコア: <span id="current-score">0</span></div>
+        </div>
+        <div class="quiz-progress-bar-wrap">
+          <div id="progress-bar" class="quiz-progress-bar"></div>
+        </div>
+
+        <div class="quiz-flag-container">
+          <img id="question-flag" src="" alt="国旗問題">
+        </div>
+
+        <div id="options-container" class="quiz-options">
+          <!-- 4つの選択肢ボタンが動的に挿入されます -->
+        </div>
+
+        <!-- 回答後に表示される解説エリア -->
+        <div id="explanation-panel" class="explanation-panel">
+          <div id="explanation-title" class="explanation-header"></div>
+          <div id="explanation-details" class="explanation-details">
+            <!-- 首都・地域などの詳細情報 -->
+          </div>
+        </div>
+
+        <div class="action-area">
+          <button id="next-btn" class="btn-primary" style="display: none;">次の問題へ ➔</button>
+        </div>
+      </div>
+
+      <!-- 3. Result Screen -->
+      <div id="screen-result" class="quiz-screen result-screen">
+        <span id="result-emoji" class="result-badge">🏆</span>
+        <div class="result-score-title">あなたの成績</div>
+        <div id="final-score" class="result-score">0点</div>
+        <div id="final-rank" class="result-rank">国旗エキスパート</div>
+        <p id="final-message" class="result-message"></p>
+        <button id="restart-btn" class="btn-primary">もう一度挑戦する</button>
+
+        <!-- 復習セクション（間違えた問題の一覧） -->
+        <div id="review-section" class="review-section" style="display: none;">
+          <h3>🔍 間違えた問題の復習</h3>
+          <div id="review-list" class="review-list">
+            <!-- 間違えた問題がここに動的に生成されます -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>National Flag Project — Phase 4 Web Atlas. Data verified against official government sources.</p>
+  </footer>
+
+  <!-- Confetti library for celebration -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
