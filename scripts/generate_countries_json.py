@@ -84,15 +84,27 @@ def main():
             }
 
     # MOFA検証済みデータを読み込み
-    mofa_data = {}
+    mofa_entries = []
     with open(MOFA_JSON, "r", encoding="utf-8") as f:
-        for entry in json.load(f):
-            if "error" in entry:
-                continue
-            slug = entry.get("slug", "")
-            iso = SLUG_TO_ISO.get(slug)
-            if iso:
-                mofa_data[iso] = entry
+        mofa_entries = json.load(f)
+
+    # 手動修正を適用
+    import sys
+    sys.path.append(str(BASE / "scripts"))
+    try:
+        from fix_and_rebuild_md import apply_overrides
+        apply_overrides(mofa_entries)
+    except ImportError:
+        print("Warning: Could not import apply_overrides from fix_and_rebuild_md.py")
+
+    mofa_data = {}
+    for entry in mofa_entries:
+        if "error" in entry:
+            continue
+        slug = entry.get("slug", "")
+        iso = SLUG_TO_ISO.get(slug)
+        if iso:
+            mofa_data[iso] = entry
 
     # 結合
     result = []
