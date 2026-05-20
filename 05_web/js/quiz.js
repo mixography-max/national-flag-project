@@ -36,11 +36,26 @@ const finalMessageEl = document.getElementById('final-message');
 const reviewSection = document.getElementById('review-section');
 const reviewList = document.getElementById('review-list');
 
+// 本土と国旗が同じ非独立地域を除外するためのコード一覧
+// GP: グアドループ (フランス)
+// RE: レユニオン (フランス)
+// YT: マヨット (フランス)
+// GF: 仏領ギアナ (フランス)
+// MF: サン・マルタン (フランス)
+// UM: 合衆国領有小離島 (アメリカ)
+// BV: ブーベ島 (ノルウェー)
+// SJ: スヴァールバル・ヤンマイエン (ノルウェー)
+// HM: ハード・マクドナルド (オーストラリア)
+const EXCLUDED_TERRITORIES = ['GP', 'RE', 'YT', 'GF', 'MF', 'UM', 'BV', 'SJ', 'HM'];
+
 // ── Load Data ──────────────────────────────────────
 async function initQuiz() {
   try {
     const response = await fetch('countries_data.json');
-    allCountries = await response.json();
+    const data = await response.json();
+    
+    // 本土と国旗が同じ非独立地域をフィルタリング
+    allCountries = data.filter(c => !EXCLUDED_TERRITORIES.includes(c.code));
     
     // Enable start button after data is loaded
     startBtn.disabled = false;
