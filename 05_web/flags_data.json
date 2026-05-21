@@ -1004,9 +1004,9 @@
     "colors": [
       {
         "color_name": "Yellow",
-        "hex": "#FFC000",
-        "rgb": "255, 192, 0",
-        "cmyk": "0, 25, 100, 0",
+        "hex": "#FFFF33",
+        "rgb": "255, 255, 51",
+        "cmyk": "0, 0, 80, 0",
         "pantone": "102 C"
       },
       {
@@ -1025,14 +1025,14 @@
       },
       {
         "color_name": "Red",
-        "hex": "#EF3340",
-        "rgb": "239, 51, 64",
-        "cmyk": "0, 90, 76, 0",
+        "hex": "#EE1C25",
+        "rgb": "238, 28, 37",
+        "cmyk": "0, 88, 84, 7",
         "pantone": "032 C"
       }
     ],
-    "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "政府によるデジタルや印刷向けの公式なカラーテーブルが公開されていないため、ロンドンオリンピックマニュアルなどで国際的に広く用いられている近似値（Yellow: 102 C, Red: 032 C）を採用して確定。",
+    "specs_source": "Official PDF (<a href=\"https://www.information.gov.bn/Publication%20listsPDF/Kebangsaan/semarak-hari-kebangsaan-negara-brunei-darussalam-1984-2015pdf.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"source-link\">https://www.information.gov.bn/Publication%20listsPDF/Kebangsaan/semarak-hari-kebangsaan-negara-brunei-darussalam-1984-2015pdf.pdf</a>)",
+    "notes": "ブルネイ情報局の公式記念冊子（Semarak Hari Kebangsaan Negara Brunei Darussalam 1984-2015）のPage 54に掲載されている公式国旗イメージから色を抽出。国際的に用いられていたオリンピックマニュアル等の近似値（特にYellowの#FFC000）は本来の鮮やかな黄色と乖離が大きいため、公式PDFの実態に即した色（Yellow: #FFFF33, Red: #EE1C25）に修正。",
     "wiki_flag_filename": "Flag_of_Brunei.svg"
   },
   {

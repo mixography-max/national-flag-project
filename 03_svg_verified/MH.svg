@@ -1,31 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg
-   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 475 250"
-   fill="#fff"
-   width="900"
-   height="474">
-  <title>Flag of Marshall Islands (マーシャル諸島)</title>
-  <desc>ISO 3166-1: MH | Ratio: 10:19 | De facto (Standard Vexillological Approximations / Vexilla Mundi)</desc>
-  <metadata>
-    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-             xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description>
-        <dc:title>Flag of Marshall Islands (マーシャル諸島)</dc:title>
-        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
-        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:identifier>MH</dc:identifier>
-      </rdf:Description>
-    </rdf:RDF>
-  </metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="600" viewBox="0 0 475 250" fill="#fff">
+	<title>Flag of the Marshall Islands</title>
 	<path d="m0 0h475v250H0z"/>
 	<path fill="#E57200" d="m0 242V0h475v53z"/>
 	<path fill="#003087" d="m0 238V0h475v4zm0 8v4h475V102z"/>

@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg
-   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   viewBox="0 0 960 640"
-   version="1.1"
-   xmlns="http://www.w3.org/2000/svg"
-   width="960"
-   height="640">
-  <title>Flag of Cambodia (カンボジア)</title>
-  <desc>ISO 3166-1: KH | Ratio: 2:3 | De facto (Standard Vexillological Approximations)</desc>
-  <metadata>
-    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-             xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description>
-        <dc:title>Flag of Cambodia (カンボジア)</dc:title>
-        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
-        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:identifier>KH</dc:identifier>
-      </rdf:Description>
-    </rdf:RDF>
-  </metadata>
+<svg width="960" height="640" viewBox="0 0 960 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <path d="M0 0h960v640H0Z" fill="#032ea1"/>
  <path d="M0 160h960v320H0Z" fill="#e00025"/>
  <g transform="matrix(1.6 0 0 1.6 167.41 -697.78)" fill="#fff" stroke="#000" stroke-width=".9">
