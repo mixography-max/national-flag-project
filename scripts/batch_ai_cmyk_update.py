@@ -44,9 +44,15 @@ def parse_cmyk(cmyk_str: str):
     return (0, 0, 0, 0)
 
 def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
+    # Get paths relative to PROJECT_ROOT to avoid absolute path encoding issues
+    svg_rel = svg_path.relative_to(PROJECT_ROOT)
+    ai_rel = ai_path.relative_to(PROJECT_ROOT)
+
     lines = []
     lines.append(f'try {{')
-    lines.append(f'  var doc = app.open(File("{svg_path.absolute()}"));')
+    lines.append(f'  var scriptFile = new File($.fileName);')
+    lines.append(f'  var rootFolder = scriptFile.parent;')
+    lines.append(f'  var doc = app.open(new File(rootFolder + "/{svg_rel}"));')
     
     # Use "colors" key (not "colors_extracted")
     colors = spec.get("colors", spec.get("colors_extracted", []))
@@ -172,13 +178,16 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
   applyColors(doc.pageItems);
 ''')
 
-    lines.append(f'  var saveFile = new File("{ai_path.absolute()}");')
+    lines.append(f'  var saveFile = new File(rootFolder + "/{ai_rel}");')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
     lines.append(f'  doc.saveAs(saveFile, saveOpts);')
     lines.append(f'  doc.close(SaveOptions.DONOTSAVECHANGES);')
     lines.append(f'}} catch(err) {{')
-    lines.append(f'  $.writeln(err.toString());')
+    lines.append(f'  var logFile = new File(rootFolder + "/jsx_error.log");')
+    lines.append(f'  logFile.open("w");')
+    lines.append(f'  logFile.writeln(err.toString());')
+    lines.append(f'  logFile.close();')
     lines.append(f'}}')
 
     return "\n".join(lines)
