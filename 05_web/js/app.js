@@ -4,7 +4,7 @@ let activeRegion = 'all';
 let searchQuery = '';
 let viewMode = 'normal';
 let showVerified = true;
-const SVG_VERSION = 'v=20260415d'; // 250/250 verified: SJ/TF/UM color data added
+const SVG_VERSION = 'v=20260521'; // 250/250 verified: Brunei color corrected
 
 // Similar flag pairs for comparison
 const SIMILAR_PAIRS = [
@@ -173,7 +173,7 @@ function openModal(code) {
   // Handle PNG download (h=1080px, filename is Name_EN based)
   const pngBtn = document.getElementById('download-png');
   const pngFilename = f.name_en.replace(/ /g, '_');
-  const pngPath = `png_flags/1080/${encodeURIComponent(pngFilename)}.png`;
+  const pngPath = `png_flags/1080/${f.code}.png`;
   pngBtn.onclick = () => {
     const a = document.createElement('a');
     a.href = pngPath;

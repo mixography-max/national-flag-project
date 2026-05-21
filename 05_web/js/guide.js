@@ -111,7 +111,7 @@ const GUIDE_DATA = [
     trivia: "英海外領で珍しくレッド・エンサインを使用。紋章にはSea Venture号の難破が描かれ建国の起源を示す。" },
   { num: 28, code: "BN", emoji: "🇧🇳", name: "ブルネイ", nameEn: "Brunei", status: "defacto",
     overview: "ボルネオ島北西部の石油・天然ガス豊かな小国。スルタンが統治するイスラム教絶対君主制国家。",
-    colorRules: "Yellow 102 C・Red 032 C。政府の公式カラーテーブルは非公開。国際的近似値を採用。",
+    colorRules: "Yellow #FFFF33・Red #EE1C25。政府の情報局公式記念冊子のPDF掲載イメージに即して色を一新。",
     trivia: "黄色地は国王の絶対権威の色。白黒の斜帯と赤い国章（三日月・傘・旗・翼手）を配する。" },
   { num: 29, code: "BO", emoji: "🇧🇴", name: "ボリビア", nameEn: "Bolivia", status: "dejure",
     overview: "南米の内陸国。世界最高地の首都ラパスを持つ。チチカカ湖やウユニ塩湖で知られる。",
