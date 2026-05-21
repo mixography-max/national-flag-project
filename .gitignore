@@ -14,3 +14,7 @@ temp_*.jsx
 
 # Gemini/Agent
 .agents/
+
+# Private Key / Logs
+id_rsa
+04_ai_cmyk/logs/

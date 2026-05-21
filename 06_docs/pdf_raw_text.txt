@@ -1,0 +1,997 @@
+Tコード
+国名（外務省）
+欧文表記（外務省）
+首都名（外務省）
+サイト更新日
+301
+アイスランド
+Iceland
+レイキャビク
+令和7年2月21日
+302
+アイルランド
+Ireland
+ダブリン
+令和6年4月12日
+101
+アゼルバイジャン共和国
+Republic of Azerbaijan
+バクー
+令和6年9月4日
+102
+アフガニスタン・イスラム共和国
+Islamic Republic of Afghanistan
+カブール
+令和3年5月14日
+401
+アメリカ合衆国
+United States of America
+ワシントンD.C.
+令和7年1月30日
+103
+アラブ首長国連邦
+United Arab Emirates
+アブダビ
+令和6年12月13日
+201
+アルジェリア民主人民共和国
+People's Democratic Republic of Algeria アルジェ
+令和6年8月1日
+501
+アルゼンチン共和国
+Argentine Republic
+ブエノスアイレス
+令和7年4月24日
+303
+アルバニア共和国
+Republic of Albania
+ティラナ
+令和5年11月30日
+104
+アルメニア共和国
+Republic of Armenia
+エレバン
+令和6年8月27日
+202
+アンゴラ共和国
+Republic of Angola
+ルアンダ
+令和6年9月19日
+402
+アンティグア・バーブーダ
+Antigua and Barbuda
+セントジョンズ
+令和5年9月13日
+304
+アンドラ公国
+Principality of Andorra
+アンドラ・ラ・ベリャ
+令和6年8月30日
+105
+イエメン共和国
+Republic of Yemen
+サヌア
+令和6年4月23日
+106
+イスラエル国
+State of Israel
+エルサレム
+令和7年1月23日
+305
+イタリア共和国
+Italian Republic
+ローマ
+令和6年12月12日
+107
+イラク共和国
+Republic of Iraq
+バグダッド
+令和6年12月2日
+108
+イラン・イスラム共和国
+Islamic Republic of Iran
+テヘラン
+令和6年8月26日
+110
+インドネシア共和国
+Republic of Indonesia
+ジャカルタ
+令和6年10月22日
+109
+インド共和国
+Republic of India
+ニューデリー（注）インド連邦直轄領の一つで令和7年4月1日
+203
+ウガンダ共和国
+Republic of Uganda
+カンパラ
+令和7年3月21日
+306
+ウクライナ
+Ukraine
+キーウ
+令和5年8月10日
+111
+ウズベキスタン共和国
+Republic of Uzbekistan
+タシケント
+令和7年1月8日
+502
+ウルグアイ東方共和国
+Oriental Republic of Uruguay
+モンテビデオ
+令和7年4月23日
+503
+エクアドル共和国
+Republic of Ecuador
+キト
+令和6年7月23日
+204
+エジプト・アラブ共和国
+Arab Republic of Egypt
+カイロ
+令和7年2月18日
+307
+エストニア共和国
+Republic of Estonia
+タリン
+令和7年4月4日
+205
+エスワティニ王国
+Kingdom of Eswatini
+ムババーネ
+令和6年4月25日
+206
+エチオピア連邦民主共和国
+Federal Democratic Republic of Ethiopia アディスアベバ
+令和6年11月12日
+207
+エリトリア国
+State of Eritrea
+アスマラ
+令和3年8月4日
+403
+エルサルバドル共和国
+Republic of El Salvador
+サンサルバドル
+令和7年2月4日
+601
+オーストラリア連邦
+Commonwealth of Australia
+キャンベラ
+令和7年2月13日
+308
+オーストリア共和国
+Republic of Austria
+ウィーン
+令和5年12月12日
+112
+オマーン国
+Sultanate of Oman
+マスカット
+令和6年8月29日
+309
+オランダ王国
+Kingdom of the Netherlands
+アムステルダム（政治機能所在地はハーグ）令和6年7月18日
+208
+ガーナ共和国
+Republic of Ghana
+アクラ
+令和7年2月26日
+209
+カーボベルデ共和国
+Republic of Cabo Verde
+プライア
+令和6年11月20日
+504
+ガイアナ協同共和国
+Co-operative Republic of Guyana
+ジョージタウン
+令和4年12月26日
+113
+カザフスタン共和国
+Republic of Kazakhstan
+アスタナ
+令和7年4月7日
+114
+カタール国
+State of Qatar
+ドーハ
+令和6年2月29日
+404
+カナダ
+Canada
+オタワ
+令和7年3月24日
+210
+ガボン共和国
+Gabonese Republic
+リーブルビル
+令和6年4月12日
+211
+カメルーン共和国
+Republic of Cameroon
+ヤウンデ
+令和7年3月17日
+212
+ガンビア共和国
+Republic of The Gambia
+バンジュール
+令和6年9月30日
+115
+カンボジア王国
+Kingdom of Cambodia
+プノンペン
+令和6年4月17日
+214
+ギニアビサウ共和国
+Republic of Guinea-Bissau
+ビサウ
+令和6年10月9日
+213
+ギニア共和国
+Republic of Guinea
+コナクリ
+令和6年5月31日
+116
+キプロス共和国
+Republic of Cyprus
+ニコシア
+令和6年12月20日
+405
+キューバ共和国
+Republic of Cuba
+ハバナ
+令和7年2月7日
+311
+ギリシャ共和国
+Hellenic Republic
+アテネ
+令和7年3月24日
+602
+キリバス共和国
+Republic of Kiribati
+タラワ
+令和6年6月24日
+117
+キルギス共和国
+Kyrgyz Republic
+ビシュケク
+令和7年1月29日
+406
+グアテマラ共和国
+Republic of Guatemala
+グアテマラ市
+令和6年8月16日
+118
+クウェート国
+State of Kuwait
+クウェート
+令和6年12月13日
+603
+クック諸島
+Cook Islands
+アバルア
+令和6年7月25日
+407
+グレナダ
+Grenada
+セントジョージズ
+令和5年8月31日
+313
+クロアチア共和国
+Republic of Croatia
+ザグレブ
+令和7年3月24日
+215
+ケニア共和国
+Republic of Kenya
+ナイロビ
+令和6年10月21日
+216
+コートジボワール共和国
+Republic of Côte d'Ivoire
+ヤムスクロ（実質的首都機能はアビジャン）令和6年10月8日
+1 / 4 ページ
+Tコード
+国名（外務省）
+欧文表記（外務省）
+首都名（外務省）
+サイト更新日
+408
+コスタリカ共和国
+Republic of Costa Rica
+サンホセ
+令和7年2月4日
+314
+コソボ共和国
+Republic of Kosovo
+プリシュティナ
+令和7年1月27日
+217
+コモロ連合
+Union of Comoros
+モロニ
+令和6年10月25日
+505
+コロンビア共和国
+Republic of Colombia
+ボゴタ
+令和7年4月18日
+218
+コンゴ共和国
+Republic of Congo
+ブラザビル
+令和6年11月27日
+219
+コンゴ民主共和国
+Democratic Republic of the Congo キンシャサ
+令和6年9月4日
+119
+サウジアラビア王国
+Kingdom of Saudi Arabia
+リヤド
+令和6年12月13日
+604
+サモア独立国
+Independent State of Samoa
+アピア
+令和6年7月25日
+220
+サントメ・プリンシペ民主共和国
+Democratic Republic of Sao Tome and Principe サントメ
+令和7年1月28日
+221
+ザンビア共和国
+Republic of Zambia
+ルサカ
+令和7年1月15日
+315
+サンマリノ共和国
+Republic of San Marino
+サンマリノ
+令和7年4月1日
+222
+シエラレオネ共和国
+Republic of Sierra Leone
+フリータウン
+令和6年9月9日
+223
+ジブチ共和国
+Republic of Djibouti
+ジブチ
+令和4年11月21日
+409
+ジャマイカ
+Jamaica
+キングストン
+令和5年10月20日
+120
+ジョージア
+Georgia
+トビリシ
+令和6年2月19日
+121
+シリア・アラブ共和国
+Syrian Arab Republic
+ダマスカス
+令和4年12月22日
+122
+シンガポール共和国
+Republic of Singapore
+-
+令和6年6月4日
+224
+ジンバブエ共和国
+Republic of Zimbabwe
+ハラレ
+令和6年11月21日
+316
+スイス連邦
+Swiss Confederation
+ベルン
+令和6年4月26日
+317
+スウェーデン王国
+Kingdom of Sweden
+ストックホルム
+令和6年12月18日
+225
+スーダン共和国
+The Republic of the Sudan
+ハルツーム
+令和6年11月7日
+318
+スペイン王国
+Kingdom of Spain
+マドリード
+令和6年12月6日
+506
+スリナム共和国
+Republic of Suriname
+パラマリボ
+令和5年1月5日
+123
+スリランカ民主社会主義共和国
+Democratic Socialist Republic of Sri Lanka
+スリ・ジャヤワルダナプラ・コッテ
+令和7年4月1日
+319
+スロバキア共和国
+Slovak Republic
+ブラチスラバ
+令和6年6月17日
+320
+スロベニア共和国
+Republic of Slovenia
+リュブリャナ
+令和6年11月25日
+227
+セーシェル共和国
+Republic of Seychelles
+ビクトリア
+令和7年4月16日
+228
+セネガル共和国
+Republic of Senegal
+ダカール
+令和6年4月12日
+321
+セルビア共和国
+Republic of Serbia
+ベオグラード
+令和6年9月27日
+410
+セントクリストファー・ネービス
+Saint Christopher and Nevis
+バセテール
+令和5年3月8日
+411
+セントビンセント及びグレナディーン諸島
+Saint Vincent and the Grenadines キングスタウン
+令和5年2月9日
+412
+セントルシア
+Saint Lucia
+カストリーズ
+令和5年8月15日
+229
+ソマリア連邦共和国
+Federal Republic of Somalia
+モガディシュ
+令和6年11月19日
+605
+ソロモン諸島
+Solomon Islands
+ホニアラ
+令和6年7月25日
+124
+タイ王国
+Kingdom of Thailand
+バンコク
+令和6年5月27日
+126
+タジキスタン共和国
+Republic of Tajikistan
+ドゥシャンベ
+令和6年7月8日
+230
+タンザニア連合共和国
+United Republic of Tanzania
+ドドマ（法律上の首都であり、国会議事堂が令和7年4月28日
+322
+チェコ共和国
+Czech Republic
+プラハ
+令和6年4月17日
+231
+チャド共和国
+Republic of Chad
+ウンジャメナ
+令和5年5月16日
+233
+チュニジア共和国
+Republic of Tunisia
+チュニス
+令和7年1月17日
+507
+チリ共和国
+Republic of Chile
+サンティアゴ
+令和7年2月6日
+606
+ツバル
+Tuvalu
+フナフティ
+令和6年7月25日
+323
+デンマーク王国
+Kingdom of Denmark
+コペンハーゲン
+令和6年12月11日
+324
+ドイツ連邦共和国
+Federal Republic of Germany
+ベルリン
+令和6年4月8日
+234
+トーゴ共和国
+Republic of Togo
+ロメ
+令和7年4月17日
+413
+ドミニカ共和国
+Dominican Republic
+サントドミンゴ
+令和6年5月24日
+414
+ドミニカ国
+Commonwealth of Dominica
+ロゾー
+令和6年3月6日
+415
+トリニダード・トバゴ共和国
+Republic of Trinidad and Tobago
+ポート・オブ・スペイン
+令和7年3月27日
+129
+トルクメニスタン
+Turkmenistan
+アシガバット
+令和7年4月23日
+130
+トルコ共和国
+Republic of Türkiye
+アンカラ
+令和7年4月7日
+607
+トンガ王国
+Kingdom of Tonga
+ヌクアロファ
+令和7年4月18日
+235
+ナイジェリア連邦共和国
+Federal Republic of Nigeria
+アブジャ
+令和6年9月30日
+608
+ナウル共和国
+Republic of Nauru
+ヤレン
+令和6年7月25日
+236
+ナミビア共和国
+Republic of Namibia
+ウィントフック
+令和6年2月26日
+609
+ニウエ
+Niue
+アロフィ
+令和6年7月25日
+416
+ニカラグア共和国
+Republic of Nicaragua
+マナグア
+令和6年8月28日
+237
+ニジェール共和国
+Republic of Niger
+ニアメ
+令和5年7月21日
+610
+ニュージーランド
+New Zealand
+ウェリントン市
+令和6年11月26日
+132
+ネパール
+Nepal
+カトマンズ
+令和7年4月18日
+2 / 4 ページ
+Tコード
+国名（外務省）
+欧文表記（外務省）
+首都名（外務省）
+サイト更新日
+325
+ノルウェー王国
+Kingdom of Norway
+オスロ
+令和5年12月24日
+134
+バーレーン王国
+Kingdom of Bahrain
+マナーマ市
+令和6年4月23日
+417
+ハイチ共和国
+Republic of Haiti
+ポルトープランス
+令和5年8月29日
+133
+パキスタン・イスラム共和国
+Islamic Republic of Pakistan
+イスラマバード
+令和7年4月18日
+326
+バチカン市国
+Vatican City State
+-
+令和6年10月2日
+418
+パナマ共和国
+Republic of Panama
+パナマシティー
+令和6年7月25日
+611
+バヌアツ共和国
+Republic of Vanuatu
+ポートビラ
+令和7年4月18日
+419
+バハマ国
+Commonwealth of The Bahamas
+ナッソー
+令和5年10月2日
+612
+パプアニューギニア独立国
+Independent State of Papua New Guinea ポートモレスビー
+令和6年7月25日
+613
+パラオ共和国
+Republic of Palau
+マルキョク
+令和7年3月21日
+508
+パラグアイ共和国
+Republic of Paraguay
+アスンシオン
+令和7年2月18日
+420
+バルバドス
+Barbados
+ブリッジタウン
+令和5年8月15日
+327
+ハンガリー
+Hungary
+ブダペスト
+令和6年6月3日
+135
+バングラデシュ人民共和国
+People's Republic of Bangladesh
+ダッカ
+令和7年4月1日
+614
+フィジー共和国
+Republic of Fiji
+スバ
+令和7年1月21日
+137
+フィリピン共和国
+Republic of the Philippines
+マニラ
+令和5年3月1日
+328
+フィンランド共和国
+Republic of Finland
+ヘルシンキ
+令和6年12月18日
+138
+ブータン王国
+Kingdom of Bhutan
+ティンプー
+令和7年4月1日
+509
+ブラジル連邦共和国
+Federative Republic of Brazil
+ブラジリア
+令和6年12月20日
+329
+フランス共和国
+French Republic
+パリ
+令和7年1月30日
+330
+ブルガリア共和国
+Republic of Bulgaria
+ソフィア
+令和7年3月12日
+238
+ブルキナファソ
+Burkina Faso
+ワガドゥグ
+令和6年10月29日
+139
+ブルネイ・ダルサラーム国
+Brunei Darussalam
+バンダル・スリ・ブガワン
+令和5年6月5日
+239
+ブルンジ共和国
+Republic of Burundi
+ギテガ（経済の中心はブジュンブラ）
+令和6年10月30日
+140
+ベトナム社会主義共和国
+Socialist Republic of Viet Nam
+ハノイ
+令和6年11月20日
+240
+ベナン共和国
+Republic of Benin
+ポルトノボ（実質的首都機能はコトヌ）
+令和6年2月5日
+510
+ベネズエラ・ボリバル共和国
+Bolivarian Republic of Venezuela
+カラカス
+令和7年4月15日
+331
+ベラルーシ共和国
+Republic of Belarus
+ミンスク
+令和6年7月22日
+421
+ベリーズ
+Belize
+ベルモパン
+令和6年4月11日
+511
+ペルー共和国
+Republic of Peru
+リマ
+令和7年4月23日
+332
+ベルギー王国
+Kingdom of Belgium
+ブリュッセル
+令和7年2月19日
+334
+ポーランド共和国
+Republic of Poland
+ワルシャワ
+令和6年3月8日
+333
+ボスニア・ヘルツェゴビナ
+Bosnia and Herzegovina
+サラエボ
+令和7年1月20日
+241
+ボツワナ共和国
+Republic of Botswana
+ハボローネ
+令和7年2月13日
+512
+ボリビア多民族国
+The Plurinational State of Bolivia
+ラパス（憲法上の首都はスクレ）
+令和7年5月1日
+335
+ポルトガル共和国
+Portuguese Republic
+リスボン市
+令和6年8月9日
+422
+ホンジュラス共和国
+Republic of Honduras
+テグシガルパ
+令和6年3月5日
+615
+マーシャル諸島共和国
+Republic of the Marshall Islands
+マジュロ
+令和7年4月18日
+242
+マダガスカル共和国
+Republic of Madagascar
+アンタナナリボ
+令和6年9月10日
+243
+マラウイ共和国
+Republic of Malawi
+リロングウェ
+令和6年10月24日
+244
+マリ共和国
+Republic of Mali
+バマコ
+令和7年3月5日
+336
+マルタ共和国
+Republic of Malta
+バレッタ
+令和6年9月2日
+141
+マレーシア
+Malaysia
+クアラルンプール
+令和6年3月27日
+616
+ミクロネシア連邦
+Federated States of Micronesia
+パリキール
+令和6年7月25日
+142
+ミャンマー連邦共和国
+Republic of the Union of Myanmar ネーピードー
+令和5年3月17日
+423
+メキシコ合衆国
+United Mexican States
+メキシコシティ
+令和6年10月24日
+248
+モーリシャス共和国
+Republic of Mauritius
+ポートルイス
+令和6年12月4日
+249
+モーリタニア・イスラム共和国
+Islamic Republic of Mauritania
+ヌアクショット
+令和5年4月24日
+247
+モザンビーク共和国
+Republic of Mozambique
+マプト
+令和6年9月19日
+337
+モナコ公国
+Principality of Monaco
+-
+令和7年2月13日
+143
+モルディブ共和国
+Republic of Maldives
+マレ
+令和7年4月18日
+338
+モルドバ共和国
+Republic of Moldova
+キシナウ
+令和5年4月12日
+250
+モロッコ王国
+Kingdom of Morocco
+ラバト
+令和7年4月24日
+144
+モンゴル国
+Mongolia
+ウランバートル
+令和6年9月9日
+339
+モンテネグロ
+Montenegro
+ポドゴリツァ
+令和5年11月6日
+145
+ヨルダン
+Jordan
+アンマン
+令和6年8月28日
+146
+ラオス人民民主共和国
+Lao People's Democratic Republic ビエンチャン
+令和6年12月10日
+340
+ラトビア共和国
+Republic of Latvia
+リガ
+令和6年10月25日
+341
+リトアニア共和国
+Republic of Lithuania
+ビリニュス
+令和7年3月5日
+3 / 4 ページ
+Tコード
+国名（外務省）
+欧文表記（外務省）
+首都名（外務省）
+サイト更新日
+251
+リビア国
+State of Libya
+トリポリ
+令和6年2月5日
+342
+リヒテンシュタイン公国
+Principality of Liechtenstein
+ファドーツ
+令和3年5月10日
+252
+リベリア共和国
+Republic of Liberia
+モンロビア
+令和6年2月6日
+344
+ルーマニア
+Romania
+ブカレスト
+令和7年3月6日
+343
+ルクセンブルク大公国
+Grand Duchy of Luxembourg
+ルクセンブルク
+令和6年7月18日
+253
+ルワンダ共和国
+Republic of Rwanda
+キガリ
+令和6年11月11日
+254
+レソト王国
+Kingdom of Lesotho
+マセル
+令和5年8月25日
+147
+レバノン共和国
+Lebanese Republic
+ベイルート
+令和5年1月5日
+345
+ロシア連邦
+Russian Federation
+モスクワ
+令和6年5月13日
+312
+英国（グレートブリテン及び北アイルランド連合王国）
+United Kingdom of Great Britain and Northern Ireland ロンドン
+令和6年7月10日
+226
+赤道ギニア共和国
+Republic of Equatorial Guinea
+マラボ
+令和7年3月17日
+125
+大韓民国
+Republic of Korea
+ソウル
+令和6年4月4日
+232
+中央アフリカ共和国
+Central African Republic
+バンギ
+令和7年3月17日
+127
+中華人民共和国
+People's Republic of China
+北京
+令和5年9月25日
+136
+東ティモール民主共和国
+The Democratic Republic of Timor-Leste ディリ
+令和6年11月15日
+245
+南アフリカ共和国
+Republic of South Africa
+プレトリア
+令和7年3月10日
+246
+南スーダン共和国
+The Republic of South Sudan
+ジュバ
+令和7年4月28日
+310
+北マケドニア共和国
+Republic of North Macedonia
+スコピエ
+令和7年2月4日
+128
+北朝鮮
+North Korea
+平壌（ピョンヤン）
+令和4年4月21日
+※昨年から変更あり
+※昨年から変更あり
+※昨年から変更あり
+※閲覧日に更新
+※地図帳表記と異なる/注意書きあり
+※地図帳表記と異なる/注意書きあり
+※地図帳表記と異なる/注意書きあり
+4 / 4 ページ

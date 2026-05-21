@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>国旗カラー比較 — National Flag Color Palette</title>
+  <meta name="description" content="250カ国の検証済み国旗データに基づき、多様な「赤」「青」「緑」「黄」などのカラーバリエーションを一覧比較できるデータベース。">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/colors.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-link">🏁 フラグアトラス</a>
+      <a href="guide.html" class="nav-link">📖 国旗ガイド</a>
+      <a href="countries.html" class="nav-link">🌐 国名・首都名</a>
+      <a href="trivia.html" class="nav-link">💡 トリビア</a>
+      <a href="changes.html" class="nav-link">🔄 国旗の変遷</a>
+      <a href="quiz.html" class="nav-link">🎮 国旗クイズ</a>
+      <a href="colors.html" class="nav-link active">🎨 色の比較</a>
+    </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <div class="hero-sparkles" id="hero-sparkles"></div>
+    <h1>🎨 国旗カラー比較 <span class="version">Color Analysis</span></h1>
+    <p class="subtitle">各国の国旗に用いられている「赤」や「青」などの色相を、PantoneやHEXカラーコードに紐付けて一覧比較します。</p>
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-number" id="stat-total-colors">0</div>
+        <div class="stat-label">Unique Colors</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="stat-most-popular-pantone" style="color:var(--success)">—</div>
+        <div class="stat-label">Popular Pantone</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="stat-color-families" style="color:var(--warning)">0</div>
+        <div class="stat-label">Color Families</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Color Tabs -->
+  <div class="controls-wrapper" id="controls">
+    <div class="controls color-controls">
+      <div class="color-tabs" id="color-tabs">
+        <!-- JSで動的に生成。例：赤、青、緑、黄、橙、茶、黒、白、その他 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Area -->
+  <main class="colors-container">
+    <!-- Benchmark Color Section -->
+    <section class="benchmark-section" id="benchmark-section">
+      <!-- JSで動的に表示 -->
+    </section>
+
+    <!-- Variation Grid -->
+    <section class="variation-section">
+      <div class="section-title-wrap">
+        <h2 id="variation-title">その他のカラーバリエーション</h2>
+        <div class="sort-controls">
+          <label for="color-sort">並び替え:</label>
+          <select id="color-sort">
+            <option value="popularity">使用国数（人気順）</option>
+            <option value="luminance">明るさ順</option>
+            <option value="pantone">色番号順</option>
+          </select>
+        </div>
+      </div>
+      <div class="color-variation-grid" id="color-variation-grid">
+        <!-- JSで動的に生成 -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>National Flag Project — Phase 4 Web Atlas. Color data extracted from official specifications.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-title"></div>
+        <div class="modal-actions">
+          <button class="download-btn download-svg" id="download-svg" title="Download SVG">📥 SVG</button>
+          <button class="download-btn download-png" id="download-png" title="Download PNG (h=1080px)">🖼️ PNG</button>
+          <button class="download-btn download-ai" id="download-ai" title="Download Illustrator (CMYK)">✒️ AI</button>
+          <button class="modal-close" id="modal-close" title="Close">✕</button>
+        </div>
+      </div>
+      <div class="modal-flag" id="modal-flag"></div>
+      
+      <!-- Metadata Section: Colors, Notes, Source -->
+      <div class="modal-body-content">
+        <div class="modal-colors" id="modal-colors"></div>
+        <div class="modal-text-content">
+          <div class="notes-section" id="modal-notes" style="display: none;">
+            <h3>📐 構造・歴史ノート</h3>
+            <p id="modal-notes-text"></p>
+          </div>
+          <div class="specs-source" id="modal-source"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification for Color Copy -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="js/shared.js"></script>
+  <script src="js/colors.js"></script>
+</body>
+</html>
