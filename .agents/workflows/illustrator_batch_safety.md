@@ -136,16 +136,48 @@ jsx_abs = nfc(str(jsx_path.absolute()))
 
 ---
 
+## CMYK AI 2段階変換パイプライン手順（個別・一括更新）
+
+国旗データ（SVGや仕様書JSON）に修正が入った場合、以下の2段階の手順でAIファイルを再生成します。
+このパイプラインは、Illustratorのメモリ破壊によるクラッシュやパス消失、RGBとCMYK間の四捨五入ブレを厳格に防ぎます。
+
+### ステップ 1: SVG から CMYK AI への変換とRGBタグ埋め込み
+SVGファイルを開き、各オブジェクトのRGB値をパスの `note` にタグ付けした上で、新規CMYKドキュメントに複製して中間AIファイルを出力します。
+
+- **特定国のみ更新する場合 (例: セントルシア `LC`)**:
+  ```bash
+  python3 scripts/step1_convert_svg_to_cmyk_ai.py --codes LC
+  ```
+- **変更があったすべての国を更新する場合**:
+  ```bash
+  python3 scripts/step1_convert_svg_to_cmyk_ai.py
+  ```
+- **全カ国を一括更新する場合**:
+  ```bash
+  python3 scripts/step1_convert_svg_to_cmyk_ai.py --all
+  ```
+- **中間ファイルの保存先**: `04_ai_cmyk/<code>.ai`
+
+### ステップ 2: Pantoneプロセススウォッチの登録と適用
+中間AIファイルを開き、`02_official_specs/<code>.json` に定義された検証済みの整数CMYK値をもとに、カラータイプ「プロセス」のPantoneスウォッチを作成してパスに適用します。
+
+- **特定国のみ適用する場合 (例: セントルシア `LC`)**:
+  ```bash
+  python3 scripts/step2_apply_pantone_swatches.py --codes LC
+  ```
+- **全カ国に適用する場合**:
+  ```bash
+  python3 scripts/step2_apply_pantone_swatches.py --all
+  ```
+
+---
+
 ## 既存スクリプトの対応状況
 
 | スクリプト | 対応済み | 備考 |
 |---|---|---|
-| `scripts/convert_spot_to_process.py` | ✅ | 全ルール適用済み |
-| `scripts/batch_ai_cmyk_update.py` | ✅ | 全ルール適用済み（2026-05-22更新） |
-| `scripts/batch_ai_cmyk.py` | ⚠️ 部分的 | close()あり、timeout/resume/NFC未対応 |
-
-## 参考: 安全なバッチ処理スクリプトのテンプレート
-
-新しいIllustratorバッチ処理スクリプトを作成する場合は、`scripts/batch_ai_cmyk_update.py` を
-テンプレートとして使用すること。このスクリプトは上記の全ルール（Rule 1〜7）を実装している。
+| `scripts/step1_convert_svg_to_cmyk_ai.py` | ✅ | 2段階パイプライン（第1段階: CMYK複製 & RGBタグ埋め込み） |
+| `scripts/step2_apply_pantone_swatches.py` | ✅ | 2段階パイプライン（第2段階: スウォッチ登録 & 適用） |
+| `scripts/convert_spot_to_process.py` | ✅ | 古い一括スウォッチ変更スクリプト |
+| `scripts/batch_ai_cmyk_update.py` | ✅ | 古い1段階変換スクリプト |
 

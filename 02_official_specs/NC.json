@@ -11,22 +11,22 @@
       "hex": "#000091",
       "rgb": "0, 0, 145",
       "cmyk": "100, 90, 20, 7",
-      "pantone": "072 C"
+      "pantone": "2738 C"
     },
     {
       "color_name": "White",
       "hex": "#FFFFFF",
       "rgb": "255, 255, 255",
       "cmyk": "0, 0, 0, 0",
-      "pantone": ""
+      "pantone": "White"
     },
     {
       "color_name": "Red",
       "hex": "#E1000F",
       "rgb": "225, 0, 15",
-      "cmyk": "0, 81, 87, 14",
-      "pantone": "485 C"
+      "cmyk": "0, 98, 100, 10",
+      "pantone": "2347 C"
     }
   ],
-  "notes": "フランス海外準県（sui generis）として公式旗はフランス三色旗。**Blue を Reflex Blue から 072 C に修正。Red を 032 から 485 C に修正** — 他のフランス領（MF, MQ）との整合性を確保。比率を 1:2 から 2:3 に修正。FLNKS旗（カナク旗、青赤緑+黄円盤+flèche faîtière）は2010年議会決議で並掲されるが法的地位なし。White CMYK 補填。"
+  "notes": "ニューカレドニアの公式の旗はフランス国旗と同じ（フランス国旗との並掲決議はあるが、公式国旗としては三色旗のみ）。最新のフランス公式指定である Pantone 2738 C (Blue) と 2347 C (Red) を適用。"
 }

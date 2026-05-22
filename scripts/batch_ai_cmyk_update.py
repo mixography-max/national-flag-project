@@ -106,6 +106,23 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
     lines.append(f'  app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;')
     lines.append(f'  var doc = app.open(new File("{svg_abs}"));')
     
+    # Wait for activeDocument to be initialized after open
+    lines.append('''
+  var initReady = false;
+  for (var w = 0; w < 50; w++) {
+      try {
+          if (app.activeDocument != null) {
+              initReady = true;
+              break;
+          }
+      } catch(e) {}
+      $.sleep(100);
+  }
+  if (!initReady) {
+      throw new Error("Active document initialization timed out after open");
+  }
+''')
+    
     # Use "colors" key (not "colors_extracted")
     colors = spec.get("colors", spec.get("colors_extracted", []))
     
@@ -114,28 +131,43 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
     for i, c in enumerate(colors):
         rgb = hex_to_rgb(c.get("hex", "#000000"))
         cmyk_vals = parse_cmyk(c.get("cmyk", ""))
+        pantone = c.get("pantone", "").strip()
         
-        # Use pure CMYKColor (SpotColor causes MRAP errors on RGB documents)
         lines.append(f'  var cmyk_{i} = new CMYKColor();')
         lines.append(f'  cmyk_{i}.cyan = {cmyk_vals[0]};')
         lines.append(f'  cmyk_{i}.magenta = {cmyk_vals[1]};')
         lines.append(f'  cmyk_{i}.yellow = {cmyk_vals[2]};')
         lines.append(f'  cmyk_{i}.black = {cmyk_vals[3]};')
+        
+        # Register Swatch as SPOT first (in RGB mode) to avoid MRAP errors
+        if pantone and pantone not in ("White", "Black"):
+            lines.append(f'  var spot_{i} = null;')
+            lines.append(f'  try {{ spot_{i} = doc.spots.getByName("{pantone}"); }} catch(e) {{}}')
+            lines.append(f'  if (!spot_{i}) {{')
+            lines.append(f'      spot_{i} = doc.spots.add();')
+            lines.append(f'      spot_{i}.name = "{pantone}";')
+            lines.append(f'      spot_{i}.colorType = ColorModel.SPOT;')
+            lines.append(f'      spot_{i}.color = cmyk_{i};')
+            lines.append(f'  }}')
+            lines.append(f'  var spotColor_{i} = new SpotColor();')
+            lines.append(f'  spotColor_{i}.spot = spot_{i};')
+            lines.append(f'  spotColor_{i}.tint = 100;')
+            lines.append(f'  var replColor_{i} = spotColor_{i};')
+        else:
+            lines.append(f'  var replColor_{i} = cmyk_{i};')
             
         lines.append(f'  colorMappings.push({{')
         lines.append(f'      targetR: {rgb[0]}, targetG: {rgb[1]}, targetB: {rgb[2]},')
-        lines.append(f'      replColor: cmyk_{i}')
+        lines.append(f'      pantone: "{pantone}",')
+        lines.append(f'      replColor: replColor_{i}')
         lines.append(f'  }});')
 
     lines.append('''
-  // Single-pass: match RGB colors and apply CMYK/Spot colors directly.
-  // Note: executeMenuCommand('doc-color-cmyk') fails under osascript automation
-  // ("there is no document" error). Instead, we apply CMYK colors directly
-  // to the RGB document. Illustrator handles the conversion on saveAs.
-  function applyColorsDirectly(items) {
+  function markPaths(items) {
       for (var i = 0; i < items.length; i++) {
           var item = items[i];
           if (item.typename == "PathItem") {
+              var tags = [];
               if (item.filled && item.fillColor && item.fillColor.typename == "RGBColor") {
                   var r = item.fillColor.red;
                   var g = item.fillColor.green;
@@ -145,7 +177,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
                       if (Math.abs(r - mapping.targetR) <= 8 && 
                           Math.abs(g - mapping.targetG) <= 8 && 
                           Math.abs(b - mapping.targetB) <= 8) {
-                          item.fillColor = mapping.replColor;
+                          tags.push("fill:" + c);
                           break;
                       }
                   }
@@ -159,21 +191,101 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
                       if (Math.abs(r - mapping.targetR) <= 8 && 
                           Math.abs(g - mapping.targetG) <= 8 && 
                           Math.abs(b - mapping.targetB) <= 8) {
-                          item.strokeColor = mapping.replColor;
-                          item.strokeOverprint = false;
+                          tags.push("stroke:" + c);
                           break;
                       }
                   }
               }
+              if (tags.length > 0) {
+                  item.note = tags.join("|");
+              }
           } else if (item.typename == "GroupItem") {
-              applyColorsDirectly(item.pageItems);
+              markPaths(item.pageItems);
           } else if (item.typename == "CompoundPathItem") {
-              applyColorsDirectly(item.pathItems);
+              markPaths(item.pathItems);
           }
       }
   }
 
-  applyColorsDirectly(doc.pageItems);
+  function applyColors(items) {
+      for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          if (item.typename == "PathItem") {
+              if (item.note) {
+                  var parts = item.note.split("|");
+                  for (var p = 0; p < parts.length; p++) {
+                      var tag = parts[p].split(":");
+                      if (tag.length == 2) {
+                          var type = tag[0];
+                          var idx = parseInt(tag[1]);
+                          var color = colorMappings[idx].replColor;
+                          if (type == "fill") {
+                              item.filled = true;
+                              item.fillColor = color;
+                          } else if (type == "stroke") {
+                              item.stroked = true;
+                              item.strokeColor = color;
+                              item.strokeOverprint = false;
+                          }
+                      }
+                  }
+                  item.note = "";
+              }
+          } else if (item.typename == "GroupItem") {
+              applyColors(item.pageItems);
+          } else if (item.typename == "CompoundPathItem") {
+              applyColors(item.pathItems);
+          }
+      }
+  }
+
+  // 1. Tag paths based on RGB
+  markPaths(doc.pageItems);
+  
+  // 2. Apply colors to paths (still in RGB mode)
+  applyColors(doc.pageItems);
+  
+  // 3. Switch document to CMYK mode
+  app.activeDocument = doc;
+  app.executeMenuCommand('doc-color-cmyk');
+  
+  // 4. Wait for CMYK conversion to complete using app.documents[0]
+  var docReady = false;
+  var lastErr = "none";
+  for (var w = 0; w < 100; w++) {
+      $.sleep(100);
+      try {
+          if (app.documents.length > 0) {
+              var targetDoc = app.documents[0];
+              if (targetDoc.documentColorSpace == DocumentColorSpace.CMYK) {
+                  doc = targetDoc;
+                  docReady = true;
+                  break;
+              } else {
+                  lastErr = "space is still " + targetDoc.documentColorSpace;
+              }
+          } else {
+              lastErr = "documents.length is 0";
+          }
+      } catch(e) {
+          lastErr = "exception: " + e.toString() + " line:" + e.line;
+      }
+  }
+  if (!docReady) {
+      throw new Error("CMYK conversion timeout. Last status: " + lastErr);
+  }
+  
+  // 5. Change Spot Swatches to PROCESS color model
+  for (var c = 0; c < colorMappings.length; c++) {
+      var mapping = colorMappings[c];
+      var pName = mapping.pantone;
+      if (pName && pName !== "" && pName !== "White" && pName !== "Black") {
+          try {
+              var targetSpot = doc.spots.getByName(pName);
+              targetSpot.colorType = ColorModel.PROCESS;
+          } catch(e) {}
+      }
+  }
 ''')
 
     log_abs = str(ASCII_ROOT / "jsx_error.log")
@@ -217,8 +329,9 @@ def process_country(code: str):
     # osascript に渡すパスはASCII symlink経由
     jsx_ascii = str(ASCII_ROOT / "temp_run.jsx")
     cmd = [
-        'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_ascii}"'
+        'osascript',
+        '-e', 'tell application "Adobe Illustrator" to activate',
+        '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_ascii}"'
     ]
     
     try:
