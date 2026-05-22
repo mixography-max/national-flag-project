@@ -173,7 +173,7 @@ function openModal(code) {
   // Handle PNG download (h=1080px, filename is Name_EN based)
   const pngBtn = document.getElementById('download-png');
   const pngFilename = f.name_en.replace(/ /g, '_');
-  const pngPath = `png_flags/1080/${f.code}.png`;
+  const pngPath = `png_flags/1080/${encodeURIComponent(pngFilename)}.png`;
   pngBtn.onclick = () => {
     const a = document.createElement('a');
     a.href = pngPath;
