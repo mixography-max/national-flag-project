@@ -5,7 +5,7 @@
   let ALL_FLAGS = [];
   let currentFamily = 'red'; // デフォルトは赤
   let sortBy = 'popularity'; // デフォルトは人気順
-  const SVG_VERSION = 'v=20260415d'; // 一貫したSVGキャッシュバスター
+  const SVG_VERSION = 'v=20260521'; // 250/250 verified: Brunei color corrected
 
   // ── Color Family Definitions ──────────────────────
   const FAMILIES = {
