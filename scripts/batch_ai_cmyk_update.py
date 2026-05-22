@@ -217,7 +217,10 @@ def process_country(code: str):
         f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path.absolute()}"'
     ]
     
-    res = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+    try:
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+    except subprocess.TimeoutExpired:
+        return "ERROR_TIMEOUT"
     if "Error" in res.stderr or res.returncode != 0:
         return f"ERROR: {res.stderr.strip()[:100]}"
     return "SUCCESS"
@@ -273,9 +276,13 @@ def main():
             errors_list.append(f"{code}: {status}")
             print(f"❌ {status}")
         
-        # Small delay between files to avoid overwhelming Illustrator
+        # Delay between files per illustrator_batch_safety workflow
         if i < total:
-            time.sleep(0.5)
+            if i % 10 == 0:
+                print(f"   💤 10件完了 - 5秒休止中... ({i}/{total})")
+                time.sleep(5)
+            else:
+                time.sleep(2)
     
     print("\n" + "=" * 50)
     print(f"Complete! ✅{success}  ❌{error}  ⏭️{skip}")

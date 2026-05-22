@@ -10,21 +10,21 @@
       "color_name": "Green",
       "hex": "#007A5E",
       "rgb": "0, 122, 94",
-      "cmyk": "93, 0, 100, 0",
+      "cmyk": "100, 0, 60, 40",
       "pantone": "355 C"
     },
     {
       "color_name": "Red",
       "hex": "#CE1126",
       "rgb": "206, 17, 38",
-      "cmyk": "0, 90, 76, 0",
+      "cmyk": "0, 82, 76, 4",
       "pantone": "032 C"
     },
     {
       "color_name": "Yellow",
       "hex": "#FCD116",
       "rgb": "252, 209, 22",
-      "cmyk": "0, 5, 100, 0",
+      "cmyk": "0, 18, 100, 0",
       "pantone": "109 C"
     }
   ],

@@ -17,14 +17,14 @@
       "color_name": "Red",
       "hex": "#DA121A",
       "rgb": "218, 18, 26",
-      "cmyk": "0, 92, 88, 15",
+      "cmyk": "0, 94, 77, 19",
       "pantone": "186 C"
     },
     {
       "color_name": "Green",
       "hex": "#078930",
       "rgb": "7, 137, 48",
-      "cmyk": "95, 0, 65, 46",
+      "cmyk": "100, 0, 48, 48",
       "pantone": "348 C"
     },
     {
@@ -38,14 +38,14 @@
       "color_name": "Blue",
       "hex": "#0F47AF",
       "rgb": "15, 71, 175",
-      "cmyk": "91, 59, 0, 31",
+      "cmyk": "100, 75, 0, 0",
       "pantone": "286 C"
     },
     {
       "color_name": "Yellow",
       "hex": "#FCDD09",
       "rgb": "252, 221, 9",
-      "cmyk": "0, 12, 96, 1",
+      "cmyk": "0, 20, 100, 0",
       "pantone": "116 C"
     }
   ],

@@ -10,7 +10,7 @@
       "color_name": "Yellow",
       "hex": "#FFFF33",
       "rgb": "255, 255, 51",
-      "cmyk": "0, 0, 80, 0",
+      "cmyk": "0, 8, 100, 2",
       "pantone": "102 C"
     },
     {
@@ -31,7 +31,7 @@
       "color_name": "Red",
       "hex": "#EE1C25",
       "rgb": "238, 28, 37",
-      "cmyk": "0, 88, 84, 7",
+      "cmyk": "0, 82, 76, 4",
       "pantone": "032 C"
     }
   ],

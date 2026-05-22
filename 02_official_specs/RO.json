@@ -10,21 +10,21 @@
       "color_name": "Cobalt Blue",
       "hex": "#002B7F",
       "rgb": "0, 43, 127",
-      "cmyk": "100, 85, 0, 39",
+      "cmyk": "100, 85, 5, 22",
       "pantone": "280 C"
     },
     {
       "color_name": "Chrome Yellow",
       "hex": "#FCD116",
       "rgb": "252, 209, 22",
-      "cmyk": "0, 10, 98, 0",
+      "cmyk": "0, 20, 100, 0",
       "pantone": "116 C"
     },
     {
       "color_name": "Vermilion Red",
       "hex": "#CE1126",
       "rgb": "206, 17, 38",
-      "cmyk": "0, 100, 80, 5",
+      "cmyk": "0, 94, 77, 19",
       "pantone": "186 C"
     }
   ],

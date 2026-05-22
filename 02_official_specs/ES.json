@@ -10,14 +10,14 @@
       "color_name": "Red",
       "hex": "#AA151B",
       "rgb": "170, 21, 27",
-      "cmyk": "0, 90, 76, 0",
+      "cmyk": "0, 82, 76, 4",
       "pantone": "032 C"
     },
     {
       "color_name": "Yellow",
       "hex": "#F1BF00",
       "rgb": "241, 191, 0",
-      "cmyk": "0, 5, 100, 0",
+      "cmyk": "0, 18, 100, 0",
       "pantone": "109 C"
     }
   ],
