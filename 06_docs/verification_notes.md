@@ -7,6 +7,7 @@
 1. **AD (Andorra) - アンドラ**
    - **法源**: Reglament sobre la utilització dels signes d'Estat (1999)
    - **結果**: 1999年の政府規定に基づく公式カラー（Blue: Pantone 072 C, Yellow, Red 199 C）を確認。帯の比率が均等（1:1:1）ではなく「8:8:9」である構造規定を追記。
+   - **⚠ 2026-06-17 SVG更新**: Wikimedia最新版に差替え。紋章の盾内の十字分割線に白色（`#fff` = Argent）を追加。紋章学的に正しい「lined Argent」のミトラ裏地。govern.ad 公式ロゴでも盾の縦縁取りに白が使用されていることを目視確認。ベアルンの牛の角・首輪に青（`#005EB8`）追加、外枠にダークブラウン（`#713F2A`）追加。
 
 2. **AE (United Arab Emirates) - アラブ首長国連邦**
    - **法源**: UAE Government Visual Identity Guidelines
