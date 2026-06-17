@@ -100,9 +100,8 @@ def generate_jsx(svg_path: Path, ai_path: Path):
         return "#" + r + g + b;
     }}
     
-    // Tag all path items in svgDoc
-    for (var i = 0; i < svgDoc.pageItems.length; i++) {{
-        var item = svgDoc.pageItems[i];
+    // Recursive tag function for all path types
+    function tagItem(item) {{
         if (item.typename == "PathItem") {{
             var tags = [];
             if (item.filled && item.fillColor) {{
@@ -128,7 +127,20 @@ def generate_jsx(svg_path: Path, ai_path: Path):
             if (tags.length > 0) {{
                 item.note = tags.join(";");
             }}
+        }} else if (item.typename == "CompoundPathItem") {{
+            for (var j = 0; j < item.pathItems.length; j++) {{
+                tagItem(item.pathItems[j]);
+            }}
+        }} else if (item.typename == "GroupItem") {{
+            for (var j = 0; j < item.pageItems.length; j++) {{
+                tagItem(item.pageItems[j]);
+            }}
         }}
+    }}
+    
+    // Tag all items in svgDoc (recursive)
+    for (var i = 0; i < svgDoc.pageItems.length; i++) {{
+        tagItem(svgDoc.pageItems[i]);
     }}
     
     // Create new CMYK document with same dimensions

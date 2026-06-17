@@ -90,7 +90,7 @@ def generate_jsx(ai_path: Path, spec: dict):
         pantone = c.get("pantone", "").strip()
         cmyk_vals = parse_cmyk(c.get("cmyk", ""))
         
-        has_pantone = bool(pantone and pantone not in ("White", ""))
+        has_pantone = bool(pantone and pantone not in ("White", "", "N/A"))
         
         color_specs.append({
             "r": rgb[0],
