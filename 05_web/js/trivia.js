@@ -56,7 +56,9 @@
     {
       num: 7,
       title: '🇵🇭 ひっくり返すと戦時中',
-      flags: ['PH'],
+      flags: ['PH', 'PH_war'],
+      separator: '→',
+      flagLabels: ['平時', '戦時'],
       tags: [['歴史','hist'],['アジア','geo']],
       body: `フィリピンの国旗は、通常は上が青、下が赤。しかし<strong>戦時には上下を逆にして赤を上にする</strong>という珍しいルールがあります。平時は青（平和・正義）が上ですが、戦時には赤（勇気・愛国心）が上に。つまり、フィリピンの国旗が赤を上にして掲げられていたら…ちょっと心配した方がいいかもしれません。`
     },
@@ -158,9 +160,11 @@
 
   function renderCard(t, index) {
     const flagImgs = t.flags.map((code, i) => {
-      const img = `<img src="${svg(code)}" alt="${code}" loading="lazy">`;
+      const label = t.flagLabels && t.flagLabels[i]
+        ? `<span class="trivia-flag-label">${t.flagLabels[i]}</span>` : '';
+      const img = `<span class="trivia-flag-wrap">${label}<img src="${svg(code)}" alt="${code}" loading="lazy"></span>`;
       if (i > 0 && t.flags.length > 1) {
-        return `<span class="trivia-vs">vs</span>${img}`;
+        return `<span class="trivia-vs">${t.separator || 'vs'}</span>${img}`;
       }
       return img;
     }).join('');
