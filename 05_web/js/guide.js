@@ -763,7 +763,7 @@ const GUIDE_DATA = [
     trivia: "紋章の双頭鷲と4つのキリル文字Сは「セルビア人の団結がセルビアを救う」の頭文字。" },
   { num: 191, code: "RU", emoji: "🇷🇺", name: "ロシア", nameEn: "Russia", status: "defacto",
     overview: "世界最大の面積の国。豊富な天然資源と核兵器を保有する連邦国家。",
-    colorRules: "Blue 286 C・Red 485 C。連邦憲法法で白青赤を定めるが正確な色調は規定なし。GOST不在。",
+    colorRules: "Blue 286 C・Red 485 C。連邦憲法法で白青赤を定めるが正確な色調は規定なし。ロシア国家規格（GOST＝JISに相当）による色彩基準も未制定。",
     trivia: "ピョートル大帝がオランダ旗にインスピレーションを受け制定。多くのスラヴ三色旗の原型。" },
   { num: 192, code: "RW", emoji: "🇷🇼", name: "ルワンダ", nameEn: "Rwanda", status: "dejure",
     overview: "アフリカ大湖地域の内陸国。1994年のジェノサイドを乗り越え急速な発展を遂げる。",
