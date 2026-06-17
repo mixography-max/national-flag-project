@@ -1,30 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg
-   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 900 600"
-   width="900"
-   height="600">
-  <title>Flag of Slovakia (スロバキア)</title>
-  <desc>ISO 3166-1: SK | Ratio: 2:3 | De jure (Constitution Art. 9 / Act No. 63/1993 — design only)</desc>
-  <metadata>
-    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-             xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description>
-        <dc:title>Flag of Slovakia (スロバキア)</dc:title>
-        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
-        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:identifier>SK</dc:identifier>
-      </rdf:Description>
-    </rdf:RDF>
-  </metadata>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <title>Flag of Slovakia</title>
   <path fill="#0B4EA2" d="M0 400h900V200H0Z"/>
   <path fill="#fff" d="M0 200h900V0H0Z"/>
   <path fill="#EE1C25" d="M0 600h900V400H0Z"/>

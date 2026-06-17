@@ -846,9 +846,10 @@ const GUIDE_DATA = [
     colorRules: "Green 354 C・Red 186 C・Black C。現行は独立旗。2025年憲法改正で制定。",
     trivia: "3つの赤い五芒星はかつてのアラブ連合共和国（エジプト・シリア・イラク）を象徴していた。" },
   { num: 212, code: "SZ", emoji: "🇸🇿", name: "エスワティニ", nameEn: "Eswatini", status: "defacto",
-    overview: "南部アフリカの内陸国。2018年にスワジランドから改名。アフリカ最後の絶対君主制。",
-    colorRules: "5帯構成（青黄赤黄青）。ソース間で色の変動が非常に大きい。データは新規作成。",
-    trivia: "中央赤帯にンクニ牛革の盾と杖（インジョボ羽飾り付き）と交差する2本の槍。スワジ戦士の伝統装備。" },
+    overview: "南部アフリカの内陸国。2018年にスワジランドから改名。アフリカ最後の絶対君主制。リードダンスが有名。",
+    colorRules: "Blue 638 C・Yellow 102 C・Red 199 C。London 2012旗章マニュアル準拠、gov.sz公式画像でクロスチェック済み。",
+    trivia: "中央赤帯にンクニ牛革の盾（黒白＝民族共存）と杖（インジョボ羽飾り付き）、交差する2本の槍。スワジ戦士の伝統装備。" },
+
   { num: 213, code: "TC", emoji: "🇹🇨", name: "タークス・カイコス", nameEn: "Turks and Caicos", status: "defacto",
     overview: "カリブ海のイギリス海外領土。約40の島。世界有数のダイビングスポットとタックスヘイブン。",
     colorRules: "Blue 281 C・Yellow 116 C・Green 348 C。英ブルー・エンサイン。法定Pantone規定なし。",

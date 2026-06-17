@@ -1,37 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
+   width="1000"
+   height="600"
    version="1.1"
    id="svg346"
    xml:space="preserve"
+   sodipodi:docname="Flag_of_Haiti.correctedDimensions.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   width="900"
-   height="540">
-  <title>Flag of Haiti (ハイチ)</title>
-  <desc>ISO 3166-1: HT | Ratio: 3:5 | De facto (Standard Vexillological Approximations)</desc>
-  <metadata>
-    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-             xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description>
-        <dc:title>Flag of Haiti (ハイチ)</dc:title>
-        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
-        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:identifier>HT</dc:identifier>
-      </rdf:Description>
-    </rdf:RDF>
-  </metadata><sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
-     borderopacity="0.25" /><defs
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#FFFFFF"
+     inkscape:zoom="1.0088057"
+     inkscape:cx="412.36881"
+     inkscape:cy="226.50547"
+     inkscape:window-width="1147"
+     inkscape:window-height="1045"
+     inkscape:window-x="-30"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg346" /><defs
      id="defs346" /><path
      d="M0 0h1000v600H0z"
      fill="#d21034"

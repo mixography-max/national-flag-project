@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg
-   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   viewBox="0 0 1440 960"
-   xmlns="http://www.w3.org/2000/svg"
-   width="900"
-   height="600">
-  <title>Flag of Ecuador (エクアドル)</title>
-  <desc>ISO 3166-1: EC | Ratio: 2:3 | De jure (National Secretariat of Communication - SENACOM 2009)</desc>
-  <metadata>
-    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-             xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description>
-        <dc:title>Flag of Ecuador (エクアドル)</dc:title>
-        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
-        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:identifier>EC</dc:identifier>
-      </rdf:Description>
-    </rdf:RDF>
-  </metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="960">
 <defs>
 <linearGradient id="grad1" y2="277.58" gradientUnits="userSpaceOnUse" x2="601.38" gradientTransform="matrix(1.146366,0,0,1.1711652,33.178489,82.1384)" y1="342.3" x1="597.92">
 <stop stop-color="#fff" offset="0"/>

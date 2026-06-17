@@ -1,30 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg
-   xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 1049.9997 699.99986"
-   width="900"
-   height="600">
-  <title>Flag of Saint Pierre and Miquelon (サンピエール島・ミクロン島)</title>
-  <desc>ISO 3166-1: PM | Ratio: 2:3 | De jure (NF X 08002 / French National Standard)</desc>
-  <metadata>
-    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-             xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description>
-        <dc:title>Flag of Saint Pierre and Miquelon (サンピエール島・ミクロン島)</dc:title>
-        <dc:creator>国旗仕様検証プロジェクト (Flag Specification Verification Project)</dc:creator>
-        <dc:rights>Colors verified from official government/vexillological sources. SVG geometry from Wikimedia Commons (various authors, mostly public domain).</dc:rights>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:identifier>PM</dc:identifier>
-      </rdf:Description>
-    </rdf:RDF>
-  </metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="449.99991" height="299.99994" viewBox="0 0 1049.9997 699.99986">
   <defs>
     <linearGradient id="f" x1="91.961998" x2="92.128998" y1="207.73109" y2="185.55009" gradientTransform="matrix(1.0629 0 0 .8398 -3.2212 474.3029)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
     <linearGradient id="g" x1="49.018799" x2="62.979801" y1="178.0558" y2="164.9668" gradientTransform="matrix(.9378 0 0 .9518 3.9096 470.1762)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
