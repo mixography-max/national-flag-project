@@ -8,7 +8,7 @@ let wrongQuestions = [];
 const TOTAL_QUESTIONS = 20;
 
 // OGP/version query string matching main app
-const SVG_VERSION = 'v=20260521';
+const SVG_VERSION = 'v=20260617';
 
 // Elements
 const screenStart = document.getElementById('screen-start');

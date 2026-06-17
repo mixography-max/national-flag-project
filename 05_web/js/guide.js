@@ -271,7 +271,7 @@ const GUIDE_DATA = [
     trivia: "赤い三角のオリーブ花輪はイタリア植民地時代からの伝統。30年の独立戦争の犠牲を赤が象徴。" },
   { num: 68, code: "ES", emoji: "🇪🇸", name: "スペイン", nameEn: "Spain", status: "dejure",
     overview: "イベリア半島の大部分を占める西ヨーロッパの国。闘牛、フラメンコ、パエリアで有名。",
-    colorRules: "Red 032 C・Yellow 109 C。1981年王令でCIELAB色空間により厳密に法定。",
+    colorRules: "Red 032 C・Yellow 109 C。1981年王令でCIELAB色空間により厳密に法定。紋章の銀色背景（レオン・グラナダ）の透過を修正。",
     trivia: "赤黄は1785年にカルロス3世が海上識別のために選んだ色。黄帯幅は赤帯の2倍。" },
   { num: 69, code: "ET", emoji: "🇪🇹", name: "エチオピア", nameEn: "Ethiopia", status: "defacto",
     overview: "アフリカの角の内陸国。一度も植民地化されなかったアフリカの独立の象徴。コーヒー発祥の地。",
@@ -1053,8 +1053,8 @@ function renderGrid() {
       <div class="country-card ${isExpanded ? 'expanded' : ''}" id="card-${d.code}">
         <div class="card-header" onclick="toggleCard('${d.code}')">
           <div class="card-flag-wrap">
-            <img src="03_svg_verified/${d.code}.svg?v=20260521" alt="${d.nameEn}" loading="lazy"
-                 onerror="this.src='01_svg_wikipedia/${d.code}.svg?v=20260521'; this.onerror=function(){this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%2280%22><rect fill=%22%23333%22 width=%22120%22 height=%2280%22/><text x=%2260%22 y=%2244%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>${d.code}</text></svg>';}" >
+            <img src="03_svg_verified/${d.code}.svg?v=20260617" alt="${d.nameEn}" loading="lazy"
+                 onerror="this.src='01_svg_wikipedia/${d.code}.svg?v=20260617'; this.onerror=function(){this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%2280%22><rect fill=%22%23333%22 width=%22120%22 height=%2280%22/><text x=%2260%22 y=%2244%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>${d.code}</text></svg>';}" >
           </div>
           <div class="card-title-area">
             <div class="card-number">#${String(d.num).padStart(3, '0')} <span class="card-code-badge">${d.code}</span> ${statusBadge}</div>

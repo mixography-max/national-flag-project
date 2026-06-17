@@ -5,7 +5,7 @@
   let ALL_FLAGS = [];
   let currentFamily = 'red'; // デフォルトは赤
   let sortBy = 'popularity'; // デフォルトは人気順
-  const SVG_VERSION = 'v=20260521'; // 250/250 verified: Brunei color corrected
+  const SVG_VERSION = 'v=20260617'; // 250/250 verified: Spain coat of arms silver background fixed
 
   // ── Color Family Definitions ──────────────────────
   const FAMILIES = {

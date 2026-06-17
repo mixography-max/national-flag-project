@@ -301,7 +301,7 @@
 
 68. **ES (Spain) - スペイン**
     - **法源**: De jure (Real Decreto 441/1981)
-    - **結果**: 1981年の王令（Real Decreto 441/1981）でCIELAB色空間による厳密な色定義が行われている。実用印刷における標準Pantone近似値 032 C (Red), 109 C (Yellow) で記録し De jure 認定。
+    - **結果**: 1981年の王令（Real Decreto 441/1981）でCIELAB色空間による厳密な色定義が行されている。実用印刷における標準Pantone近似値 032 C (Red), 109 C (Yellow) で記録し De jure 認定。また、紋章（盾のレオン王国・グラナダ王国の区画など）の銀色（白）背景が透過していた不具合を、Wikimedia最新版のパス（銀色：#e6e6e6, #b2b2b2 を含む）に更新して修正。
 
 69. **ET (Ethiopia) - エチオピア**
     - **法源**: De facto (Standard Vexillological Approximations)

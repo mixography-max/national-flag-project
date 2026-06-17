@@ -4,7 +4,7 @@ let activeRegion = 'all';
 let searchQuery = '';
 let viewMode = 'normal';
 let showVerified = true;
-const SVG_VERSION = 'v=20260521'; // 250/250 verified: Brunei color corrected
+const SVG_VERSION = 'v=20260617'; // 250/250 verified: Spain coat of arms silver background fixed
 
 // Similar flag pairs for comparison
 const SIMILAR_PAIRS = [
