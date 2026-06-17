@@ -69,6 +69,13 @@
 
 ## 🔄 日常的な作業フロー
 
+### 国旗の色・仕様を変更した場合
+
+**⚠ 必ず [sync_flag_update ワークフロー](.agents/workflows/sync_flag_update.md) に従うこと。**
+
+国旗情報の変更は **8つのタッチポイント**（JSON → flags_data.json → guide.js → CSV → 2つのmd → SVG → AI）に影響する。
+1つでも漏れるとデータ不整合が発生するため、ワークフローのチェックリストを上から順に実行すること。
+
 ### 国旗SVGの色を修正した場合
 
 1. `03_svg_verified/{CODE}.svg` を修正
@@ -77,7 +84,7 @@
    ```bash
    python3 scripts/svg_to_png.py
    ```
-4. **全JSファイルの `SVG_VERSION` を更新**（→ [flag_file_naming ワークフロー §7](.agents/workflows/flag_file_naming.md)）
+4. **全JSファイルの `SVG_VERSION` を更新**（→ [flag_file_naming ワークフロー](.agents/workflows/flag_file_naming.md)）
 5. **全HTMLのキャッシュバスター `?v=YYYYMMDD` を更新**
 6. コミット → push → 本番デプロイ（→ [deploy_production ワークフロー](.agents/workflows/deploy_production.md)）
 
@@ -103,6 +110,7 @@ rsync -avz --delete \
 
 | ワークフロー | ファイル | 用途 |
 |-------------|---------|------|
+| **⭐ データ同期** | [sync_flag_update.md](.agents/workflows/sync_flag_update.md) | **国旗情報変更時の全ファイル同期チェックリスト（8タッチポイント）** |
 | **本番デプロイ** | [deploy_production.md](.agents/workflows/deploy_production.md) | SSH/rsyncによる本番サーバーへの同期手順と注意事項 |
 | **ファイル命名規則** | [flag_file_naming.md](.agents/workflows/flag_file_naming.md) | SVG/PNG/AIの命名ルール、JS側パス構築、SVG_VERSION同期 |
 | **Illustratorバッチ安全** | [illustrator_batch_safety.md](.agents/workflows/illustrator_batch_safety.md) | JSX自動制御によるAI一括変換時のメモリ安全対策 |

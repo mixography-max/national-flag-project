@@ -123,8 +123,8 @@
     - **結果**: イギリスの海外領土であり、レッド・エンサインに基づく。固有のPantone法令はないが、イギリス標準の 032 C（Red）と 281 C（Dark Blue）として定義し、ステータスを確定。
 
 28. **BN (Brunei) - ブルネイ**
-    - **法源**: De facto (Standard Vexillological Approximations)
-    - **結果**: 政府によるデジタルや印刷向けの公式なカラーテーブルが公開されていないため、ロンドンオリンピックマニュアルなどで国際的に広く用いられている近似値（Yellow: 102 C, Red: 032 C）を採用して確定。
+    - **法源**: Official PDF (information.gov.bn / Semarak Hari Kebangsaan 1984-2015)
+    - **結果**: ブルネイ情報局の公式記念冊子PDF（Page 54）掲載の公式国旗イメージから色を抽出し更新。従来のオリンピックマニュアル近似値（Yellow #FFC000 等）は本来の鮮やかな黄色と乖離が大きかったため、公式PDFの実態に即した色（Yellow: #FFFF33, Red: #EE1C25）に修正。Pantone近似は 102 C / 032 C を維持。
 
 29. **BO (Bolivia) - ボリビア**
     - **法源**: Supreme Decree No. 27630 (2004)
@@ -175,8 +175,8 @@
     - **結果**: 2004年に高校生のデザインが採用された旗。オーストラリアの領土であり、公式のPantone規定はない。国際的に広く推奨されるカラー（Green: 356 C, Yellow: 116 C, Brown: 1535 C）へと修正・整備。
 
 40. **CD (Democratic Republic of the Congo) - コンゴ民主共和国**
-    - **法源**: De facto (Standard Vexillological Approximations)
-    - **結果**: ユニバーサルな法的Pantone指定は存在しない。特徴的なスカイブルーの地色と赤い帯に用いられる標準仕様（Process Blue C, 109 C, 032 C）へ置換し、確定。
+    - **法源**: Government Branding (presidence.cd)
+    - **結果**: 法的Pantone指定は存在しない。コンゴ民主共和国大統領府公式サイト（presidence.cd）のCSSから抽出したブランドカラーに準拠。Sky Blue #007FFF（CSS変数 --color1 およびナビバー背景）、Yellow #F1DB28（ナビリンクのホバー色）、Red #FF2E44（アクセントリンク色）。なお元のWikipedia SVGのブルーも #007FFF であり、政府サイトのブランド色と一致している。旧データの Process Blue C (#0085CA) / 109 C (#FFD100) / 032 C (#EF3340) を全面置換。
 
 ## 41〜45カ国目
 
@@ -933,8 +933,8 @@
     - **結果**: 現行旗（独立旗）: 三色帯（緑白黒）に赤い五芒星3個（2025年憲法改正）。汎アラブ色。**Green を 7726 C から 354 C に修正**。Red 186 C 確認。Black「Black」→「Black C」、CMYK 75/68/67/90→0/0/0/100修正。
 
 212. **SZ (Eswatini) - エスワティニ** 🇸🇿
-    - **法源**: De facto (Standard Vexillological Approximations)
-    - **結果**: **空データから完全に新規作成**。1968年10月6日採用。5帯（青黄赤黄青、比3:1:8:1:3）。中央赤帯にンクニ牛革の盾（白黒）、杖（インジョボ羽飾り）、交差する2本の槍。ソース間で色の変動が非常に大きい（Blue: 542/638/300、Yellow: 803/102/109、Red: 157/199）。
+    - **法源**: De facto (London 2012 Flags & Anthems Manual / gov.sz cross-check)
+    - **結果**: **空データから完全に新規作成**。1968年10月6日採用。5帯（青黄赤黄青、比3:1:8:1:3）。中央赤帯にンクニ牛革の盾（白黒）、杖（インジョボ羽飾り）、交差する2本の槍。ソース間で色の変動が非常に大きかったが、**London 2012 Flags & Anthems Manual準拠に確定**（Blue 542→638 C, Yellow 116→102 C, Red 186→199 C）。gov.sz公式サイト画像（flag.png, SWAZI FLAG.jpg）ともクロスチェック済み。旧HEXはPantone標準変換と不一致（#3E5EB9≠542C, #B10202≠186C）であった問題も解消。
 
 213. **TC (Turks and Caicos) - タークス・カイコス**
     - **法源**: De facto (British Blue Ensign / Standard Vexillological Approximations)

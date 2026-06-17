@@ -159,7 +159,7 @@ const GUIDE_DATA = [
     trivia: "2004年に高校生のデザインコンペから採用された旗。緑地にヤシの木、三日月、南十字星を描く。" },
   { num: 40, code: "CD", emoji: "🇨🇩", name: "コンゴ民主共和国", nameEn: "DR Congo", status: "defacto",
     overview: "アフリカ大陸第2位の面積。旧ザイール。コバルト・コルタン等の鉱物資源が豊富。",
-    colorRules: "Process Blue C・Yellow 109 C・Red 032 C。Pantone指定はなく標準仕様を採用。",
+    colorRules: "Sky Blue #007FFF・Yellow #F1DB28・Red #FF2E44。大統領府公式サイト（presidence.cd）のブランドカラーに準拠。",
     trivia: "スカイブルーは平和、赤い帯は殉教者の血、黄色い星は国の輝く未来。2006年新憲法で現行デザインに復帰。" },
   { num: 41, code: "CF", emoji: "🇨🇫", name: "中央アフリカ共和国", nameEn: "Central African Republic", status: "defacto",
     overview: "アフリカの地理的中心に位置する内陸国。ダイヤモンドが主要輸出品。首都はバンギ。",
