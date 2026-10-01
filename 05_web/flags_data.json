@@ -6919,7 +6919,7 @@
       }
     ],
     "specs_source": "De jure (Decreto No. 11.400, 15 July 2013 — coat of arms colors only)",
-    "notes": "世界唯一の表裏異デザイン国旗。表: 国章（星、椰子/オリーブ花輪、'REPÚBLICA DEL PARAGUAY'）、裏: 国庫章（獅子、フリジア帽、'PAZ Y JUSTICIA'）。Decreto 11,400 (2013) は**紋章色のみ**を規定（Red 485 C, Yellow C, Green 355 C, Brown 478 C, Ochre 4505 C, Black C）— 帯色は「原色」とだけ記述。**Yellow を 102 から Yellow C に修正**。Black「Black」→「Black C」。",
+    "notes": "世界で唯一、表と裏で異なるデザインを持つ国旗。表面（表側）には「国章（五月の星・椰子とオリーブの花輪・REPÚBLICA DEL PARAGUAY）」、裏面（裏側）には「国庫印章（自由の帽子を守るライオン・PAZ Y JUSTICIA）」が配されています。本プロジェクトでは表面をメイン（PY）、裏面を別名（PY_reverse）として両面を完備。<div style=\"margin-top:8px;display:flex;align-items:center;gap:10px;font-size:0.8rem;\"><img src=\"03_svg_verified/PY_reverse.svg?v=20261001c\" alt=\"パラグアイ国旗（裏面）\" style=\"height:36px;border:1px solid #444;border-radius:3px;\"><span>▲ 裏面に描かれる国庫印章（ライオンと自由の帽子）</span></div>",
     "wiki_flag_filename": "Flag_of_Paraguay.svg"
   },
   {

@@ -49,5 +49,5 @@
       "pantone": "355 C"
     }
   ],
-  "notes": "世界唯一の表裏異デザイン国旗。表: 国章（星、椰子/オリーブ花輪、'REPÚBLICA DEL PARAGUAY'）、裏: 国庫章（獅子、フリジア帽、'PAZ Y JUSTICIA'）。Decreto 11,400 (2013) は**紋章色のみ**を規定（Red 485 C, Yellow C, Green 355 C, Brown 478 C, Ochre 4505 C, Black C）— 帯色は「原色」とだけ記述。**Yellow を 102 から Yellow C に修正**。Black「Black」→「Black C」。"
+  "notes": "世界唯一の表裏異デザイン国旗。表面（PY.svg）は国章（五月の星・椰子とオリーブの花輪・'REPÚBLICA DEL PARAGUAY'）、裏面（PY_reverse.svg）は国庫印章（自由の帽子を守るライオン・'PAZ Y JUSTICIA'）。Decreto 11,400 (2013) は紋章色を規定（Red 485 C, Yellow C, Green 355 C, Brown 478 C, Ochre 4505 C, Black C）。帯色は原色指定。本プロジェクトでは表面をメイン（PY）、裏面を別名（PY_reverse）として両面を完備。"
 }

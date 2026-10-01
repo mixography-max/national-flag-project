@@ -744,7 +744,7 @@ const GUIDE_DATA = [
   { num: 186, code: "PY", emoji: "🇵🇾", name: "パラグアイ", nameEn: "Paraguay", status: "dejure", tags: ["unique"],
     overview: "南米中央の内陸国。パラナ川が流れイタイプダム（世界最大級の水力発電）がある。",
     colorRules: "Red 485 C・Yellow C・Green 355 C等。Decreto(2013)は紋章色のみ規定。帯色は「原色」とのみ。",
-    trivia: "世界唯一の表裏異デザイン国旗。表は国章（星・椰子・オリーブ）、裏は国庫章（獅子・フリジア帽）。" },
+    trivia: "世界唯一の表裏異デザイン国旗。表面は国章（五月の星・椰子とオリーブの花輪）、裏面は国庫印章（自由の帽子を守るライオン）。<div style=\"margin-top:8px;display:flex;align-items:center;gap:10px;font-size:0.75rem;color:var(--text-muted)\"><img src=\"03_svg_verified/PY_reverse.svg?v=20261001c\" alt=\"パラグアイ国旗（裏面）\" style=\"height:36px;border:1px solid rgba(255,255,255,0.15);border-radius:3px;box-shadow:0 2px 4px rgba(0,0,0,0.2)\"><span>▲ 裏面に描かれる国庫印章（ライオンと自由の帽子）</span></div>" },
   { num: 187, code: "QA", emoji: "🇶🇦", name: "カタール", nameEn: "Qatar", status: "dejure", tags: ["unique"],
     overview: "ペルシャ湾の半島国家。天然ガスと石油で世界最高水準のGDP。2022年W杯開催。",
     colorRules: "Maroon 1955 C（Qatar Maroon）。2012年旗法で法定（De jure）。222 Cは旧値。",

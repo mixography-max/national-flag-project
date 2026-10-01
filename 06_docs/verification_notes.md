@@ -822,7 +822,7 @@
 
 186. **PY (Paraguay) - パラグアイ** 🇵🇾
     - **法源**: De jure (Decreto No. 11.400, 15 July 2013 — coat of arms colors only)
-    - **結果**: 世界唯一の表裏異デザイン国旗。表: 国章（星、椰子/オリーブ花輪、'REPÚBLICA DEL PARAGUAY'）、裏: 国庫章（獅子、フリジア帽、'PAZ Y JUSTICIA'）。Decreto 11,400 (2013) は**紋章色のみ**を規定（Red 485 C, Yellow C, Green 355 C, Brown 478 C, Ochre 4505 C, Black C）— 帯色は「原色」とだけ記述。**Yellow を 102 から Yellow C に修正**。Black「Black」→「Black C」。
+    - **結果**: 世界唯一の表裏異デザイン国旗。表: 国章（星、椰子/オリーブ花輪、'REPÚBLICA DEL PARAGUAY'）、裏: 国庫印章（ライオン、フリジア帽、'PAZ Y JUSTICIA'）。Decreto 11,400 (2013) は**紋章色のみ**を規定（Red 485 C, Yellow C, Green 355 C, Brown 478 C, Ochre 4505 C, Black C）— 帯色は「原色」とだけ記述。**Yellow を 102 から Yellow C に修正**。Black「Black」→「Black C」。表裏両方の資産（`PY.svg` / `PY_reverse.svg`、`04_ai_cmyk/PY.ai` / `PY_reverse.ai`、`png_flags/*/Paraguay.png` / `Paraguay_reverse.png`）を生成・格納し全同期済み。
 
 187. **QA (Qatar) - カタール** 🇶🇦
     - **法源**: De jure (Flag Law No. 14 of 2012)
