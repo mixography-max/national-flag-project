@@ -728,7 +728,7 @@
 
 165. **NI (Nicaragua) - ニカラグア**
     - **法源**: De facto (Standard Vexillological Approximations / Decree No. 1908, 1971)
-    - **結果**: 1971年8月25日法令1908号（国旗法）第2条で青帯は「azul cobalto（コバルトブルー）」と法定。英国旗章協会（Flag Institute）やAlbum des Pavillons、Vexilla Mundi等の国際標準に基づき、濃紺すぎた280 C（#002878）から本来のコバルトブルーである **Pantone 300 C（#005EB8）に再検証・修正**。国章の緑は376 C（黄緑色）。重複するYellow (109 C) を除去。
+    - **結果**: 1971年8月25日法令1908号（国旗法）第2条で青帯は「azul cobalto（コバルトブルー）」と法定。英国旗章協会（Flag Institute）やAlbum des Pavillons、Vexilla Mundi等の国際標準に基づき、濃紺すぎた280 C（#002878）から本来のコバルトブルーである **Pantone 300 C（#005EB8）に再検証・修正**。また、単色に潰れていた国章の五火山について、公式紋章（Coat of arms of Nicaragua）に準拠した日向・山肌・陰影の階調グラデーション（黄色・黄緑・緑の複数トーン）による立体的なベクター描画を完全復元。
 
 ## 166〜170カ国目
 
