@@ -4,7 +4,7 @@ let activeRegion = 'all';
 let searchQuery = '';
 let viewMode = 'normal';
 let showVerified = true;
-const SVG_VERSION = 'v=20260617'; // 250/250 verified: Spain coat of arms silver background fixed
+const SVG_VERSION = 'v=20261001'; // Nicaragua blue updated to Pantone 300 C (cobalt blue)
 
 // Similar flag pairs for comparison
 const SIMILAR_PAIRS = [

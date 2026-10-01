@@ -551,7 +551,7 @@
 
 125. **KZ (Kazakhstan) - カザフスタン**
     - **法源**: De jure (ST-RK 988-2007 State Standard of the Republic of Kazakhstan)
-    - **結果**: **De jure に昇格**。国家規格 ST-RK 988-2007「国旗の一般的技術条件」で公式に定義。空色の地に黄金の太陽（32本の光線）、飛翔する草原の鷲、ホイスト側に民族黄金装飾帯。公式Pantone: 3125 C/U (sky blue), 102 C/U (gold)。**色名「Process Yellow」を「Gold」に訂正**。**Pantone を「Process Yellow」から「102 C」に修正（重大誤り）**。色名「Blue」を「Sky Blue」に修正（公式呼称）。ゴミ source「act Book」を除去。
+    - **結果**: 国家規格 ST-RK 988-2007 に従い、非繊維（グラフィック・デジタル）用途の公式ゴールド指定である「Pantone 810 C」を採用。従来の繊維用（102 C）とグラフィック用（810 C）の混在による不整合を解消し、HEX/RGB/CMYK/Pantoneの各数値を810 Cの公式値（#FFC70E / CMYK 0, 22, 95, 0）に揃え、SVGおよびAIファイルと同期。
 
 ## 126〜130カ国目
 
@@ -728,7 +728,7 @@
 
 165. **NI (Nicaragua) - ニカラグア**
     - **法源**: De facto (Standard Vexillological Approximations / Decree No. 1908, 1971)
-    - **結果**: 1971年8月25日法令1908号が現行デザインを再確認。三色帯（青・白・青）に国章（三角形、五火山、大洋、虹、フリジア帽、太陽光線）。**Blue を 281 から 280 C に修正**。色名「Dark Blue」→「Blue」。**Green を 355 から 376 C に修正**（国章の緑はより明るい黄緑色）。重複するYellow (109 C) を除去。CMYK修正。
+    - **結果**: 1971年8月25日法令1908号（国旗法）第2条で青帯は「azul cobalto（コバルトブルー）」と法定。英国旗章協会（Flag Institute）やAlbum des Pavillons、Vexilla Mundi等の国際標準に基づき、濃紺すぎた280 C（#002878）から本来のコバルトブルーである **Pantone 300 C（#005EB8）に再検証・修正**。国章の緑は376 C（黄緑色）。重複するYellow (109 C) を除去。
 
 ## 166〜170カ国目
 
@@ -913,8 +913,8 @@
     - **結果**: 1975年11月25日採用。5帯（緑白赤白緑、比2:1:4:1:2）に黄色の五芒星。Green 356 C, Red 186 C, Yellow 116 C — **全て確認** ✅（London 2012一致）。CMYK修正。
 
 207. **SS (South Sudan) - 南スーダン** 🇸🇸
-    - **法源**: De facto (Standard Vexillological Approximations)
-    - **結果**: 公式Pantone未規定。ソース間の乖離が最も大きい国旗の一つ。三色帯（黒赤緑）に白い縁取り、ホイスト側に青三角（黄星）。**Red を 2035 C から 186 C に修正。Blue を 285 C から 286 C に修正。Yellow を Yellow C から 116 C に修正。Black を Black 6 C から Black C に正規化**。ノイズ「!」を全6色から除去。色順序修正。HEX修正。
+    - **法源**: De jure (Media Authority Advisory, 25 August 2023)
+    - **結果**: 2023年8月25日に南スーダン・メディア庁（Media Authority）が発行した公式アドバイザリーに基づき、青を濃いネイビーブルーから公式に指定されたライトブルー（スカイブルー、Pantone 298 C / #00B6F2）に修正。星は直立したデザインが正とされる。Red を 186 C、Green を 348 C、Yellow を 116 C、Black を Black C に統一。
 
 208. **ST (São Tomé and Príncipe) - サントメ・プリンシペ**
     - **法源**: De jure (Constitution Part I, Art. 14 — design only)

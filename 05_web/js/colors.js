@@ -5,7 +5,7 @@
   let ALL_FLAGS = [];
   let currentFamily = 'red'; // デフォルトは赤
   let sortBy = 'popularity'; // デフォルトは人気順
-  const SVG_VERSION = 'v=20260617'; // 250/250 verified: Spain coat of arms silver background fixed
+  const SVG_VERSION = 'v=20261001'; // Nicaragua blue updated to Pantone 300 C (cobalt blue)
 
   // ── Color Family Definitions ──────────────────────
   const FAMILIES = {

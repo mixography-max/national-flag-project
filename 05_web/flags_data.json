@@ -54,14 +54,14 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
         "color_name": "Green",
         "hex": "#00843D",
         "rgb": "0, 132, 61",
-        "cmyk": "100, 0, 48, 48",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       },
       {
@@ -80,7 +80,7 @@
       }
     ],
     "specs_source": "UAE Government Visual Identity Guidelines",
-    "notes": "UAE政府の公式ガイドラインから直接 Pantone (Red 186 C, Green 348 C) と CMYK 値を特定。データをフルスクラッチで作成し、縦横の構造規定を追記。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: UAE政府の公式ガイドラインから直接 Pantone (Red 186 C, Green 348 C) と CMYK 値を特定。データをフルスクラッチで作成し、縦横の構造規定を追記。",
     "wiki_flag_filename": "Flag_of_the_United_Arab_Emirates.svg"
   },
   {
@@ -131,7 +131,7 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -164,7 +164,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "政府による明確な Pantone 指定の法律が存在しない。国際的な旗章学の標準近似値（Red 032 C 等）であることを確認し、「公式法源は存在しないが標準近似値である」旨を記載。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 政府による明確な Pantone 指定の法律が存在しない。国際的な旗章学の標準近似値（Red 032 C 等）であることを確認し、「公式法源は存在しないが標準近似値である」旨を記載。",
     "wiki_flag_filename": "Flag_of_Antigua_and_Barbuda.svg"
   },
   {
@@ -178,9 +178,9 @@
     "colors": [
       {
         "color_name": "Dark Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "99, 69, 0, 59",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
@@ -194,7 +194,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -213,7 +213,7 @@
       }
     ],
     "specs_source": "De facto (Standard British Ensign Approximations)",
-    "notes": "イギリスの海外領土のため「イギリスのブルー・エンサイン」の規定に従う。ベースの青を標準的な Pantone 281 C、独自のイルカ紋章のオレンジを 150 C と特定。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: イギリスの海外領土のため「イギリスのブルー・エンサイン」の規定に従う。ベースの青を標準的な Pantone 281 C、独自のイルカ紋章のオレンジを 150 C と特定。",
     "wiki_flag_filename": "Flag_of_Anguilla.svg"
   },
   {
@@ -227,9 +227,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#E4000F",
-        "rgb": "228, 0, 15",
-        "cmyk": "0, 81, 87, 14",
+        "hex": "#DA291C",
+        "rgb": "218, 41, 28",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -241,7 +241,7 @@
       }
     ],
     "specs_source": "Law No. 8926 (22 July 2002)",
-    "notes": "2002年制定の「法律第8926号」に基づく CMYK 値（Red: 0-100-100-0, Black: 0-0-0-100）と縦横比（5:7）を規定通りに追記。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2002年制定の「法律第8926号」に基づく CMYK 値（Red: 0-100-100-0, Black: 0-0-0-100）と縦横比（5:7）を規定通りに追記。",
     "wiki_flag_filename": "Flag_of_Albania.svg"
   },
   {
@@ -257,14 +257,14 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
         "color_name": "Blue",
-        "hex": "#0033A0",
-        "rgb": "0, 51, 160",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       },
       {
@@ -276,7 +276,7 @@
       }
     ],
     "specs_source": "SARM (National Institute of Standards) 2012",
-    "notes": "アルメニア国立標準化機構（SARM）が2012年に定めた非常に具体的な公式指定（Red: 485 C, Blue: 286 C, Orange: 1235 C）に完全に準拠するよう修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: アルメニア国立標準化機構（SARM）が2012年に定めた非常に具体的な公式指定（Red: 485 C, Blue: 286 C, Orange: 1235 C）に完全に準拠するよう修正。",
     "wiki_flag_filename": "Flag_of_Armenia.svg"
   },
   {
@@ -290,9 +290,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CC092F",
-        "rgb": "204, 9, 47",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -304,14 +304,14 @@
       },
       {
         "color_name": "Yellow",
-        "hex": "#FFCB00",
-        "rgb": "255, 203, 0",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "憲法で色は定められているものの、国家として公布された正確な Pantone 番号の法律が存在しない。旗章学の標準的な近似値（Red: 186 C 等）を特定。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法で色は定められているものの、国家として公布された正確な Pantone 番号の法律が存在しない。旗章学の標準的な近似値（Red: 186 C 等）を特定。",
     "wiki_flag_filename": "Flag_of_Angola.svg"
   },
   {
@@ -395,16 +395,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 85, 5, 36",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -437,7 +437,7 @@
       }
     ],
     "specs_source": "De facto (London 2012 Olympics Manual)",
-    "notes": "アメリカの非自治的未編入地域。現地政府による国旗の法定カラーコードは存在しないため、国際的な指標としてロンドン2012オリンピックのマニュアル値（Blue 281 C, Red 032 C 等）を採用。0件だったJSONデータをフルスクラッチで作成。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: アメリカの非自治的未編入地域。現地政府による国旗の法定カラーコードは存在しないため、国際的な指標としてロンドン2012オリンピックのマニュアル値（Blue 281 C, Red 032 C 等）を採用。0件だったJSONデータをフルスクラッチで作成。",
     "wiki_flag_filename": "Flag_of_American_Samoa.svg"
   },
   {
@@ -453,7 +453,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -465,7 +465,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "赤と白の国旗だが、連邦法において単一の厳格なCMYK/Pantone指定は存在しない。ただし現代の実務上、および旗章学の標準として Pantone 186 C が広く受け入れられているため、旧規格（032 C）から 186 C へ修正し、法源ステータスを更新。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 赤と白の国旗だが、連邦法において単一の厳格なCMYK/Pantone指定は存在しない。ただし現代の実務上、および旗章学の標準として Pantone 186 C が広く受け入れられているため、旧規格（032 C）から 186 C へ修正し、法源ステータスを更新。",
     "wiki_flag_filename": "Flag_of_Austria.svg"
   },
   {
@@ -479,9 +479,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
@@ -493,14 +493,14 @@
       },
       {
         "color_name": "Red",
-        "hex": "#E4002B",
-        "rgb": "228, 0, 43",
-        "cmyk": "0, 100, 78, 9",
+        "hex": "#EB0029",
+        "rgb": "235, 0, 41",
+        "cmyk": "0, 100, 81, 0",
         "pantone": "185 C"
       }
     ],
     "specs_source": "Australian Government (Department of the Prime Minister and Cabinet)",
-    "notes": "首相内閣省（PM&C）により公式な Pantone 指定（Blue 280 C, Red 185 C）が存在する。自動取得されたHEX値のゆらぎやデータ順序を整理し、公式のステータスとして完全に上書きして確定。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 首相内閣省（PM&C）により公式な Pantone 指定（Blue 280 C, Red 185 C）が存在する。自動取得されたHEX値のゆらぎやデータ順序を整理し、公式のステータスとして完全に上書きして確定。",
     "wiki_flag_filename": "Flag_of_Australia.svg"
   },
   {
@@ -563,21 +563,21 @@
       },
       {
         "color_name": "Yellow",
-        "hex": "#FFCE00",
-        "rgb": "255, 206, 0",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
       {
         "color_name": "Red",
-        "hex": "#D21034",
-        "rgb": "210, 16, 52",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "Landskapsförordning (2004:15)",
-    "notes": "データが0件だったが、実体は自治政府の条例（2004年第15号）により Pantone および CMYK（Medium Blue: 2945 C, Yellow: 116 C, Red: 186 C）が極めて厳密に制定されている。データと比率（17:26）をフルスクラッチで追加。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: データが0件だったが、実体は自治政府の条例（2004年第15号）により Pantone および CMYK（Medium Blue: 2945 C, Yellow: 116 C, Red: 186 C）が極めて厳密に制定されている。データと比率（17:26）をフルスクラッチで追加。",
     "wiki_flag_filename": "Flag_of_Åland.svg"
   },
   {
@@ -600,7 +600,7 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -619,7 +619,7 @@
       }
     ],
     "specs_source": "State Symbols Law (Amended 2013)",
-    "notes": "2013年の国家象徴法の改正により、厳密なPantone指定（Blue: 306 C, Red: 032 C, Green: 362 C）がなされた。自動取得されていた古い規定値（313, 185, 3405）から最新の法定値に修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2013年の国家象徴法の改正により、厳密なPantone指定（Blue: 306 C, Red: 032 C, Green: 362 C）がなされた。自動取得されていた古い規定値（313, 185, 3405）から最新の法定値に修正。",
     "wiki_flag_filename": "Flag_of_Azerbaijan.svg"
   },
   {
@@ -668,9 +668,9 @@
     "colors": [
       {
         "color_name": "Ultramarine",
-        "hex": "#00267F",
-        "rgb": "0, 38, 127",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
@@ -682,14 +682,14 @@
       },
       {
         "color_name": "Gold",
-        "hex": "#FFC726",
-        "rgb": "255, 199, 38",
-        "cmyk": "0, 16, 89, 0",
+        "hex": "#FFC72C",
+        "rgb": "255, 199, 44",
+        "cmyk": "0, 19, 89, 0",
         "pantone": "123 C"
       }
     ],
     "specs_source": "De facto (British Standard Color Codes)",
-    "notes": "制定当時はイギリスの標準規格（British Standard Color Codes）のUltramarine (BCC 148) と Gold (BS 0/002) として定義されていた。これらに対応する現代の標準Pantone近似値（280 C, 123 C）を確定させ、法源ソースを更新。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 制定当時はイギリスの標準規格（British Standard Color Codes）のUltramarine (BCC 148) と Gold (BS 0/002) として定義されていた。これらに対応する現代の標準Pantone近似値（280 C, 123 C）を確定させ、法源ソースを更新。",
     "wiki_flag_filename": "Flag_of_Barbados.svg"
   },
   {
@@ -705,7 +705,7 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -717,7 +717,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "旗の法律上の色は「ボトルグリーン」と規定されているが、厳密なCMYK/Pantoneは国家立法では指定されていない。国際競技などの世界基準仕様である 342 C と 485 C を標準とし、「赤い円は旗竿側に少し寄っている（オフセット）」という構造上の特筆事項を追記。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 旗の法律上の色は「ボトルグリーン」と規定されているが、厳密なCMYK/Pantoneは国家立法では指定されていない。国際競技などの世界基準仕様である 342 C と 485 C を標準とし、「赤い円は旗竿側に少し寄っている（オフセット）」という構造上の特筆事項を追記。",
     "wiki_flag_filename": "Flag_of_Bangladesh.svg"
   },
   {
@@ -747,12 +747,12 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "Official Guide to Belgian Protocol",
-    "notes": "ベルギー政府の公式プロトコルガイドにより、厳格なPantone値（Yellow: 115 C, Red: 032 C）が指定されている。自動取得された広く知られる近似値（116 C, 186 C）を公式プロトコルガイドの本来の値に書き換え、さらに法的な比率が「13:15」である事実を明記。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: ベルギー政府の公式プロトコルガイドにより、厳格なPantone値（Yellow: 115 C, Red: 032 C）が指定されている。自動取得された広く知られる近似値（116 C, 186 C）を公式プロトコルガイドの本来の値に書き換え、さらに法的な比率が「13:15」である事実を明記。",
     "wiki_flag_filename": "Flag_of_Belgium.svg"
   },
   {
@@ -768,7 +768,7 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -780,14 +780,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       }
     ],
     "specs_source": "De facto (Album des Pavillons approximations)",
-    "notes": "憲法上に厳密な指定はないため、フランス海軍旗章局などの世界的な旗章規格基準である Pantone 032 C, 116 C, 355 C を国際標準として採用し、法源ソースと注記を明記。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法上に厳密な指定はないため、フランス海軍旗章局などの世界的な旗章規格基準である Pantone 032 C, 116 C, 355 C を国際標準として採用し、法源ソースと注記を明記。",
     "wiki_flag_filename": "Flag_of_Burkina_Faso.svg"
   },
   {
@@ -864,9 +864,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -878,14 +878,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#1EB53A",
-        "rgb": "30, 181, 58",
-        "cmyk": "68, 0, 100, 0",
+        "hex": "#43B02A",
+        "rgb": "67, 176, 42",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "憲法で赤・白・緑と規定されているが、政府文書に明確なPantone番号は存在しない。ロンドン2012オリンピックなど国際行事で用いられる事実上の共通規格である 186 C と 361 C を採用。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法で赤・白・緑と規定されているが、政府文書に明確なPantone番号は存在しない。ロンドン2012オリンピックなど国際行事で用いられる事実上の共通規格である 186 C と 361 C を採用。",
     "wiki_flag_filename": "Flag_of_Burundi.svg"
   },
   {
@@ -901,7 +901,7 @@
         "color_name": "Green",
         "hex": "#009639",
         "rgb": "0, 150, 57",
-        "cmyk": "100, 0, 60, 40",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -915,12 +915,12 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "ブルンジ等と同様に政府令のPantoneが存在しないため、国際規格に倣い 355 C, 109 C, 032 C を汎用スタンダードとして規定し、ステータスを確定。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: ブルンジ等と同様に政府令のPantoneが存在しないため、国際規格に倣い 355 C, 109 C, 032 C を汎用スタンダードとして規定し、ステータスを確定。",
     "wiki_flag_filename": "Flag_of_Benin.svg"
   },
   {
@@ -969,9 +969,9 @@
     "colors": [
       {
         "color_name": "Dark Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 85, 5, 36",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
@@ -985,12 +985,12 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "De facto (Standard British Ensign Approximations)",
-    "notes": "イギリスの海外領土であり、レッド・エンサインに基づく。固有のPantone法令はないが、イギリス標準の 032 C（Red）と 281 C（Dark Blue）として定義し、ステータスを確定。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: イギリスの海外領土であり、レッド・エンサインに基づく。固有のPantone法令はないが、イギリス標準の 032 C（Red）と 281 C（Dark Blue）として定義し、ステータスを確定。",
     "wiki_flag_filename": "Flag_of_Bermuda.svg"
   },
   {
@@ -1025,14 +1025,14 @@
       },
       {
         "color_name": "Red",
-        "hex": "#EE1C25",
-        "rgb": "238, 28, 37",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "Official PDF (<a href=\"https://www.information.gov.bn/Publication%20listsPDF/Kebangsaan/semarak-hari-kebangsaan-negara-brunei-darussalam-1984-2015pdf.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"source-link\">https://www.information.gov.bn/Publication%20listsPDF/Kebangsaan/semarak-hari-kebangsaan-negara-brunei-darussalam-1984-2015pdf.pdf</a>)",
-    "notes": "ブルネイ情報局の公式記念冊子（Semarak Hari Kebangsaan Negara Brunei Darussalam 1984-2015）のPage 54に掲載されている公式国旗イメージから色を抽出。国際的に用いられていたオリンピックマニュアル等の近似値（特にYellowの#FFC000）は本来の鮮やかな黄色と乖離が大きいため、公式PDFの実態に即した色（Yellow: #FFFF33, Red: #EE1C25）に修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: ブルネイ情報局の公式記念冊子（Semarak Hari Kebangsaan Negara Brunei Darussalam 1984-2015）のPage 54に掲載されている公式国旗イメージから色を抽出。国際的に用いられていたオリンピックマニュアル等の近似値（特にYellowの#FFC000）は本来の鮮やかな黄色と乖離が大きいため、公式PDFの実態に即した色（Yellow: #FFFF33, Red: #EE1C25）に修正。",
     "wiki_flag_filename": "Flag_of_Brunei.svg"
   },
   {
@@ -1048,7 +1048,7 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -1062,12 +1062,12 @@
         "color_name": "Green",
         "hex": "#007A33",
         "rgb": "0, 122, 51",
-        "cmyk": "100, 0, 55, 53",
+        "cmyk": "91, 4, 100, 25",
         "pantone": "356 C"
       }
     ],
     "specs_source": "Supreme Decree No. 27630 (2004)",
-    "notes": "2004年の「最高法令第27630号」により、厳密なPantone指定（Red: 485 C, Yellow: Process Yellow C, Green: 356 C）として公式文書が存在していることを突き止め、ソースを確定。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2004年の「最高法令第27630号」により、厳密なPantone指定（Red: 485 C, Yellow: Process Yellow C, Green: 356 C）として公式文書が存在していることを突き止め、ソースを確定。",
     "wiki_flag_filename": "Flag_of_Bolivia.svg"
   },
   {
@@ -1116,16 +1116,16 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Yellow",
         "hex": "#FEDD00",
         "rgb": "254, 221, 0",
-        "cmyk": "0, 0, 100, 0",
+        "cmyk": "0, 10, 100, 0",
         "pantone": "Yellow C"
       },
       {
@@ -1137,14 +1137,14 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "旗の色は法律（Law No. 5.700）で定められているものの、具体的な色コードへの言及がない。国際的なスポーツ大会等で汎用的に用いられ確立している 355 C (Green), Yellow C, 280 C (Blue) を代表値として採用した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 旗の色は法律（Law No. 5.700）で定められているものの、具体的な色コードへの言及がない。国際的なスポーツ大会等で汎用的に用いられ確立している 355 C (Green), Yellow C, 280 C (Blue) を代表値として採用した。",
     "wiki_flag_filename": "Flag_of_Brazil.svg"
   },
   {
@@ -1312,9 +1312,9 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -1326,7 +1326,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "意匠は STB 911-2008 および大統領令で定義されるが、Pantone指定はないため、一般的な標準近似値である 1795 C (Red), 355 C (Green) を採用して最適化。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 意匠は STB 911-2008 および大統領令で定義されるが、Pantone指定はないため、一般的な標準近似値である 1795 C (Red), 355 C (Green) を採用して最適化。",
     "wiki_flag_filename": "Flag_of_Belarus.svg"
   },
   {
@@ -1405,7 +1405,7 @@
         "color_name": "Green",
         "hex": "#007A33",
         "rgb": "0, 122, 51",
-        "cmyk": "100, 0, 55, 53",
+        "cmyk": "91, 4, 100, 25",
         "pantone": "356 C"
       },
       {
@@ -1424,7 +1424,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "2004年に高校生のデザインが採用された旗。オーストラリアの領土であり、公式のPantone規定はない。国際的に広く推奨されるカラー（Green: 356 C, Yellow: 116 C, Brown: 1535 C）へと修正・整備。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2004年に高校生のデザインが採用された旗。オーストラリアの領土であり、公式のPantone規定はない。国際的に広く推奨されるカラー（Green: 356 C, Yellow: 116 C, Brown: 1535 C）へと修正・整備。",
     "wiki_flag_filename": "Flag_of_the_Cocos_(Keeling)_Islands.svg"
   },
   {
@@ -1459,7 +1459,7 @@
       }
     ],
     "specs_source": "Government Branding (presidence.cd)",
-    "notes": "法的Pantone指定は存在しない。コンゴ民主共和国大統領府公式サイト（presidence.cd）のブランドカラーに準拠。ブルー #007FFF はCSS変数 --color1 およびナビバー背景、イエロー #F1DB28 はナビリンクのホバー色、レッド #FF2E44 はアクセントリンク色として使用されている。",
+    "notes": "法的Pantone指定は存在しない。コンゴ民主共和国大統領府公式サイト（presidence.cd）のブランドカラーに準拠。ブルー #007FFF はCSS変数 --color1 およびナビバー背景、イエロー #F1DB28 はナビリンクのホバー色、レッド #FF2E44 はアクセントリンク色として使用されている。なお、元のWikipedia SVGのブルーも #007FFF であり、政府サイトと一致している。",
     "wiki_flag_filename": "Flag_of_the_Democratic_Republic_of_the_Congo.svg"
   },
   {
@@ -1473,9 +1473,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#003082",
-        "rgb": "0, 48, 130",
-        "cmyk": "100, 63, 0, 49",
+        "hex": "#00338E",
+        "rgb": "0, 51, 143",
+        "cmyk": "100, 64, 0, 44",
         "pantone": "287 C"
       },
       {
@@ -1487,28 +1487,28 @@
       },
       {
         "color_name": "Green",
-        "hex": "#289728",
-        "rgb": "40, 151, 40",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FFCE00",
-        "rgb": "255, 206, 0",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
       {
         "color_name": "Red",
-        "hex": "#D21034",
-        "rgb": "210, 16, 52",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "JSON上のPantone指定に「!」などの不正なノイズが含まれていたためクリーンアップ。法的なPantoneの縛りはないため、オリンピックマニュアル等で推奨される標準近似値（287 C, 355 C, 116 C, 186 C 等）の書式を整えて整備した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: JSON上のPantone指定に「!」などの不正なノイズが含まれていたためクリーンアップ。法的なPantoneの縛りはないため、オリンピックマニュアル等で推奨される標準近似値（287 C, 355 C, 116 C, 186 C 等）の書式を整えて整備した。",
     "wiki_flag_filename": "Flag_of_the_Central_African_Republic.svg"
   },
   {
@@ -1522,28 +1522,28 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009543",
-        "rgb": "0, 149, 67",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FBDE4A",
-        "rgb": "251, 222, 74",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       },
       {
         "color_name": "Red",
-        "hex": "#DC241F",
-        "rgb": "220, 36, 31",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "憲法で緑・黄・赤のトリコロールと定められているが、具体的な色指定はないため、汎用的に承認されている国際基準（355 C, 109 C, 032 C）を用いて補完・確定。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法で緑・黄・赤のトリコロールと定められているが、具体的な色指定はないため、汎用的に承認されている国際基準（355 C, 109 C, 032 C）を用いて補完・確定。",
     "wiki_flag_filename": "Flag_of_the_Republic_of_the_Congo.svg"
   },
   {
@@ -1599,14 +1599,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009A44",
-        "rgb": "0, 154, 68",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "法律による具体的なカラーコードへの言及はない。国際組織（Album des Pavillons等）で広く採用されている 151 C (Orange) と 347 C (Green) を用いて標準化。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法律による具体的なカラーコードへの言及はない。国際組織（Album des Pavillons等）で広く採用されている 151 C (Orange) と 347 C (Green) を用いて標準化。",
     "wiki_flag_filename": "Flag_of_Côte_d'Ivoire.svg"
   },
   {
@@ -1620,9 +1620,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
@@ -1636,12 +1636,12 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "独自の成分配合などはなく、オリンピックや国際的な使用標準に基づくニュージーランド・イギリス標準に準拠した 281 C (Blue) と 032 C (Red / 186 C同等) を承認カラーとして記録。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 独自の成分配合などはなく、オリンピックや国際的な使用標準に基づくニュージーランド・イギリス標準に準拠した 281 C (Blue) と 032 C (Red / 186 C同等) を承認カラーとして記録。",
     "wiki_flag_filename": "Flag_of_the_Cook_Islands.svg"
   },
   {
@@ -1664,19 +1664,19 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
         "color_name": "Blue",
-        "hex": "#0032A0",
-        "rgb": "0, 50, 160",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "旗の意匠や使用は規定（最高布告第1534号など）で定められているが、正確なPantone規定はない。国際的に広く採用されている 286 C (Blue) と 485 C (Red) で最適化した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 旗の意匠や使用は規定（最高布告第1534号など）で定められているが、正確なPantone規定はない。国際的に広く採用されている 286 C (Blue) と 485 C (Red) で最適化した。",
     "wiki_flag_filename": "Flag_of_Chile.svg"
   },
   {
@@ -1690,28 +1690,28 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#007A5E",
-        "rgb": "0, 122, 94",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCD116",
-        "rgb": "252, 209, 22",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "憲法で意匠は定義されているが、具体的なカラーコード指定は存在しない。汎用として広く確立している 355 C (Green), 032 C (Red), 109 C (Yellow) へと修正・承認した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法で意匠は定義されているが、具体的なカラーコード指定は存在しない。汎用として広く確立している 355 C (Green), 032 C (Red), 109 C (Yellow) へと修正・承認した。",
     "wiki_flag_filename": "Flag_of_Cameroon.svg"
   },
   {
@@ -1760,21 +1760,21 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#003087",
-        "rgb": "0, 48, 135",
-        "cmyk": "100, 81, 0, 23",
+        "hex": "#00338E",
+        "rgb": "0, 51, 143",
+        "cmyk": "100, 64, 0, 44",
         "pantone": "287 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "明確な色指定の法律はない。オリンピック旗マニュアルなどで確立している標準値 116 C (Yellow), 287 C (Blue), 186 C (Red) を使用して統一。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 明確な色指定の法律はない。オリンピック旗マニュアルなどで確立している標準値 116 C (Yellow), 287 C (Blue), 186 C (Red) を使用して統一。",
     "wiki_flag_filename": "Flag_of_Colombia.svg"
   },
   {
@@ -1788,9 +1788,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
@@ -1804,12 +1804,12 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "法律で国旗意匠は定義されているものの、技術的なPantone指定はない。広く認知されている 281 C (Blue) と 032 C (Red) を標準として確定した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法律で国旗意匠は定義されているものの、技術的なPantone指定はない。広く認知されている 281 C (Blue) と 032 C (Red) を標準として確定した。",
     "wiki_flag_filename": "Flag_of_Costa_Rica.svg"
   },
   {
@@ -1825,7 +1825,7 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -1844,7 +1844,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "厳密なPantone指定が存在しないため、国際的に確立している 485 C (Red), 301 C (Blue) を標準近似として記録した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 厳密なPantone指定が存在しないため、国際的に確立している 485 C (Red), 301 C (Blue) を標準近似として記録した。",
     "wiki_flag_filename": "Flag_of_Cuba.svg"
   },
   {
@@ -1900,9 +1900,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#002B7F",
-        "rgb": "0, 43, 127",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
@@ -1921,7 +1921,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "法的なPantone指定はないため、旗章学の標準である 280 C (Blue), 102 C (Yellow) に正規化し、不要な文字列ノイズを削除してクリーンアップした。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法的なPantone指定はないため、旗章学の標準である 280 C (Blue), 102 C (Yellow) に正規化し、不要な文字列ノイズを削除してクリーンアップした。",
     "wiki_flag_filename": "Flag_of_Curaçao.svg"
   },
   {
@@ -2012,9 +2012,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#11457E",
-        "rgb": "17, 69, 126",
-        "cmyk": "100, 81, 0, 23",
+        "hex": "#00338E",
+        "rgb": "0, 51, 143",
+        "cmyk": "100, 64, 0, 44",
         "pantone": "287 C"
       },
       {
@@ -2033,7 +2033,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "法律で白・赤・青の三色は定義されているが、技術的なPantoneの法的規定はない。旗章学的に広く認められている 287 C (Blue) と 192 C (Red) を使用して標準化した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法律で白・赤・青の三色は定義されているが、技術的なPantoneの法的規定はない。旗章学的に広く認められている 287 C (Blue) と 192 C (Red) を使用して標準化した。",
     "wiki_flag_filename": "Flag_of_the_Czech_Republic.svg"
   },
   {
@@ -2096,21 +2096,21 @@
       },
       {
         "color_name": "Red",
-        "hex": "#D7141A",
-        "rgb": "215, 20, 26",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
         "color_name": "Green",
-        "hex": "#12AD2B",
-        "rgb": "18, 173, 43",
-        "cmyk": "68, 0, 100, 0",
+        "hex": "#43B02A",
+        "rgb": "67, 176, 42",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "法的なPantone指定はないため、汎用的に用いられている近似標準値である 292 C (Light Blue), 361 C (Green), 032 C (Red) などへと構成とフォーマットを修正した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法的なPantone指定はないため、汎用的に用いられている近似標準値である 292 C (Light Blue), 361 C (Green), 032 C (Red) などへと構成とフォーマットを修正した。",
     "wiki_flag_filename": "Flag_of_Djibouti.svg"
   },
   {
@@ -2152,8 +2152,8 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009A44",
-        "rgb": "0, 154, 68",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       },
@@ -2180,9 +2180,9 @@
       },
       {
         "color_name": "Red",
-        "hex": "#E4002B",
-        "rgb": "228, 0, 43",
-        "cmyk": "0, 100, 78, 9",
+        "hex": "#EB0029",
+        "rgb": "235, 0, 41",
+        "cmyk": "0, 100, 81, 0",
         "pantone": "185 C"
       },
       {
@@ -2194,7 +2194,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "シッセロウインコなど複雑な配色をもつが、法的なPantoneの政府一律規定は存在しない。国際的な旗章学マニュアルにおいて標準とされる 347 C (Green), 116 C (Yellow), 185 C (Red), 254 C (Purple) などへと数値を成形して適応した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: シッセロウインコなど複雑な配色をもつが、法的なPantoneの政府一律規定は存在しない。国際的な旗章学マニュアルにおいて標準とされる 347 C (Green), 116 C (Yellow), 185 C (Red), 254 C (Purple) などへと数値を成形して適応した。",
     "wiki_flag_filename": "Flag_of_Dominica.svg"
   },
   {
@@ -2222,9 +2222,9 @@
       },
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -2236,21 +2236,21 @@
       },
       {
         "color_name": "Green",
-        "hex": "#006300",
-        "rgb": "0, 99, 0",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#EAC102",
-        "rgb": "234, 193, 2",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "憲法ではウルトラマリンブルーとバーミリオンレッドと定義されているが数値規定はない。国際的に広く使われている 294 C (Blue), 186 C (Red) 等を De facto 指定として適用した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法ではウルトラマリンブルーとバーミリオンレッドと定義されているが数値規定はない。国際的に広く使われている 294 C (Blue), 186 C (Red) 等を De facto 指定として適用した。",
     "wiki_flag_filename": "Flag_of_the_Dominican_Republic.svg"
   },
   {
@@ -2264,9 +2264,9 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#006633",
-        "rgb": "0, 102, 51",
-        "cmyk": "100, 0, 55, 53",
+        "hex": "#007A33",
+        "rgb": "0, 122, 51",
+        "cmyk": "91, 4, 100, 25",
         "pantone": "356 C"
       },
       {
@@ -2278,14 +2278,14 @@
       },
       {
         "color_name": "Red",
-        "hex": "#D21034",
-        "rgb": "210, 16, 52",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "政府による厳密なPantone指定が存在しない。緑は「黄と青の等量混合」、赤は「純色」とされる記述に従い、旗章学の標準である 356 C (Green), 186 C (Red) に正規化した。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 政府による厳密なPantone指定が存在しない。緑は「黄と青の等量混合」、赤は「純色」とされる記述に従い、旗章学の標準である 356 C (Green), 186 C (Red) に正規化した。",
     "wiki_flag_filename": "Flag_of_Algeria.svg"
   },
   {
@@ -2371,7 +2371,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -2383,8 +2383,8 @@
       },
       {
         "color_name": "Gold",
-        "hex": "#C09300",
-        "rgb": "192, 147, 0",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
@@ -2397,7 +2397,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "法律で赤・白・黒とサラディンの鷲（金）が定められているものの、Pantone数値規定はないため、標準近似である 186 C (Red), 116 C (Gold) などの値を含めフォーマットを整えた。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法律で赤・白・黒とサラディンの鷲（金）が定められているものの、Pantone数値規定はないため、標準近似である 186 C (Red), 116 C (Gold) などの値を含めフォーマットを整えた。",
     "wiki_flag_filename": "Flag_of_Egypt.svg"
   },
   {
@@ -2455,14 +2455,14 @@
         "color_name": "Green",
         "hex": "#43B02A",
         "rgb": "67, 176, 42",
-        "cmyk": "68, 0, 100, 0",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       },
       {
         "color_name": "Red",
-        "hex": "#E4002B",
-        "rgb": "228, 0, 43",
-        "cmyk": "0, 100, 78, 9",
+        "hex": "#EB0029",
+        "rgb": "235, 0, 41",
+        "cmyk": "0, 100, 81, 0",
         "pantone": "185 C"
       },
       {
@@ -2476,12 +2476,12 @@
         "color_name": "Yellow",
         "hex": "#FFC72C",
         "rgb": "255, 199, 44",
-        "cmyk": "0, 16, 89, 0",
+        "cmyk": "0, 19, 89, 0",
         "pantone": "123 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "法的にPantone/CMYK値は規定されていない。旗章学モデルにおける標準値（361 C, 185 C, 279 C, 123 C）を適用しフォーマットを統一。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法的にPantone/CMYK値は規定されていない。旗章学モデルにおける標準値（361 C, 185 C, 279 C, 123 C）を適用しフォーマットを統一。",
     "wiki_flag_filename": "Flag_of_Eritrea.svg"
   },
   {
@@ -2523,8 +2523,8 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009A44",
-        "rgb": "0, 154, 68",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       },
@@ -2532,14 +2532,14 @@
         "color_name": "Yellow",
         "hex": "#FEDD00",
         "rgb": "254, 221, 0",
-        "cmyk": "0, 0, 100, 0",
+        "cmyk": "0,  1,  100,  0",
         "pantone": "Yellow C"
       },
       {
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -2551,7 +2551,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "連邦旗章令（Proclamation 654/2009）で構造は定義されているが、Pantone数値の法的規定はない。既存のPantone値（347 C, Yellow C, 032 C, 2728 C）が標準に合致していることを確認し、ソースを正規化。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 連邦旗章令（Proclamation 654/2009）で構造は定義されているが、Pantone数値の法的規定はない。既存のPantone値（347 C, Yellow C, 032 C, 2728 C）が標準に合致していることを確認し、ソースを正規化。",
     "wiki_flag_filename": "Flag_of_Ethiopia.svg"
   },
   {
@@ -2600,9 +2600,9 @@
       },
       {
         "color_name": "Dark Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
@@ -2616,26 +2616,26 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
         "color_name": "Green",
-        "hex": "#00AD50",
-        "rgb": "0, 173, 80",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FEDD00",
-        "rgb": "254, 221, 0",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "政府によるPantone/CMYK規定は存在しない。イギリスのブルー・エンサインに基づく旗であり、標準近似値（2915 C, 281 C, 186 C等）を補完し、空欄だったGreen/Yellowにそれぞれ 355 C, 109 C を追加。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 政府によるPantone/CMYK規定は存在しない。イギリスのブルー・エンサインに基づく旗であり、標準近似値（2915 C, 281 C, 186 C等）を補完し、空欄だったGreen/Yellowにそれぞれ 355 C, 109 C を追加。",
     "wiki_flag_filename": "Flag_of_Fiji.svg"
   },
   {
@@ -2649,9 +2649,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "99, 69, 0, 59",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
@@ -2665,12 +2665,12 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (Standard British Ensign Approximations)",
-    "notes": "イギリスの海外領土であり固有のPantone法令はない。データに混入していたノイズ文字列（`!`）を一掃し、イギリス標準エンサイン色（281 C, 186 C）に正規化。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: イギリスの海外領土であり固有のPantone法令はない。データに混入していたノイズ文字列（`!`）を一掃し、イギリス標準エンサイン色（281 C, 186 C）に正規化。",
     "wiki_flag_filename": "Flag_of_the_Falkland_Islands.svg"
   },
   {
@@ -2782,15 +2782,15 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009E60",
-        "rgb": "0, 158, 96",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCD116",
-        "rgb": "252, 209, 22",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       },
@@ -2803,7 +2803,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "政府による法定Pantone指定は存在しない。Album des Pavillons (2000) では 347 C / 116 C / 285 C、他のソースでは 355 C / 109 C / 293 C を引用しており、文献間で差異がある。旗章学的に最も権威ある Album des Pavillons の Blue 値（285 C）を優先採用し、他の色は広く承認されている標準値として整備。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 政府による法定Pantone指定は存在しない。Album des Pavillons (2000) では 347 C / 116 C / 285 C、他のソースでは 355 C / 109 C / 293 C を引用しており、文献間で差異がある。旗章学的に最も権威ある Album des Pavillons の Blue 値（285 C）を優先採用し、他の色は広く承認されている標準値として整備。",
     "wiki_flag_filename": "Flag_of_Gabon.svg"
   },
   {
@@ -2817,16 +2817,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -2838,7 +2838,7 @@
       }
     ],
     "specs_source": "De facto (Flag Institute Recommendations)",
-    "notes": "**重大なデータ誤りを発見・修正**。元データには Blue (#0057B7) と Yellow (#FFDD00) のみが登録されており、これはウクライナ国旗の配色であった。ユニオンジャックの正しい3色（Blue 280 C, Red 186 C, White）にフルスクラッチで再構成。Flag Institute（英国旗章学協会・国家旗章登録機関）の推奨値に準拠。法的に色を義務付ける British Standard は存在しない。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: **重大なデータ誤りを発見・修正**。元データには Blue (#0057B7) と Yellow (#FFDD00) のみが登録されており、これはウクライナ国旗の配色であった。ユニオンジャックの正しい3色（Blue 280 C, Red 186 C, White）にフルスクラッチで再構成。Flag Institute（英国旗章学協会・国家旗章登録機関）の推奨値に準拠。法的に色を義務付ける British Standard は存在しない。",
     "wiki_flag_filename": "Flag_of_the_United_Kingdom.svg"
   },
   {
@@ -2854,7 +2854,7 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -2866,14 +2866,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "グレナダ大使館は国旗の象徴と比率（陸上5:3、海上2:1）を提供するが、Pantone/CMYK値は公式に規定していない。旗章学的な業界標準である 032 C (Red), 109 C (Yellow), 355 C (Green) が既存データと一致することを確認し、Pantone値に「C」サフィックスを付与して正規化。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: グレナダ大使館は国旗の象徴と比率（陸上5:3、海上2:1）を提供するが、Pantone/CMYK値は公式に規定していない。旗章学的な業界標準である 032 C (Red), 109 C (Yellow), 355 C (Green) が既存データと一致することを確認し、Pantone値に「C」サフィックスを付与して正規化。",
     "wiki_flag_filename": "Flag_of_Grenada.svg"
   },
   {
@@ -2889,7 +2889,7 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -2901,7 +2901,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "ジョージアの法律は「五十字旗」（大きな聖ジョージの十字と4つの小さなボルニシ十字）の構造を詳細に定義しているが、赤色の具体的なPantone番号は法制化されていない。各出典で 485 C, 032 C, 186 C と値が分かれるが、最も多くの情報源で引用される 485 C を標準として採用。「C」サフィックスを付与し正規化。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: ジョージアの法律は「五十字旗」（大きな聖ジョージの十字と4つの小さなボルニシ十字）の構造を詳細に定義しているが、赤色の具体的なPantone番号は法制化されていない。各出典で 485 C, 032 C, 186 C と値が分かれるが、最も多くの情報源で引用される 485 C を標準として採用。「C」サフィックスを付与し正規化。",
     "wiki_flag_filename": "Flag_of_Georgia.svg"
   },
   {
@@ -2950,9 +2950,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#E8112D",
-        "rgb": "232, 17, 45",
-        "cmyk": "0, 100, 78, 9",
+        "hex": "#EB0029",
+        "rgb": "235, 0, 41",
+        "cmyk": "0, 100, 81, 0",
         "pantone": "185 C"
       },
       {
@@ -2971,7 +2971,7 @@
       }
     ],
     "specs_source": "De facto (Guernsey Heraldic Approximations)",
-    "notes": "1985年4月30日にイングランドとの区別のため採用された白地に赤い聖ジョージ十字＋金のノルマン十字（Cross Pattée）。Pantone値に「N. A.            !」「185 C            !」等の大量のノイズ文字列が混入しており一掃。比率を2:3から正しい3:5へ修正。色順序を再整理し、色名「Yellow」を「Gold」に変更。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1985年4月30日にイングランドとの区別のため採用された白地に赤い聖ジョージ十字＋金のノルマン十字（Cross Pattée）。Pantone値に「N. A.            !」「185 C            !」等の大量のノイズ文字列が混入しており一掃。比率を2:3から正しい3:5へ修正。色順序を再整理し、色名「Yellow」を「Gold」に変更。",
     "wiki_flag_filename": "Flag_of_Guernsey.svg"
   },
   {
@@ -2987,7 +2987,7 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -2999,9 +2999,9 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -3013,7 +3013,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "ガーナ国連代表部が象徴（赤=独立の血、金=鉱物資源、緑=森林資源、黒い星=アフリカ解放）を示すが、技術的なカラーコードは公布していない。既存データの 032, 109, 355 は標準近似として適切であることを確認し、「C」サフィックスを付与。色名「Yellow」を公式呼称の「Gold」に変更。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: ガーナ国連代表部が象徴（赤=独立の血、金=鉱物資源、緑=森林資源、黒い星=アフリカ解放）を示すが、技術的なカラーコードは公布していない。既存データの 032, 109, 355 は標準近似として適切であることを確認し、「C」サフィックスを付与。色名「Yellow」を公式呼称の「Gold」に変更。",
     "wiki_flag_filename": "Flag_of_Ghana.svg"
   },
   {
@@ -3069,9 +3069,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#D00C33",
-        "rgb": "208, 12, 51",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -3083,7 +3083,7 @@
       }
     ],
     "specs_source": "De facto (Album des Pavillons / Danish Standard Approximations)",
-    "notes": "1985年6月21日採用の「Erfalasorput（我らの旗）」。デザイナーはThue Christiansen。Album des Pavillons で赤は 032 C と記載されているが、元データは「186 C            !」とノイズ付きで誤った値になっていた。032 C に修正しノイズを一掃。デンマーク国旗（Dannebrog）と同色であることを注記。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1985年6月21日採用の「Erfalasorput（我らの旗）」。デザイナーはThue Christiansen。Album des Pavillons で赤は 032 C と記載されているが、元データは「186 C            !」とノイズ付きで誤った値になっていた。032 C に修正しノイズを一掃。デンマーク国旗（Dannebrog）と同色であることを注記。",
     "wiki_flag_filename": "Flag_of_Greenland.svg"
   },
   {
@@ -3097,9 +3097,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
+        "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -3111,9 +3111,9 @@
       },
       {
         "color_name": "Green",
-        "hex": "#3A7728",
-        "rgb": "18, 173, 43",
-        "cmyk": "78, 0, 100, 0",
+        "hex": "#43B02A",
+        "rgb": "67, 176, 42",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       },
       {
@@ -3125,7 +3125,7 @@
       }
     ],
     "specs_source": "De facto (Album des Pavillons 2023)",
-    "notes": "政府による法定Pantone値は不在。Album des Pavillons 2023年版（最新）に記載の 186 C (Red), 293 C (Blue), 361 C (Green) へ更新。以前のデータ（032, 293, 355）から Red と Green を最新版の値に修正。CMYK値も Album des Pavillons 準拠に更新。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 政府による法定Pantone値は不在。Album des Pavillons 2023年版（最新）に記載の 186 C (Red), 293 C (Blue), 361 C (Green) へ更新。以前のデータ（032, 293, 355）から Red と Green を最新版の値に修正。CMYK値も Album des Pavillons 準拠に更新。",
     "wiki_flag_filename": "Flag_of_The_Gambia.svg"
   },
   {
@@ -3139,28 +3139,28 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCD116",
-        "rgb": "252, 209, 22",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       },
       {
         "color_name": "Green",
-        "hex": "#009460",
-        "rgb": "0, 148, 96",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1958年11月10日採用のパン・アフリカ色（赤・黄・緑）の垂直三色旗。憲法で色名のみ定義、Pantone/CMYK規定なし。北京2008オリンピック文書等で汎用的に用いられる 032 C, 109 C, 355 C が既存データと一致することを確認し、「C」サフィックスを付与して正規化。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1958年11月10日採用のパン・アフリカ色（赤・黄・緑）の垂直三色旗。憲法で色名のみ定義、Pantone/CMYK規定なし。北京2008オリンピック文書等で汎用的に用いられる 032 C, 109 C, 355 C が既存データと一致することを確認し、「C」サフィックスを付与して正規化。",
     "wiki_flag_filename": "Flag_of_Guinea.svg"
   },
   {
@@ -3209,8 +3209,8 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#3E9A00",
-        "rgb": "62, 154, 0",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       },
@@ -3223,9 +3223,9 @@
       },
       {
         "color_name": "Red",
-        "hex": "#E32118",
-        "rgb": "227, 33, 24",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -3237,7 +3237,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "政府による法定仕様なし。CRW Flags 等の旗章学データベースおよび Album des Pavillons に基づき、Green を 355 から 347 C に修正（より権威ある文献の値）。Red 032 C, Blue 293 C はそのまま維持し「C」サフィックスを追加。国章のシルクコットン木、六つ星、格言「UNIDAD – PAZ – JUSTICIA」を注記。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 政府による法定仕様なし。CRW Flags 等の旗章学データベースおよび Album des Pavillons に基づき、Green を 355 から 347 C に修正（より権威ある文献の値）。Red 032 C, Blue 293 C はそのまま維持し「C」サフィックスを追加。国章のシルクコットン木、六つ星、格言「UNIDAD – PAZ – JUSTICIA」を注記。",
     "wiki_flag_filename": "Flag_of_Equatorial_Guinea.svg"
   },
   {
@@ -3251,9 +3251,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#0D5EAF",
-        "rgb": "13, 94, 175",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       },
       {
@@ -3265,7 +3265,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "法律851/1978号は「κυανός（シアン）」と白のみ規定し、技術的な色定義は存在しない。歴史的に青の濃淡は大きく変遷（オットー国王時代の淡青→軍事政権時代の濃紺）。元データの specs_source に「act shade」というゴミ文字が入っていたため削除。Blue を 300 C から 286 C（Album des Pavillons 準拠）に修正し、ノイズ文字列「!」を一掃。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法律851/1978号は「κυανός（シアン）」と白のみ規定し、技術的な色定義は存在しない。歴史的に青の濃淡は大きく変遷（オットー国王時代の淡青→軍事政権時代の濃紺）。元データの specs_source に「act shade」というゴミ文字が入っていたため削除。Blue を 300 C から 286 C（Album des Pavillons 準拠）に修正し、ノイズ文字列「!」を一掃。",
     "wiki_flag_filename": "Flag_of_Greece.svg"
   },
   {
@@ -3279,16 +3279,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 0, 39",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -3300,7 +3300,7 @@
       }
     ],
     "specs_source": "De facto (Standard British Ensign Approximations)",
-    "notes": "**データ0件からフルスクラッチで作成**。イギリスの海外領土であり、ブルー・エンサインに領土紋章（1992年王室令で授与）を配する。紋章にはトーチを持つ金のライオン、オットセイ、マカロニペンギン、トナカイ、格言「Leo Terram Propriam Protegat」が描かれる。標準イギリス・エンサイン色（281 C, 186 C）で記録。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: **データ0件からフルスクラッチで作成**。イギリスの海外領土であり、ブルー・エンサインに領土紋章（1992年王室令で授与）を配する。紋章にはトーチを持つ金のライオン、オットセイ、マカロニペンギン、トナカイ、格言「Leo Terram Propriam Protegat」が描かれる。標準イギリス・エンサイン色（281 C, 186 C）で記録。",
     "wiki_flag_filename": "Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg"
   },
   {
@@ -3342,21 +3342,21 @@
     "colors": [
       {
         "color_name": "Dark Blue",
-        "hex": "#00297B",
-        "rgb": "0, 41, 123",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
         "color_name": "Red",
-        "hex": "#C62139",
-        "rgb": "198, 33, 57",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "De facto (London 2012 Olympics Manual)",
-    "notes": "領土法（1 GCA § 407）が旗のデザインと寸法（78×40インチ、赤枠2インチ）を法定するが、Pantone/CMYK値は規定なし。ロンドン2012オリンピック旗章マニュアルに記載の 281 C (Dark Blue), 032 C (Red) を De facto 標準として採用。「C」サフィックスを追加し正規化。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 領土法（1 GCA § 407）が旗のデザインと寸法（78×40インチ、赤枠2インチ）を法定するが、Pantone/CMYK値は規定なし。ロンドン2012オリンピック旗章マニュアルに記載の 281 C (Dark Blue), 032 C (Red) を De facto 標準として採用。「C」サフィックスを追加し正規化。",
     "wiki_flag_filename": "Flag_of_Guam.svg"
   },
   {
@@ -3370,9 +3370,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -3384,9 +3384,9 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -3398,7 +3398,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "政府による法定Pantone指定なし。パン・アフリカ色で、黒い星はアフリカの統一を象徴。既存の 032, 109, 355 は標準近似として適切であることを確認し、「C」サフィックスを付与。CMYK値を旗章学的標準に合わせて微調整。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 政府による法定Pantone指定なし。パン・アフリカ色で、黒い星はアフリカの統一を象徴。既存の 032, 109, 355 は標準近似として適切であることを確認し、「C」サフィックスを付与。CMYK値を旗章学的標準に合わせて微調整。",
     "wiki_flag_filename": "Flag_of_Guinea-Bissau.svg"
   },
   {
@@ -3412,9 +3412,9 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -3428,7 +3428,7 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -3447,7 +3447,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "「Golden Arrowhead」の愛称で知られる5色旗（Whitney Smith デザイン）。公式Pantone仕様なし。色順序をデザインの構造に合わせて再配置（Green 背景→Golden Yellow 矢→Red 三角→White/Black 縁取り）。色名「Yellow」を「Golden Yellow」に修正し、「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 「Golden Arrowhead」の愛称で知られる5色旗（Whitney Smith デザイン）。公式Pantone仕様なし。色順序をデザインの構造に合わせて再配置（Green 背景→Golden Yellow 矢→Red 三角→White/Black 縁取り）。色名「Yellow」を「Golden Yellow」に修正し、「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Guyana.svg"
   },
   {
@@ -3552,9 +3552,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#FF0000",
-        "rgb": "255, 0, 0",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -3566,9 +3566,9 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
@@ -3594,7 +3594,7 @@
       }
     ],
     "specs_source": "De facto (Croatian Parliament Guidelines / Standard Vexillological Approximations)",
-    "notes": "「国章・国旗・国歌法」は色を文言（赤・白・青）で定義するのみで、技術的仕様は指定されていない。クロアチア国会（Sabor）が国家シンボルの建設シートを提供。主要三色旗は 186 C (Red), 280 C (Blue)。国章の王冠部分に Light Blue (297 C) と Yellow/Gold (116 C) が使われる。色名「Dark Blue」を「Blue」に簡略化し、全Pantone値に「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 「国章・国旗・国歌法」は色を文言（赤・白・青）で定義するのみで、技術的仕様は指定されていない。クロアチア国会（Sabor）が国家シンボルの建設シートを提供。主要三色旗は 186 C (Red), 280 C (Blue)。国章の王冠部分に Light Blue (297 C) と Yellow/Gold (116 C) が使われる。色名「Dark Blue」を「Blue」に簡略化し、全Pantone値に「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Croatia.svg"
   },
   {
@@ -3615,9 +3615,9 @@
       },
       {
         "color_name": "Red",
-        "hex": "#D21034",
-        "rgb": "210, 16, 52",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -3629,9 +3629,9 @@
       },
       {
         "color_name": "Green",
-        "hex": "#016A16",
-        "rgb": "1, 106, 22",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -3643,7 +3643,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "憲法に青と赤の水平二色帯と記載されるが、色コードは規定されていない。国旗（State Flag）は中央に白い四角と国章（王ヤシ、自由の帽子、格言「L'Union fait la force」）を配する。5色すべてに「C」サフィックスを追加し、CMYK値を旗章学標準に合わせて修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法に青と赤の水平二色帯と記載されるが、色コードは規定されていない。国旗（State Flag）は中央に白い四角と国章（王ヤシ、自由の帽子、格言「L'Union fait la force」）を配する。5色すべてに「C」サフィックスを追加し、CMYK値を旗章学標準に合わせて修正。",
     "wiki_flag_filename": "Flag_of_Haiti.svg"
   },
   {
@@ -3692,9 +3692,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#FF0000",
-        "rgb": "255, 0, 0",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -3706,7 +3706,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "「Sang Merah Putih（聖なる紅白）」として知られる二色旗。1945年憲法第35条と法律第24号/2009号で定義されるが、Pantone/CMYK値の法的指定はない。赤は RGB 255,0,0 の鮮明な赤と規定。White の CMYK が空欄だったため 0,0,0,0 に修正。Red の CMYK を 0,100,100,0 に修正し、「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 「Sang Merah Putih（聖なる紅白）」として知られる二色旗。1945年憲法第35条と法律第24号/2009号で定義されるが、Pantone/CMYK値の法的指定はない。赤は RGB 255,0,0 の鮮明な赤と規定。White の CMYK が空欄だったため 0,0,0,0 に修正。Red の CMYK を 0,100,100,0 に修正し、「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Indonesia.svg"
   },
   {
@@ -3720,8 +3720,8 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009A44",
-        "rgb": "0, 154, 68",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       },
@@ -3741,7 +3741,7 @@
       }
     ],
     "specs_source": "De facto (Government Flag Protocol / Standard Approximations)",
-    "notes": "憲法でトリコロール（緑・白・オレンジ）と定められるが技術的色値は規定なし。首相府（Department of the Taoiseach）が国旗に関する行政責任を負う。政府旗章プロトコルにおいて Pantone 347 (Green), 151 (Orange) が歴史的に引用されている。「C」サフィックスを追加し、CMYK値を標準変換値に修正。notes 欄のゴミ文字列「Legal refs: Constitution of」を削除。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法でトリコロール（緑・白・オレンジ）と定められるが技術的色値は規定なし。首相府（Department of the Taoiseach）が国旗に関する行政責任を負う。政府旗章プロトコルにおいて Pantone 347 (Green), 151 (Orange) が歴史的に引用されている。「C」サフィックスを追加し、CMYK値を標準変換値に修正。notes 欄のゴミ文字列「Legal refs: Constitution of」を削除。",
     "wiki_flag_filename": "Flag_of_Ireland.svg"
   },
   {
@@ -3783,9 +3783,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CF142B",
-        "rgb": "207, 20, 43",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -3804,7 +3804,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "赤地にトリスケリオン（三本の武装した脚が太腿で結合）を配する旗。13世紀のマン島紋章に由来し、1968年王室布告で時計回りに標準化。法定のPantone規定はない。全Pantone値からノイズ文字列「!」「N. A.」を一掃。Gold の Pantone を 107 C から 108 C に修正（CRW Flags 準拠）。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 赤地にトリスケリオン（三本の武装した脚が太腿で結合）を配する旗。13世紀のマン島紋章に由来し、1968年王室布告で時計回りに標準化。法定のPantone規定はない。全Pantone値からノイズ文字列「!」「N. A.」を一掃。Gold の Pantone を 107 C から 108 C に修正（CRW Flags 準拠）。",
     "wiki_flag_filename": "Flag_of_the_Isle_of_Man.svg"
   },
   {
@@ -3860,16 +3860,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 0, 39",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -3881,14 +3881,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#006D00",
-        "rgb": "0, 109, 0",
-        "cmyk": "100, 0, 55, 53",
+        "hex": "#007A33",
+        "rgb": "0, 122, 51",
+        "cmyk": "91, 4, 100, 25",
         "pantone": "356 C"
       }
     ],
     "specs_source": "De facto (Standard British Ensign Approximations)",
-    "notes": "イギリスのブルー・エンサインに波型の青白縞と領土紋章（ヤシの木、セント・エドワード王冠）を配する旗。Blue を 280 C から 281 C に修正（標準イギリス・エンサイン色および Vexilla Mundi 準拠）。全Pantone値からノイズ文字列「!」「N. A.」を一掃し、色の順序を整理。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: イギリスのブルー・エンサインに波型の青白縞と領土紋章（ヤシの木、セント・エドワード王冠）を配する旗。Blue を 280 C から 281 C に修正（標準イギリス・エンサイン色および Vexilla Mundi 準拠）。全Pantone値からノイズ文字列「!」「N. A.」を一掃し、色の順序を整理。",
     "wiki_flag_filename": "Flag_of_the_British_Indian_Ocean_Territory.svg"
   },
   {
@@ -3902,9 +3902,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 100, 78, 9",
+        "hex": "#EB0029",
+        "rgb": "235, 0, 41",
+        "cmyk": "0, 100, 81, 0",
         "pantone": "185 C"
       },
       {
@@ -3923,14 +3923,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#007A3D",
-        "rgb": "0, 122, 61",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       }
     ],
     "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
-    "notes": "パン・アラブ色（赤・白・黒・緑）の横三色帯で、白帯に緑のクーフィー体で「アッラーフ・アクバル」。Album des Pavillons が 185 C (Red), 355 C (Green), Black 6 C を引用。Black の Pantone を「Black」から「Black 6 C」に修正。CMYK値を標準近似に修正し、「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: パン・アラブ色（赤・白・黒・緑）の横三色帯で、白帯に緑のクーフィー体で「アッラーフ・アクバル」。Album des Pavillons が 185 C (Red), 355 C (Green), Black 6 C を引用。Black の Pantone を「Black」から「Black 6 C」に修正。CMYK値を標準近似に修正し、「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Iraq.svg"
   },
   {
@@ -3944,9 +3944,9 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#239F40",
-        "rgb": "35, 159, 64",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -3958,14 +3958,14 @@
       },
       {
         "color_name": "Red",
-        "hex": "#DA0000",
-        "rgb": "218, 0, 0",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (ISIRI 1 / Standard Vexillological Approximations)",
-    "notes": "横三色旗（緑・白・赤）に帯境界沿いの「アッラーフ・アクバル」22回繰返しと中央紋章。ISIRI 1 はデザイン・構造を規定するが色のPantone定義を厳密には含まない。**Green を 335 から 355 C に修正（重大な誤り）**。Red は 186 C で確認。CMYK値を修正し「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 横三色旗（緑・白・赤）に帯境界沿いの「アッラーフ・アクバル」22回繰返しと中央紋章。ISIRI 1 はデザイン・構造を規定するが色のPantone定義を厳密には含まない。**Green を 335 から 355 C に修正（重大な誤り）**。Red は 186 C で確認。CMYK値を修正し「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Iran.svg"
   },
   {
@@ -4049,9 +4049,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CF142B",
-        "rgb": "207, 20, 43",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -4084,7 +4084,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "白地に赤いサルタイアー（X字十字）、ジャージー紋章（赤地に三頭の金の豹）、プランタジネット冠を配する旗。法定Pantone規定なし。全Pantone値からノイズ文字列「!」を一掃。Gold の Pantone を「Yellow 012 C」から「108 C」に修正。色名「Yellow」を紋章学用語の「Gold」に変更。旗の白い地（White）がデータから欠落していたため追加。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 白地に赤いサルタイアー（X字十字）、ジャージー紋章（赤地に三頭の金の豹）、プランタジネット冠を配する旗。法定Pantone規定なし。全Pantone値からノイズ文字列「!」を一掃。Gold の Pantone を「Yellow 012 C」から「108 C」に修正。色名「Yellow」を紋章学用語の「Gold」に変更。旗の白い地（White）がデータから欠落していたため追加。",
     "wiki_flag_filename": "Flag_of_Jersey.svg"
   },
   {
@@ -4098,16 +4098,16 @@
     "colors": [
       {
         "color_name": "Gold",
-        "hex": "#FED100",
-        "rgb": "254, 209, 0",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       },
       {
         "color_name": "Green",
-        "hex": "#009B3A",
-        "rgb": "0, 155, 58",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -4119,7 +4119,7 @@
       }
     ],
     "specs_source": "De facto (Government Flag Protocol / Jamaica 55 Initiative)",
-    "notes": "Jamaica 55 や政府印刷仕様において Pantone 109 C/U (Gold) および 355 C/U (Green) が引用されている。**Gold Pantone を 115 から 109 C に修正（政府文書準拠）**。色名を「Yellow」から政府公式呼称の「Gold」に変更。Black Pantone を「Black」から「Black C」に修正。色順序を旗のデザイン構造に合わせて再配置（Gold サルタイアーを先頭）。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: Jamaica 55 や政府印刷仕様において Pantone 109 C/U (Gold) および 355 C/U (Green) が引用されている。**Gold Pantone を 115 から 109 C に修正（政府文書準拠）**。色名を「Yellow」から政府公式呼称の「Gold」に変更。Black Pantone を「Black」から「Black C」に修正。色順序を旗のデザイン構造に合わせて再配置（Gold サルタイアーを先頭）。",
     "wiki_flag_filename": "Flag_of_Jamaica.svg"
   },
   {
@@ -4217,8 +4217,8 @@
       },
       {
         "color_name": "Green",
-        "hex": "#006600",
-        "rgb": "0, 102, 0",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       },
@@ -4231,7 +4231,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "憲法（第二附則）が旗のデザインを定めるがPantone/CMYK色値は規定なし。横三色帯（黒・赤・緑）に白い縁取りと中央のマサイ族の盾と交差した槍。Red 180 C, Green 347 C は広く引用される標準近似値として確認。色順序を旗の構造に合わせて再配置。「C」サフィックスを付与。ゴミ文字列「Legal refs: Constitution in」を除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法（第二附則）が旗のデザインを定めるがPantone/CMYK色値は規定なし。横三色帯（黒・赤・緑）に白い縁取りと中央のマサイ族の盾と交差した槍。Red 180 C, Green 347 C は広く引用される標準近似値として確認。色順序を旗の構造に合わせて再配置。「C」サフィックスを付与。ゴミ文字列「Legal refs: Constitution in」を除去。",
     "wiki_flag_filename": "Flag_of_Kenya.svg"
   },
   {
@@ -4273,16 +4273,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#032EA1",
-        "rgb": "3, 46, 161",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       },
       {
         "color_name": "Red",
-        "hex": "#E00025",
-        "rgb": "224, 0, 37",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -4301,7 +4301,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "横三色帯（青・赤・青、帯幅比1:2:1）にアンコール・ワット白色シルエット（三塔）を配する。1948年採用、1993年王政復古時に再採用。Blue を 293 から 286 C に修正。Black を「Black」から「Black 6 C」に修正。CMYK値を修正し「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 横三色帯（青・赤・青、帯幅比1:2:1）にアンコール・ワット白色シルエット（三塔）を配する。1948年採用、1993年王政復古時に再採用。Blue を 293 から 286 C に修正。Black を「Black」から「Black 6 C」に修正。CMYK値を修正し「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Cambodia.svg"
   },
   {
@@ -4357,9 +4357,9 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -4380,7 +4380,7 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -4392,7 +4392,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "四色横帯（黄=モヘリ島、白=マヨット島、赤=アンジュアン島、青=グランドコモル島）に緑の二等辺三角（イスラム教、白い三日月と四星）を配する。憲法は色を文言で記述するのみでPantone仕様なし。色順序を再配置（緑三角を先頭、次に四帯上→下順）。ゴミ source「constitution as」を除去。「C」サフィックスを付与、CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 四色横帯（黄=モヘリ島、白=マヨット島、赤=アンジュアン島、青=グランドコモル島）に緑の二等辺三角（イスラム教、白い三日月と四星）を配する。憲法は色を文言で記述するのみでPantone仕様なし。色順序を再配置（緑三角を先頭、次に四帯上→下順）。ゴミ source「constitution as」を除去。「C」サフィックスを付与、CMYK修正。",
     "wiki_flag_filename": "Flag_of_the_Comoros.svg"
   },
   {
@@ -4546,9 +4546,9 @@
       },
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -4560,7 +4560,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1961年9月7日採用のパン・アラブ色旗。横三色帯（緑・白・赤）にホイスト側の黒台形。Green 340 C, Red 186 C は標準近似値として確認。Black を「Black」から「Black C」に修正。「C」サフィックスを付与。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1961年9月7日採用のパン・アラブ色旗。横三色帯（緑・白・赤）にホイスト側の黒台形。Green 340 C, Red 186 C は標準近似値として確認。Black を「Black」から「Black C」に修正。「C」サフィックスを付与。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Kuwait.svg"
   },
   {
@@ -4574,16 +4574,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -4595,7 +4595,7 @@
       }
     ],
     "specs_source": "De facto (Standard British Ensign Approximations / London 2012 LOCOG)",
-    "notes": "イギリスのブルー・エンサインに紋章（海亀、パイナップル、三つ星の紋章盾）を白円内に配する旗。法定Pantone規定なし。ロンドン2012大会旗章マニュアルが 281 (Blue), 032 (Red) を参照値として提供。紋章にはYellow 109, Green 348/361, Light Blue 292 も含まれるが主要エンサイン色のみ保持。色名「Dark Blue」を「Blue」に簡略化。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: イギリスのブルー・エンサインに紋章（海亀、パイナップル、三つ星の紋章盾）を白円内に配する旗。法定Pantone規定なし。ロンドン2012大会旗章マニュアルが 281 (Blue), 032 (Red) を参照値として提供。紋章にはYellow 109, Green 348/361, Light Blue 292 も含まれるが主要エンサイン色のみ保持。色名「Dark Blue」を「Blue」に簡略化。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_the_Cayman_Islands.svg"
   },
   {
@@ -4611,19 +4611,19 @@
         "color_name": "Sky Blue",
         "hex": "#00AFCA",
         "rgb": "0, 175, 202",
-        "cmyk": "100, 13, 0, 21",
+        "cmyk": "89, 0, 19, 0",
         "pantone": "3125 C"
       },
       {
         "color_name": "Gold",
-        "hex": "#FEC50C",
-        "rgb": "254, 197, 12",
-        "cmyk": "0, 8, 100, 2",
-        "pantone": "102 C"
+        "hex": "#FFC70E",
+        "rgb": "255, 199, 13",
+        "cmyk": "0, 22, 95, 0",
+        "pantone": "810 C"
       }
     ],
     "specs_source": "De jure (ST-RK 988-2007 State Standard of the Republic of Kazakhstan)",
-    "notes": "**De jure に昇格**。国家規格 ST-RK 988-2007「国旗の一般的技術条件」で公式に定義。空色の地に黄金の太陽（32本の光線）、飛翔する草原の鷲、ホイスト側に民族黄金装飾帯。公式Pantone: 3125 C/U (sky blue), 102 C/U (gold)。**色名「Process Yellow」を「Gold」に訂正**。**Pantone を「Process Yellow」から「102 C」に修正（重大誤り）**。色名「Blue」を「Sky Blue」に修正（公式呼称）。ゴミ source「act Book」を除去。",
+    "notes": "国家規格 ST-RK 988-2007 に従い、非繊維（グラフィック・デジタル）用途の公式仕様を採用。青（Sky Blue）のCMYK値が 100, 13, 0, 21 と極めて暗い値になっていたため、本来の鮮やかな空色の値（89, 0, 19, 0）に修正し、AIファイルとの色ズレを解消。ゴールドも 810 C（#FFC70E / CMYK 0, 22, 95, 0）に揃えて同期。",
     "wiki_flag_filename": "Flag_of_Kazakhstan.svg"
   },
   {
@@ -4637,16 +4637,16 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
         "color_name": "Blue",
-        "hex": "#002868",
-        "rgb": "0, 40, 104",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
@@ -4658,7 +4658,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1975年12月2日採用。赤帯の倍幅の青帯を中央に配し、白い円盤（メコン川の満月）を配した横三色帯旗。**Red を 032 から 186 C に修正。Blue を 293 から 280 C に修正**。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1975年12月2日採用。赤帯の倍幅の青帯を中央に配し、白い円盤（メコン川の満月）を配した横三色帯旗。**Red を 032 から 186 C に修正。Blue を 293 から 280 C に修正**。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Laos.svg"
   },
   {
@@ -4686,14 +4686,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "憲法第5条（1943年12月7日改正）がデザインを定めるが色コードは規定なし。**Red を 485 C から 1788 C に修正（重大誤り）。Green を 347 C から 355 C に修正**。1990年の明確化により杉の木全体が緑でなければならず茶色の幹は違憲。ゴミ source「constitution does」およびゴミ notes を除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法第5条（1943年12月7日改正）がデザインを定めるが色コードは規定なし。**Red を 485 C から 1788 C に修正（重大誤り）。Green を 347 C から 355 C に修正**。1990年の明確化により杉の木全体が緑でなければならず茶色の幹は違憲。ゴミ source「constitution does」およびゴミ notes を除去。",
     "wiki_flag_filename": "Flag_of_Lebanon.svg"
   },
   {
@@ -4749,16 +4749,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#002776",
-        "rgb": "0, 39, 118",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -4777,7 +4777,7 @@
       }
     ],
     "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
-    "notes": "1982年国家シンボル法がデザインを定めるがPantone値は規定なし。Album des Pavillons が 280 C (Blue), 186 C (Red), 116 C (Gold) を引用。**Blue を 293→280 C、Red を 185→186 C、Gold を 109→116 C に修正（全3色修正）**。1937年にハイチの同一二色旗（1936年ベルリン五輪で発覚）と区別するため金の公爵冠を追加。色順序を整理。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1982年国家シンボル法がデザインを定めるがPantone値は規定なし。Album des Pavillons が 280 C (Blue), 186 C (Red), 116 C (Gold) を引用。**Blue を 293→280 C、Red を 185→186 C、Gold を 109→116 C に修正（全3色修正）**。1937年にハイチの同一二色旗（1936年ベルリン五輪で発覚）と区別するため金の公爵冠を追加。色順序を整理。",
     "wiki_flag_filename": "Flag_of_Liechtenstein.svg"
   },
   {
@@ -4842,7 +4842,7 @@
         "color_name": "Red",
         "hex": "#EF3340",
         "rgb": "239, 51, 64",
-        "cmyk": "0, 82, 76, 4",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -4854,14 +4854,14 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "旗章法（1961年）がデザインを定めるがPantone値は規定なし。11本の交互縞（赤6、白5）に紺青カントンと白い五芒星。縞 = 独立宣言署名者11名。色順序を再配置（Red を先頭）。「C」サフィックスを付与。ゴミ source「act center; law does」を除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 旗章法（1961年）がデザインを定めるがPantone値は規定なし。11本の交互縞（赤6、白5）に紺青カントンと白い五芒星。縞 = 独立宣言署名者11名。色順序を再配置（Red を先頭）。「C」サフィックスを付与。ゴミ source「act center; law does」を除去。",
     "wiki_flag_filename": "Flag_of_Liberia.svg"
   },
   {
@@ -5015,9 +5015,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#E70013",
-        "rgb": "231, 0, 19",
-        "cmyk": "0, 81, 87, 14",
+        "hex": "#DA291C",
+        "rgb": "218, 41, 28",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -5036,14 +5036,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#239E46",
-        "rgb": "35, 158, 70",
-        "cmyk": "100, 0, 48, 48",
+        "hex": "#00843D",
+        "rgb": "0, 132, 61",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "2011年8月に復活（1951年憲法の旗）。横三色帯（赤・黒・緑、黒は倍幅）に白い三日月と五芒星。政府発行のPantone仕様なし。Red 485 C, Green 348 C は CRW Flags の標準近似値。Black 「Black」→「Black C」。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2011年8月に復活（1951年憲法の旗）。横三色帯（赤・黒・緑、黒は倍幅）に白い三日月と五芒星。政府発行のPantone仕様なし。Red 485 C, Green 348 C は CRW Flags の標準近似値。Black 「Black」→「Black C」。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Libya.svg"
   },
   {
@@ -5085,9 +5085,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -5099,7 +5099,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1881年4月4日公主令がデザインを定めるが色の具体的指定なし。**186 C は正確と確認**。グリマルディ家の紋章（1339年以来）に由来。公式比率は4:5（2:3でも製造）。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1881年4月4日公主令がデザインを定めるが色の具体的指定なし。**186 C は正確と確認**。グリマルディ家の紋章（1339年以来）に由来。公式比率は4:5（2:3でも製造）。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Monaco.svg"
   },
   {
@@ -5169,9 +5169,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#C40308",
-        "rgb": "196, 3, 8",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -5204,7 +5204,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "2004年7月13日採用。赤地に金の縁取り（旗の高さの1/20）と中央の国章（旗の高さの2/3）。国章：金の冠付き双頭鷲、笏と十字架球を持つ。**Red を 032 から 186 C に修正。Gold を 110 から 117 C に修正**。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2004年7月13日採用。赤地に金の縁取り（旗の高さの1/20）と中央の国章（旗の高さの2/3）。国章：金の冠付き双頭鷲、笏と十字架球を持つ。**Red を 032 から 186 C に修正。Gold を 110 から 117 C に修正**。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Montenegro.svg"
   },
   {
@@ -5269,12 +5269,12 @@
         "color_name": "Green",
         "hex": "#00843D",
         "rgb": "0, 132, 61",
-        "cmyk": "100, 0, 48, 48",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       }
     ],
     "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
-    "notes": "憲法が白・赤・緑の三色旗と定義。ホイスト側に白縦帯、フライ側に赤（上）と緑（下）。Album des Pavillons が Warm Red C と 348 C を引用 — いずれも正確と確認。色順序を再配置（White を先頭に）。White の CMYK に含まれていた不正なトレーリングカンマを修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法が白・赤・緑の三色旗と定義。ホイスト側に白縦帯、フライ側に赤（上）と緑（下）。Album des Pavillons が Warm Red C と 348 C を引用 — いずれも正確と確認。色順序を再配置（White を先頭に）。White の CMYK に含まれていた不正なトレーリングカンマを修正。",
     "wiki_flag_filename": "Flag_of_Madagascar.svg"
   },
   {
@@ -5288,9 +5288,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#003087",
-        "rgb": "0, 48, 135",
-        "cmyk": "100, 70, 0, 5",
+        "hex": "#00338E",
+        "rgb": "0, 51, 143",
+        "cmyk": "100, 64, 0, 44",
         "pantone": "287 C"
       },
       {
@@ -5309,7 +5309,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / Vexilla Mundi)",
-    "notes": "公式旗章法1979年がデザインを定めるがPantone値なし。**色名「Gold」を「Orange」に修正** — 立法上の公式名称は「orange」。24芒星の24の点 = 24の自治体。Blue 287 C, Orange 152 C は確認。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 公式旗章法1979年がデザインを定めるがPantone値なし。**色名「Gold」を「Orange」に修正** — 立法上の公式名称は「orange」。24芒星の24の点 = 24の自治体。Blue 287 C, Orange 152 C は確認。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_the_Marshall_Islands.svg"
   },
   {
@@ -5323,9 +5323,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#D82126",
-        "rgb": "216, 33, 38",
-        "cmyk": "0, 81, 87, 14",
+        "hex": "#DA291C",
+        "rgb": "218, 41, 28",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -5337,7 +5337,7 @@
       }
     ],
     "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
-    "notes": "1995年10月5日国旗法採用。**Red を 1795 C から 485 C に修正。Yellow を 107 C から 108 C に修正** — Album des Pavillons の標準値。太陽の中心は旗の対角線の交点、中央円盤の直径 = 旗の長さの1/7。ノイズ文字「!」を除去。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1995年10月5日国旗法採用。**Red を 1795 C から 485 C に修正。Yellow を 107 C から 108 C に修正** — Album des Pavillons の標準値。太陽の中心は旗の対角線の交点、中央円盤の直径 = 旗の長さの1/7。ノイズ文字「!」を除去。CMYK修正。",
     "wiki_flag_filename": "Flag_of_North_Macedonia.svg"
   },
   {
@@ -5353,26 +5353,26 @@
         "color_name": "Green",
         "hex": "#009639",
         "rgb": "0, 150, 57",
-        "cmyk": "100, 0, 91, 0",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Gold",
-        "hex": "#FCD116",
-        "rgb": "252, 209, 22",
+        "hex": "#FFD100",
+        "rgb": "255, 209, 0",
         "cmyk": "0, 18, 100, 0",
         "pantone": "109 C"
       },
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1961年3月1日採用（1959年マリ連邦旗からカナガ像を除去）。縦三色旗：緑（ホイスト）、金、赤。Green 355 C, Gold 109 C 確認。**Red を 032 から 186 C に修正**。色名「Yellow」を「Gold」に変更（鉱物資源の象徴）。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1961年3月1日採用（1959年マリ連邦旗からカナガ像を除去）。縦三色旗：緑（ホイスト）、金、赤。Green 355 C, Gold 109 C 確認。**Red を 032 から 186 C に修正**。色名「Yellow」を「Gold」に変更（鉱物資源の象徴）。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Mali.svg"
   },
   {
@@ -5395,7 +5395,7 @@
         "color_name": "Green",
         "hex": "#43B02A",
         "rgb": "67, 176, 42",
-        "cmyk": "71, 0, 100, 0",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       },
       {
@@ -5414,7 +5414,7 @@
       }
     ],
     "specs_source": "De facto (Myanmar Embassy Berlin / FOTW Documentation)",
-    "notes": "2010年10月21日採用。三色帯（黄・緑・赤）に大きな白い五芒星が全帯に重なる。ミャンマー大使館（ベルリン）が公式Pantone PC値を提供：116 PC (Yellow), 361 PC (Green), 1788 PC (Red) — **全て正確と確認** ✅。色順序を再配置（White を末尾に）。CMYK を大使館値に修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2010年10月21日採用。三色帯（黄・緑・赤）に大きな白い五芒星が全帯に重なる。ミャンマー大使館（ベルリン）が公式Pantone PC値を提供：116 PC (Yellow), 361 PC (Green), 1788 PC (Red) — **全て正確と確認** ✅。色順序を再配置（White を末尾に）。CMYK を大使館値に修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Myanmar.svg"
   },
   {
@@ -5498,9 +5498,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#0033A1",
-        "rgb": "0, 51, 161",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       },
       {
@@ -5519,7 +5519,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / CRW Flags)",
-    "notes": "CNMI法令にPantone指定なし。青地に白い星、灰色のラッテ・ストーン（古代チャモロ建築の柱）、ムワール（カロリン族の花輪）。Blue 286 C 確認。**Grey を「Cool Gray 5 C」から「421 C」に修正**。花輪の追加色（Red 1788 C, Yellow 102 C, Purple 239 C 等）は旗の主要色のみ保持。ノイズ「!」除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: CNMI法令にPantone指定なし。青地に白い星、灰色のラッテ・ストーン（古代チャモロ建築の柱）、ムワール（カロリン族の花輪）。Blue 286 C 確認。**Grey を「Cool Gray 5 C」から「421 C」に修正**。花輪の追加色（Red 1788 C, Yellow 102 C, Purple 239 C 等）は旗の主要色のみ保持。ノイズ「!」除去。",
     "wiki_flag_filename": "Flag_of_the_Northern_Mariana_Islands.svg"
   },
   {
@@ -5582,14 +5582,14 @@
       },
       {
         "color_name": "Red",
-        "hex": "#D01C1F",
-        "rgb": "208, 28, 31",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (2020 Charte Graphique / Standard Vexillological Approximations)",
-    "notes": "2017年国民投票で赤帯を追加（上下各1/5）。2020年5月に政府グラフィック・チャーターを公布。**Green を 3405 から 354 C に修正。Red を 485 から 186 C に修正**。色名「Yellow」を「Gold」に変更。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2017年国民投票で赤帯を追加（上下各1/5）。2020年5月に政府グラフィック・チャーターを公布。**Green を 3405 から 354 C に修正。Red を 485 から 186 C に修正**。色名「Yellow」を「Gold」に変更。",
     "wiki_flag_filename": "Flag_of_Mauritania.svg"
   },
   {
@@ -5603,16 +5603,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -5624,7 +5624,7 @@
       }
     ],
     "specs_source": "De facto (British MoD BR20 / Standard British Ensign Approximations)",
-    "notes": "英国ブルー・エンサイン。紋章は「エリン」（アイルランドの女性擬人化、緑のドレス、黄金のハープ、黒い十字）。1999年に紋章拡大・白縁取り変更。Blue 280 C, Red 186 C 確認。ノイズ除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 英国ブルー・エンサイン。紋章は「エリン」（アイルランドの女性擬人化、緑のドレス、黄金のハープ、黒い十字）。1999年に紋章拡大・白縁取り変更。Blue 280 C, Red 186 C 確認。ノイズ除去。",
     "wiki_flag_filename": "Flag_of_Montserrat.svg"
   },
   {
@@ -5717,14 +5717,14 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
         "color_name": "Green",
         "hex": "#00843D",
         "rgb": "0, 132, 61",
-        "cmyk": "100, 0, 48, 48",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       },
       {
@@ -5736,7 +5736,7 @@
       }
     ],
     "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
-    "notes": "1965年7月25日採用。赤い枠（幅 = 旗幅の1/4）に緑の長方形（1/2幅×2/3長）中央配置、白い垂直三日月。Red 186 C, Green 348 C は Album des Pavillons で確認 — 正確。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1965年7月25日採用。赤い枠（幅 = 旗幅の1/4）に緑の長方形（1/2幅×2/3長）中央配置、白い垂直三日月。Red 186 C, Green 348 C は Album des Pavillons で確認 — 正確。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Maldives.svg"
   },
   {
@@ -5759,19 +5759,19 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
         "color_name": "Green",
         "hex": "#007A33",
         "rgb": "0, 122, 51",
-        "cmyk": "100, 0, 55, 53",
+        "cmyk": "91, 4, 100, 25",
         "pantone": "356 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / London 2012)",
-    "notes": "2012年5月28日復活旗（各1964年独立時デザイン、2010年変更は不評で撤回）。三色帯（黒・赤・緑）に赤い昇る太陽（31本の光線 = アフリカ31番目の独立国）。Red 186 C, Green 356 C 確認。Black 「Black」→「Black C」。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2012年5月28日復活旗（各1964年独立時デザイン、2010年変更は不評で撤回）。三色帯（黒・赤・緑）に赤い昇る太陽（31本の光線 = アフリカ31番目の独立国）。Red 186 C, Green 356 C 確認。Black 「Black」→「Black C」。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Malawi.svg"
   },
   {
@@ -5820,9 +5820,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CC0000",
-        "rgb": "204, 0, 0",
-        "cmyk": "0, 81, 87, 14",
+        "hex": "#DA291C",
+        "rgb": "218, 41, 28",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -5834,9 +5834,9 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#0032A0",
-        "rgb": "0, 50, 160",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       },
       {
@@ -5848,7 +5848,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "「Jalur Gemilang（栄光の縞）」。14本の赤白交互帯に紺青カントン（黄色い三日月と14芒星）。公式Pantone仕様が公開されておらず複数ソースが矛盾（Red: 485/2768, Blue: 286/199, Yellow: 108/109）。最も広く引用される Red 485 C, Blue 286 C, Yellow 109 C を維持。公式ガイダンスが入手され次第更新の可能性あり。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 「Jalur Gemilang（栄光の縞）」。14本の赤白交互帯に紺青カントン（黄色い三日月と14芒星）。公式Pantone仕様が公開されておらず複数ソースが矛盾（Red: 485/2768, Blue: 286/199, Yellow: 108/109）。最も広く引用される Red 485 C, Blue 286 C, Yellow 109 C を維持。公式ガイダンスが入手され次第更新の可能性あり。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Malaysia.svg"
   },
   {
@@ -5862,9 +5862,9 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -5890,14 +5890,14 @@
       },
       {
         "color_name": "Red",
-        "hex": "#E4002B",
-        "rgb": "228, 0, 43",
-        "cmyk": "0, 100, 78, 9",
+        "hex": "#EB0029",
+        "rgb": "235, 0, 41",
+        "cmyk": "0, 100, 81, 0",
         "pantone": "185 C"
       }
     ],
     "specs_source": "De facto (London 2012 Flag Manual / Standard Vexillological Approximations)",
-    "notes": "世界唯一の近代火器掲載国旗（AK-47銃剣付き）。憲法がデザインを定めるがPantone値は規定なし。複数の公式マニュアルが異なる値を使用（London 2012: 355/109/185、政府ウェブ: 328/102/186、Beijing 2008: 032/102/342）。London 2012値を採用。Green 355 C, Yellow 109 C, Red 185 C 確認。Black 「Black」→「Black C」。ゴミ source 除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 世界唯一の近代火器掲載国旗（AK-47銃剣付き）。憲法がデザインを定めるがPantone値は規定なし。複数の公式マニュアルが異なる値を使用（London 2012: 355/109/185、政府ウェブ: 328/102/186、Beijing 2008: 032/102/342）。London 2012値を採用。Green 355 C, Yellow 109 C, Red 185 C 確認。Black 「Black」→「Black C」。ゴミ source 除去。",
     "wiki_flag_filename": "Flag_of_Mozambique.svg"
   },
   {
@@ -5920,7 +5920,7 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -5934,19 +5934,19 @@
         "color_name": "Yellow",
         "hex": "#FFC72C",
         "rgb": "255, 199, 44",
-        "cmyk": "0, 16, 89, 0",
+        "cmyk": "0, 19, 89, 0",
         "pantone": "123 C"
       },
       {
         "color_name": "Green",
-        "hex": "#009A44",
-        "rgb": "0, 154, 68",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / Album des Pavillons)",
-    "notes": "憲法が幾何学的仕様を定義（tierced per bend reversed）。Blue (Reflex Blue C), Red 485 C, Yellow 123 C, Green 347 C — 全て確認。金色の太陽（12本の光線、直径 = 旗幅の1/3）。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法が幾何学的仕様を定義（tierced per bend reversed）。Blue (Reflex Blue C), Red 485 C, Yellow 123 C, Green 347 C — 全て確認。金色の太陽（12本の光線、直径 = 旗幅の1/3）。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Namibia.svg"
   },
   {
@@ -5963,25 +5963,25 @@
         "hex": "#000091",
         "rgb": "0, 0, 145",
         "cmyk": "100, 90, 20, 7",
-        "pantone": "072 C"
+        "pantone": "2738 C"
       },
       {
         "color_name": "White",
         "hex": "#FFFFFF",
         "rgb": "255, 255, 255",
         "cmyk": "0, 0, 0, 0",
-        "pantone": ""
+        "pantone": "White"
       },
       {
         "color_name": "Red",
         "hex": "#E1000F",
         "rgb": "225, 0, 15",
-        "cmyk": "0, 81, 87, 14",
-        "pantone": "485 C"
+        "cmyk": "0, 98, 100, 10",
+        "pantone": "2347 C"
       }
     ],
     "specs_source": "De jure (NF X 08002 / French National Standard)",
-    "notes": "フランス海外準県（sui generis）として公式旗はフランス三色旗。**Blue を Reflex Blue から 072 C に修正。Red を 032 から 485 C に修正** — 他のフランス領（MF, MQ）との整合性を確保。比率を 1:2 から 2:3 に修正。FLNKS旗（カナク旗、青赤緑+黄円盤+flèche faîtière）は2010年議会決議で並掲されるが法的地位なし。White CMYK 補填。",
+    "notes": "ニューカレドニアの公式の旗はフランス国旗と同じ（フランス国旗との並掲決議はあるが、公式国旗としては三色旗のみ）。最新のフランス公式指定である Pantone 2738 C (Blue) と 2347 C (Red) を適用。",
     "wiki_flag_filename": "Flag_of_New_Caledonia.svg"
   },
   {
@@ -6009,14 +6009,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#0DB02B",
-        "rgb": "13, 176, 43",
-        "cmyk": "76, 0, 91, 0",
+        "hex": "#43B02A",
+        "rgb": "67, 176, 42",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "政府発行のPantone仕様なし。三色帯（橙・白・緑）にオレンジ色の円盤（白帯中央）。比率6:7（ほぼ正方形）。**Orange を 150 から 166 C に修正。Green を 355 から 361 C に修正**。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 政府発行のPantone仕様なし。三色帯（橙・白・緑）にオレンジ色の円盤（白帯中央）。比率6:7（ほぼ正方形）。**Orange を 150 から 166 C に修正。Green を 355 から 361 C に修正**。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Niger.svg"
   },
   {
@@ -6058,9 +6058,9 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#008751",
-        "rgb": "0, 135, 81",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -6072,7 +6072,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1960年10月1日採用。縦三色旗（緑・白・緑）。政府文書にPantone/CMYK値なし。「エメラルドグリーン」と記述。Green 355 C が最も広く引用される値として確認。HEX を355 C標準参照値に修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1960年10月1日採用。縦三色旗（緑・白・緑）。政府文書にPantone/CMYK値なし。「エメラルドグリーン」と記述。Green 355 C が最も広く引用される値として確認。HEX を355 C標準参照値に修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Nigeria.svg"
   },
   {
@@ -6086,10 +6086,10 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#0067C6",
-        "rgb": "0, 103, 198",
-        "cmyk": "100, 85, 5, 22",
-        "pantone": "280 C"
+        "hex": "#005EB8",
+        "rgb": "0, 94, 184",
+        "cmyk": "99, 50, 0, 0",
+        "pantone": "300 C"
       },
       {
         "color_name": "White",
@@ -6121,7 +6121,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / Decree No. 1908, 1971)",
-    "notes": "1971年8月25日法令1908号が現行デザインを再確認。三色帯（青・白・青）に国章（三角形、五火山、大洋、虹、フリジア帽、太陽光線）。**Blue を 281 から 280 C に修正**。色名「Dark Blue」→「Blue」。**Green を 355 から 376 C に修正**（国章の緑はより明るい黄緑色）。重複するYellow (109 C) を除去。CMYK修正。",
+    "notes": "1971年8月25日法令1908号が現行デザインを再確認。法律上、青帯は「azul cobalto（コバルトブルー）」と規定。英国旗章協会（Flag Institute）やAlbum des Pavillons等の国際標準に従い、濃紺すぎた280 C（#002878）から本来のコバルトブルーである300 C（#005EB8）に修正。国章の緑は376 C（黄緑色）。重複するYellow (109 C) を除去。",
     "wiki_flag_filename": "Flag_of_Nicaragua.svg"
   },
   {
@@ -6184,14 +6184,14 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 65, 0, 64",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       }
     ],
     "specs_source": "De facto (Nordic Council / Standard Vexillological Approximations)",
-    "notes": "法律は色を「深紅」(høirødt) と「暗青」(mørkeblått) とのみ定義。Nordic Council と旗製造業者の事実上の標準：Red 200 C, Blue 281 C — **両方確認** ✅。色名「Norwegian Red/Blue」→「Red/Blue」に簡略化。CMYK を標準変換値に修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法律は色を「深紅」(høirødt) と「暗青」(mørkeblått) とのみ定義。Nordic Council と旗製造業者の事実上の標準：Red 200 C, Blue 281 C — **両方確認** ✅。色名「Norwegian Red/Blue」→「Red/Blue」に簡略化。CMYK を標準変換値に修正。",
     "wiki_flag_filename": "Flag_of_Norway.svg"
   },
   {
@@ -6240,16 +6240,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
         "color_name": "Yellow",
         "hex": "#FFC72C",
         "rgb": "255, 199, 44",
-        "cmyk": "0, 30, 95, 0",
+        "cmyk": "0, 19, 89, 0",
         "pantone": "123 C"
       },
       {
@@ -6261,7 +6261,7 @@
       }
     ],
     "specs_source": "De facto (Album des Pavillons / Standard Vexillological Approximations)",
-    "notes": "1968年1月31日採用。暗青地に黄色い細帯（高さの1/12 = 赤道）。白い12芒星（12部族）が帯の下方ホイスト側（ナウルは赤道の1°南）。Blue 280 C, Yellow 123 C 確認。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1968年1月31日採用。暗青地に黄色い細帯（高さの1/12 = 赤道）。白い12芒星（12部族）が帯の下方ホイスト側（ナウルは赤道の1°南）。Blue 280 C, Yellow 123 C 確認。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Nauru.svg"
   },
   {
@@ -6277,14 +6277,14 @@
         "color_name": "Yellow",
         "hex": "#FEDD00",
         "rgb": "254, 221, 0",
-        "cmyk": "0, 0, 100, 0",
+        "cmyk": "0, 13, 100, 0",
         "pantone": "Yellow C"
       },
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
@@ -6298,12 +6298,12 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (Niue Flag Act 1975 / Standard Vexillological Approximations)",
-    "notes": "1975年10月15日採用（Niue Flag Act 1975）。金黄色地にユニオンジャック（カントン内にダイヤモンド配置の4小星 = 南十字星／NZとの結びつき）、中央に青円盤上の大星（自治地位）。Yellow C, Blue 280 C, Red 186 C 確認。ノイズ「!」除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1975年10月15日採用（Niue Flag Act 1975）。金黄色地にユニオンジャック（カントン内にダイヤモンド配置の4小星 = 南十字星／NZとの結びつき）、中央に青円盤上の大星（自治地位）。Yellow C, Blue 280 C, Red 186 C 確認。ノイズ「!」除去。",
     "wiki_flag_filename": "Flag_of_Niue.svg"
   },
   {
@@ -6354,7 +6354,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -6366,14 +6366,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009A44",
-        "rgb": "0, 154, 68",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / Royal Decree 53/2004)",
-    "notes": "Royal Decree 53/2004 が旗の規制を行う。**比率を 1:2 から 4:7 に修正**。ホイストの赤い縦帯に白い国章（ハンジャルとサイフ交差）。Red 186 C, Green 347 C 確認。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: Royal Decree 53/2004 が旗の規制を行う。**比率を 1:2 から 4:7 に修正**。ホイストの赤い縦帯に白い国章（ハンジャルとサイフ交差）。Red 186 C, Green 347 C 確認。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Oman.svg"
   },
   {
@@ -6424,7 +6424,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -6436,7 +6436,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / Constitution Article 49)",
-    "notes": "憲法第49条が赤白赤の縦三色旗を定めるがPantone値は規定なし。市民旗（Bandera Nacional）は無紋、国旗（Pabellón Nacional）は白帯に国章。Red 186 C は最も広く引用される近似値として確認。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 憲法第49条が赤白赤の縦三色旗を定めるがPantone値は規定なし。市民旗（Bandera Nacional）は無紋、国旗（Pabellón Nacional）は白帯に国章。Red 186 C は最も広く引用される近似値として確認。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Peru.svg"
   },
   {
@@ -6450,9 +6450,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 100, 78, 9",
+        "hex": "#EB0029",
+        "rgb": "235, 0, 41",
+        "cmyk": "0, 100, 81, 0",
         "pantone": "185 C"
       },
       {
@@ -6464,9 +6464,9 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#0033A0",
-        "rgb": "0, 51, 160",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       },
       {
@@ -6478,7 +6478,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1984年11月23日採用。赤白赤の横三色帯（1:2:1比率）に領土紋章（ポリネシアのピローグ＝カヌー、5人の人物 = 5つの諸島群、太陽、波）。**Red を 186 から 185 C に修正。Blue を 293 から 286 C に修正。Gold を 1375 から 116 C に修正**。ノイズ「!」除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1984年11月23日採用。赤白赤の横三色帯（1:2:1比率）に領土紋章（ポリネシアのピローグ＝カヌー、5人の人物 = 5つの諸島群、太陽、波）。**Red を 186 から 185 C に修正。Blue を 293 から 286 C に修正。Gold を 1375 から 116 C に修正**。ノイズ「!」除去。",
     "wiki_flag_filename": "Flag_of_French_Polynesia.svg"
   },
   {
@@ -6494,7 +6494,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -6520,7 +6520,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "対角分割（上ホイスト→下フライ）：上赤三角に金色の極楽鳥（Kumul = 国家誕生）、下黒三角に白い南十字星5星。Red 186 C, Yellow 116 C 確認。Black 「Black」→「Black C」。「C」サフィックスを付与。ゴミ source 除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 対角分割（上ホイスト→下フライ）：上赤三角に金色の極楽鳥（Kumul = 国家誕生）、下黒三角に白い南十字星5星。Red 186 C, Yellow 116 C 確認。Black 「Black」→「Black C」。「C」サフィックスを付与。ゴミ source 除去。",
     "wiki_flag_filename": "Flag_of_Papua_New_Guinea.svg"
   },
   {
@@ -6667,16 +6667,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -6702,7 +6702,7 @@
       }
     ],
     "specs_source": "De facto (British Blue Ensign / Standard Vexillological Approximations)",
-    "notes": "1984年4月2日採用。ブルー・エンサインにピトケアン紋章（1969年11月4日Royal Warrant）。紋章: HMS Bountyの聖書と錨、手押し車とミロの木。Blue 280 C, Red 186 C 確認。紋章色 Green 364 C, Yellow 107 C 維持。**8色→5色に整理**（Light Blue, Black, Grey等の紋章細部色を除去）。ノイズ「!」除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1984年4月2日採用。ブルー・エンサインにピトケアン紋章（1969年11月4日Royal Warrant）。紋章: HMS Bountyの聖書と錨、手押し車とミロの木。Blue 280 C, Red 186 C 確認。紋章色 Green 364 C, Yellow 107 C 維持。**8色→5色に整理**（Light Blue, Black, Grey等の紋章細部色を除去）。ノイズ「!」除去。",
     "wiki_flag_filename": "Flag_of_the_Pitcairn_Islands.svg"
   },
   {
@@ -6716,9 +6716,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#E92228",
-        "rgb": "233, 34, 40",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -6730,14 +6730,14 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#3A5EAB",
-        "rgb": "58, 94, 171",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1952年コモンウェルス公式旗。法的Pantone規定なし。5本横帯（赤3白2）にホイスト側の青い正三角形（白い五芒星）。**青の濃淡が歴史的に議論**: 1952年のダーク（281 C、合衆国旗に合わせる）vs 1895年のライト（独立運動）。ダーク 281 C を現行公式版として維持。Red 032 C 確認。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1952年コモンウェルス公式旗。法的Pantone規定なし。5本横帯（赤3白2）にホイスト側の青い正三角形（白い五芒星）。**青の濃淡が歴史的に議論**: 1952年のダーク（281 C、合衆国旗に合わせる）vs 1895年のライト（独立運動）。ダーク 281 C を現行公式版として維持。Red 032 C 確認。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Puerto_Rico.svg"
   },
   {
@@ -6765,21 +6765,21 @@
       },
       {
         "color_name": "Green",
-        "hex": "#149954",
-        "rgb": "20, 153, 84",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Red",
-        "hex": "#E4312B",
-        "rgb": "228, 49, 43",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / PLO 1964)",
-    "notes": "PLO 1964年採用、パレスチナ国 1988年採用。汎アラブ色（1916年アラブ反乱旗由来）。三色帯（黒白緑）に赤い三角（ホイスト、旗長の1/3）。公式Pantone標準なし。Red 032 C, Green 355 C 確認。Black「Black」→「Black C」。色順序修正（Black first = 上）。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: PLO 1964年採用、パレスチナ国 1988年採用。汎アラブ色（1916年アラブ反乱旗由来）。三色帯（黒白緑）に赤い三角（ホイスト、旗長の1/3）。公式Pantone標準なし。Red 032 C, Green 355 C 確認。Black「Black」→「Black C」。色順序修正（Black first = 上）。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Palestine.svg"
   },
   {
@@ -6802,7 +6802,7 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -6835,7 +6835,7 @@
       }
     ],
     "specs_source": "De facto (Decree of 30 June 1911 / Standard Vexillological Approximations)",
-    "notes": "1911年6月30日法令が定性的に定義: 「verde escuro」（暗緑）と「escarlate」（スカーレット）。Pantone規定なし。縦分割: 緑 2/5（ホイスト）+ 赤 3/5（フライ）に紋章（ポルトガル盾＝quinas + 天球儀）。Green 349 C, Red 485 C, Yellow 803 C, Blue 288 C — 全て確認。Black「Black」→「Black C」。White CMYK 補填。ゴミ source 除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1911年6月30日法令が定性的に定義: 「verde escuro」（暗緑）と「escarlate」（スカーレット）。Pantone規定なし。縦分割: 緑 2/5（ホイスト）+ 赤 3/5（フライ）に紋章（ポルトガル盾＝quinas + 天球儀）。Green 349 C, Red 485 C, Yellow 803 C, Blue 288 C — 全て確認。Black「Black」→「Black C」。White CMYK 補填。ゴミ source 除去。",
     "wiki_flag_filename": "Flag_of_Portugal.svg"
   },
   {
@@ -6849,9 +6849,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#0085CA",
-        "rgb": "0, 133, 202",
-        "cmyk": "100, 15, 0, 6",
+        "hex": "#0085CF",
+        "rgb": "0, 133, 207",
+        "cmyk": "100, 36, 0, 19",
         "pantone": "Process Blue C"
       },
       {
@@ -6863,7 +6863,7 @@
       }
     ],
     "specs_source": "De facto (London 2012 Flag Manual / Standard Vexillological Approximations)",
-    "notes": "水色の地に金色の円盤（満月）がホイスト寄りにオフセンター。**比率を 3:5 から 5:8 に修正**。Process Blue C, Yellow 109 C は London 2012 値として確認（Beijing 2008: 292/102, Album 2000: 299/101 と異なる）。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 水色の地に金色の円盤（満月）がホイスト寄りにオフセンター。**比率を 3:5 から 5:8 に修正**。Process Blue C, Yellow 109 C は London 2012 値として確認（Beijing 2008: 292/102, Album 2000: 299/101 と異なる）。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Palau.svg"
   },
   {
@@ -7038,9 +7038,9 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#0C4076",
-        "rgb": "12, 64, 118",
-        "cmyk": "100, 68, 0, 12",
+        "hex": "#00338E",
+        "rgb": "0, 51, 143",
+        "cmyk": "100, 64, 0, 44",
         "pantone": "287 C"
       },
       {
@@ -7052,7 +7052,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "三色帯（赤青白）、国旗版は紋章付き（ホイストから旗長の1/7）。**Red を 192 から 193 C に修正。Blue を 280 から 287 C に修正**。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 三色帯（赤青白）、国旗版は紋章付き（ホイストから旗長の1/7）。**Red を 192 から 193 C に修正。Blue を 280 から 287 C に修正**。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Serbia.svg"
   },
   {
@@ -7073,21 +7073,21 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#0032A0",
-        "rgb": "0, 50, 160",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       },
       {
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       }
     ],
     "specs_source": "De facto (Federal Constitutional Law / Standard Government Procurement Specifications)",
-    "notes": "連邦憲法法が白青赤の三色帯を定めるが正確な色調は規定なし（GOST基準も不在）。**Blue を 293 C から 286 C に修正** — 政府調達仕様の標準。Red 485 C 確認。HEX を標準 Pantone 参照値に修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 連邦憲法法が白青赤の三色帯を定めるが正確な色調は規定なし（GOST基準も不在）。**Blue を 293 C から 286 C に修正** — 政府調達仕様の標準。Red 485 C 確認。HEX を標準 Pantone 参照値に修正。",
     "wiki_flag_filename": "Flag_of_Russia.svg"
   },
   {
@@ -7178,15 +7178,15 @@
       },
       {
         "color_name": "Green",
-        "hex": "#215B33",
-        "rgb": "33, 91, 51",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCD116",
-        "rgb": "252, 209, 22",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
@@ -7199,7 +7199,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1977年11月18日採用。対角黄帯（下ホイスト→上フライ）で分割: 青三角（上、白い5星=主要島嶼群）、緑三角（下、肥沃な大地）。**Yellow を 123 から 116 C に修正**。CMYK修正。色順序再整理。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1977年11月18日採用。対角黄帯（下ホイスト→上フライ）で分割: 青三角（上、白い5星=主要島嶼群）、緑三角（下、肥沃な大地）。**Yellow を 123 から 116 C に修正**。CMYK修正。色順序再整理。",
     "wiki_flag_filename": "Flag_of_the_Solomon_Islands.svg"
   },
   {
@@ -7243,12 +7243,12 @@
         "color_name": "Green",
         "hex": "#007A33",
         "rgb": "0, 122, 51",
-        "cmyk": "100, 0, 55, 53",
+        "cmyk": "91, 4, 100, 25",
         "pantone": "356 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / National Symbols Act)",
-    "notes": "1996年6月18日採用。左下隅から放射する5本の斜帯（青・黄・赤・白・緑）。Blue 294 C, Yellow 122 C, Red 1795 C, Green 356 C — **全て確認** ✅。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1996年6月18日採用。左下隅から放射する5本の斜帯（青・黄・赤・白・緑）。Blue 294 C, Yellow 122 C, Red 1795 C, Green 356 C — **全て確認** ✅。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Seychelles.svg"
   },
   {
@@ -7262,9 +7262,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#D21034",
-        "rgb": "210, 16, 52",
-        "cmyk": "0, 82, 76, 4",
+        "hex": "#EF3340",
+        "rgb": "239, 51, 64",
+        "cmyk": "0, 79, 73, 6",
         "pantone": "032 C"
       },
       {
@@ -7283,14 +7283,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#007229",
-        "rgb": "0, 114, 41",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1970年5月20日採用。汎アラブ色。三色帯（赤白黒）にホイスト側の緑い等辺三角形（底辺=旗幅、高さ=旗長の1/3）。Red 032 C, Green 355 C 確認。Black「Black」→「Black C」。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1970年5月20日採用。汎アラブ色。三色帯（赤白黒）にホイスト側の緑い等辺三角形（底辺=旗幅、高さ=旗長の1/3）。Red 032 C, Green 355 C 確認。Black「Black」→「Black C」。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Sudan.svg"
   },
   {
@@ -7360,16 +7360,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -7381,7 +7381,7 @@
       }
     ],
     "specs_source": "De facto (British Blue Ensign / Royal Warrant 1984)",
-    "notes": "**空データから完全に新規作成**。1984年10月4日 Royal Warrant。ブルー・エンサインにフライの紋章盾（白円盤なし）: 上部にワイヤーバード（固有種セントヘレナチドリ）、下部に三本マスト帆船と岩壁。2019年にワイヤーバードの正確性のため紋章改訂。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: **空データから完全に新規作成**。1984年10月4日 Royal Warrant。ブルー・エンサインにフライの紋章盾（白円盤なし）: 上部にワイヤーバード（固有種セントヘレナチドリ）、下部に三本マスト帆船と岩壁。2019年にワイヤーバードの正確性のため紋章改訂。",
     "wiki_flag_filename": "Flag_of_Saint_Helena.svg"
   },
   {
@@ -7451,14 +7451,14 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 65, 0, 64",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       }
     ],
     "specs_source": "De facto (Nordic Council / Standard Vexillological Approximations)",
-    "notes": "ノルウェーの領土（スヴァールバル条約に基づく管轄）であり、固有の旗は存在しない。公式にはノルウェー国旗を使用する。カラー仕様はNO（ノルウェー）エントリと同一。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: ノルウェーの領土（スヴァールバル条約に基づく管轄）であり、固有の旗は存在しない。公式にはノルウェー国旗を使用する。カラー仕様はNO（ノルウェー）エントリと同一。",
     "wiki_flag_filename": "Flag_of_Norway.svg"
   },
   {
@@ -7507,9 +7507,9 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#1EB53A",
-        "rgb": "30, 181, 58",
-        "cmyk": "68, 0, 100, 0",
+        "hex": "#43B02A",
+        "rgb": "67, 176, 42",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       },
       {
@@ -7528,7 +7528,7 @@
       }
     ],
     "specs_source": "De facto (Album des Pavillons 1990 / Standard Vexillological Approximations)",
-    "notes": "横三色帯: 緑（天然資源/山地/農業）白（統一/正義）青（フリータウン港/世界平和）。Green 361 C 確認。**Blue を 292 から 300 C に修正**（Album des Pavillons 1990基準）。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 横三色帯: 緑（天然資源/山地/農業）白（統一/正義）青（フリータウン港/世界平和）。Green 361 C 確認。**Blue を 292 から 300 C に修正**（Album des Pavillons 1990基準）。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Sierra_Leone.svg"
   },
   {
@@ -7635,7 +7635,7 @@
         "color_name": "Green",
         "hex": "#007A33",
         "rgb": "0, 122, 51",
-        "cmyk": "100, 0, 55, 53",
+        "cmyk": "91, 4, 100, 25",
         "pantone": "356 C"
       },
       {
@@ -7649,7 +7649,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -7661,7 +7661,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1975年11月25日採用。5帯（緑白赤白緑、比2:1:4:1:2）に黄色の五芒星。Green 356 C, Red 186 C, Yellow 116 C — **全て確認** ✅（London 2012一致）。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1975年11月25日採用。5帯（緑白赤白緑、比2:1:4:1:2）に黄色の五芒星。Green 356 C, Red 186 C, Yellow 116 C — **全て確認** ✅（London 2012一致）。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Suriname.svg"
   },
   {
@@ -7682,16 +7682,16 @@
       },
       {
         "color_name": "Red",
-        "hex": "#DA121A",
-        "rgb": "218, 18, 26",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
         "color_name": "Green",
-        "hex": "#078930",
-        "rgb": "7, 137, 48",
-        "cmyk": "100, 0, 48, 48",
+        "hex": "#00843D",
+        "rgb": "0, 132, 61",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       },
       {
@@ -7703,21 +7703,21 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#0F47AF",
-        "rgb": "15, 71, 175",
-        "cmyk": "100, 75, 0, 0",
-        "pantone": "286 C"
+        "hex": "#00B6F2",
+        "rgb": "0, 182, 242",
+        "cmyk": "100, 25, 0, 5",
+        "pantone": "298 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCDD09",
-        "rgb": "252, 221, 9",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       }
     ],
-    "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "公式Pantone未規定。ソース間の乖離が最も大きい国旗の一つ。三色帯（黒赤緑）に白い縁取り、ホイスト側に青三角（黄星）。**Red を 2035 C から 186 C に修正。Blue を 285 C から 286 C に修正。Yellow を Yellow C から 116 C に修正。Black を Black 6 C から Black C に正規化**。ノイズ「!」を全6色から除去。色順序修正。HEX修正。",
+    "specs_source": "De jure (Media Authority Advisory, 25 August 2023)",
+    "notes": "2023年8月25日に南スーダン・メディア庁（Media Authority）が発行した公式アドバイザリーに基づき、青を公式なライトブルー（Pantone 298 C）に統一。あわせて、赤（186 C）、緑（348 C）、黄（116 C）についても、公式なデジタル/印刷仕様値（HEX、RGB、CMYK）を正しく適用し、SVGおよびAIファイル間での色ズレを完全に解消。",
     "wiki_flag_filename": "Flag_of_South_Sudan.svg"
   },
   {
@@ -7787,8 +7787,8 @@
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCE300",
-        "rgb": "252, 227, 0",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
@@ -7801,14 +7801,14 @@
       },
       {
         "color_name": "Green",
-        "hex": "#009900",
-        "rgb": "0, 153, 0",
-        "cmyk": "100, 0, 48, 48",
+        "hex": "#00843D",
+        "rgb": "0, 132, 61",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations / Law of National Symbols)",
-    "notes": "Bandera Magna 比率 189:335（3.35m × 1.89m）。他: 市民旗 3:5、パレード旗 18:29。青白青の三帯に国章。Blue 300 C 確認。**Yellow を 102 から 116 C に修正**。紋章の Red は基本旗色ではないため除去。Black「Black」→「Black C」。Green 348 C 確認。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: Bandera Magna 比率 189:335（3.35m × 1.89m）。他: 市民旗 3:5、パレード旗 18:29。青白青の三帯に国章。Blue 300 C 確認。**Yellow を 102 から 116 C に修正**。紋章の Red は基本旗色ではないため除去。Black「Black」→「Black C」。Green 348 C 確認。",
     "wiki_flag_filename": "Flag_of_El_Salvador.svg"
   },
   {
@@ -7824,7 +7824,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -7836,14 +7836,14 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#0032A0",
-        "rgb": "0, 50, 160",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "**空データから完全に新規作成**。1985年6月13日採用。赤青の二色帯（赤が上）にホイスト側白三角、中央に紋章（フィリプスバーグ裁判所、蘭仏友好碑、黄セージ花束、ペリカン）。Red 186 C, Blue 286 C。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: **空データから完全に新規作成**。1985年6月13日採用。赤青の二色帯（赤が上）にホイスト側白三角、中央に紋章（フィリプスバーグ裁判所、蘭仏友好碑、黄セージ花束、ペリカン）。Red 186 C, Blue 286 C。",
     "wiki_flag_filename": "Flag_of_Sint_Maarten.svg"
   },
   {
@@ -7871,9 +7871,9 @@
       },
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -7885,7 +7885,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "現行旗（独立旗）: 三色帯（緑白黒）に赤い五芒星3個（2025年憲法改正）。汎アラブ色。**Green を 7726 C から 354 C に修正**。Red 186 C 確認。Black「Black」→「Black C」、CMYK 75/68/67/90→0/0/0/100修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 現行旗（独立旗）: 三色帯（緑白黒）に赤い五芒星3個（2025年憲法改正）。汎アラブ色。**Green を 7726 C から 354 C に修正**。Red 186 C 確認。Black「Black」→「Black C」、CMYK 75/68/67/90→0/0/0/100修正。",
     "wiki_flag_filename": "Flag_of_Syria.svg"
   },
   {
@@ -7934,7 +7934,7 @@
       }
     ],
     "specs_source": "De facto (London 2012 Flags & Anthems Manual / gov.sz cross-check)",
-    "notes": "1968年10月6日採用。5帯（青黄赤黄青、比3:1:8:1:3）。中央赤帯にンクニ牛革の盾（白黒）、杖（インジョボ羽飾り）、交差する2本の槍。**London 2012 Flags & Anthems Manual準拠に修正**（Blue 542→638 C, Yellow 116→102 C, Red 186→199 C）。gov.sz公式サイト画像ともクロスチェック済。",
+    "notes": "1968年10月6日採用。5帯（青黄赤黄青、比3:1:8:1:3）。中央赤帯にンクニ牛革の盾（白黒）、杖（インジョボ羽飾り）、交差する2本の槍。**London 2012 Flags & Anthems Manual準拠に修正**（Blue 542→638 C, Yellow 116→102 C, Red 186→199 C）。gov.sz公式サイト画像（flag.png, SWAZI FLAG.jpg）ともクロスチェック済。旧HEXはPantone標準変換と不一致（#3E5EB9≠542C, #B10202≠186C）であった問題も解消。",
     "wiki_flag_filename": "Flag_of_Eswatini.svg"
   },
   {
@@ -7948,16 +7948,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#002868",
-        "rgb": "0, 40, 104",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -7969,21 +7969,21 @@
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCD116",
-        "rgb": "252, 209, 22",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
       {
         "color_name": "Green",
-        "hex": "#009E49",
-        "rgb": "0, 158, 73",
-        "cmyk": "100, 0, 48, 48",
+        "hex": "#00843D",
+        "rgb": "0, 132, 61",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       }
     ],
     "specs_source": "De facto (British Blue Ensign / Standard Vexillological Approximations)",
-    "notes": "British Blue Ensign。紋章（巻き貝、フラミンゴ、ターキーヘッド・サボテン）。**Yellow を 115 から 116 C に修正。Green を 7482 C から 348 C に修正**。White の無効Pantone「N. A.」除去。ノイズ「!」を全色から除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: British Blue Ensign。紋章（巻き貝、フラミンゴ、ターキーヘッド・サボテン）。**Yellow を 115 から 116 C に修正。Green を 7482 C から 348 C に修正**。White の無効Pantone「N. A.」除去。ノイズ「!」を全色から除去。",
     "wiki_flag_filename": "Flag_of_the_Turks_and_Caicos_Islands.svg"
   },
   {
@@ -8074,16 +8074,16 @@
       },
       {
         "color_name": "Yellow",
-        "hex": "#FFCE00",
-        "rgb": "255, 206, 0",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
       {
         "color_name": "Red",
-        "hex": "#D21034",
-        "rgb": "210, 16, 52",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -8095,7 +8095,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "Paul Ahyi デザイン。**比率を「golden ratio」から「1:1.618」（φ）に正規化**（実務的には3:5も使用）。5帯（緑黄交互、3緑+2黄）に赤い正方形カントン（白い五芒星）。**Green を 355 から 354 C に修正。Yellow を 109 から 116 C に修正。Red を 032 から 186 C に修正** — 3色全て修正。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: Paul Ahyi デザイン。**比率を「golden ratio」から「1:1.618」（φ）に正規化**（実務的には3:5も使用）。5帯（緑黄交互、3緑+2黄）に赤い正方形カントン（白い五芒星）。**Green を 355 から 354 C に修正。Yellow を 109 から 116 C に修正。Red を 032 から 186 C に修正** — 3色全て修正。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Togo.svg"
   },
   {
@@ -8158,9 +8158,9 @@
       },
       {
         "color_name": "Green",
-        "hex": "#006600",
-        "rgb": "0, 102, 0",
-        "cmyk": "100, 0, 48, 48",
+        "hex": "#00843D",
+        "rgb": "0, 132, 61",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       },
       {
@@ -8172,7 +8172,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1992年11月24日採用。水平三色帯（赤白緑、幅比2:3:2）。白帯中央に金冠+七星アーチ。**Green を 355 から 348 C に修正。Yellow を 109 から 115 C に修正**。Red 192 C 確認。CMYK修正。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1992年11月24日採用。水平三色帯（赤白緑、幅比2:3:2）。白帯中央に金冠+七星アーチ。**Green を 355 から 348 C に修正。Yellow を 109 から 115 C に修正**。Red 192 C 確認。CMYK修正。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Tajikistan.svg"
   },
   {
@@ -8186,9 +8186,9 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
@@ -8207,7 +8207,7 @@
       }
     ],
     "specs_source": "De facto (Royal Warrant 2009 / Standard Vexillological Approximations)",
-    "notes": "2009年9月7日 Royal Warrant で採用。NZ依存領域。青地にホイスト方向へ航行する黄色のトケラウ・カヌー（va'a）、ホイスト側に白い南十字星4星。Blazon: 'Azure a Tokelau Canoe Or...'。Blue 280 C, Yellow 109 C 確認。White の無効Pantone「N. A.」除去。ノイズ「!」除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 2009年9月7日 Royal Warrant で採用。NZ依存領域。青地にホイスト方向へ航行する黄色のトケラウ・カヌー（va'a）、ホイスト側に白い南十字星4星。Blazon: 'Azure a Tokelau Canoe Or...'。Blue 280 C, Yellow 109 C 確認。White の無効Pantone「N. A.」除去。ノイズ「!」除去。",
     "wiki_flag_filename": "Flag_of_Tokelau.svg"
   },
   {
@@ -8263,9 +8263,9 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 48, 48",
+        "hex": "#00843D",
+        "rgb": "0, 132, 61",
+        "cmyk": "96, 2, 100, 12",
         "pantone": "348 C"
       },
       {
@@ -8286,12 +8286,12 @@
         "color_name": "Yellow",
         "hex": "#FFC72C",
         "rgb": "255, 199, 44",
-        "cmyk": "0, 22, 83, 0",
+        "cmyk": "0, 19, 89, 0",
         "pantone": "123 C"
       }
     ],
     "specs_source": "De facto (Presidential Decree PP-3051, 2000 / Standard Vexillological Approximations)",
-    "notes": "大統領令PP-3051参照。緑地にホイスト近くの垂直赤帯（5つの絨毯グル=5部族）上に交差オリーブ枝（永世中立）。白い三日月+白い5星（5州）。世界で最も複雑なデザインの国旗。**Green を 355 から 348 C に修正。Red を 179 から 187 C に修正。Yellow を「N.A」から 123 C に修正**。White「White」除去。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 大統領令PP-3051参照。緑地にホイスト近くの垂直赤帯（5つの絨毯グル=5部族）上に交差オリーブ枝（永世中立）。白い三日月+白い5星（5州）。世界で最も複雑なデザインの国旗。**Green を 355 から 348 C に修正。Red を 179 から 187 C に修正。Yellow を「N.A」から 123 C に修正**。White「White」除去。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Turkmenistan.svg"
   },
   {
@@ -8391,7 +8391,7 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -8410,7 +8410,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1962年採用。比率3:5。赤地に白縁黒斜帯（上ホイスト→下フライ、帯幅=旗長の1/5、白:黒:白=1:4:1）。Red 186 C 確認。Black「Black」→「Black C」。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1962年採用。比率3:5。赤地に白縁黒斜帯（上ホイスト→下フライ、帯幅=旗長の1/5、白:黒:白=1:4:1）。Red 186 C 確認。Black「Black」→「Black C」。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Trinidad_and_Tobago.svg"
   },
   {
@@ -8431,16 +8431,16 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#012169",
-        "rgb": "1, 33, 105",
-        "cmyk": "100, 85, 5, 22",
+        "hex": "#002878",
+        "rgb": "0, 40, 120",
+        "cmyk": "100, 67, 0, 53",
         "pantone": "280 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -8459,7 +8459,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1978年10月1日独立時採用。Vione Natano デザイン。水色エンサインにユニオンジャック + フライ側に黄色の九星（9島の地理的配置を反映）。1995-1997年に一時別旗を使用後復活。**Light Blue 279 C, Blue 280 C, Red 186 C, Yellow 116 C — 全て確認** ✅。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1978年10月1日独立時採用。Vione Natano デザイン。水色エンサインにユニオンジャック + フライ側に黄色の九星（9島の地理的配置を反映）。1995-1997年に一時別旗を使用後復活。**Light Blue 279 C, Blue 280 C, Red 186 C, Yellow 116 C — 全て確認** ✅。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Tuvalu.svg"
   },
   {
@@ -8508,15 +8508,15 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#1EB53A",
-        "rgb": "30, 181, 58",
-        "cmyk": "75, 0, 90, 0",
+        "hex": "#43B02A",
+        "rgb": "67, 176, 42",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCD116",
-        "rgb": "252, 209, 22",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
@@ -8536,7 +8536,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1964年6月30日採用。対角デザイン: 黒帯（黄縁）が下ホイスト→上フライ、上三角=緑、下三角=青。タンガニーカ+ザンジバル連合を表現。**Green 361 C, Yellow 116 C, Blue 299 C — 全て確認** ✅。Black「Black」→「Black C」。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1964年6月30日採用。対角デザイン: 黒帯（黄縁）が下ホイスト→上フライ、上三角=緑、下三角=青。タンガニーカ+ザンジバル連合を表現。**Green 361 C, Yellow 116 C, Blue 299 C — 全て確認** ✅。Black「Black」→「Black C」。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Tanzania.svg"
   },
   {
@@ -8585,16 +8585,16 @@
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCDC04",
-        "rgb": "252, 220, 4",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
       {
         "color_name": "Red",
-        "hex": "#D90000",
-        "rgb": "217, 0, 0",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -8613,7 +8613,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1962年10月9日採用。6帯（黒黄赤×2）、中央に白円盤（ハイイロカンムリヅル）。**Yellow を 109 から 116 C に修正。Red を 032 から 186 C に修正**。Black「Black」→「Black C」。White を追加（円盤）。Grey 430 C 確認。色順序修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1962年10月9日採用。6帯（黒黄赤×2）、中央に白円盤（ハイイロカンムリヅル）。**Yellow を 109 から 116 C に修正。Red を 032 から 186 C に修正**。Black「Black」→「Black C」。White を追加（円盤）。Grey 430 C 確認。色順序修正。",
     "wiki_flag_filename": "Flag_of_Uganda.svg"
   },
   {
@@ -8748,7 +8748,7 @@
         "color_name": "Red",
         "hex": "#DA291C",
         "rgb": "218, 41, 28",
-        "cmyk": "0, 81, 87, 14",
+        "cmyk": "0, 81, 87, 15",
         "pantone": "485 C"
       },
       {
@@ -8762,12 +8762,12 @@
         "color_name": "Green",
         "hex": "#43B02A",
         "rgb": "67, 176, 42",
-        "cmyk": "68, 0, 100, 0",
+        "cmyk": "77, 0, 100, 0",
         "pantone": "361 C"
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "三色帯（青白緑）に赤い縁帯2本。上部ホイストに白い三日月+12白星（12州/月）。公式Pantone未規定。Blue 285 C, Red 485 C, Green 361 C 維持。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 三色帯（青白緑）に赤い縁帯2本。上部ホイストに白い三日月+12白星（12州/月）。公式Pantone未規定。Blue 285 C, Red 485 C, Green 361 C 維持。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Uzbekistan.svg"
   },
   {
@@ -8781,8 +8781,8 @@
     "colors": [
       {
         "color_name": "Yellow",
-        "hex": "#FFE81F",
-        "rgb": "255, 232, 31",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
@@ -8797,12 +8797,12 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       }
     ],
     "specs_source": "De facto (Fundamental Law of Vatican City State / Album des Pavillons)",
-    "notes": "正方形旗（1:1、スイスと共に世界で2つのみ）。縦二色帯（黄+白）。白帯に聖座紋章（聖ペトロの天国の鍵2本交差+教皇冠）。**Yellow を 803 C（蛍光色！）から 116 C に修正。Red を 711 C から 186 C に修正** — Album des Pavillons準拠。紋章レンダリング詳細色（Dark Yellow, Light Grey, Grey, Gold）は基本旗色ではないため除去。ノイズ除去。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 正方形旗（1:1、スイスと共に世界で2つのみ）。縦二色帯（黄+白）。白帯に聖座紋章（聖ペトロの天国の鍵2本交差+教皇冠）。**Yellow を 803 C（蛍光色！）から 116 C に修正。Red を 711 C から 186 C に修正** — Album des Pavillons準拠。紋章レンダリング詳細色（Dark Yellow, Light Grey, Grey, Gold）は基本旗色ではないため除去。ノイズ除去。",
     "wiki_flag_filename": "Flag_of_the_Vatican_City.svg"
   },
   {
@@ -8816,15 +8816,15 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#002674",
-        "rgb": "0, 38, 116",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCD022",
-        "rgb": "252, 208, 34",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
@@ -8837,7 +8837,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "Canadian pale triband: 青・黄・緑（帯幅比1:2:1）。黄帯に緑のV字形ダイヤモンド3個（= 'Gems of the Antilles'）。Blue 286 C 確認。**Yellow を 109 から 116 C に修正**。Green 354 C 確認。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: Canadian pale triband: 青・黄・緑（帯幅比1:2:1）。黄帯に緑のV字形ダイヤモンド3個（= 'Gems of the Antilles'）。Blue 286 C 確認。**Yellow を 109 から 116 C に修正**。Green 354 C 確認。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Saint_Vincent_and_the_Grenadines.svg"
   },
   {
@@ -8893,16 +8893,16 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -8921,8 +8921,8 @@
       },
       {
         "color_name": "Yellow",
-        "hex": "#FFD100",
-        "rgb": "255, 209, 0",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
@@ -8935,7 +8935,7 @@
       }
     ],
     "specs_source": "De facto (British Blue Ensign / Standard Vexillological Approximations)",
-    "notes": "British Blue Ensign。紋章: 緑盾に聖ウルスラ（金のランプ+11の炎ランプ）、巻物'Vigilate'。1999年以降バッジ拡大+白縁。**Red を 032 から 186 C に修正。Yellow を 109 から 116 C に修正**。Green 363 C, Blue 281 C 確認。Black→Black C。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: British Blue Ensign。紋章: 緑盾に聖ウルスラ（金のランプ+11の炎ランプ）、巻物'Vigilate'。1999年以降バッジ拡大+白縁。**Red を 032 から 186 C に修正。Yellow を 109 から 116 C に修正**。Green 363 C, Blue 281 C 確認。Black→Black C。",
     "wiki_flag_filename": "Flag_of_the_British_Virgin_Islands.svg"
   },
   {
@@ -8970,16 +8970,16 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#00205B",
-        "rgb": "0, 32, 91",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
         "color_name": "Green",
         "hex": "#009639",
         "rgb": "0, 150, 57",
-        "cmyk": "100, 0, 60, 40",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
@@ -8991,7 +8991,7 @@
       }
     ],
     "specs_source": "De facto (Executive Order 1921 / Standard Vexillological Approximations)",
-    "notes": "**空データから完全に新規作成**。1921年5月17日EO採用。白地にアメリカン・イーグル（黄）、青文字'V''I'。鷲は月桂枝（緑）+3本の青い矢を持つ。胸に赤白青ストライプ盾。6色（White, Yellow 102 C, Light Blue 292 C, Blue 281 C, Green 355 C, Red 179 C）。London 2012基準。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: **空データから完全に新規作成**。1921年5月17日EO採用。白地にアメリカン・イーグル（黄）、青文字'V''I'。鷲は月桂枝（緑）+3本の青い矢を持つ。胸に赤白青ストライプ盾。6色（White, Yellow 102 C, Light Blue 292 C, Blue 281 C, Green 355 C, Red 179 C）。London 2012基準。",
     "wiki_flag_filename": "Flag_of_the_United_States_Virgin_Islands.svg"
   },
   {
@@ -9035,13 +9035,13 @@
         "color_name": "Red",
         "hex": "#C8102E",
         "rgb": "200, 16, 46",
-        "cmyk": "0, 94, 77, 19",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
         "color_name": "Green",
-        "hex": "#009A44",
-        "rgb": "0, 154, 68",
+        "hex": "#009A49",
+        "rgb": "0, 153, 72",
         "cmyk": "100, 0, 53, 40",
         "pantone": "347 C"
       },
@@ -9061,7 +9061,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1980年2月18日採用。比率3:5。赤緑二色帯にホイスト黒三角+黄Y字型（pall、黒縁帯）。黒三角内に金の猪の牙+交差するナメレ・シダ（39葉=39議員）。**Red 186 C, Green 347 C, Yellow 116 C 全て確認** ✅。Black→Black C。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1980年2月18日採用。比率3:5。赤緑二色帯にホイスト黒三角+黄Y字型（pall、黒縁帯）。黒三角内に金の猪の牙+交差するナメレ・シダ（39葉=39議員）。**Red 186 C, Green 347 C, Yellow 116 C 全て確認** ✅。Black→Black C。",
     "wiki_flag_filename": "Flag_of_Vanuatu.svg"
   },
   {
@@ -9075,9 +9075,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#ED2939",
-        "rgb": "237, 41, 57",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -9089,14 +9089,14 @@
       },
       {
         "color_name": "Blue",
-        "hex": "#002395",
-        "rgb": "0, 35, 149",
-        "cmyk": "100, 75, 0, 0",
+        "hex": "#0039A6",
+        "rgb": "0, 56, 166",
+        "cmyk": "100, 66, 0, 35",
         "pantone": "286 C"
       }
     ],
     "specs_source": "De facto (Unofficial local flag / French Tricolor is official)",
-    "notes": "**空データから完全に新規作成**。仏海外準県 — 公式旗は仏三色旗。非公式地元旗（ウヴェア旗、c.1985）: 赤地にカントンの仏三色旗+白い十字パテ（4つの白い二等辺三角形=3王+仏総督）。三色旗基準色を記録（Red 186 C, Blue 286 C）。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: **空データから完全に新規作成**。仏海外準県 — 公式旗は仏三色旗。非公式地元旗（ウヴェア旗、c.1985）: 赤地にカントンの仏三色旗+白い十字パテ（4つの白い二等辺三角形=3王+仏総督）。三色旗基準色を記録（Red 186 C, Blue 286 C）。",
     "wiki_flag_filename": "Flag_of_Wallis_and_Futuna.svg"
   },
   {
@@ -9110,16 +9110,16 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
         "color_name": "Blue",
-        "hex": "#002B7F",
-        "rgb": "0, 43, 127",
-        "cmyk": "100, 78, 0, 57",
+        "hex": "#002663",
+        "rgb": "0, 38, 99",
+        "cmyk": "100, 62, 0, 61",
         "pantone": "281 C"
       },
       {
@@ -9131,7 +9131,7 @@
       }
     ],
     "specs_source": "De facto (Official Flag and National Anthem of Samoa Act 1994 — design only)",
-    "notes": "Act 1994はデザインのみ規定、Pantone未指定。赤地に青カントン（白い南十字星5星）。1949年採用、1962年独立で維持。Tupua Tamasese Meaʻole + Malietoa Tanumafili II デザイン。**Red を 032 から 186 C に修正**。Blue 281 C 確認。色順序修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: Act 1994はデザインのみ規定、Pantone未指定。赤地に青カントン（白い南十字星5星）。1949年採用、1962年独立で維持。Tupua Tamasese Meaʻole + Malietoa Tanumafili II デザイン。**Red を 032 から 186 C に修正**。Blue 281 C 確認。色順序修正。",
     "wiki_flag_filename": "Flag_of_Samoa.svg"
   },
   {
@@ -9180,9 +9180,9 @@
     "colors": [
       {
         "color_name": "Red",
-        "hex": "#CE1126",
-        "rgb": "206, 17, 38",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -9201,7 +9201,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1990年5月22日統一で採用。汎アラブ色: 三等分帯（赤白黒）。赤=統一/殉教者の血、白=明るい未来、黒=歴史/過去の困難。**Red を 032 から 186 C に修正**。Black「Black」→「Black C」。CMYK修正。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1990年5月22日統一で採用。汎アラブ色: 三等分帯（赤白黒）。赤=統一/殉教者の血、白=明るい未来、黒=歴史/過去の困難。**Red を 032 から 186 C に修正**。Black「Black」→「Black C」。CMYK修正。",
     "wiki_flag_filename": "Flag_of_Yemen.svg"
   },
   {
@@ -9348,23 +9348,23 @@
     "colors": [
       {
         "color_name": "Green",
-        "hex": "#009739",
-        "rgb": "0, 151, 57",
-        "cmyk": "100, 0, 60, 40",
+        "hex": "#009639",
+        "rgb": "0, 150, 57",
+        "cmyk": "91, 0, 100, 0",
         "pantone": "355 C"
       },
       {
         "color_name": "Yellow",
-        "hex": "#FCE300",
-        "rgb": "252, 227, 0",
+        "hex": "#FFCD00",
+        "rgb": "255, 205, 0",
         "cmyk": "0, 20, 100, 0",
         "pantone": "116 C"
       },
       {
         "color_name": "Red",
-        "hex": "#EF3340",
-        "rgb": "239, 51, 64",
-        "cmyk": "0, 94, 77, 19",
+        "hex": "#C8102E",
+        "rgb": "200, 16, 46",
+        "cmyk": "2, 100, 85, 6",
         "pantone": "186 C"
       },
       {
@@ -9383,7 +9383,7 @@
       }
     ],
     "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "1980年4月18日採用。比率1:2。7帯（緑黄赤黒赤黄緑）。ホイストに白い二等辺三角形（黒縁）、内部に赤い五芒星+金のジンバブエ・バード（大ジンバブエ遺跡の石彫）。**Yellow を 102 から 116 C に修正。Red を 032 から 186 C に修正**。Black→Black C。「C」サフィックスを付与。",
+    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 1980年4月18日採用。比率1:2。7帯（緑黄赤黒赤黄緑）。ホイストに白い二等辺三角形（黒縁）、内部に赤い五芒星+金のジンバブエ・バード（大ジンバブエ遺跡の石彫）。**Yellow を 102 から 116 C に修正。Red を 032 から 186 C に修正**。Black→Black C。「C」サフィックスを付与。",
     "wiki_flag_filename": "Flag_of_Zimbabwe.svg"
   }
 ]

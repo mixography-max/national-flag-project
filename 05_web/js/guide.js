@@ -499,7 +499,7 @@ const GUIDE_DATA = [
     trivia: "紋章に3星（3島）、ウミガメ（海洋遺産）、パイナップル（カリブのもてなし精神）が描かれる。" },
   { num: 125, code: "KZ", emoji: "🇰🇿", name: "カザフスタン", nameEn: "Kazakhstan", status: "dejure",
     overview: "中央アジア最大の国。石油と鉱物の資源大国。バイコヌール宇宙基地がある。",
-    colorRules: "Sky Blue 3125 C・Gold 102 C。国家規格ST-RK 988-2007で公式定義（De jure）。",
+    colorRules: "Sky Blue 3125 C・Gold 810 C。国家規格ST-RK 988-2007で公式定義（De jure）。グラフィック用の公式ゴールド指定（810 C）を採用。",
     trivia: "太陽は繁栄、32本の光線は進歩、草原の鷲は独立。金色の民族装飾帯はカザフの伝統工芸に由来。" },
   { num: 126, code: "LA", emoji: "🇱🇦", name: "ラオス", nameEn: "Laos", status: "defacto",
     overview: "東南アジアの内陸国。メコン川沿いの仏教国。「百万頭の象の国」の異名を持つ。",
@@ -659,7 +659,7 @@ const GUIDE_DATA = [
     trivia: "1960年独立時に学生のデザインコンペで選ばれたシンプルな旗。当初の赤い太陽は削除された。" },
   { num: 165, code: "NI", emoji: "🇳🇮", name: "ニカラグア", nameEn: "Nicaragua", status: "defacto", tags: ["unique"],
     overview: "中米最大の面積の国。ニカラグア湖は中米最大の淡水湖。火山列とグラナダが観光資源。",
-    colorRules: "Blue 280 C・Green 376 C。1971年法令で現行デザインを再確認。国章の緑は明るい黄緑色。",
+    colorRules: "Blue 300 C・Green 376 C。1971年法令で「コバルトブルー」と規定。国際標準でPantone 300 C。国章の緑は376 C。",
     trivia: "ドミニカ国と共に国旗に紫色（虹の中）を使用する稀少な例。国章に5火山・大洋・虹を配する。" },
   { num: 166, code: "NL", emoji: "🇳🇱", name: "オランダ", nameEn: "Netherlands", status: "dejure",
     overview: "北西ヨーロッパの低地国。国土の約1/4が海面下。チューリップ・風車・チーズで有名。",
@@ -825,9 +825,9 @@ const GUIDE_DATA = [
     overview: "南米北東部の旧オランダ植民地。アマゾン熱帯雨林が国土の90%以上。多民族共存。",
     colorRules: "Green 356 C・Red 186 C・Yellow 116 C。London 2012一致。全色確認済み。",
     trivia: "赤帯が最も太い（5帯:2:1:4:1:2比率）。黄色い五芒星は黄金の未来と全民族グループの統一。" },
-  { num: 207, code: "SS", emoji: "🇸🇸", name: "南スーダン", nameEn: "South Sudan", status: "defacto",
+  { num: 207, code: "SS", emoji: "🇸🇸", name: "南スーダン", nameEn: "South Sudan", status: "dejure",
     overview: "2011年独立の世界最年少の国家。ナイル川流域と広大な湿地帯。石油資源を有する。",
-    colorRules: "Red 186 C・Blue 286 C・Yellow 116 C・Green・Black C。公式Pantone未規定でソース間乖離大。",
+    colorRules: "Red 186 C・Blue 298 C・Yellow 116 C・Green 348 C・Black C。2023年のメディア庁公式アドバイザリーに基づき、青をライトブルー（298 C）に統一。",
     trivia: "青い三角の黄色い星はベツレヘムの星（導きの光）を象徴。ケニア国旗に類似した構成。" },
   { num: 208, code: "ST", emoji: "🇸🇹", name: "サントメ・プリンシペ", nameEn: "São Tomé and Príncipe", status: "defacto",
     overview: "ギニア湾の赤道直下の島国。アフリカ最小国の一つ。高品質カカオ産地「チョコレートの島」。",
@@ -1053,8 +1053,8 @@ function renderGrid() {
       <div class="country-card ${isExpanded ? 'expanded' : ''}" id="card-${d.code}">
         <div class="card-header" onclick="toggleCard('${d.code}')">
           <div class="card-flag-wrap">
-            <img src="03_svg_verified/${d.code}.svg?v=20260617" alt="${d.nameEn}" loading="lazy"
-                 onerror="this.src='01_svg_wikipedia/${d.code}.svg?v=20260617'; this.onerror=function(){this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%2280%22><rect fill=%22%23333%22 width=%22120%22 height=%2280%22/><text x=%2260%22 y=%2244%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>${d.code}</text></svg>';}" >
+            <img src="03_svg_verified/${d.code}.svg?v=20261001" alt="${d.nameEn}" loading="lazy"
+                 onerror="this.src='01_svg_wikipedia/${d.code}.svg?v=20261001'; this.onerror=function(){this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%2280%22><rect fill=%22%23333%22 width=%22120%22 height=%2280%22/><text x=%2260%22 y=%2244%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>${d.code}</text></svg>';}" >
           </div>
           <div class="card-title-area">
             <div class="card-number">#${String(d.num).padStart(3, '0')} <span class="card-code-badge">${d.code}</span> ${statusBadge}</div>
