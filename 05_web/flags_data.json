@@ -1788,10 +1788,10 @@
     "colors": [
       {
         "color_name": "Blue",
-        "hex": "#002663",
-        "rgb": "0, 38, 99",
-        "cmyk": "100, 62, 0, 61",
-        "pantone": "281 C"
+        "hex": "#001489",
+        "rgb": "0, 20, 137",
+        "cmyk": "100, 87, 0, 20",
+        "pantone": "Reflex Blue C"
       },
       {
         "color_name": "White",
@@ -1802,14 +1802,14 @@
       },
       {
         "color_name": "Red",
-        "hex": "#EF3340",
-        "rgb": "239, 51, 64",
-        "cmyk": "0, 79, 73, 6",
-        "pantone": "032 C"
+        "hex": "#DA291C",
+        "rgb": "218, 41, 28",
+        "cmyk": "0, 81, 87, 15",
+        "pantone": "485 C"
       }
     ],
-    "specs_source": "De facto (Standard Vexillological Approximations)",
-    "notes": "Standardized color specs (CMYK/HEX/RGB) to PANTONE Color Bridge values to prevent muddy K-channel output. Original notes: 法律で国旗意匠は定義されているものの、技術的なPantone指定はない。広く認知されている 281 C (Blue) と 032 C (Red) を標準として確定した。",
+    "specs_source": "De jure (Ley n.° 10178 de 2022)",
+    "notes": "2022年5月11日公布の法律第10178号（Ley 10178）により、Pantone Reflex Blue と 485 C が公式指定され De jure に昇格。国旗は法的に一般市民用の「Bandera Nacional（紋章なし）」と国家権力機関用の「Pabellón Nacional（紋章あり）」に二分され、民間使用は紋章なしが基本。国連・五輪および国際旗章学（市民旗基準）に準拠し本仕様では紋章なしを採用（紋章ありはCR_stateとして併載）。<div style=\"margin-top:8px;display:flex;align-items:center;gap:10px;font-size:0.8rem;\"><img src=\"03_svg_verified/CR_state.svg?v=20261001\" alt=\"コスタリカ政府旗\" style=\"height:36px;border:1px solid #444;border-radius:3px;\"><span>▲ 外務省や大統領府で掲揚される政府旗（Pabellón Nacional）</span></div>",
     "wiki_flag_filename": "Flag_of_Costa_Rica.svg"
   },
   {
