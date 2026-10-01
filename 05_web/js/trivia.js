@@ -1,15 +1,17 @@
 /**
- * 国旗トリビア 20選 — データ & レンダリング
+ * 国旗トリビア 21選 — データ & レンダリング
  */
 (function () {
   'use strict';
 
+  const SVG_VERSION = 'v=20261001';
+
   // SVG path helper
   function svg(code) {
-    return `03_svg_verified/${code}.svg`;
+    return `03_svg_verified/${code}.svg?${SVG_VERSION}`;
   }
 
-  // ── 20 Trivia Entries ──
+  // ── 21 Trivia Entries ──
   const TRIVIA = [
     {
       num: 1,
@@ -148,6 +150,15 @@
     },
     {
       num: 20,
+      title: '🇨🇷 コスタリカの国旗に紋章はある？ない？',
+      flags: ['CR', 'CR_state'],
+      separator: 'と',
+      flagLabels: ['市民旗（紋章なし）', '政府旗（紋章あり）'],
+      tags: [['法律・歴史','hist'],['中南米','geo']],
+      body: `日本の外務省やCIAのサイトを見ると紋章が入っているのに、国連やオリンピックでは紋章のないシンプルな五段縞。実はこれ、<strong>どちらも正式な国旗</strong>です。コスタリカの法律（最新の2022年法律第10178号）では、一般国民が掲げる「国旗（Bandera Nacional）」は紋章なし、大統領府や大使館など国家機関が掲げる「国家パビリオン（Pabellón Nacional）」は紋章ありと厳格に二分されています。ちなみに、タイの国旗（赤・白・青・白・赤）と色が反転したデザインなのも有名な見分けポイントです。`
+    },
+    {
+      num: 21,
       title: '🏴 海賊旗と国際法',
       flags: ['AQ'],
       tags: [['歴史','hist'],['ユニーク','fun']],
