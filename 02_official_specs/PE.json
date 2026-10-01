@@ -4,13 +4,13 @@
   "name_ja": "ペルー",
   "status": "UN Member",
   "ratio": "2:3",
-  "specs_source": "De facto (Standard Vexillological Approximations / Constitution Article 49)",
+  "specs_source": "Constitución Política del Perú (Art. 49) / Ley N.° 32251 (2025)",
   "colors": [
     {
       "color_name": "Red",
       "hex": "#C8102E",
       "rgb": "200, 16, 46",
-      "cmyk": "0, 94, 77, 19",
+      "cmyk": "2, 100, 85, 6",
       "pantone": "186 C"
     },
     {
@@ -21,5 +21,5 @@
       "pantone": ""
     }
   ],
-  "notes": "憲法第49条が赤白赤の縦三色旗を定めるがPantone値は規定なし。市民旗（Bandera Nacional）は無紋、国旗（Pabellón Nacional）は白帯に国章。Red 186 C は最も広く引用される近似値として確認。「C」サフィックスを付与。"
+  "notes": "憲法第49条および2025年1月公布の法律第32251号（Ley N.° 32251）により規定。ペルーの旗は一般国民・民間が掲揚する無紋の「国旗（Bandera Nacional）」と、大統領府・公的機関専用の「国家パビリオン（Pabellón Nacional：白帯中央に国章 Escudo de Armas）」に法的に厳格に二分され、民間使用は紋章なしが基本（紋章ありはPE_stateとして併載）。Red 186 C は公式近似値。"
 }

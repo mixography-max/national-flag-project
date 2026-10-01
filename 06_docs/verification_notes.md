@@ -767,8 +767,8 @@
     - **結果**: **De jure に昇格**。2017年行政令337号が色を標準化。**Blue を 300 から 295 C に修正。Red を 186 から 187 C に修正** — 両方とも2017年法令が明確に指定。四分割旗：白+青星、赤、青、白+赤星。
 
 174. **PE (Peru) - ペルー**
-    - **法源**: De facto (Standard Vexillological Approximations / Constitution Article 49)
-    - **結果**: 憲法第49条が赤白赤の縦三色旗を定めるがPantone値は規定なし。市民旗（Bandera Nacional）は無紋、国旗（Pabellón Nacional）は白帯に国章。Red 186 C は最も広く引用される近似値として確認。「C」サフィックスを付与。
+    - **法源**: Constitución Política del Perú (Art. 49) / Ley N.° 32251 (2025)
+    - **結果**: **De jure に昇格（2025年最新法 Ley 32251 および憲法第49条）**。一般国民が掲揚する「国旗（Bandera Nacional・紋章なし）」と国家機関専用の「国家パビリオン（Pabellón Nacional・紋章あり）」の法的二分化を明確化。国際旗章学・国連・五輪および本プロジェクトの市民旗統一基準に準拠し無紋をメインとし、紋章あり政府旗を `PE_state.svg` として併載・解説。Red 186 C は公式近似値。
 
 175. **PF (French Polynesia) - フランス領ポリネシア**
     - **法源**: De facto (Standard Vexillological Approximations)
