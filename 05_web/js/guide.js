@@ -509,10 +509,10 @@ const GUIDE_DATA = [
     overview: "地中海東岸の小国。フェニキア文明の発祥地。中東の金融・文化中心地。",
     colorRules: "Red 1788 C・Green 355 C。憲法でデザイン定義。1990年明確化で杉全体が緑でなければならない。",
     trivia: "1990年の法的明確化で「茶色の幹を持つ杉」は違憲と判断された。レバノン杉は聖書にも登場。" },
-  { num: 128, code: "LC", emoji: "🇱🇨", name: "セントルシア", nameEn: "Saint Lucia", status: "defacto",
+  { num: 128, code: "LC", emoji: "🇱🇨", name: "セントルシア", nameEn: "Saint Lucia", status: "dejure",
     overview: "カリブ海東部の小島国。双子のピトン山（世界遺産）が象徴。バナナ・カカオ生産が主要産業。",
-    colorRules: "Cerulean Blue・Gold・Black C。公式色名を使用。Process Cyan 100%とLight Chrome Yellowを参照。",
-    trivia: "Dunstan St. Omerがデザイン。金と黒の三角形が双子のピトン山（火山）を表現する美しい意匠。" },
+    colorRules: "Cerulean Blue 2985 C（#63CFFE）・Gold 109 C・Black C。政府公式サイト掲載の公式仕様に準拠。",
+    trivia: "Dunstan St. Omerがデザイン。明るいセルリアンブルーは熱帯の空とエメラルドの海を、三角形は世界遺産のピトン山を象徴。" },
   { num: 129, code: "LI", emoji: "🇱🇮", name: "リヒテンシュタイン", nameEn: "Liechtenstein", status: "defacto",
     overview: "アルプスの小国。世界で最も裕福な国の一つ。金融と精密機器産業で知られる。",
     colorRules: "Blue 280 C・Red 186 C・Gold 116 C。1982年国家シンボル法でデザイン規定。Album参照。",
@@ -1053,7 +1053,7 @@ function renderGrid() {
       <div class="country-card ${isExpanded ? 'expanded' : ''}" id="card-${d.code}">
         <div class="card-header" onclick="toggleCard('${d.code}')">
           <div class="card-flag-wrap">
-            <img src="03_svg_verified/${d.code}.svg?v=20261001" alt="${d.nameEn}" loading="lazy"
+            <img src="03_svg_verified/${d.code}.svg?v=20261001c" alt="${d.nameEn}" loading="lazy"
                  onerror="this.src='01_svg_wikipedia/${d.code}.svg?v=20261001'; this.onerror=function(){this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%2280%22><rect fill=%22%23333%22 width=%22120%22 height=%2280%22/><text x=%2260%22 y=%2244%22 text-anchor=%22middle%22 fill=%22%23666%22 font-size=%2212%22>${d.code}</text></svg>';}" >
           </div>
           <div class="card-title-area">

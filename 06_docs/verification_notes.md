@@ -564,8 +564,8 @@
     - **結果**: 憲法第5条（1943年12月7日改正）がデザインを定めるが色コードは規定なし。**Red を 485 C から 1788 C に修正（重大誤り）。Green を 347 C から 355 C に修正**。1990年の明確化により杉の木全体が緑でなければならず茶色の幹は違憲。ゴミ source「constitution does」およびゴミ notes を除去。
 
 128. **LC (Saint Lucia) - セントルシア**
-    - **法源**: De facto (Flags and Anthems Manual / Standard Approximations)
-    - **結果**: Dunstan St. Omer デザイン。セルリアンブルーの地に三つの重畳三角形（金・黒・白）が双子のピトン山を表す星を形成。政府記述は「Process Cyan 100%」と「Light Chrome Yellow」を参照。色名「Blue」を公式呼称「Cerulean Blue」に変更、「Yellow」を「Gold」に変更。Black 「Black」→「Black C」に修正。「C」サフィックスを付与。
+    - **法源**: Government of Saint Lucia Official Portal (https://www.govt.lc/stluciaflag) / 2002 Specification Update
+    - **結果**: **セルリアンブルーを政府公式仕様（Pantone 2985 C / #63CFFE）に再検証・更新**。従来の濃い青（Flags and Anthems Manual の Pantone 3005 C / #0077C8）から、セントルシア政府公式サイト（govt.lc）掲載の公式画像実測値（#63CFFE / RGB 99, 207, 254）および2002年政府仕様改定に準拠した明るいセルリアンブルー（Pantone 2985 C / #63CFFE）へ全面改定。デザイナーDunstan St. Omerの意図および政府の解説（熱帯の空とカリブ海・大西洋のエメラルド色の海）に正確に合致。
 
 129. **LI (Liechtenstein) - リヒテンシュタイン**
     - **法源**: De facto (Album des Pavillons / Standard Vexillological Approximations)

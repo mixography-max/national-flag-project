@@ -1280,7 +1280,7 @@
 | 項目 | 内容 |
 |------|------|
 | 国の概要 | カリブ海東部の小島国。双子のピトン山（世界遺産）が象徴。バナナ・カカオ生産とリゾート観光が主要産業。 |
-| 色のルール | Cerulean Blue（Process Cyan 100%）・Gold（Light Chrome Yellow）・Black C。公式色名を使用。 |
+| 色のルール | Cerulean Blue 2985 C（#63CFFE）・Gold 109 C・Black C。政府公式サイト（govt.lc）掲載の公式仕様に準拠。 |
 | トリビア | Dunstan St. Omerがデザイン。セルリアンブルーの地に金と黒の三角形が双子のピトン山（火山）を表現している。 |
 
 ---

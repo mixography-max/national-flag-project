@@ -4,7 +4,7 @@ let activeRegion = 'all';
 let searchQuery = '';
 let viewMode = 'normal';
 let showVerified = true;
-const SVG_VERSION = 'v=20261001'; // Nicaragua blue updated to Pantone 300 C (cobalt blue)
+const SVG_VERSION = 'v=20261001c'; // LC cerulean blue updated to Pantone 2985 C
 
 // Similar flag pairs for comparison
 const SIMILAR_PAIRS = [

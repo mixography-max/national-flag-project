@@ -5,7 +5,7 @@
   let ALL_FLAGS = [];
   let currentFamily = 'red'; // デフォルトは赤
   let sortBy = 'popularity'; // デフォルトは人気順
-  const SVG_VERSION = 'v=20261001'; // Nicaragua blue updated to Pantone 300 C (cobalt blue)
+  const SVG_VERSION = 'v=20261001c'; // LC cerulean blue updated to Pantone 2985 C
 
   // ── Color Family Definitions ──────────────────────
   const FAMILIES = {

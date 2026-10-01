@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  const SVG_VERSION = 'v=20261001';
+  const SVG_VERSION = 'v=20261001c';
 
   // SVG path helper
   function svg(code) {
