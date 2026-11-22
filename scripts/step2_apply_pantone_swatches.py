@@ -24,6 +24,8 @@ import unicodedata
 import re
 from pathlib import Path
 
+from jsx_safety import filter_safe_codes, is_safe_code, js_str
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
@@ -108,7 +110,7 @@ def generate_jsx(ai_path: Path, spec: dict):
     
     jsx = f"""try {{
     app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
-    var doc = app.open(new File("{ai_abs}"));
+    var doc = app.open(new File({js_str(ai_abs)}));
     
     var initReady = false;
     for (var w = 0; w < 50; w++) {{
@@ -243,7 +245,7 @@ def generate_jsx(ai_path: Path, spec: dict):
     doc.close(SaveOptions.DONOTSAVECHANGES);
     "SUCCESS";
 }} catch(err) {{
-    var logFile = new File("{log_abs}");
+    var logFile = new File({js_str(log_abs)});
     logFile.open("w");
     logFile.writeln(err.toString());
     logFile.close();
@@ -254,6 +256,8 @@ def generate_jsx(ai_path: Path, spec: dict):
 
 
 def process_country(code: str):
+    if not is_safe_code(code):
+        return "SKIP_INVALID_CODE"
     ai_path = AI_OUT_DIR / f"{code}.ai"
     spec_path = SPEC_DIR / f"{code}.json"
     
@@ -333,6 +337,8 @@ def main():
         # Default to all spec files
         codes = [s.stem for s in sorted(SPEC_DIR.glob("*.json"))]
         print(f"Mode: DEFAULT ({len(codes)} files)")
+
+    codes = filter_safe_codes(codes)
         
     if resume:
         done = get_done_codes()

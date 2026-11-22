@@ -13,6 +13,8 @@ import subprocess
 from pathlib import Path
 import re
 
+from jsx_safety import is_safe_code, js_str
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
@@ -44,7 +46,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
     lines = []
     lines.append(f'try {{')
     # Open SVG
-    lines.append(f'  var doc = app.open(File("{svg_path.absolute()}"));')
+    lines.append(f'  var doc = app.open(File({js_str(svg_path.absolute())}));')
     
     # Setup Colors
     colors = spec.get("colors_extracted", [])
@@ -67,10 +69,10 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
         if pantone and pantone not in ("White", "Black"):
             # Avoid duplicate spot names if we iterate, but it's per document so it's fresh
             lines.append(f'  var spot_{i} = null;')
-            lines.append(f'  try {{ spot_{i} = doc.spots.getByName("{pantone}"); }} catch(e) {{}}')
+            lines.append(f'  try {{ spot_{i} = doc.spots.getByName({js_str(pantone)}); }} catch(e) {{}}')
             lines.append(f'  if(!spot_{i}) {{')
             lines.append(f'      spot_{i} = doc.spots.add();')
-            lines.append(f'      spot_{i}.name = "{pantone}";')
+            lines.append(f'      spot_{i}.name = {js_str(pantone)};')
             lines.append(f'      spot_{i}.colorType = ColorModel.PROCESS;')
             lines.append(f'      spot_{i}.color = cmyk_{i};')
             lines.append(f'  }}')
@@ -174,7 +176,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
 
     
     # Save
-    lines.append(f'  var saveFile = new File("{ai_path.absolute()}");')
+    lines.append(f'  var saveFile = new File({js_str(ai_path.absolute())});')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
     lines.append(f'  doc.saveAs(saveFile, saveOpts);')
@@ -187,6 +189,8 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
 
 
 def process_country(code: str, test_mode=False):
+    if not is_safe_code(code):
+        return "SKIP_INVALID_CODE"
     svg_path = SVG_DIR / f"{code}.svg"
     ai_path = AI_OUT_DIR / f"{code}.ai"
     spec_path = SPEC_DIR / f"{code}.json"

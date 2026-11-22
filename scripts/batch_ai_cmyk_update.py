@@ -29,6 +29,8 @@ import unicodedata
 from pathlib import Path
 import re
 
+from jsx_safety import filter_safe_codes, is_safe_code, js_str
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
@@ -104,7 +106,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
     lines = []
     lines.append(f'try {{')
     lines.append(f'  app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;')
-    lines.append(f'  var doc = app.open(new File("{svg_abs}"));')
+    lines.append(f'  var doc = app.open(new File({js_str(svg_abs)}));')
     
     # Wait for activeDocument to be initialized after open
     lines.append('''
@@ -142,10 +144,10 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
         # Register Swatch as SPOT first (in RGB mode) to avoid MRAP errors
         if pantone and pantone not in ("White", "Black"):
             lines.append(f'  var spot_{i} = null;')
-            lines.append(f'  try {{ spot_{i} = doc.spots.getByName("{pantone}"); }} catch(e) {{}}')
+            lines.append(f'  try {{ spot_{i} = doc.spots.getByName({js_str(pantone)}); }} catch(e) {{}}')
             lines.append(f'  if (!spot_{i}) {{')
             lines.append(f'      spot_{i} = doc.spots.add();')
-            lines.append(f'      spot_{i}.name = "{pantone}";')
+            lines.append(f'      spot_{i}.name = {js_str(pantone)};')
             lines.append(f'      spot_{i}.colorType = ColorModel.SPOT;')
             lines.append(f'      spot_{i}.color = cmyk_{i};')
             lines.append(f'  }}')
@@ -158,7 +160,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
             
         lines.append(f'  colorMappings.push({{')
         lines.append(f'      targetR: {rgb[0]}, targetG: {rgb[1]}, targetB: {rgb[2]},')
-        lines.append(f'      pantone: "{pantone}",')
+        lines.append(f'      pantone: {js_str(pantone)},')
         lines.append(f'      replColor: replColor_{i}')
         lines.append(f'  }});')
 
@@ -289,14 +291,14 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
 ''')
 
     log_abs = str(ASCII_ROOT / "jsx_error.log")
-    lines.append(f'  var saveFile = new File("{ai_abs}");')
+    lines.append(f'  var saveFile = new File({js_str(ai_abs)});')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
     lines.append(f'  doc.saveAs(saveFile, saveOpts);')
     lines.append(f'  doc.close(SaveOptions.DONOTSAVECHANGES);')
     lines.append(f'  "SAVED_OK";')
     lines.append(f'}} catch(err) {{')
-    lines.append(f'  var logFile = new File("{log_abs}");')
+    lines.append(f'  var logFile = new File({js_str(log_abs)});')
     lines.append(f'  logFile.open("w");')
     lines.append(f'  logFile.writeln(err.toString());')
     lines.append(f'  logFile.close();')
@@ -308,6 +310,8 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
 
 
 def process_country(code: str):
+    if not is_safe_code(code):
+        return "SKIP_INVALID_CODE"
     svg_path = SVG_DIR / f"{code}.svg"
     ai_path = AI_OUT_DIR / f"{code}.ai"
     spec_path = SPEC_DIR / f"{code}.json"
@@ -400,6 +404,8 @@ def main():
     else:
         codes = get_codes_needing_update()
         print(f"Mode: UPDATE ({len(codes)} files with newer SVGs)")
+
+    codes = filter_safe_codes(codes)
     
     # --resume: skip already-done codes
     if resume:

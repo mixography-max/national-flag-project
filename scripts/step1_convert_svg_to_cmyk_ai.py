@@ -23,6 +23,8 @@ import time
 import unicodedata
 from pathlib import Path
 
+from jsx_safety import filter_safe_codes, is_safe_code, js_str
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
@@ -68,7 +70,7 @@ def generate_jsx(svg_path: Path, ai_path: Path):
     
     jsx = f"""try {{
     app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
-    var svgDoc = app.open(new File("{svg_abs}"));
+    var svgDoc = app.open(new File({js_str(svg_abs)}));
     
     // Document initialization wait loop
     var initReady = false;
@@ -163,7 +165,7 @@ def generate_jsx(svg_path: Path, ai_path: Path):
     }}
     
     // Save new CMYK doc as AI
-    var saveFile = new File("{ai_abs}");
+    var saveFile = new File({js_str(ai_abs)});
     var saveOpts = new IllustratorSaveOptions();
     saveOpts.pdfCompatible = true;
     cmykDoc.saveAs(saveFile, saveOpts);
@@ -172,7 +174,7 @@ def generate_jsx(svg_path: Path, ai_path: Path):
     svgDoc.close(SaveOptions.DONOTSAVECHANGES);
     "SAVED_OK";
 }} catch(err) {{
-    var logFile = new File("{log_abs}");
+    var logFile = new File({js_str(log_abs)});
     logFile.open("w");
     logFile.writeln(err.toString());
     logFile.close();
@@ -183,6 +185,8 @@ def generate_jsx(svg_path: Path, ai_path: Path):
 
 
 def process_country(code: str):
+    if not is_safe_code(code):
+        return "SKIP_INVALID_CODE"
     svg_path = SVG_DIR / f"{code}.svg"
     ai_path = AI_OUT_DIR / f"{code}.ai"
     spec_path = SPEC_DIR / f"{code}.json"
@@ -273,6 +277,8 @@ def main():
     else:
         codes = get_codes_needing_update()
         print(f"Mode: UPDATE ({len(codes)} files with newer SVGs)")
+
+    codes = filter_safe_codes(codes)
         
     if resume:
         done = get_done_codes()

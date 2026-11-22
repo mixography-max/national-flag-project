@@ -26,6 +26,8 @@ import time
 from pathlib import Path
 from datetime import datetime
 
+from jsx_safety import filter_safe_codes, is_safe_code, js_str
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = PROJECT_ROOT / "04_ai_cmyk" / "logs" / "spot_to_process_done.txt"
@@ -37,7 +39,7 @@ JSX_PATH = PROJECT_ROOT / "temp_convert_spot.jsx"
 JSX_TEMPLATE = r"""
 try {{
     // Open the AI file
-    var aiFile = new File("{ai_path}");
+    var aiFile = new File({ai_path});
     var doc = app.open(aiFile);
     
     // Convert all spot colors to process colors
@@ -87,6 +89,8 @@ def mark_done(code: str):
 
 def process_one(code: str, dry_run=False) -> str:
     """1ファイルを処理"""
+    if not is_safe_code(code):
+        return "SKIP_INVALID_CODE"
     ai_path = AI_DIR / f"{code}.ai"
     if not ai_path.exists():
         return "SKIP_NOT_FOUND"
@@ -95,7 +99,7 @@ def process_one(code: str, dry_run=False) -> str:
         return "DRY_RUN"
     
     # JSXを書き出す
-    jsx_content = JSX_TEMPLATE.format(ai_path=str(ai_path.absolute()))
+    jsx_content = JSX_TEMPLATE.format(ai_path=js_str(ai_path.absolute()))
     JSX_PATH.write_text(jsx_content, encoding="utf-8")
     
     # Illustratorに実行させる
@@ -129,6 +133,8 @@ def main():
     else:
         # 全AIファイルを対象
         codes = sorted(f.stem for f in AI_DIR.glob("*.ai"))
+
+    codes = filter_safe_codes(codes)
     
     if not codes:
         print("対象ファイルがありません。")
