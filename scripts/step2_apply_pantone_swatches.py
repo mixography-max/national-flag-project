@@ -31,9 +31,31 @@ PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress_step2.txt"
 
 ASCII_ROOT = Path("/tmp/flag_project")
 
+# ファイル名由来の文字列は ExtendScript に埋め込まれるため、国コード以外は処理しない
+COUNTRY_CODE_RE = re.compile(r"[A-Z]{2}(?:_[a-z]+)?")
+
 
 def nfc(path_str: str) -> str:
     return unicodedata.normalize("NFC", path_str)
+
+
+def is_country_code(code: str) -> bool:
+    return COUNTRY_CODE_RE.fullmatch(code) is not None
+
+
+def js_string(value: str) -> str:
+    """Python文字列を ExtendScript の文字列リテラルとして埋め込める形にする。"""
+    return json.dumps(value)
+
+
+def country_codes_from(paths) -> list:
+    codes = []
+    for p in paths:
+        if is_country_code(p.stem):
+            codes.append(p.stem)
+        else:
+            print(f"⚠️ 国コードではないファイル名をスキップ: {p.name!r}", file=sys.stderr)
+    return codes
 
 
 def hex_to_rgb(hex_str: str):
@@ -108,7 +130,7 @@ def generate_jsx(ai_path: Path, spec: dict):
     
     jsx = f"""try {{
     app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
-    var doc = app.open(new File("{ai_abs}"));
+    var doc = app.open(new File({js_string(ai_abs)}));
     
     var initReady = false;
     for (var w = 0; w < 50; w++) {{
@@ -243,7 +265,7 @@ def generate_jsx(ai_path: Path, spec: dict):
     doc.close(SaveOptions.DONOTSAVECHANGES);
     "SUCCESS";
 }} catch(err) {{
-    var logFile = new File("{log_abs}");
+    var logFile = new File({js_string(log_abs)});
     logFile.open("w");
     logFile.writeln(err.toString());
     logFile.close();
@@ -254,6 +276,8 @@ def generate_jsx(ai_path: Path, spec: dict):
 
 
 def process_country(code: str):
+    if not is_country_code(code):
+        return f"ERROR_INVALID_CODE: {code!r}"
     ai_path = AI_OUT_DIR / f"{code}.ai"
     spec_path = SPEC_DIR / f"{code}.json"
     
@@ -323,7 +347,7 @@ def main():
     resume = "--resume" in sys.argv
     
     if "--all" in sys.argv:
-        codes = [s.stem for s in sorted(SPEC_DIR.glob("*.json"))]
+        codes = country_codes_from(sorted(SPEC_DIR.glob("*.json")))
         print(f"Mode: ALL ({len(codes)} files)")
     elif "--codes" in sys.argv:
         idx = sys.argv.index("--codes")
@@ -331,7 +355,7 @@ def main():
         print(f"Mode: SPECIFIC ({len(codes)} files)")
     else:
         # Default to all spec files
-        codes = [s.stem for s in sorted(SPEC_DIR.glob("*.json"))]
+        codes = country_codes_from(sorted(SPEC_DIR.glob("*.json")))
         print(f"Mode: DEFAULT ({len(codes)} files)")
         
     if resume:
