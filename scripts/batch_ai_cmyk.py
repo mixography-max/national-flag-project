@@ -44,7 +44,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
     lines = []
     lines.append(f'try {{')
     # Open SVG
-    lines.append(f'  var doc = app.open(File("{svg_path.absolute()}"));')
+    lines.append(f'  var doc = app.open(File({json.dumps(str(svg_path.absolute()))}));')
     
     # Setup Colors
     colors = spec.get("colors_extracted", [])
@@ -174,7 +174,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
 
     
     # Save
-    lines.append(f'  var saveFile = new File("{ai_path.absolute()}");')
+    lines.append(f'  var saveFile = new File({json.dumps(str(ai_path.absolute()))});')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
     lines.append(f'  doc.saveAs(saveFile, saveOpts);')
@@ -187,6 +187,10 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
 
 
 def process_country(code: str, test_mode=False):
+    # ファイル名由来の文字列は ExtendScript に埋め込まれるため、国コード以外は処理しない
+    if not re.fullmatch(r"[A-Z]{2}(?:_[a-z]+)?", code):
+        print(f"[{code!r}] ERR: not a country code")
+        return "ERROR"
     svg_path = SVG_DIR / f"{code}.svg"
     ai_path = AI_OUT_DIR / f"{code}.ai"
     spec_path = SPEC_DIR / f"{code}.json"

@@ -40,6 +40,29 @@ PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress.txt"
 # ASCII-onlyのシンボリックリンク経由でアクセスする
 ASCII_ROOT = Path("/tmp/flag_project")
 
+# 国コード（JP, PY_reverse, CR_state など）。ファイル名由来の文字列は
+# ExtendScript に埋め込まれるため、この形式以外は処理しない。
+COUNTRY_CODE_RE = re.compile(r"[A-Z]{2}(?:_[a-z]+)?")
+
+
+def is_country_code(code: str) -> bool:
+    return COUNTRY_CODE_RE.fullmatch(code) is not None
+
+
+def js_string(value: str) -> str:
+    """Python文字列を ExtendScript の文字列リテラルとして埋め込める形にする。"""
+    return json.dumps(value)
+
+
+def country_codes_from(paths) -> list:
+    codes = []
+    for p in paths:
+        if is_country_code(p.stem):
+            codes.append(p.stem)
+        else:
+            print(f"⚠️ 国コードではないファイル名をスキップ: {p.name!r}", file=sys.stderr)
+    return codes
+
 
 def nfc(path_str: str) -> str:
     """macOS NFD → NFC 正規化。
@@ -104,7 +127,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
     lines = []
     lines.append(f'try {{')
     lines.append(f'  app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;')
-    lines.append(f'  var doc = app.open(new File("{svg_abs}"));')
+    lines.append(f'  var doc = app.open(new File({js_string(svg_abs)}));')
     
     # Wait for activeDocument to be initialized after open
     lines.append('''
@@ -289,14 +312,14 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
 ''')
 
     log_abs = str(ASCII_ROOT / "jsx_error.log")
-    lines.append(f'  var saveFile = new File("{ai_abs}");')
+    lines.append(f'  var saveFile = new File({js_string(ai_abs)});')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
     lines.append(f'  doc.saveAs(saveFile, saveOpts);')
     lines.append(f'  doc.close(SaveOptions.DONOTSAVECHANGES);')
     lines.append(f'  "SAVED_OK";')
     lines.append(f'}} catch(err) {{')
-    lines.append(f'  var logFile = new File("{log_abs}");')
+    lines.append(f'  var logFile = new File({js_string(log_abs)});')
     lines.append(f'  logFile.open("w");')
     lines.append(f'  logFile.writeln(err.toString());')
     lines.append(f'  logFile.close();')
@@ -308,6 +331,8 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
 
 
 def process_country(code: str):
+    if not is_country_code(code):
+        return f"ERROR_INVALID_CODE: {code!r}"
     svg_path = SVG_DIR / f"{code}.svg"
     ai_path = AI_OUT_DIR / f"{code}.ai"
     spec_path = SPEC_DIR / f"{code}.json"
@@ -370,8 +395,8 @@ def get_done_codes() -> set:
 def get_codes_needing_update():
     """Return codes where SVG is newer than AI or AI doesn't exist."""
     codes = []
-    for svg in sorted(SVG_DIR.glob("*.svg")):
-        code = svg.stem
+    for code in country_codes_from(sorted(SVG_DIR.glob("*.svg"))):
+        svg = SVG_DIR / f"{code}.svg"
         ai = AI_OUT_DIR / f"{code}.ai"
         if not ai.exists() or svg.stat().st_mtime > ai.stat().st_mtime:
             codes.append(code)
@@ -391,7 +416,7 @@ def main():
     resume = "--resume" in sys.argv
     
     if "--all" in sys.argv:
-        codes = [s.stem for s in sorted(SVG_DIR.glob("*.svg"))]
+        codes = country_codes_from(sorted(SVG_DIR.glob("*.svg")))
         print(f"Mode: ALL ({len(codes)} files)")
     elif "--codes" in sys.argv:
         idx = sys.argv.index("--codes")

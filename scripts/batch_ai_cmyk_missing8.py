@@ -16,12 +16,12 @@ for code in missing:
     jsx_content = f"""
 app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
 try {{
-    var doc = app.open(File("{svg_file}"));
+    var doc = app.open(File({json.dumps(str(svg_file))}));
     app.executeMenuCommand('doc-color-cmyk');
     
     var saveOpts = new IllustratorSaveOptions();
     saveOpts.pdfCompatible = true;
-    doc.saveAs(File("{ai_file}"), saveOpts);
+    doc.saveAs(File({json.dumps(str(ai_file))}), saveOpts);
     doc.close(SaveOptions.DONOTSAVECHANGES);
 }} catch(e) {{
 }}
