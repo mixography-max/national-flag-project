@@ -2,6 +2,8 @@ import json
 import subprocess
 from pathlib import Path
 
+from jsx_safety import js_str
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
@@ -19,17 +21,17 @@ for code in missing:
     jsx_content = f"""
 app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
 try {{
-    var doc = app.open(File("{svg_file}"));
+    var doc = app.open(File({js_str(svg_file)}));
     app.executeMenuCommand('doc-color-cmyk');
     
     var saveOpts = new IllustratorSaveOptions();
     saveOpts.pdfCompatible = true;
-    doc.saveAs(File("{ai_file}"), saveOpts);
+    doc.saveAs(File({js_str(ai_file)}), saveOpts);
     doc.close(SaveOptions.DONOTSAVECHANGES);
 }} catch(e) {{
-    var log = new File("{PROJECT_ROOT}/error.log");
+    var log = new File({js_str(PROJECT_ROOT / "error.log")});
     log.open("a");
-    log.writeln("{code}: " + e.message);
+    log.writeln({js_str(code + ": ")} + e.message);
     log.close();
 }}
 app.userInteractionLevel = UserInteractionLevel.DISPLAYALERTS;
