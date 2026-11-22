@@ -21,6 +21,7 @@ Adobe Illustratorをosascript経由で自動制御します。
 """
 
 import json
+import math
 import os
 import sys
 import subprocess
@@ -50,6 +51,15 @@ def nfc(path_str: str) -> str:
     return unicodedata.normalize("NFC", path_str)
 
 
+def js_string(value: str) -> str:
+    """Encode a value as a quoted ExtendScript string literal.
+
+    ensure_ascii keeps U+2028/U+2029 escaped, which ES3 treats as line
+    terminators inside string literals.
+    """
+    return json.dumps(str(value), ensure_ascii=True)
+
+
 def hex_to_rgb(hex_str: str):
     hex_str = hex_str.lstrip('#')
     if len(hex_str) == 3:
@@ -65,9 +75,11 @@ def parse_cmyk(cmyk_str: str):
     parts = [p for p in parts if p]
     if len(parts) == 4:
         try:
-            return tuple(float(p) for p in parts)
+            vals = tuple(float(p) for p in parts)
         except ValueError:
-            pass
+            vals = ()
+        if vals and all(math.isfinite(v) for v in vals):
+            return vals
     return (0, 0, 0, 0)
 
 
@@ -132,6 +144,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
         rgb = hex_to_rgb(c.get("hex", "#000000"))
         cmyk_vals = parse_cmyk(c.get("cmyk", ""))
         pantone = c.get("pantone", "").strip()
+        pantone_js = js_string(pantone)
         
         lines.append(f'  var cmyk_{i} = new CMYKColor();')
         lines.append(f'  cmyk_{i}.cyan = {cmyk_vals[0]};')
@@ -142,10 +155,10 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
         # Register Swatch as SPOT first (in RGB mode) to avoid MRAP errors
         if pantone and pantone not in ("White", "Black"):
             lines.append(f'  var spot_{i} = null;')
-            lines.append(f'  try {{ spot_{i} = doc.spots.getByName("{pantone}"); }} catch(e) {{}}')
+            lines.append(f'  try {{ spot_{i} = doc.spots.getByName({pantone_js}); }} catch(e) {{}}')
             lines.append(f'  if (!spot_{i}) {{')
             lines.append(f'      spot_{i} = doc.spots.add();')
-            lines.append(f'      spot_{i}.name = "{pantone}";')
+            lines.append(f'      spot_{i}.name = {pantone_js};')
             lines.append(f'      spot_{i}.colorType = ColorModel.SPOT;')
             lines.append(f'      spot_{i}.color = cmyk_{i};')
             lines.append(f'  }}')
@@ -158,7 +171,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
             
         lines.append(f'  colorMappings.push({{')
         lines.append(f'      targetR: {rgb[0]}, targetG: {rgb[1]}, targetB: {rgb[2]},')
-        lines.append(f'      pantone: "{pantone}",')
+        lines.append(f'      pantone: {pantone_js},')
         lines.append(f'      replColor: replColor_{i}')
         lines.append(f'  }});')
 
