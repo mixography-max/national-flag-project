@@ -56,6 +56,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
         rgb = hex_to_rgb(c.get("hex", "#000000"))
         cmyk_vals = parse_cmyk(c.get("cmyk", ""))
         pantone = c.get("pantone", "").strip()
+        pantone_js = json.dumps(pantone, ensure_ascii=True)
         
         # Determine replacing color creation
         lines.append(f'  var cmyk_{i} = new CMYKColor();')
@@ -67,10 +68,10 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
         if pantone and pantone not in ("White", "Black"):
             # Avoid duplicate spot names if we iterate, but it's per document so it's fresh
             lines.append(f'  var spot_{i} = null;')
-            lines.append(f'  try {{ spot_{i} = doc.spots.getByName("{pantone}"); }} catch(e) {{}}')
+            lines.append(f'  try {{ spot_{i} = doc.spots.getByName({pantone_js}); }} catch(e) {{}}')
             lines.append(f'  if(!spot_{i}) {{')
             lines.append(f'      spot_{i} = doc.spots.add();')
-            lines.append(f'      spot_{i}.name = "{pantone}";')
+            lines.append(f'      spot_{i}.name = {pantone_js};')
             lines.append(f'      spot_{i}.colorType = ColorModel.PROCESS;')
             lines.append(f'      spot_{i}.color = cmyk_{i};')
             lines.append(f'  }}')
