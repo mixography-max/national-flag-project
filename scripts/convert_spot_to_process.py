@@ -19,7 +19,10 @@ convert_spot_to_process.py – AIファイルのスポットカラーをプロ�
   python3 scripts/convert_spot_to_process.py --dry-run  # 何をするか確認のみ
 """
 
+import json
 import os
+import re
+import stat
 import sys
 import subprocess
 import time
@@ -31,27 +34,31 @@ AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = PROJECT_ROOT / "04_ai_cmyk" / "logs" / "spot_to_process_done.txt"
 JSX_PATH = PROJECT_ROOT / "temp_convert_spot.jsx"
 
-# 1ファイル変換用のJSXテンプレート
+# 国コード (JP, PY_reverse, PE_state など) として許可するファイル名
+SAFE_CODE_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]*", re.ASCII)
+
+# 1ファイル変換用のJSX本体（固定）
+# 先頭に `var aiPath = "<JSON文字列>";` を付けて実行する。
 # AI ファイルを開き、全Spotスウォッチの colorType を PROCESS に変え、
 # 上書き保存して閉じる
-JSX_TEMPLATE = r"""
-try {{
+JSX_BODY = r"""
+try {
     // Open the AI file
-    var aiFile = new File("{ai_path}");
+    var aiFile = new File(aiPath);
     var doc = app.open(aiFile);
     
     // Convert all spot colors to process colors
     var convertedCount = 0;
-    for (var i = doc.spots.length - 1; i >= 0; i--) {{
+    for (var i = doc.spots.length - 1; i >= 0; i--) {
         var spot = doc.spots[i];
         // Skip the built-in [Registration] spot
         if (spot.name === "[Registration]") continue;
         
-        if (spot.colorType === ColorModel.SPOT) {{
+        if (spot.colorType === ColorModel.SPOT) {
             spot.colorType = ColorModel.PROCESS;
             convertedCount++;
-        }}
-    }}
+        }
+    }
     
     // Save in-place (overwrite)
     var saveOpts = new IllustratorSaveOptions();
@@ -63,12 +70,30 @@ try {{
     
     // Return result
     convertedCount.toString();
-}} catch(err) {{
+} catch(err) {
     // Try to close document even on error
-    try {{ app.activeDocument.close(SaveOptions.DONOTSAVECHANGES); }} catch(e2) {{}}
+    try { app.activeDocument.close(SaveOptions.DONOTSAVECHANGES); } catch(e2) {}
     "ERROR:" + err.toString();
-}}
+}
 """
+
+
+def is_safe_code(code: str) -> bool:
+    return SAFE_CODE_RE.fullmatch(code) is not None
+
+
+def js_string_literal(value: str) -> str:
+    """ExtendScript (ES3) の文字列リテラルとして安全な表記を返す"""
+    # ensure_ascii で引用符・バックスラッシュ・改行・U+2028/2029 等はすべてエスケープされる
+    return json.dumps(value, ensure_ascii=True)
+
+
+def build_jsx(ai_path: str) -> str:
+    return f"var aiPath = {js_string_literal(ai_path)};\n" + JSX_BODY
+
+
+def applescript_string_literal(value: str) -> str:
+    return '"' + value.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
 
 def get_done_codes() -> set:
@@ -87,21 +112,30 @@ def mark_done(code: str):
 
 def process_one(code: str, dry_run=False) -> str:
     """1ファイルを処理"""
+    if not is_safe_code(code):
+        return "SKIP_UNSAFE_NAME"
+
     ai_path = AI_DIR / f"{code}.ai"
-    if not ai_path.exists():
+    try:
+        st = os.lstat(ai_path)
+    except FileNotFoundError:
         return "SKIP_NOT_FOUND"
+    # シンボリックリンク経由で 04_ai_cmyk 外のファイルを上書きしない
+    if not stat.S_ISREG(st.st_mode):
+        return "SKIP_NOT_REGULAR_FILE"
     
     if dry_run:
         return "DRY_RUN"
     
     # JSXを書き出す
-    jsx_content = JSX_TEMPLATE.format(ai_path=str(ai_path.absolute()))
+    jsx_content = build_jsx(str(ai_path.absolute()))
     JSX_PATH.write_text(jsx_content, encoding="utf-8")
     
     # Illustratorに実行させる
+    jsx_posix = applescript_string_literal(str(JSX_PATH.absolute()))
     cmd = [
         'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{JSX_PATH.absolute()}"'
+        f'tell application "Adobe Illustrator" to do javascript file POSIX file {jsx_posix}'
     ]
     
     try:
@@ -129,6 +163,13 @@ def main():
     else:
         # 全AIファイルを対象
         codes = sorted(f.stem for f in AI_DIR.glob("*.ai"))
+
+    unsafe = [c for c in codes if not is_safe_code(c)]
+    if unsafe:
+        print(f"⚠️ 国コードとして不正なファイル名をスキップ: {len(unsafe)}件")
+        for c in unsafe:
+            print(f"   {c!r}")
+        codes = [c for c in codes if is_safe_code(c)]
     
     if not codes:
         print("対象ファイルがありません。")
