@@ -26,6 +26,9 @@ import time
 from pathlib import Path
 from datetime import datetime
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from progress_log import append_progress_code, filter_safe_codes, read_progress_codes
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = PROJECT_ROOT / "04_ai_cmyk" / "logs" / "spot_to_process_done.txt"
@@ -73,16 +76,12 @@ try {{
 
 def get_done_codes() -> set:
     """進捗ログから処理済みコード一覧を取得"""
-    if not PROGRESS_LOG.exists():
-        return set()
-    return set(PROGRESS_LOG.read_text().strip().split("\n"))
+    return read_progress_codes(PROGRESS_LOG)
 
 
 def mark_done(code: str):
     """処理済みとしてログに追記"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
-        f.write(f"{code}\n")
+    append_progress_code(PROGRESS_LOG, code)
 
 
 def process_one(code: str, dry_run=False) -> str:
@@ -129,6 +128,7 @@ def main():
     else:
         # 全AIファイルを対象
         codes = sorted(f.stem for f in AI_DIR.glob("*.ai"))
+    codes = filter_safe_codes(codes)
     
     if not codes:
         print("対象ファイルがありません。")

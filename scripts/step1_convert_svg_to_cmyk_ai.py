@@ -23,6 +23,15 @@ import time
 import unicodedata
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from progress_log import (
+    append_progress_code,
+    filter_safe_codes,
+    read_progress_codes,
+    reset_progress_log,
+    write_log_text,
+)
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
@@ -64,7 +73,6 @@ def generate_jsx(svg_path: Path, ai_path: Path):
     
     svg_abs = f"/tmp/flag_project/{svg_rel}"
     ai_abs = f"/tmp/flag_project/{ai_rel}"
-    log_abs = "/tmp/flag_project/04_ai_cmyk/logs/jsx_error_step1.log"
     
     jsx = f"""try {{
     app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
@@ -172,10 +180,6 @@ def generate_jsx(svg_path: Path, ai_path: Path):
     svgDoc.close(SaveOptions.DONOTSAVECHANGES);
     "SAVED_OK";
 }} catch(err) {{
-    var logFile = new File("{log_abs}");
-    logFile.open("w");
-    logFile.writeln(err.toString());
-    logFile.close();
     try {{ app.activeDocument.close(SaveOptions.DONOTSAVECHANGES); }} catch(e2) {{}}
     "JSX_ERROR:" + err.toString();
 }}"""
@@ -215,6 +219,7 @@ def process_country(code: str):
         
     stdout = res.stdout.strip()
     if "JSX_ERROR" in stdout:
+        write_log_text(AI_OUT_DIR / "logs" / "jsx_error_step1.log", f"{stdout}\n")
         return f"ERROR_JSX: {stdout[:100]}"
         
     if ai_path.exists():
@@ -229,15 +234,11 @@ def process_country(code: str):
 
 
 def mark_done(code: str):
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
-        f.write(f"{code}\n")
+    append_progress_code(PROGRESS_LOG, code)
 
 
 def get_done_codes() -> set:
-    if not PROGRESS_LOG.exists():
-        return set()
-    return set(PROGRESS_LOG.read_text().strip().split("\n"))
+    return read_progress_codes(PROGRESS_LOG)
 
 
 def get_codes_needing_update():
@@ -273,6 +274,7 @@ def main():
     else:
         codes = get_codes_needing_update()
         print(f"Mode: UPDATE ({len(codes)} files with newer SVGs)")
+    codes = filter_safe_codes(codes)
         
     if resume:
         done = get_done_codes()
@@ -280,7 +282,7 @@ def main():
         codes = [c for c in codes if c not in done]
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
-        PROGRESS_LOG.write_text("")
+        reset_progress_log(PROGRESS_LOG)
         
     if not codes:
         print("No files to process.")

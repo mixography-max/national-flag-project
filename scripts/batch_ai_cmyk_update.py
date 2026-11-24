@@ -29,6 +29,15 @@ import unicodedata
 from pathlib import Path
 import re
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from progress_log import (
+    append_progress_code,
+    filter_safe_codes,
+    read_progress_codes,
+    reset_progress_log,
+    write_log_text,
+)
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
@@ -288,7 +297,6 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
   }
 ''')
 
-    log_abs = str(ASCII_ROOT / "jsx_error.log")
     lines.append(f'  var saveFile = new File("{ai_abs}");')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
@@ -296,10 +304,6 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
     lines.append(f'  doc.close(SaveOptions.DONOTSAVECHANGES);')
     lines.append(f'  "SAVED_OK";')
     lines.append(f'}} catch(err) {{')
-    lines.append(f'  var logFile = new File("{log_abs}");')
-    lines.append(f'  logFile.open("w");')
-    lines.append(f'  logFile.writeln(err.toString());')
-    lines.append(f'  logFile.close();')
     lines.append(f'  try {{ app.activeDocument.close(SaveOptions.DONOTSAVECHANGES); }} catch(e2) {{}}')
     lines.append(f'  "JSX_ERROR:" + err.toString();')
     lines.append(f'}}')
@@ -343,6 +347,7 @@ def process_country(code: str):
     # Check JSX return value
     stdout = res.stdout.strip()
     if "JSX_ERROR" in stdout:
+        write_log_text(PROJECT_ROOT / "jsx_error.log", f"{stdout}\n")
         return f"ERROR_JSX: {stdout[:100]}"
     # Verify file was actually saved (timestamp check)
     if ai_path.exists():
@@ -355,16 +360,12 @@ def process_country(code: str):
 
 def mark_done(code: str):
     """進捗ログに完了コードを追記する。"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
-        f.write(f"{code}\n")
+    append_progress_code(PROGRESS_LOG, code)
 
 
 def get_done_codes() -> set:
     """進捗ログから完了済みコードを取得する。"""
-    if not PROGRESS_LOG.exists():
-        return set()
-    return set(PROGRESS_LOG.read_text().strip().split("\n"))
+    return read_progress_codes(PROGRESS_LOG)
 
 
 def get_codes_needing_update():
@@ -400,6 +401,7 @@ def main():
     else:
         codes = get_codes_needing_update()
         print(f"Mode: UPDATE ({len(codes)} files with newer SVGs)")
+    codes = filter_safe_codes(codes)
     
     # --resume: skip already-done codes
     if resume:
@@ -409,8 +411,7 @@ def main():
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
         # 新規実行時は進捗ログをリセット
-        PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-        PROGRESS_LOG.write_text("")
+        reset_progress_log(PROGRESS_LOG)
     
     if not codes:
         print("No files to process. All AI files are up to date!")
