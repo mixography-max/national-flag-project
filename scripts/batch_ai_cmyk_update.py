@@ -20,8 +20,10 @@ Adobe Illustratorをosascript経由で自動制御します。
   python3 scripts/batch_ai_cmyk_update.py --resume  # 前回の続きから
 """
 
+import errno
 import json
 import os
+import stat
 import sys
 import subprocess
 import time
@@ -34,11 +36,89 @@ SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress.txt"
+JSX_ERROR_LOG = PROJECT_ROOT / "jsx_error.log"
 
 # ASCII-only symlink to avoid ExtendScript's non-ASCII path issues
 # macOS + ExtendScript は日本語パスを正しく処理できないため、
 # ASCII-onlyのシンボリックリンク経由でアクセスする
 ASCII_ROOT = Path("/tmp/flag_project")
+
+SAFE_CODE = re.compile(r"[A-Za-z0-9_]{1,16}")
+_DIR_FLAGS = os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW | getattr(os, "O_CLOEXEC", 0)
+_FILE_FLAGS = os.O_NOFOLLOW | getattr(os, "O_CLOEXEC", 0)
+
+
+def is_safe_code(code: str) -> bool:
+    return SAFE_CODE.fullmatch(code) is not None
+
+
+def _project_dir_fd(parts, create: bool) -> int:
+    """PROJECT_ROOT 配下のディレクトリを、シンボリックリンクを辿らずに開く。"""
+    fd = os.open(PROJECT_ROOT, os.O_RDONLY | os.O_DIRECTORY)
+    try:
+        for part in parts:
+            if create:
+                try:
+                    os.mkdir(part, dir_fd=fd)
+                except FileExistsError:
+                    pass
+            next_fd = os.open(part, _DIR_FLAGS, dir_fd=fd)
+            os.close(fd)
+            fd = next_fd
+    except BaseException:
+        os.close(fd)
+        raise
+    return fd
+
+
+def open_project_file(path: Path, mode: str = "a", encoding: str = "utf-8"):
+    """PROJECT_ROOT 配下のファイルを書き込み用に開く（mode は "w" か "a"）。
+
+    パス上のシンボリックリンクは一切辿らない。ファイル名自体がリンク
+    （シンボリックリンク／ハードリンク）の場合は、リンク先を開かずに
+    名前だけを削除し、新しい通常ファイルを作成する。
+    """
+    *dirs, name = path.relative_to(PROJECT_ROOT).parts
+    flags = os.O_WRONLY | os.O_CREAT | _FILE_FLAGS | (os.O_APPEND if mode == "a" else 0)
+    dir_fd = _project_dir_fd(dirs, create=True)
+    try:
+        try:
+            fd = os.open(name, flags, 0o644, dir_fd=dir_fd)
+        except OSError as e:
+            if e.errno != errno.ELOOP:
+                raise
+        else:
+            st = os.fstat(fd)
+            if stat.S_ISREG(st.st_mode) and st.st_nlink <= 1:
+                if mode == "w":
+                    os.ftruncate(fd, 0)
+                return os.fdopen(fd, mode, encoding=encoding)
+            os.close(fd)
+        print(f"⚠️ {path} はリンクのため、通常ファイルに置き換えます", file=sys.stderr)
+        os.unlink(name, dir_fd=dir_fd)
+        fd = os.open(name, flags | os.O_EXCL, 0o644, dir_fd=dir_fd)
+        return os.fdopen(fd, mode, encoding=encoding)
+    finally:
+        os.close(dir_fd)
+
+
+def read_project_file(path: Path) -> str:
+    """シンボリックリンクを辿らずに読む。存在しない・通常ファイルでない場合は空文字列。"""
+    *dirs, name = path.relative_to(PROJECT_ROOT).parts
+    try:
+        dir_fd = _project_dir_fd(dirs, create=False)
+        try:
+            fd = os.open(name, os.O_RDONLY | _FILE_FLAGS, dir_fd=dir_fd)
+        finally:
+            os.close(dir_fd)
+    except OSError as e:
+        if e.errno in (errno.ENOENT, errno.ENOTDIR, errno.ELOOP):
+            return ""
+        raise
+    with os.fdopen(fd, encoding="utf-8") as f:
+        if not stat.S_ISREG(os.fstat(f.fileno()).st_mode):
+            return ""
+        return f.read()
 
 
 def nfc(path_str: str) -> str:
@@ -81,9 +161,8 @@ try {
 } catch(e) {}
 """
     jsx_path = PROJECT_ROOT / "temp_closeall.jsx"
-    with open(jsx_path, "wb") as f:
-        f.write(b'\xef\xbb\xbf')
-        f.write(jsx.encode('utf-8'))
+    with open_project_file(jsx_path, "w", encoding="utf-8-sig") as f:
+        f.write(jsx)
     cmd = [
         'osascript', '-e',
         f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path.absolute()))}"'
@@ -288,7 +367,6 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
   }
 ''')
 
-    log_abs = str(ASCII_ROOT / "jsx_error.log")
     lines.append(f'  var saveFile = new File("{ai_abs}");')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
@@ -296,10 +374,6 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
     lines.append(f'  doc.close(SaveOptions.DONOTSAVECHANGES);')
     lines.append(f'  "SAVED_OK";')
     lines.append(f'}} catch(err) {{')
-    lines.append(f'  var logFile = new File("{log_abs}");')
-    lines.append(f'  logFile.open("w");')
-    lines.append(f'  logFile.writeln(err.toString());')
-    lines.append(f'  logFile.close();')
     lines.append(f'  try {{ app.activeDocument.close(SaveOptions.DONOTSAVECHANGES); }} catch(e2) {{}}')
     lines.append(f'  "JSX_ERROR:" + err.toString();')
     lines.append(f'}}')
@@ -323,7 +397,7 @@ def process_country(code: str):
     jsx_content = generate_jsx(svg_path, ai_path, spec)
     
     jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
+    with open_project_file(jsx_path, "w") as f:
         f.write(jsx_content)
     
     # osascript に渡すパスはASCII symlink経由
@@ -343,6 +417,8 @@ def process_country(code: str):
     # Check JSX return value
     stdout = res.stdout.strip()
     if "JSX_ERROR" in stdout:
+        with open_project_file(JSX_ERROR_LOG, "w") as f:
+            f.write(stdout.split("JSX_ERROR:", 1)[-1] + "\n")
         return f"ERROR_JSX: {stdout[:100]}"
     # Verify file was actually saved (timestamp check)
     if ai_path.exists():
@@ -355,16 +431,15 @@ def process_country(code: str):
 
 def mark_done(code: str):
     """進捗ログに完了コードを追記する。"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
+    if not is_safe_code(code):
+        raise ValueError(f"unsafe country code: {code!r}")
+    with open_project_file(PROGRESS_LOG, "a") as f:
         f.write(f"{code}\n")
 
 
 def get_done_codes() -> set:
     """進捗ログから完了済みコードを取得する。"""
-    if not PROGRESS_LOG.exists():
-        return set()
-    return set(PROGRESS_LOG.read_text().strip().split("\n"))
+    return set(read_project_file(PROGRESS_LOG).split())
 
 
 def get_codes_needing_update():
@@ -401,6 +476,11 @@ def main():
         codes = get_codes_needing_update()
         print(f"Mode: UPDATE ({len(codes)} files with newer SVGs)")
     
+    unsafe = [c for c in codes if not is_safe_code(c)]
+    if unsafe:
+        print(f"⚠️ 不正なコードを除外: {unsafe!r}")
+        codes = [c for c in codes if is_safe_code(c)]
+    
     # --resume: skip already-done codes
     if resume:
         done = get_done_codes()
@@ -409,8 +489,7 @@ def main():
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
         # 新規実行時は進捗ログをリセット
-        PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-        PROGRESS_LOG.write_text("")
+        open_project_file(PROGRESS_LOG, "w").close()
     
     if not codes:
         print("No files to process. All AI files are up to date!")
