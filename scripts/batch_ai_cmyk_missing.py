@@ -1,5 +1,7 @@
 import json
+import os
 import subprocess
+import tempfile
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -15,9 +17,9 @@ for code in missing:
     if not svg_file.exists():
         continue
         
-    jsx_path = PROJECT_ROOT / f"temp_{code}.jsx"
     jsx_content = f"""
 app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
+var result = "OK";
 try {{
     var doc = app.open(File("{svg_file}"));
     app.executeMenuCommand('doc-color-cmyk');
@@ -27,16 +29,20 @@ try {{
     doc.saveAs(File("{ai_file}"), saveOpts);
     doc.close(SaveOptions.DONOTSAVECHANGES);
 }} catch(e) {{
-    var log = new File("{PROJECT_ROOT}/error.log");
-    log.open("a");
-    log.writeln("{code}: " + e.message);
-    log.close();
+    result = "ERROR: " + e.message;
 }}
 app.userInteractionLevel = UserInteractionLevel.DISPLAYALERTS;
+result;
 """
-    jsx_path.write_text(jsx_content, encoding='utf-8')
+    fd, jsx_path = tempfile.mkstemp(prefix=f"temp_{code}_", suffix=".jsx")
+    with os.fdopen(fd, "w", encoding="utf-8") as f:
+        f.write(jsx_content)
     cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"']
-    subprocess.run(cmd)
-    jsx_path.unlink()
+    try:
+        res = subprocess.run(cmd, capture_output=True, text=True)
+    finally:
+        os.unlink(jsx_path)
+    if "ERROR:" in res.stdout:
+        print(f"{code}: {res.stdout.strip()}")
     print(f"Processed {code}")
 
