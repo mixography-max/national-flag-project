@@ -1,5 +1,7 @@
 import json
+import os
 import subprocess
+import tempfile
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -12,7 +14,6 @@ for code in missing:
     svg_file = SVG_DIR / f"{code}.svg"
     ai_file = AI_DIR / f"{code}.ai"
         
-    jsx_path = PROJECT_ROOT / f"temp_{code}.jsx"
     jsx_content = f"""
 app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
 try {{
@@ -27,8 +28,12 @@ try {{
 }}
 app.userInteractionLevel = UserInteractionLevel.DISPLAYALERTS;
 """
-    jsx_path.write_text(jsx_content, encoding='utf-8')
+    fd, jsx_path = tempfile.mkstemp(prefix=f"temp_{code}_", suffix=".jsx")
+    with os.fdopen(fd, "w", encoding="utf-8") as f:
+        f.write(jsx_content)
     cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"']
-    subprocess.run(cmd)
-    jsx_path.unlink()
+    try:
+        subprocess.run(cmd)
+    finally:
+        os.unlink(jsx_path)
     
