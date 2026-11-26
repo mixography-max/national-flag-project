@@ -23,11 +23,15 @@ import time
 import unicodedata
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project_fs
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress_step1.txt"
+JSX_ERROR_LOG = AI_OUT_DIR / "logs" / "jsx_error_step1.log"
 
 ASCII_ROOT = Path("/tmp/flag_project")
 
@@ -44,27 +48,25 @@ try {
     }
 } catch(e) {}
 """
-    jsx_path = PROJECT_ROOT / "temp_closeall.jsx"
-    with open(jsx_path, "wb") as f:
-        f.write(b'\xef\xbb\xbf')
-        f.write(jsx.encode('utf-8'))
-    cmd = [
-        'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path.absolute()))}"'
-    ]
-    try:
-        subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-    except subprocess.TimeoutExpired:
-        pass
+    with project_fs.private_workdir() as work:
+        jsx_path = work / "closeall.jsx"
+        project_fs.write_new(jsx_path, b'\xef\xbb\xbf' + jsx.encode('utf-8'))
+        cmd = [
+            'osascript', '-e',
+            f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path))}"'
+        ]
+        try:
+            subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        except subprocess.TimeoutExpired:
+            pass
 
 
-def generate_jsx(svg_path: Path, ai_path: Path):
+def generate_jsx(svg_path: Path, ai_path: Path, log_path: Path):
     svg_rel = svg_path.relative_to(PROJECT_ROOT)
-    ai_rel = ai_path.relative_to(PROJECT_ROOT)
     
     svg_abs = f"/tmp/flag_project/{svg_rel}"
-    ai_abs = f"/tmp/flag_project/{ai_rel}"
-    log_abs = "/tmp/flag_project/04_ai_cmyk/logs/jsx_error_step1.log"
+    ai_abs = str(ai_path)
+    log_abs = str(log_path)
     
     jsx = f"""try {{
     app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
@@ -192,46 +194,51 @@ def process_country(code: str):
     if not spec_path.exists():
         return "SKIP_NO_SPEC"
         
-    jsx_content = generate_jsx(svg_path, ai_path)
-    
-    jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
-        f.write(jsx_content)
-    
-    jsx_ascii = str(ASCII_ROOT / "temp_run.jsx")
-    cmd = [
-        'osascript',
-        '-e', 'tell application "Adobe Illustrator" to activate',
-        '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_ascii}"'
-    ]
-    
-    try:
-        res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    except subprocess.TimeoutExpired:
-        return "ERROR_TIMEOUT"
-        
-    if "Error" in res.stderr or res.returncode != 0:
-        return f"ERROR: {res.stderr.strip()[:100]}"
-        
-    stdout = res.stdout.strip()
-    if "JSX_ERROR" in stdout:
-        return f"ERROR_JSX: {stdout[:100]}"
-        
-    if ai_path.exists():
-        import time as _t
-        age = _t.time() - ai_path.stat().st_mtime
-        if age > 60:
-            return f"ERROR_NOT_SAVED: file not modified (age={age:.0f}s)"
-    else:
-        return "ERROR_NOT_SAVED: output file missing"
-        
+    # Illustrator は作業ツリーに直接書き込まない。本人専用の一時ディレクトリに
+    # 保存させ、結果を install_file でリンクを辿らずに差し替える。
+    with project_fs.private_workdir() as work:
+        work_ai = work / ai_path.name
+        work_log = work / JSX_ERROR_LOG.name
+        jsx_content = generate_jsx(svg_path, work_ai, work_log)
+        jsx_path = work / "run.jsx"
+        project_fs.write_new(jsx_path, jsx_content.encode("utf-8"))
+
+        cmd = [
+            'osascript',
+            '-e', 'tell application "Adobe Illustrator" to activate',
+            '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"'
+        ]
+
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            return "ERROR_TIMEOUT"
+        finally:
+            if work_log.exists():
+                project_fs.install_file(work_log, JSX_ERROR_LOG)
+
+        if "Error" in res.stderr or res.returncode != 0:
+            return f"ERROR: {res.stderr.strip()[:100]}"
+
+        stdout = res.stdout.strip()
+        if "JSX_ERROR" in stdout:
+            return f"ERROR_JSX: {stdout[:100]}"
+
+        if work_ai.exists():
+            import time as _t
+            age = _t.time() - work_ai.stat().st_mtime
+            if age > 60:
+                return f"ERROR_NOT_SAVED: file not modified (age={age:.0f}s)"
+        else:
+            return "ERROR_NOT_SAVED: output file missing"
+
+        project_fs.install_file(work_ai, ai_path)
+
     return "SUCCESS"
 
 
 def mark_done(code: str):
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
-        f.write(f"{code}\n")
+    project_fs.append_text(PROGRESS_LOG, f"{code}\n")
 
 
 def get_done_codes() -> set:
@@ -280,7 +287,7 @@ def main():
         codes = [c for c in codes if c not in done]
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
-        PROGRESS_LOG.write_text("")
+        project_fs.write_text(PROGRESS_LOG, "")
         
     if not codes:
         print("No files to process.")
