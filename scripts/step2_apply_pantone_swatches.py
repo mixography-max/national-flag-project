@@ -24,10 +24,16 @@ import unicodedata
 import re
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_open import (  # noqa: E402
+    ProgressLog, filter_codes, write_bytes_no_follow, write_text_no_follow,
+)
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress_step2.txt"
+JSX_ERROR_LOG = AI_OUT_DIR / "logs" / "jsx_error_step2.log"
 
 ASCII_ROOT = Path("/tmp/flag_project")
 
@@ -65,9 +71,7 @@ try {
 } catch(e) {}
 """
     jsx_path = PROJECT_ROOT / "temp_closeall.jsx"
-    with open(jsx_path, "wb") as f:
-        f.write(b'\xef\xbb\xbf')
-        f.write(jsx.encode('utf-8'))
+    write_bytes_no_follow(jsx_path, b'\xef\xbb\xbf' + jsx.encode('utf-8'))
     cmd = [
         'osascript', '-e',
         f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path.absolute()))}"'
@@ -81,7 +85,6 @@ try {
 def generate_jsx(ai_path: Path, spec: dict):
     ai_rel = ai_path.relative_to(PROJECT_ROOT)
     ai_abs = f"/tmp/flag_project/{ai_rel}"
-    log_abs = "/tmp/flag_project/04_ai_cmyk/logs/jsx_error_step2.log"
     
     color_specs = []
     for c in spec.get("colors", []):
@@ -243,10 +246,6 @@ def generate_jsx(ai_path: Path, spec: dict):
     doc.close(SaveOptions.DONOTSAVECHANGES);
     "SUCCESS";
 }} catch(err) {{
-    var logFile = new File("{log_abs}");
-    logFile.open("w");
-    logFile.writeln(err.toString());
-    logFile.close();
     try {{ app.activeDocument.close(SaveOptions.DONOTSAVECHANGES); }} catch(e2) {{}}
     "JSX_ERROR:" + err.toString();
 }}"""
@@ -268,8 +267,7 @@ def process_country(code: str):
     jsx_content = generate_jsx(ai_path, spec)
     
     jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
-        f.write(jsx_content)
+    write_text_no_follow(jsx_path, jsx_content)
         
     jsx_ascii = str(ASCII_ROOT / "temp_run.jsx")
     cmd = [
@@ -288,6 +286,7 @@ def process_country(code: str):
         
     stdout = res.stdout.strip()
     if "JSX_ERROR" in stdout:
+        write_text_no_follow(JSX_ERROR_LOG, stdout.split("JSX_ERROR:", 1)[-1] + "\n")
         return f"ERROR_JSX: {stdout[:100]}"
         
     if ai_path.exists():
@@ -299,18 +298,6 @@ def process_country(code: str):
         return "ERROR_NOT_SAVED: output file missing"
         
     return "SUCCESS"
-
-
-def mark_done(code: str):
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
-        f.write(f"{code}\n")
-
-
-def get_done_codes() -> set:
-    if not PROGRESS_LOG.exists():
-        return set()
-    return set(PROGRESS_LOG.read_text().strip().split("\n"))
 
 
 def main():
@@ -333,15 +320,20 @@ def main():
         # Default to all spec files
         codes = [s.stem for s in sorted(SPEC_DIR.glob("*.json"))]
         print(f"Mode: DEFAULT ({len(codes)} files)")
-        
+    codes = filter_codes(codes)
+
+    with ProgressLog(PROGRESS_LOG) as log:
+        run_batch(codes, log, resume=resume)
+
+
+def run_batch(codes, log: ProgressLog, *, resume: bool):
     if resume:
-        done = get_done_codes()
+        done = log.done_codes()
         before = len(codes)
         codes = [c for c in codes if c not in done]
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
-        PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-        PROGRESS_LOG.write_text("")
+        log.reset()
         
     if not codes:
         print("No files to process.")
@@ -358,11 +350,11 @@ def main():
         
         if status == "SUCCESS":
             success += 1
-            mark_done(code)
+            log.mark_done(code)
             print("✅")
         elif status.startswith("SKIP"):
             skip += 1
-            mark_done(code)
+            log.mark_done(code)
             print(f"⏭️ {status}")
         else:
             error += 1

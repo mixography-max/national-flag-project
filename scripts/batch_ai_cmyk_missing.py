@@ -1,6 +1,10 @@
 import json
 import subprocess
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_open import write_text_no_follow  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
@@ -18,6 +22,7 @@ for code in missing:
     jsx_path = PROJECT_ROOT / f"temp_{code}.jsx"
     jsx_content = f"""
 app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
+var result = "OK";
 try {{
     var doc = app.open(File("{svg_file}"));
     app.executeMenuCommand('doc-color-cmyk');
@@ -27,16 +32,16 @@ try {{
     doc.saveAs(File("{ai_file}"), saveOpts);
     doc.close(SaveOptions.DONOTSAVECHANGES);
 }} catch(e) {{
-    var log = new File("{PROJECT_ROOT}/error.log");
-    log.open("a");
-    log.writeln("{code}: " + e.message);
-    log.close();
+    result = "ERROR:" + e.message;
 }}
 app.userInteractionLevel = UserInteractionLevel.DISPLAYALERTS;
+result;
 """
-    jsx_path.write_text(jsx_content, encoding='utf-8')
+    write_text_no_follow(jsx_path, jsx_content)
     cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"']
-    subprocess.run(cmd)
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    output = res.stdout.strip()
+    if output.startswith("ERROR:"):
+        write_text_no_follow(PROJECT_ROOT / "error.log", f"{code}: {output[len('ERROR:'):]}\n", append=True)
     jsx_path.unlink()
     print(f"Processed {code}")
-

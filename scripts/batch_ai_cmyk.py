@@ -10,8 +10,12 @@ CMYK カラースペースの .ai (PDF互換) として 04_ai_cmyk へ出力し�
 import json
 import os
 import subprocess
+import sys
 from pathlib import Path
 import re
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_open import is_valid_code, write_text_no_follow  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
@@ -202,8 +206,7 @@ def process_country(code: str, test_mode=False):
     jsx_content = generate_jsx(svg_path, ai_path, spec)
     
     jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
-        f.write(jsx_content)
+    write_text_no_follow(jsx_path, jsx_content)
         
     cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path.absolute()}"']
     
@@ -232,7 +235,7 @@ def main():
         code = svg.stem
         print(f"[{i}/{total}] Processing {code}...")
         
-        status = process_country(code)
+        status = process_country(code) if is_valid_code(code) else "SKIP_INVALID_CODE"
         
         if status == "SUCCESS":
             success_count += 1
