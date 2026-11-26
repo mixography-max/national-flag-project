@@ -29,11 +29,15 @@ import unicodedata
 from pathlib import Path
 import re
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project_fs
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress.txt"
+JSX_ERROR_LOG = PROJECT_ROOT / "jsx_error.log"
 
 # ASCII-only symlink to avoid ExtendScript's non-ASCII path issues
 # macOS + ExtendScript は日本語パスを正しく処理できないため、
@@ -80,26 +84,24 @@ try {
     }
 } catch(e) {}
 """
-    jsx_path = PROJECT_ROOT / "temp_closeall.jsx"
-    with open(jsx_path, "wb") as f:
-        f.write(b'\xef\xbb\xbf')
-        f.write(jsx.encode('utf-8'))
-    cmd = [
-        'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path.absolute()))}"'
-    ]
-    try:
-        subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-    except subprocess.TimeoutExpired:
-        pass
+    with project_fs.private_workdir() as work:
+        jsx_path = work / "closeall.jsx"
+        project_fs.write_new(jsx_path, b'\xef\xbb\xbf' + jsx.encode('utf-8'))
+        cmd = [
+            'osascript', '-e',
+            f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path))}"'
+        ]
+        try:
+            subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        except subprocess.TimeoutExpired:
+            pass
 
 
-def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
-    # ASCII-only symlink 経由のパスを使用（ExtendScript非ASCII対策）
+def generate_jsx(svg_path: Path, ai_path: Path, spec: dict, log_path: Path):
+    # 読み込みは ASCII-only symlink 経由のパスを使用（ExtendScript非ASCII対策）
     svg_rel = svg_path.relative_to(PROJECT_ROOT)
-    ai_rel = ai_path.relative_to(PROJECT_ROOT)
     svg_abs = str(ASCII_ROOT / svg_rel)
-    ai_abs = str(ASCII_ROOT / ai_rel)
+    ai_abs = str(ai_path)
 
     lines = []
     lines.append(f'try {{')
@@ -288,7 +290,7 @@ def generate_jsx(svg_path: Path, ai_path: Path, spec: dict):
   }
 ''')
 
-    log_abs = str(ASCII_ROOT / "jsx_error.log")
+    log_abs = str(log_path)
     lines.append(f'  var saveFile = new File("{ai_abs}");')
     lines.append(f'  var saveOpts = new IllustratorSaveOptions();')
     lines.append(f'  saveOpts.pdfCompatible = true;')
@@ -320,44 +322,44 @@ def process_country(code: str):
     with open(spec_path, encoding='utf-8') as f:
         spec = json.load(f)
         
-    jsx_content = generate_jsx(svg_path, ai_path, spec)
-    
-    jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
-        f.write(jsx_content)
-    
-    # osascript に渡すパスはASCII symlink経由
-    jsx_ascii = str(ASCII_ROOT / "temp_run.jsx")
-    cmd = [
-        'osascript',
-        '-e', 'tell application "Adobe Illustrator" to activate',
-        '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_ascii}"'
-    ]
-    
-    try:
-        res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    except subprocess.TimeoutExpired:
-        return "ERROR_TIMEOUT"
-    if "Error" in res.stderr or res.returncode != 0:
-        return f"ERROR: {res.stderr.strip()[:100]}"
-    # Check JSX return value
-    stdout = res.stdout.strip()
-    if "JSX_ERROR" in stdout:
-        return f"ERROR_JSX: {stdout[:100]}"
-    # Verify file was actually saved (timestamp check)
-    if ai_path.exists():
-        import time as _t
-        age = _t.time() - ai_path.stat().st_mtime
-        if age > 30:  # file older than 30 seconds = not updated
-            return f"ERROR_NOT_SAVED: file not modified (age={age:.0f}s)"
+    # Illustrator は作業ツリーに直接書き込まない。本人専用の一時ディレクトリに
+    # 保存させ、結果を install_file でリンクを辿らずに差し替える。
+    with project_fs.private_workdir() as work:
+        work_ai = work / ai_path.name
+        work_log = work / JSX_ERROR_LOG.name
+        jsx_content = generate_jsx(svg_path, work_ai, spec, work_log)
+        jsx_path = work / "run.jsx"
+        project_fs.write_new(jsx_path, jsx_content.encode("utf-8"))
+
+        cmd = [
+            'osascript',
+            '-e', 'tell application "Adobe Illustrator" to activate',
+            '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"'
+        ]
+
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            return "ERROR_TIMEOUT"
+        finally:
+            if work_log.exists():
+                project_fs.install_file(work_log, JSX_ERROR_LOG)
+        if "Error" in res.stderr or res.returncode != 0:
+            return f"ERROR: {res.stderr.strip()[:100]}"
+        # Check JSX return value
+        stdout = res.stdout.strip()
+        if "JSX_ERROR" in stdout:
+            return f"ERROR_JSX: {stdout[:100]}"
+        # 一時ディレクトリは毎回新規なので、存在すれば今回保存されたもの
+        if not work_ai.exists():
+            return "ERROR_NOT_SAVED: output file missing"
+        project_fs.install_file(work_ai, ai_path)
     return "SUCCESS"
 
 
 def mark_done(code: str):
     """進捗ログに完了コードを追記する。"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
-        f.write(f"{code}\n")
+    project_fs.append_text(PROGRESS_LOG, f"{code}\n")
 
 
 def get_done_codes() -> set:
@@ -409,8 +411,7 @@ def main():
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
         # 新規実行時は進捗ログをリセット
-        PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-        PROGRESS_LOG.write_text("")
+        project_fs.write_text(PROGRESS_LOG, "")
     
     if not codes:
         print("No files to process. All AI files are up to date!")
