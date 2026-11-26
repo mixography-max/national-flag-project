@@ -19,6 +19,7 @@ import json
 import os
 import sys
 import subprocess
+import tempfile
 import time
 import unicodedata
 import re
@@ -28,12 +29,29 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress_step2.txt"
+JSX_ERROR_LOG = AI_OUT_DIR / "logs" / "jsx_error_step2.log"
 
 ASCII_ROOT = Path("/tmp/flag_project")
 
 
 def nfc(path_str: str) -> str:
     return unicodedata.normalize("NFC", path_str)
+
+
+def open_nofollow(path: Path, flags: int):
+    """path を書き込み用に開く。path 自体や親ディレクトリがシンボリックリンクなら失敗する"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    dir_fd = os.open(path.parent, os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW)
+    try:
+        fd = os.open(
+            path.name,
+            os.O_WRONLY | os.O_CREAT | os.O_NOFOLLOW | flags,
+            0o644,
+            dir_fd=dir_fd,
+        )
+    finally:
+        os.close(dir_fd)
+    return os.fdopen(fd, "w", encoding="utf-8")
 
 
 def hex_to_rgb(hex_str: str):
@@ -64,24 +82,24 @@ try {
     }
 } catch(e) {}
 """
-    jsx_path = PROJECT_ROOT / "temp_closeall.jsx"
-    with open(jsx_path, "wb") as f:
-        f.write(b'\xef\xbb\xbf')
-        f.write(jsx.encode('utf-8'))
-    cmd = [
-        'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path.absolute()))}"'
-    ]
-    try:
-        subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-    except subprocess.TimeoutExpired:
-        pass
+    with tempfile.TemporaryDirectory(prefix="flag_jsx_") as tmp_dir:
+        jsx_path = Path(tmp_dir) / "temp_closeall.jsx"
+        with open(jsx_path, "xb") as f:
+            f.write(b'\xef\xbb\xbf')
+            f.write(jsx.encode('utf-8'))
+        cmd = [
+            'osascript', '-e',
+            f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path))}"'
+        ]
+        try:
+            subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        except subprocess.TimeoutExpired:
+            pass
 
 
 def generate_jsx(ai_path: Path, spec: dict):
     ai_rel = ai_path.relative_to(PROJECT_ROOT)
     ai_abs = f"/tmp/flag_project/{ai_rel}"
-    log_abs = "/tmp/flag_project/04_ai_cmyk/logs/jsx_error_step2.log"
     
     color_specs = []
     for c in spec.get("colors", []):
@@ -243,10 +261,6 @@ def generate_jsx(ai_path: Path, spec: dict):
     doc.close(SaveOptions.DONOTSAVECHANGES);
     "SUCCESS";
 }} catch(err) {{
-    var logFile = new File("{log_abs}");
-    logFile.open("w");
-    logFile.writeln(err.toString());
-    logFile.close();
     try {{ app.activeDocument.close(SaveOptions.DONOTSAVECHANGES); }} catch(e2) {{}}
     "JSX_ERROR:" + err.toString();
 }}"""
@@ -267,27 +281,29 @@ def process_country(code: str):
         
     jsx_content = generate_jsx(ai_path, spec)
     
-    jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
-        f.write(jsx_content)
+    with tempfile.TemporaryDirectory(prefix="flag_jsx_") as tmp_dir:
+        jsx_path = Path(tmp_dir) / "temp_run.jsx"
+        with open(jsx_path, "x", encoding="utf-8") as f:
+            f.write(jsx_content)
         
-    jsx_ascii = str(ASCII_ROOT / "temp_run.jsx")
-    cmd = [
-        'osascript',
-        '-e', 'tell application "Adobe Illustrator" to activate',
-        '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_ascii}"'
-    ]
-    
-    try:
-        res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    except subprocess.TimeoutExpired:
-        return "ERROR_TIMEOUT"
+        cmd = [
+            'osascript',
+            '-e', 'tell application "Adobe Illustrator" to activate',
+            '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"'
+        ]
+        
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            return "ERROR_TIMEOUT"
         
     if "Error" in res.stderr or res.returncode != 0:
         return f"ERROR: {res.stderr.strip()[:100]}"
         
     stdout = res.stdout.strip()
     if "JSX_ERROR" in stdout:
+        with open_nofollow(JSX_ERROR_LOG, os.O_TRUNC) as f:
+            f.write(f"{stdout}\n")
         return f"ERROR_JSX: {stdout[:100]}"
         
     if ai_path.exists():
@@ -302,8 +318,7 @@ def process_country(code: str):
 
 
 def mark_done(code: str):
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
+    with open_nofollow(PROGRESS_LOG, os.O_APPEND) as f:
         f.write(f"{code}\n")
 
 
@@ -340,8 +355,7 @@ def main():
         codes = [c for c in codes if c not in done]
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
-        PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-        PROGRESS_LOG.write_text("")
+        open_nofollow(PROGRESS_LOG, os.O_TRUNC).close()
         
     if not codes:
         print("No files to process.")
