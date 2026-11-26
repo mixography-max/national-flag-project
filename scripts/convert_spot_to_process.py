@@ -22,6 +22,7 @@ convert_spot_to_process.py – AIファイルのスポットカラーをプロ�
 import os
 import sys
 import subprocess
+import tempfile
 import time
 from pathlib import Path
 from datetime import datetime
@@ -29,6 +30,7 @@ from datetime import datetime
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = PROJECT_ROOT / "04_ai_cmyk" / "logs" / "spot_to_process_done.txt"
+# 旧バージョンが一時JSXを書き出していた場所。現在は書き込まず、残骸の削除のみ行う
 JSX_PATH = PROJECT_ROOT / "temp_convert_spot.jsx"
 
 # 1ファイル変換用のJSXテンプレート
@@ -78,10 +80,25 @@ def get_done_codes() -> set:
     return set(PROGRESS_LOG.read_text().strip().split("\n"))
 
 
+def open_nofollow(path: Path, flags: int):
+    """path を書き込み用に開く。path 自体や親ディレクトリがシンボリックリンクなら失敗する"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    dir_fd = os.open(path.parent, os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW)
+    try:
+        fd = os.open(
+            path.name,
+            os.O_WRONLY | os.O_CREAT | os.O_NOFOLLOW | flags,
+            0o644,
+            dir_fd=dir_fd,
+        )
+    finally:
+        os.close(dir_fd)
+    return os.fdopen(fd, "w", encoding="utf-8")
+
+
 def mark_done(code: str):
     """処理済みとしてログに追記"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
+    with open_nofollow(PROGRESS_LOG, os.O_APPEND) as f:
         f.write(f"{code}\n")
 
 
@@ -94,20 +111,24 @@ def process_one(code: str, dry_run=False) -> str:
     if dry_run:
         return "DRY_RUN"
     
-    # JSXを書き出す
     jsx_content = JSX_TEMPLATE.format(ai_path=str(ai_path.absolute()))
-    JSX_PATH.write_text(jsx_content, encoding="utf-8")
     
-    # Illustratorに実行させる
-    cmd = [
-        'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{JSX_PATH.absolute()}"'
-    ]
-    
-    try:
-        res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    except subprocess.TimeoutExpired:
-        return "ERROR_TIMEOUT"
+    # JSXは本人だけが書き込める一時ディレクトリに新規作成する
+    with tempfile.TemporaryDirectory(prefix="convert_spot_") as tmp_dir:
+        jsx_path = Path(tmp_dir) / "temp_convert_spot.jsx"
+        with open(jsx_path, "x", encoding="utf-8") as f:
+            f.write(jsx_content)
+        
+        # Illustratorに実行させる
+        cmd = [
+            'osascript', '-e',
+            f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"'
+        ]
+        
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            return "ERROR_TIMEOUT"
     
     output = res.stdout.strip()
     stderr = res.stderr.strip()
@@ -198,9 +219,12 @@ def main():
             print(f"  {e}")
     print("=" * 50)
     
-    # 一時JSXファイルの掃除
-    if JSX_PATH.exists() and not dry_run:
-        JSX_PATH.unlink()
+    # 旧バージョンが残した一時JSXの掃除（リンクの場合もリンク先には触れない）
+    if not dry_run:
+        try:
+            os.unlink(JSX_PATH)
+        except OSError:
+            pass
 
 
 if __name__ == "__main__":
