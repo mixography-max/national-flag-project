@@ -9,6 +9,7 @@ CMYK カラースペースの .ai (PDF互換) として 04_ai_cmyk へ出力し�
 
 import json
 import os
+import stat
 import subprocess
 from pathlib import Path
 import re
@@ -18,6 +19,37 @@ SVG_DIR = PROJECT_ROOT / "03_svg_verified"
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
 LOG_DIR = AI_OUT_DIR / "logs"
+
+CODE_PATTERN = re.compile(r"[A-Z]{2}(?:_[A-Za-z0-9]+)?")
+TRUNCATE = os.O_WRONLY | os.O_CREAT | os.O_TRUNC
+
+
+def open_in_project(path: Path, flags: int, mode: str, **kwargs):
+    """Open a file under PROJECT_ROOT without following symlinks.
+
+    Git can check out symlinks even at ignored paths such as temp_*.jsx,
+    so every directory below PROJECT_ROOT and the file itself are opened
+    with O_NOFOLLOW relative to the previous descriptor.
+    """
+    parts = Path(os.path.abspath(path)).relative_to(PROJECT_ROOT).parts
+    dir_fd = os.open(PROJECT_ROOT, os.O_RDONLY | os.O_DIRECTORY)
+    try:
+        for part in parts[:-1]:
+            if flags & os.O_CREAT:
+                try:
+                    os.mkdir(part, dir_fd=dir_fd)
+                except FileExistsError:
+                    pass
+            sub_fd = os.open(part, os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW, dir_fd=dir_fd)
+            os.close(dir_fd)
+            dir_fd = sub_fd
+        fd = os.open(parts[-1], flags | os.O_NOFOLLOW, 0o666, dir_fd=dir_fd)
+    finally:
+        os.close(dir_fd)
+    if not stat.S_ISREG(os.fstat(fd).st_mode):
+        os.close(fd)
+        raise OSError(f"Not a regular file: {path}")
+    return os.fdopen(fd, mode, **kwargs)
 
 def hex_to_rgb(hex_str: str):
     hex_str = hex_str.lstrip('#')
@@ -202,7 +234,7 @@ def process_country(code: str, test_mode=False):
     jsx_content = generate_jsx(svg_path, ai_path, spec)
     
     jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
+    with open_in_project(jsx_path, TRUNCATE, "w", encoding="utf-8") as f:
         f.write(jsx_content)
         
     cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path.absolute()}"']
@@ -221,7 +253,7 @@ def main():
     print("Starting full batch conversion for all Verified SVGs...")
     
     # Get all SVGs
-    svg_files = sorted(SVG_DIR.glob("*.svg"))
+    svg_files = [s for s in sorted(SVG_DIR.glob("*.svg")) if CODE_PATTERN.fullmatch(s.stem)]
     total = len(svg_files)
     
     success_count = 0

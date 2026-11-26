@@ -20,6 +20,8 @@ convert_spot_to_process.py – AIファイルのスポットカラーをプロ�
 """
 
 import os
+import re
+import stat
 import sys
 import subprocess
 import time
@@ -30,6 +32,45 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = PROJECT_ROOT / "04_ai_cmyk" / "logs" / "spot_to_process_done.txt"
 JSX_PATH = PROJECT_ROOT / "temp_convert_spot.jsx"
+
+CODE_PATTERN = re.compile(r"[A-Z]{2}(?:_[A-Za-z0-9]+)?")
+TRUNCATE = os.O_WRONLY | os.O_CREAT | os.O_TRUNC
+APPEND = os.O_WRONLY | os.O_CREAT | os.O_APPEND
+
+
+def open_in_project(path: Path, flags: int, mode: str, **kwargs):
+    """Open a file under PROJECT_ROOT without following symlinks.
+
+    Git can check out symlinks even at ignored paths such as
+    04_ai_cmyk/logs/, so every directory below PROJECT_ROOT and the file
+    itself are opened with O_NOFOLLOW relative to the previous descriptor.
+    """
+    parts = Path(os.path.abspath(path)).relative_to(PROJECT_ROOT).parts
+    dir_fd = os.open(PROJECT_ROOT, os.O_RDONLY | os.O_DIRECTORY)
+    try:
+        for part in parts[:-1]:
+            if flags & os.O_CREAT:
+                try:
+                    os.mkdir(part, dir_fd=dir_fd)
+                except FileExistsError:
+                    pass
+            sub_fd = os.open(part, os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW, dir_fd=dir_fd)
+            os.close(dir_fd)
+            dir_fd = sub_fd
+        fd = os.open(parts[-1], flags | os.O_NOFOLLOW, 0o666, dir_fd=dir_fd)
+    finally:
+        os.close(dir_fd)
+    if not stat.S_ISREG(os.fstat(fd).st_mode):
+        os.close(fd)
+        raise OSError(f"Not a regular file: {path}")
+    return os.fdopen(fd, mode, **kwargs)
+
+
+def valid_codes(codes: list) -> list:
+    kept = [c for c in codes if CODE_PATTERN.fullmatch(c)]
+    if len(kept) != len(codes):
+        print(f"⚠️ Ignoring {len(codes) - len(kept)} name(s) that are not country codes")
+    return kept
 
 # 1ファイル変換用のJSXテンプレート
 # AI ファイルを開き、全Spotスウォッチの colorType を PROCESS に変え、
@@ -73,15 +114,18 @@ try {{
 
 def get_done_codes() -> set:
     """進捗ログから処理済みコード一覧を取得"""
-    if not PROGRESS_LOG.exists():
+    try:
+        with open_in_project(PROGRESS_LOG, os.O_RDONLY, "r") as f:
+            return {c for c in f.read().split() if CODE_PATTERN.fullmatch(c)}
+    except FileNotFoundError:
         return set()
-    return set(PROGRESS_LOG.read_text().strip().split("\n"))
 
 
 def mark_done(code: str):
     """処理済みとしてログに追記"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
+    if not CODE_PATTERN.fullmatch(code):
+        raise ValueError(f"Not a country code: {code!r}")
+    with open_in_project(PROGRESS_LOG, APPEND, "a") as f:
         f.write(f"{code}\n")
 
 
@@ -96,7 +140,8 @@ def process_one(code: str, dry_run=False) -> str:
     
     # JSXを書き出す
     jsx_content = JSX_TEMPLATE.format(ai_path=str(ai_path.absolute()))
-    JSX_PATH.write_text(jsx_content, encoding="utf-8")
+    with open_in_project(JSX_PATH, TRUNCATE, "w", encoding="utf-8") as f:
+        f.write(jsx_content)
     
     # Illustratorに実行させる
     cmd = [
@@ -129,7 +174,9 @@ def main():
     else:
         # 全AIファイルを対象
         codes = sorted(f.stem for f in AI_DIR.glob("*.ai"))
-    
+
+    codes = valid_codes(codes)
+
     if not codes:
         print("対象ファイルがありません。")
         return
@@ -142,8 +189,12 @@ def main():
         print(f"📋 Resume mode: {before}ファイル中 {before - len(codes)}件は処理済み → 残り{len(codes)}件")
     else:
         # 新規実行時はログをリセット
-        if PROGRESS_LOG.exists() and "--codes" not in sys.argv:
-            PROGRESS_LOG.unlink()
+        if "--codes" not in sys.argv:
+            try:
+                with open_in_project(PROGRESS_LOG, os.O_WRONLY | os.O_TRUNC, "w"):
+                    pass
+            except FileNotFoundError:
+                pass
     
     total = len(codes)
     if total == 0:

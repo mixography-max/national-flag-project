@@ -17,6 +17,7 @@ JSONスペックに基づいたPantoneスウォッチ（プロセスカラー指
 
 import json
 import os
+import stat
 import sys
 import subprocess
 import time
@@ -28,12 +29,52 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress_step2.txt"
+JSX_ERROR_LOG = AI_OUT_DIR / "logs" / "jsx_error_step2.log"
 
 ASCII_ROOT = Path("/tmp/flag_project")
+
+CODE_PATTERN = re.compile(r"[A-Z]{2}(?:_[A-Za-z0-9]+)?")
+TRUNCATE = os.O_WRONLY | os.O_CREAT | os.O_TRUNC
+APPEND = os.O_WRONLY | os.O_CREAT | os.O_APPEND
 
 
 def nfc(path_str: str) -> str:
     return unicodedata.normalize("NFC", path_str)
+
+
+def open_in_project(path: Path, flags: int, mode: str, **kwargs):
+    """Open a file under PROJECT_ROOT without following symlinks.
+
+    Git can check out symlinks even at ignored paths such as
+    04_ai_cmyk/logs/, so every directory below PROJECT_ROOT and the file
+    itself are opened with O_NOFOLLOW relative to the previous descriptor.
+    """
+    parts = Path(os.path.abspath(path)).relative_to(PROJECT_ROOT).parts
+    dir_fd = os.open(PROJECT_ROOT, os.O_RDONLY | os.O_DIRECTORY)
+    try:
+        for part in parts[:-1]:
+            if flags & os.O_CREAT:
+                try:
+                    os.mkdir(part, dir_fd=dir_fd)
+                except FileExistsError:
+                    pass
+            sub_fd = os.open(part, os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW, dir_fd=dir_fd)
+            os.close(dir_fd)
+            dir_fd = sub_fd
+        fd = os.open(parts[-1], flags | os.O_NOFOLLOW, 0o666, dir_fd=dir_fd)
+    finally:
+        os.close(dir_fd)
+    if not stat.S_ISREG(os.fstat(fd).st_mode):
+        os.close(fd)
+        raise OSError(f"Not a regular file: {path}")
+    return os.fdopen(fd, mode, **kwargs)
+
+
+def valid_codes(codes: list) -> list:
+    kept = [c for c in codes if CODE_PATTERN.fullmatch(c)]
+    if len(kept) != len(codes):
+        print(f"⚠️ Ignoring {len(codes) - len(kept)} name(s) that are not country codes")
+    return kept
 
 
 def hex_to_rgb(hex_str: str):
@@ -65,7 +106,7 @@ try {
 } catch(e) {}
 """
     jsx_path = PROJECT_ROOT / "temp_closeall.jsx"
-    with open(jsx_path, "wb") as f:
+    with open_in_project(jsx_path, TRUNCATE, "wb") as f:
         f.write(b'\xef\xbb\xbf')
         f.write(jsx.encode('utf-8'))
     cmd = [
@@ -81,7 +122,6 @@ try {
 def generate_jsx(ai_path: Path, spec: dict):
     ai_rel = ai_path.relative_to(PROJECT_ROOT)
     ai_abs = f"/tmp/flag_project/{ai_rel}"
-    log_abs = "/tmp/flag_project/04_ai_cmyk/logs/jsx_error_step2.log"
     
     color_specs = []
     for c in spec.get("colors", []):
@@ -243,10 +283,6 @@ def generate_jsx(ai_path: Path, spec: dict):
     doc.close(SaveOptions.DONOTSAVECHANGES);
     "SUCCESS";
 }} catch(err) {{
-    var logFile = new File("{log_abs}");
-    logFile.open("w");
-    logFile.writeln(err.toString());
-    logFile.close();
     try {{ app.activeDocument.close(SaveOptions.DONOTSAVECHANGES); }} catch(e2) {{}}
     "JSX_ERROR:" + err.toString();
 }}"""
@@ -268,7 +304,7 @@ def process_country(code: str):
     jsx_content = generate_jsx(ai_path, spec)
     
     jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
+    with open_in_project(jsx_path, TRUNCATE, "w", encoding="utf-8") as f:
         f.write(jsx_content)
         
     jsx_ascii = str(ASCII_ROOT / "temp_run.jsx")
@@ -288,6 +324,8 @@ def process_country(code: str):
         
     stdout = res.stdout.strip()
     if "JSX_ERROR" in stdout:
+        with open_in_project(JSX_ERROR_LOG, TRUNCATE, "w", encoding="utf-8") as f:
+            f.write(f"{stdout}\n")
         return f"ERROR_JSX: {stdout[:100]}"
         
     if ai_path.exists():
@@ -302,15 +340,18 @@ def process_country(code: str):
 
 
 def mark_done(code: str):
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
+    if not CODE_PATTERN.fullmatch(code):
+        raise ValueError(f"Not a country code: {code!r}")
+    with open_in_project(PROGRESS_LOG, APPEND, "a") as f:
         f.write(f"{code}\n")
 
 
 def get_done_codes() -> set:
-    if not PROGRESS_LOG.exists():
+    try:
+        with open_in_project(PROGRESS_LOG, os.O_RDONLY, "r") as f:
+            return {c for c in f.read().split() if CODE_PATTERN.fullmatch(c)}
+    except FileNotFoundError:
         return set()
-    return set(PROGRESS_LOG.read_text().strip().split("\n"))
 
 
 def main():
@@ -333,15 +374,17 @@ def main():
         # Default to all spec files
         codes = [s.stem for s in sorted(SPEC_DIR.glob("*.json"))]
         print(f"Mode: DEFAULT ({len(codes)} files)")
-        
+
+    codes = valid_codes(codes)
+
     if resume:
         done = get_done_codes()
         before = len(codes)
         codes = [c for c in codes if c not in done]
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
-        PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-        PROGRESS_LOG.write_text("")
+        with open_in_project(PROGRESS_LOG, TRUNCATE, "w"):
+            pass
         
     if not codes:
         print("No files to process.")
