@@ -26,6 +26,9 @@ import time
 from pathlib import Path
 from datetime import datetime
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_open import ProgressLog, filter_codes, write_text_no_follow  # noqa: E402
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = PROJECT_ROOT / "04_ai_cmyk" / "logs" / "spot_to_process_done.txt"
@@ -71,20 +74,6 @@ try {{
 """
 
 
-def get_done_codes() -> set:
-    """進捗ログから処理済みコード一覧を取得"""
-    if not PROGRESS_LOG.exists():
-        return set()
-    return set(PROGRESS_LOG.read_text().strip().split("\n"))
-
-
-def mark_done(code: str):
-    """処理済みとしてログに追記"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
-        f.write(f"{code}\n")
-
-
 def process_one(code: str, dry_run=False) -> str:
     """1ファイルを処理"""
     ai_path = AI_DIR / f"{code}.ai"
@@ -96,7 +85,7 @@ def process_one(code: str, dry_run=False) -> str:
     
     # JSXを書き出す
     jsx_content = JSX_TEMPLATE.format(ai_path=str(ai_path.absolute()))
-    JSX_PATH.write_text(jsx_content, encoding="utf-8")
+    write_text_no_follow(JSX_PATH, jsx_content)
     
     # Illustratorに実行させる
     cmd = [
@@ -129,21 +118,27 @@ def main():
     else:
         # 全AIファイルを対象
         codes = sorted(f.stem for f in AI_DIR.glob("*.ai"))
+    codes = filter_codes(codes)
     
     if not codes:
         print("対象ファイルがありません。")
         return
     
+    with ProgressLog(PROGRESS_LOG) as log:
+        run_conversion(codes, log, dry_run=dry_run, resume=resume)
+
+
+def run_conversion(codes, log: ProgressLog, *, dry_run: bool, resume: bool):
     # --resume の場合、処理済みをスキップ
     if resume:
-        done = get_done_codes()
+        done = log.done_codes()
         before = len(codes)
         codes = [c for c in codes if c not in done]
         print(f"📋 Resume mode: {before}ファイル中 {before - len(codes)}件は処理済み → 残り{len(codes)}件")
     else:
         # 新規実行時はログをリセット
-        if PROGRESS_LOG.exists() and "--codes" not in sys.argv:
-            PROGRESS_LOG.unlink()
+        if "--codes" not in sys.argv:
+            log.reset()
     
     total = len(codes)
     if total == 0:
@@ -167,7 +162,7 @@ def main():
             success += 1
             print(f"✅ {result}")
             if not dry_run:
-                mark_done(code)
+                log.mark_done(code)
         elif result.startswith("SKIP"):
             skip += 1
             print(f"⏭️ {result}")

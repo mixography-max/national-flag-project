@@ -1,6 +1,10 @@
 import json
 import subprocess
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_open import write_text_no_follow  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
@@ -27,7 +31,7 @@ try {{
 }}
 app.userInteractionLevel = UserInteractionLevel.DISPLAYALERTS;
 """
-    jsx_path.write_text(jsx_content, encoding='utf-8')
+    write_text_no_follow(jsx_path, jsx_content)
     cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"']
     subprocess.run(cmd)
     jsx_path.unlink()
