@@ -1,6 +1,10 @@
 import json
 import subprocess
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_write import private_dir, write_private_jsx
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
@@ -12,7 +16,6 @@ for code in missing:
     svg_file = SVG_DIR / f"{code}.svg"
     ai_file = AI_DIR / f"{code}.ai"
         
-    jsx_path = PROJECT_ROOT / f"temp_{code}.jsx"
     jsx_content = f"""
 app.userInteractionLevel = UserInteractionLevel.DONTDISPLAYALERTS;
 try {{
@@ -27,8 +30,8 @@ try {{
 }}
 app.userInteractionLevel = UserInteractionLevel.DISPLAYALERTS;
 """
-    jsx_path.write_text(jsx_content, encoding='utf-8')
-    cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"']
-    subprocess.run(cmd)
-    jsx_path.unlink()
+    with private_dir() as tmp:
+        jsx_path = write_private_jsx(tmp, jsx_content)
+        cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"']
+        subprocess.run(cmd)
     
