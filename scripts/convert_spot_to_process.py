@@ -26,9 +26,13 @@ import time
 from pathlib import Path
 from datetime import datetime
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_write import open_in_project, private_dir, write_private_jsx
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = PROJECT_ROOT / "04_ai_cmyk" / "logs" / "spot_to_process_done.txt"
+# 旧バージョンが使っていた固定パス。残っていれば終了時に削除するだけで、書き込みはしない。
 JSX_PATH = PROJECT_ROOT / "temp_convert_spot.jsx"
 
 # 1ファイル変換用のJSXテンプレート
@@ -80,8 +84,7 @@ def get_done_codes() -> set:
 
 def mark_done(code: str):
     """処理済みとしてログに追記"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
+    with open_in_project(PROJECT_ROOT, PROGRESS_LOG, "a") as f:
         f.write(f"{code}\n")
 
 
@@ -96,18 +99,19 @@ def process_one(code: str, dry_run=False) -> str:
     
     # JSXを書き出す
     jsx_content = JSX_TEMPLATE.format(ai_path=str(ai_path.absolute()))
-    JSX_PATH.write_text(jsx_content, encoding="utf-8")
-    
-    # Illustratorに実行させる
-    cmd = [
-        'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{JSX_PATH.absolute()}"'
-    ]
-    
-    try:
-        res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    except subprocess.TimeoutExpired:
-        return "ERROR_TIMEOUT"
+    with private_dir() as tmp:
+        jsx_path = write_private_jsx(tmp, jsx_content)
+
+        # Illustratorに実行させる
+        cmd = [
+            'osascript', '-e',
+            f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"'
+        ]
+
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            return "ERROR_TIMEOUT"
     
     output = res.stdout.strip()
     stderr = res.stderr.strip()
@@ -198,8 +202,8 @@ def main():
             print(f"  {e}")
     print("=" * 50)
     
-    # 一時JSXファイルの掃除
-    if JSX_PATH.exists() and not dry_run:
+    # 旧バージョンの一時JSXファイルの掃除
+    if os.path.lexists(JSX_PATH) and not dry_run:
         JSX_PATH.unlink()
 
 
