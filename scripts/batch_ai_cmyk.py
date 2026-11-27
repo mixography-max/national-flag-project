@@ -10,8 +10,12 @@ CMYK カラースペースの .ai (PDF互換) として 04_ai_cmyk へ出力し�
 import json
 import os
 import subprocess
+import sys
 from pathlib import Path
 import re
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_files import temp_jsx
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SVG_DIR = PROJECT_ROOT / "03_svg_verified"
@@ -201,13 +205,10 @@ def process_country(code: str, test_mode=False):
         
     jsx_content = generate_jsx(svg_path, ai_path, spec)
     
-    jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
-        f.write(jsx_content)
-        
-    cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path.absolute()}"']
-    
-    res = subprocess.run(cmd, capture_output=True, text=True)
+    with temp_jsx(jsx_content) as jsx_path:
+        cmd = ['osascript', '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"']
+
+        res = subprocess.run(cmd, capture_output=True, text=True)
     if "Error" in res.stderr or res.returncode != 0:
         print(f"[{code}] ERR: {res.stderr.strip()}")
         return "ERROR"

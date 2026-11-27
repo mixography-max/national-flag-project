@@ -24,10 +24,17 @@ import unicodedata
 import re
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_files import (
+    copy_project_file, install_project_file, open_project_file,
+    private_dir, temp_jsx, write_private,
+)
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SPEC_DIR = PROJECT_ROOT / "02_official_specs"
 AI_OUT_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = AI_OUT_DIR / "logs" / "progress_step2.txt"
+JSX_ERROR_LOG = AI_OUT_DIR / "logs" / "jsx_error_step2.log"
 
 ASCII_ROOT = Path("/tmp/flag_project")
 
@@ -64,24 +71,20 @@ try {
     }
 } catch(e) {}
 """
-    jsx_path = PROJECT_ROOT / "temp_closeall.jsx"
-    with open(jsx_path, "wb") as f:
-        f.write(b'\xef\xbb\xbf')
-        f.write(jsx.encode('utf-8'))
-    cmd = [
-        'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path.absolute()))}"'
-    ]
-    try:
-        subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-    except subprocess.TimeoutExpired:
-        pass
+    with temp_jsx(jsx, bom=True) as jsx_path:
+        cmd = [
+            'osascript', '-e',
+            f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(jsx_path)}"'
+        ]
+        try:
+            subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        except subprocess.TimeoutExpired:
+            pass
 
 
-def generate_jsx(ai_path: Path, spec: dict):
-    ai_rel = ai_path.relative_to(PROJECT_ROOT)
-    ai_abs = f"/tmp/flag_project/{ai_rel}"
-    log_abs = "/tmp/flag_project/04_ai_cmyk/logs/jsx_error_step2.log"
+def generate_jsx(ai_work: Path, log_out: Path, spec: dict):
+    ai_abs = str(ai_work)
+    log_abs = str(log_out)
     
     color_specs = []
     for c in spec.get("colors", []):
@@ -265,45 +268,46 @@ def process_country(code: str):
     with open(spec_path, encoding='utf-8') as f:
         spec = json.load(f)
         
-    jsx_content = generate_jsx(ai_path, spec)
-    
-    jsx_path = PROJECT_ROOT / "temp_run.jsx"
-    with open(jsx_path, "w", encoding="utf-8") as f:
-        f.write(jsx_content)
-        
-    jsx_ascii = str(ASCII_ROOT / "temp_run.jsx")
-    cmd = [
-        'osascript',
-        '-e', 'tell application "Adobe Illustrator" to activate',
-        '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_ascii}"'
-    ]
-    
-    try:
-        res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    except subprocess.TimeoutExpired:
-        return "ERROR_TIMEOUT"
-        
-    if "Error" in res.stderr or res.returncode != 0:
-        return f"ERROR: {res.stderr.strip()[:100]}"
-        
-    stdout = res.stdout.strip()
-    if "JSX_ERROR" in stdout:
-        return f"ERROR_JSX: {stdout[:100]}"
-        
-    if ai_path.exists():
-        import time as _t
-        age = _t.time() - ai_path.stat().st_mtime
-        if age > 60:
-            return f"ERROR_NOT_SAVED: file not modified (age={age:.0f}s)"
-    else:
-        return "ERROR_NOT_SAVED: output file missing"
-        
+    with private_dir() as work:
+        ai_work = work / "work.ai"
+        log_out = work / "jsx_error.log"
+        jsx_path = work / "script.jsx"
+        copy_project_file(ai_path, ai_work)
+        original_mtime = ai_work.stat().st_mtime
+        write_private(jsx_path, generate_jsx(ai_work, log_out, spec))
+
+        cmd = [
+            'osascript',
+            '-e', 'tell application "Adobe Illustrator" to activate',
+            '-e', f'tell application "Adobe Illustrator" to do javascript file POSIX file "{nfc(str(jsx_path))}"'
+        ]
+
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            return "ERROR_TIMEOUT"
+
+        if log_out.exists():
+            install_project_file(log_out, JSX_ERROR_LOG)
+
+        if "Error" in res.stderr or res.returncode != 0:
+            return f"ERROR: {res.stderr.strip()[:100]}"
+
+        stdout = res.stdout.strip()
+        if "JSX_ERROR" in stdout:
+            return f"ERROR_JSX: {stdout[:100]}"
+
+        if not ai_work.exists():
+            return "ERROR_NOT_SAVED: output file missing"
+        if ai_work.stat().st_mtime == original_mtime:
+            return "ERROR_NOT_SAVED: file not modified"
+        install_project_file(ai_work, ai_path)
+
     return "SUCCESS"
 
 
 def mark_done(code: str):
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
+    with open_project_file(PROGRESS_LOG, "a") as f:
         f.write(f"{code}\n")
 
 
@@ -340,8 +344,7 @@ def main():
         codes = [c for c in codes if c not in done]
         print(f"Resume: skipping {before - len(codes)} already-done, {len(codes)} remaining")
     else:
-        PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-        PROGRESS_LOG.write_text("")
+        open_project_file(PROGRESS_LOG, "w").close()
         
     if not codes:
         print("No files to process.")

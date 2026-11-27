@@ -26,10 +26,15 @@ import time
 from pathlib import Path
 from datetime import datetime
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from safe_files import (
+    copy_project_file, install_project_file, open_project_file,
+    private_dir, write_private,
+)
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 AI_DIR = PROJECT_ROOT / "04_ai_cmyk"
 PROGRESS_LOG = PROJECT_ROOT / "04_ai_cmyk" / "logs" / "spot_to_process_done.txt"
-JSX_PATH = PROJECT_ROOT / "temp_convert_spot.jsx"
 
 # 1ファイル変換用のJSXテンプレート
 # AI ファイルを開き、全Spotスウォッチの colorType を PROCESS に変え、
@@ -80,8 +85,7 @@ def get_done_codes() -> set:
 
 def mark_done(code: str):
     """処理済みとしてログに追記"""
-    PROGRESS_LOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(PROGRESS_LOG, "a") as f:
+    with open_project_file(PROGRESS_LOG, "a") as f:
         f.write(f"{code}\n")
 
 
@@ -95,26 +99,31 @@ def process_one(code: str, dry_run=False) -> str:
         return "DRY_RUN"
     
     # JSXを書き出す
-    jsx_content = JSX_TEMPLATE.format(ai_path=str(ai_path.absolute()))
-    JSX_PATH.write_text(jsx_content, encoding="utf-8")
-    
-    # Illustratorに実行させる
-    cmd = [
-        'osascript', '-e',
-        f'tell application "Adobe Illustrator" to do javascript file POSIX file "{JSX_PATH.absolute()}"'
-    ]
-    
-    try:
-        res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    except subprocess.TimeoutExpired:
-        return "ERROR_TIMEOUT"
-    
-    output = res.stdout.strip()
-    stderr = res.stderr.strip()
-    
-    if res.returncode != 0 or "ERROR:" in output:
-        return f"ERROR: {output or stderr}"
-    
+    with private_dir() as work:
+        ai_work = work / "work.ai"
+        jsx_path = work / "script.jsx"
+        copy_project_file(ai_path, ai_work)
+        write_private(jsx_path, JSX_TEMPLATE.format(ai_path=str(ai_work)))
+
+        # Illustratorに実行させる
+        cmd = [
+            'osascript', '-e',
+            f'tell application "Adobe Illustrator" to do javascript file POSIX file "{jsx_path}"'
+        ]
+
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            return "ERROR_TIMEOUT"
+
+        output = res.stdout.strip()
+        stderr = res.stderr.strip()
+
+        if res.returncode != 0 or "ERROR:" in output:
+            return f"ERROR: {output or stderr}"
+
+        install_project_file(ai_work, ai_path)
+
     return f"OK (converted {output} spots)"
 
 
@@ -197,10 +206,6 @@ def main():
         for e in errors_list:
             print(f"  {e}")
     print("=" * 50)
-    
-    # 一時JSXファイルの掃除
-    if JSX_PATH.exists() and not dry_run:
-        JSX_PATH.unlink()
 
 
 if __name__ == "__main__":
